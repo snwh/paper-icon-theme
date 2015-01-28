@@ -1,0 +1,10 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@ --with scour
+
+override_dh_install:
+	dh_install
+	for d in $$(find $(CURDIR)/debian/paper-icon-theme/usr/share/icons -mindepth 2 -maxdepth 2 -type d) ; do \
+		(cd $$d; for c in *; do /usr/lib/icon-naming-utils/icon-name-mapping -c $$c; done); \
+	done
