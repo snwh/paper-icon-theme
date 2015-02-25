@@ -50,8 +50,14 @@ if [ "$UID" -eq "$ROOT_UID" ]; then
 		    ;;
 		esac
 	fi
-	cp -R ./Paper/ /usr/share/icons/
-	chmod -R 755 /usr/share/icons/Paper
+	if [ -d /usr/share/icons/ ]; then
+		cp -R ./Paper/ /usr/share/icons/	
+		chmod -R 755 /usr/share/icons/Paper
+	else
+		mkdir -p  /usr/share/icons/
+		cp -R ./Paper/ /usr/share/icons/
+		chmod -R 755 /usr/share/icons/Paper
+	fi
 	echo "Installation complete!"
 	set
 elif [ "$UID" -ne "$ROOT_UID" ]; then
@@ -67,7 +73,12 @@ elif [ "$UID" -ne "$ROOT_UID" ]; then
 		    ;;
 		esac
 	fi
-	cp -R ./Paper/ $HOME/.local/share/icons/
+	if [ -d $HOME/.local/share/icons/Paper ]; then
+		cp -R ./Paper/ $HOME/.local/share/icons/
+	else
+		mkdir -p  $HOME/.local/share/icons/
+		cp -R ./Paper/ $HOME/.local/share/icons/
+	fi
 	echo "Installation complete!"
 	set
 fi
