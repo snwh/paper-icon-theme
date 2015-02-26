@@ -1,5 +1,7 @@
 #!/usr/bin/env ruby
 
+# Thanks to the GNOME icon nerds for this script
+
 require "rexml/document"
 require "fileutils"
 include REXML
