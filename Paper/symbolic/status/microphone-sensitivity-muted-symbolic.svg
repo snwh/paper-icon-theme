@@ -14,21 +14,21 @@
    inkscape:export-filename="/home/sam/source-symbolic.png"
    inkscape:export-xdpi="270"
    inkscape:export-ydpi="270"
-   height="16.000795"
+   height="16.000793"
    id="svg7384"
    style="enable-background:new"
    version="1.1"
-   inkscape:version="0.48.5 r10040"
+   inkscape:version="0.91 r13725"
    width="16.000792">
   <sodipodi:namedview
      inkscape:bbox-nodes="true"
-     inkscape:bbox-paths="true"
+     inkscape:bbox-paths="false"
      bordercolor="#666666"
      borderlayer="false"
      borderopacity="1"
      inkscape:current-layer="layer9"
      inkscape:cx="8.0003959"
-     inkscape:cy="8.0004"
+     inkscape:cy="8.0004002"
      gridtolerance="10"
      inkscape:guide-bbox="true"
      guidetolerance="10"
@@ -39,13 +39,13 @@
      pagecolor="#f7f7f7"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     showborder="false"
+     showborder="true"
      showgrid="false"
      showguides="true"
      inkscape:showpageshadow="false"
      inkscape:snap-bbox="true"
      inkscape:snap-bbox-edge-midpoints="false"
-     inkscape:snap-bbox-midpoints="false"
+     inkscape:snap-bbox-midpoints="true"
      inkscape:snap-center="false"
      inkscape:snap-global="true"
      inkscape:snap-grids="true"
@@ -57,11 +57,11 @@
      inkscape:snap-page="false"
      inkscape:snap-smooth-nodes="true"
      inkscape:snap-to-guides="true"
-     inkscape:window-height="701"
-     inkscape:window-maximized="0"
-     inkscape:window-width="1362"
+     inkscape:window-height="711"
+     inkscape:window-maximized="1"
+     inkscape:window-width="1366"
      inkscape:window-x="0"
-     inkscape:window-y="28"
+     inkscape:window-y="27"
      inkscape:zoom="1">
     <inkscape:grid
        color="#000000"
@@ -72,8 +72,8 @@
        enabled="true"
        id="grid4866"
        opacity="0.16470588"
-       originx="-163.99922px"
-       originy="-630px"
+       originx="-163.99922"
+       originy="-632"
        snapvisiblegridlinesonly="true"
        spacingx="0.25px"
        spacingy="0.25px"
@@ -106,8 +106,8 @@
     </linearGradient>
     <filter
        inkscape:collect="always"
-       color-interpolation-filters="sRGB"
-       id="filter7554">
+       id="filter7554"
+       style="color-interpolation-filters:sRGB">
       <feBlend
          inkscape:collect="always"
          id="feBlend7556"
@@ -120,64 +120,65 @@
      id="layer9"
      inkscape:label="status"
      style="display:inline"
-     transform="translate(-404.99942,413.00079)">
-    <g
-       id="g7502"
-       transform="matrix(1.0000495,0,0,1.0000495,62.982291,0.01963763)">
-      <path
-         inkscape:connector-curvature="0"
-         d="m 152,60 c -1.66208,0 -3,1.337918 -3,3 l 0,5 c 0,1.662082 1.33792,3 3,3 1.66208,0 3,-1.337918 3,-3 l 0,-5 c 0,-1.662082 -1.33792,-3 -3,-3 z m -6,7 0,1 c 0,2.969474 2.16237,5.432161 5,5.90625 L 151,76 l 2,0 0,-2.09375 c 2.83763,-0.474089 5,-2.936776 5,-5.90625 l 0,-1 -2,0 0,1 c 0,2.233411 -1.76659,4 -4,4 -2.23341,0 -4,-1.766589 -4,-4 l 0,-1 -2,0 z"
-         id="path7504"
-         style="opacity:0.35;color:#555555;fill:#555555;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible"
-         transform="matrix(0.9999505,0,0,0.9999505,198.00811,-472.99622)" />
-    </g>
+     transform="translate(-404.99942,415.00079)">
+    <path
+       inkscape:connector-curvature="0"
+       d="m 407.34402,-414.0625 12.71875,12.71875 -1.40625,1.40625 -12.71875,-12.71875 z"
+       id="path6532"
+       sodipodi:nodetypes="ccccc"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#555555;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;enable-background:accumulate" />
+    <path
+       inkscape:connector-curvature="0"
+       d="m 413.0002,-415 c -1.24595,0 -2.31105,0.7515 -2.76562,1.82813 -2.3e-4,5.3e-4 2.2e-4,0.001 0,0.002 l 5.76562,5.76362 0,-4.59375 c 0,-1.66208 -1.33792,-3 -3,-3 z m -3,4.40625 0,3.59375 c 0,1.66208 1.33791,3 3,3 0.98363,0 1.84418,-0.47608 2.39062,-1.20312 l -5.39062,-5.39063 z m -3,2.68555 0,0.9082 c 0,2.96947 2.16237,5.43216 5,5.90625 l 0,2.09375 2,0 0,-2.09375 c 1.39887,-0.23371 2.63093,-0.95383 3.52344,-1.97656 l -1.41797,-1.41797 c -0.72909,0.90441 -1.8347,1.48828 -3.10547,1.48828 -2.23342,0 -4,-1.76659 -4,-4 l 0,-0.9082 -2,0 z m 10,0 0,0.9082 c 0,0.18587 -0.029,0.36236 -0.0527,0.54102 l 1.63671,1.63671 c 0.26447,-0.6756 0.41599,-1.4083 0.41599,-2.17773 l 0,-0.9082 -2,0 z"
+       id="path6829"
+       style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:#555555;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none" />
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer10"
      inkscape:label="devices"
      style="display:inline;filter:url(#filter7554)"
-     transform="translate(-404.99942,413.00079)" />
+     transform="translate(-404.99942,415.00079)" />
   <g
      inkscape:groupmode="layer"
      id="layer1"
      inkscape:label="places"
      style="display:inline"
-     transform="translate(-163.99922,-203.99921)" />
+     transform="translate(-163.99922,-201.99921)" />
   <g
      inkscape:groupmode="layer"
      id="layer14"
      inkscape:label="mimetypes"
      style="display:inline"
-     transform="translate(-404.99942,413.00079)" />
+     transform="translate(-404.99942,415.00079)" />
   <g
      inkscape:groupmode="layer"
      id="layer15"
      inkscape:label="emblems"
      style="display:inline"
-     transform="translate(-404.99942,413.00079)" />
+     transform="translate(-404.99942,415.00079)" />
   <g
      inkscape:groupmode="layer"
      id="g71291"
      inkscape:label="emotes"
      style="display:inline"
-     transform="translate(-404.99942,413.00079)" />
+     transform="translate(-404.99942,415.00079)" />
   <g
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="categories"
      style="display:inline"
-     transform="translate(-163.99922,-53.999208)" />
+     transform="translate(-163.99922,-51.999207)" />
   <g
      inkscape:groupmode="layer"
      id="g6058"
      inkscape:label="apps"
      style="display:inline"
-     transform="translate(-163.99922,-53.999208)" />
+     transform="translate(-163.99922,-51.999207)" />
   <g
      inkscape:groupmode="layer"
      id="layer12"
      inkscape:label="actions"
      style="display:inline"
-     transform="translate(-404.99942,413.00079)" />
+     transform="translate(-404.99942,415.00079)" />
 </svg>
