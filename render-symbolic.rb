@@ -7,8 +7,10 @@ require "fileutils"
 include REXML
 
 INKSCAPE = '/usr/bin/inkscape'
+#INKSCAPE = '/usr/bin/inkscape' # like this works for me, while using `which` inkscape hangs
 SRC = "src/symbolic/source-symbolic.svg"
 PREFIX = "Paper/symbolic"
+
 
 def chopSVG(icon)
 	FileUtils.mkdir_p(icon[:dir]) unless File.exists?(icon[:dir])
@@ -16,7 +18,7 @@ def chopSVG(icon)
 		FileUtils.cp(SRC,icon[:file]) 
 		puts " >> #{icon[:name]}"
 		cmd = "#{INKSCAPE} -f #{icon[:file]} --select #{icon[:id]} --verb=FitCanvasToSelection  --verb=EditInvertInAllLayers "
-		cmd += "--verb=EditDelete --verb=EditSelectAll --verb=SelectionUnGroup --verb=StrokeToPath --verb=FileVacuum "
+		cmd += "--verb=EditDelete --verb=EditSelectAll --verb=SelectionUnGroup --verb=SelectionUnGroup --verb=SelectionUnGroup --verb=StrokeToPath --verb=FileVacuum "
 		cmd += "--verb=FileSave --verb=FileClose > /dev/null 2>&1"
 		system(cmd)
 		#saving as plain SVG gets rid of the classes :/
@@ -24,7 +26,9 @@ def chopSVG(icon)
 		#system(cmd)
 		svgcrop = Document.new(File.new(icon[:file], 'r'))
 		svgcrop.root.each_element("//rect") do |rect| 
-			if rect.attributes["width"] == '16' && rect.attributes["height"] == '16'
+			w = ((rect.attributes["width"].to_f * 10).round / 10.0).to_i #get rid of 16 vs 15.99999 
+			h = ((rect.attributes["width"].to_f * 10).round / 10.0).to_i #Inkscape bugs
+			if w == 16 && h == 16
 				rect.remove
 			end
 		end
@@ -36,6 +40,14 @@ def chopSVG(icon)
 	end
 end #end of function
 
+def get_output_filename(d,n)
+	if (/rtl$/.match(n))
+	  outfile = "#{d}/#{n.chomp('-rtl')}-symbolic-rtl.svg"
+	else
+	  outfile = "#{d}/#{n}-symbolic.svg"	  
+  end
+  return outfile
+end
 
 #main
 # Open SVG file.
@@ -54,7 +66,7 @@ if (ARGV[0].nil?) #render all SVGs
 			chopSVG({	:name => icon_name,
 			 					:id => icon.attributes.get_attribute("id"),
 			 					:dir => dir,
-			 					:file => "#{dir}/#{icon_name}-symbolic.svg"})
+			 					:file => get_output_filename(dir, icon_name)})
 		end
 	end
   puts "\nrendered all SVGs"
@@ -66,7 +78,7 @@ else #only render the icons passed
 		chopSVG({	:name => icon_name,
 		 					:id => icon.attributes["id"],
 		 					:dir => dir,
-		 					:file => "#{dir}/#{icon_name}-symbolic.svg",
+		 					:file => get_output_filename(dir, icon_name),
 		 					:forcerender => true})
 	end
   puts "\nrendered #{ARGV.length} icons"
