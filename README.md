@@ -3,7 +3,7 @@ Paper Icon Theme
 
 Paper is simple and modern icon theme inspired by Google's material design.
 
-The Paper icon theme is licenced under the terms of the [Creative Commons 
+Paper is a free culture icon theme and is licenced under the terms of the [Creative Commons 
 Attribution-Share Alike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/).
 
 ###Preamble
