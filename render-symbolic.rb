@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-# Thanks to the GNOME icon nerds for this script
+# Thanks to the GNOME icon nerds for the original source of this script
 
 require "rexml/document"
 require "fileutils"

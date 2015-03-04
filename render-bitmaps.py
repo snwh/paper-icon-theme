@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-# Thanks to the GNOME icon nerds for this script
+# Thanks to the GNOME icon nerds for the original source of this script
 
 import os
 import sys
