@@ -15,7 +15,7 @@
 
 Name:		paper-icon-theme
 Version:	1.0
-Release:	0
+Release:	1
 
 Summary:	Paper Icon theme
 Group:		System/GUI/Other
