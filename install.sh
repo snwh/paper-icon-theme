@@ -68,6 +68,7 @@ if [ "$UID" -eq "$ROOT_UID" ]; then
 	cp -R ./Paper/ /usr/share/icons/
 	chmod -R 755 /usr/share/icons/Paper
 	echo "Installation complete!"
+	echo "You will have to set your theme manually."
 	end
 elif [ "$UID" -ne "$ROOT_UID" ]; then
 	if [ -d $HOME/.local/share/icons/Paper ]; then
