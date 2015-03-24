@@ -91,11 +91,11 @@ elif [ "$UID" -ne "$ROOT_UID" ]; then
 		cp -R ./Paper/ $HOME/.local/share/icons/
 	fi
 	# ./icons
-	if [ -d $HOME/./icons ]; then
-		cp -R ./Paper/ $HOME/./icons/
+	if [ -d $HOME/.icons ]; then
+		cp -R ./Paper/ $HOME/.icons/
 	else
-		mkdir -p $HOME/./icons
-		cp -R ./Paper/ $HOME/.local/share/icons/
+		mkdir -p $HOME/.icons
+		cp -R ./Paper/ $HOME/.icons/
 	fi
 	echo "Installation complete!"
 	set
