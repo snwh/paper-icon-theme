@@ -16,7 +16,7 @@
    height="224"
    id="svg11300"
    sodipodi:version="0.32"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.91 r"
    sodipodi:docname="bluetooth.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    version="1.0"
@@ -34,17 +34,17 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="131.26074"
-     inkscape:cy="23.448351"
+     inkscape:cx="108.28883"
+     inkscape:cy="19.011562"
      inkscape:current-layer="layer6"
      showgrid="false"
      inkscape:grid-bbox="true"
      inkscape:document-units="px"
      inkscape:showpageshadow="false"
      inkscape:window-width="1366"
-     inkscape:window-height="711"
+     inkscape:window-height="710"
      inkscape:window-x="0"
-     inkscape:window-y="27"
+     inkscape:window-y="30"
      width="400px"
      height="300px"
      inkscape:snap-nodes="true"
@@ -1644,14 +1644,6 @@
     </filter>
     <filter
        inkscape:collect="always"
-       id="filter4040">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="0.6"
-         id="feGaussianBlur4042" />
-    </filter>
-    <filter
-       inkscape:collect="always"
        id="filter4032">
       <feGaussianBlur
          inkscape:collect="always"
@@ -1836,16 +1828,6 @@
        inkscape:label="Symbols"
        style="display:inline">
       <rect
-         ry="6.5"
-         rx="7"
-         y="-66"
-         x="-283"
-         height="13"
-         width="20"
-         id="rect4414"
-         style="opacity:0.1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
-         transform="matrix(0,-1,-1,0,0,0)" />
-      <rect
          transform="matrix(0,-1,-1,0,0,0)"
          style="fill:#000000;fill-opacity:1;stroke:none;opacity:0.5;filter:url(#filter4401)"
          id="rect4399"
@@ -1877,7 +1859,7 @@
          transform="matrix(0,-1,-1,0,0,0)" />
       <rect
          transform="matrix(0,-1,-1,0,0,1)"
-         style="opacity:0.5;fill:#000000;fill-opacity:1;stroke:none;filter:url(#filter4040)"
+         style="opacity:0.2;fill:#000000;fill-opacity:1;stroke:none;"
          id="rect4038"
          width="28"
          height="20"
@@ -1930,11 +1912,6 @@
          id="rect3220"
          style="fill:#324090;fill-opacity:1;stroke:none"
          transform="matrix(0,-1,-1,0,0,0)" />
-      <path
-         style="fill:#ffffff;fill-opacity:1;stroke:none"
-         d="M 103 182 L 103 183 C 102.9956 185.11602 103.00012 187.22762 103 189.34375 C 102.23392 188.66263 101.48515 187.96202 100.71875 187.28125 C 100.53453 187.09707 100.26882 186.99425 100 187 L 99 187 L 99 188 C 98.990395 188.25809 99.068484 188.52793 99.28125 188.71875 C 99.352807 188.79854 99.444253 188.86021 99.53125 188.90625 L 103 192 L 99.46875 195.15625 L 99.34375 195.25 C 99.092274 195.48644 98.945478 195.84728 99 196.1875 L 99 197 L 100 197 C 100.23966 196.99108 100.47172 196.90385 100.65625 196.75 C 100.72222 196.6914 100.77778 196.6211 100.84375 196.5625 C 101.56097 195.92536 102.28305 195.29369 103 194.65625 C 103.00051 196.3867 103.00092 198.11334 103 199.84375 C 103.03314 200.21617 102.96302 200.6236 103 201 L 103 202 L 104 202 C 104.29082 201.99112 104.58938 201.87189 104.78125 201.65625 L 110.46875 195.96875 C 108.97798 194.64719 107.4889 193.32368 106 192 C 107.48891 190.67632 108.97797 189.35282 110.46875 188.03125 L 104.71875 182.28125 L 104.6875 182.3125 C 104.51041 182.12071 104.28924 181.98984 104 182 L 103 182 z M 105 185.4375 L 107.53125 187.96875 L 105 190.21875 C 104.99951 188.62378 104.9999 187.03245 105 185.4375 z M 105 193.78125 L 107.53125 196.03125 L 105 198.5625 C 105.00173 196.96758 105.00004 195.37621 105 193.78125 z "
-         id="rect3224"
-         transform="translate(0,76)" />
       <path
          style="fill:#ffffff;fill-opacity:1;stroke:none;opacity:0.1"
          d="M 104 178 C 98.46 178 94 182.906 94 189 L 94 190 C 94 183.906 98.46 179 104 179 C 109.54 179 114 183.906 114 190 L 114 189 C 114 182.906 109.54 178 104 178 z "
@@ -2000,7 +1977,7 @@
          sodipodi:nodetypes="cccccc" />
       <rect
          transform="matrix(0,-1,-1,0,0,0)"
-         style="opacity:0.4;fill:#000000;fill-opacity:1;stroke:none;"
+         style="opacity:0.2;fill:#000000;fill-opacity:1;stroke:none"
          id="rect4069"
          width="20"
          height="13"
@@ -2056,6 +2033,12 @@
          d="m 23.5,284 c -3.047,0 -5.5,-2.676 -5.5,-6 l 0,-1 c 0,3.324 2.453,6 5.5,6 3.047,0 5.5,-2.676 5.5,-6 l 0,1 c 0,3.324 -2.453,6 -5.5,6 z"
          style="display:inline;opacity:0.1;fill:#000000;fill-opacity:1;stroke:none;enable-background:new"
          inkscape:connector-curvature="0" />
+      <path
+         sodipodi:nodetypes="cccccc"
+         inkscape:connector-curvature="0"
+         id="path3575"
+         d="m 99,263.5 9,9 -4.5,4.25 0,-17.5 4.5,4.25 -9,8"
+         style="fill:none;stroke:#ffffff;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     </g>
   </g>
 </svg>
