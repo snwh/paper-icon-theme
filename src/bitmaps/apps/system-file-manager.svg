@@ -16,7 +16,7 @@
    height="224"
    id="svg11300"
    sodipodi:version="0.32"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.91 r"
    sodipodi:docname="system-file-manager.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    version="1.0"
@@ -33,18 +33,18 @@
      borderopacity="0.25490196"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="430.51261"
-     inkscape:cy="124.1063"
+     inkscape:zoom="4"
+     inkscape:cx="254.342"
+     inkscape:cy="17.158752"
      inkscape:current-layer="layer6"
      showgrid="false"
      inkscape:grid-bbox="true"
      inkscape:document-units="px"
      inkscape:showpageshadow="false"
      inkscape:window-width="1366"
-     inkscape:window-height="699"
+     inkscape:window-height="710"
      inkscape:window-x="0"
-     inkscape:window-y="27"
+     inkscape:window-y="28"
      width="400px"
      height="300px"
      inkscape:snap-nodes="true"
@@ -1672,32 +1672,6 @@
     <filter
        inkscape:collect="always"
        style="color-interpolation-filters:sRGB"
-       id="filter4445"
-       x="-0.054"
-       width="1.108"
-       y="-0.0675"
-       height="1.135">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="1.8"
-         id="feGaussianBlur4447" />
-    </filter>
-    <filter
-       inkscape:collect="always"
-       style="color-interpolation-filters:sRGB"
-       id="filter4472"
-       x="-0.06"
-       width="1.12"
-       y="-0.06"
-       height="1.12">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="1.8"
-         id="feGaussianBlur4474" />
-    </filter>
-    <filter
-       inkscape:collect="always"
-       style="color-interpolation-filters:sRGB"
        id="filter4654"
        x="-0.054"
        width="1.108"
@@ -1776,19 +1750,6 @@
     <filter
        inkscape:collect="always"
        style="color-interpolation-filters:sRGB"
-       id="filter4498"
-       x="-0.060004184"
-       width="1.1200084"
-       y="-0.059995817"
-       height="1.1199916">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="1.4000976"
-         id="feGaussianBlur4500" />
-    </filter>
-    <filter
-       inkscape:collect="always"
-       style="color-interpolation-filters:sRGB"
        id="filter4503"
        x="-0.059979075"
        width="1.1199581"
@@ -1798,6 +1759,32 @@
          inkscape:collect="always"
          stdDeviation="0.69975587"
          id="feGaussianBlur4505" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter4483"
+       x="-0.024001674"
+       width="1.0480033"
+       y="-0.023998327"
+       height="1.0479967">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.56003905"
+         id="feGaussianBlur4485" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter4492"
+       x="-0.024001172"
+       width="1.0480023"
+       y="-0.023998829"
+       height="1.0479977">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.80003905"
+         id="feGaussianBlur4494" />
     </filter>
   </defs>
   <metadata
@@ -1980,7 +1967,7 @@
          id="rect4845"
          style="display:inline;opacity:0.1;fill:#000000;fill-opacity:1;stroke:#383838;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new" />
       <path
-         style="opacity:0.5;fill:#000000;fill-opacity:1;stroke:none;filter:url(#filter4498)"
+         style="opacity:0.4;fill:#000000;fill-opacity:1;stroke:none;filter:url(#filter4483)"
          d="M 208.98047 148.99219 C 207.31847 148.99219 205.98047 150.33019 205.98047 151.99219 L 205.98047 161.1875 C 204.82582 161.60438 204 162.69809 204 164 L 204 202 C 204 203.662 205.338 205 207 205 L 257 205 C 258.662 205 260 203.662 260 202 L 260 164 C 260 162.68374 259.15521 161.58191 257.98047 161.17578 L 257.98047 157.99219 C 257.98047 157.36894 257.79159 156.79115 257.46875 156.3125 C 257.36114 156.15295 257.23908 156.0047 257.10352 155.86914 C 256.83217 155.59752 256.51002 155.37817 256.15039 155.22656 C 255.79123 155.07516 255.39597 154.99219 254.98047 154.99219 L 234.98047 154.99219 L 228.98047 148.99219 L 208.98047 148.99219 z "
          transform="translate(0,76)"
          id="path4729" />
@@ -2060,10 +2047,10 @@
          rx="0"
          ry="2" />
       <path
-         style="fill:#000000;fill-opacity:1;stroke:none;opacity:0.5;filter:url(#filter4472)"
-         d="m 295.98047,196.99219 c -2.21599,0 -4,1.784 -4,4 l 0,15.83203 0,40.16797 0,8 c 0,2.21598 1.784,4 4,4 l 64,0 c 2.216,0 4,-1.784 4,-4 l 0,-8 0,-48 c 0,-4 -3.79492,-4 -3.79492,-4 l -0.20508,0 -28,0 -8,-8 -28,0 z"
-         id="path4467"
-         inkscape:connector-curvature="0" />
+         style="fill:#000000;fill-opacity:1;stroke:none;opacity:0.5;filter:url(#filter4492)"
+         d="M 295.98047 120.99219 C 293.76448 120.99219 291.98047 122.77619 291.98047 124.99219 L 291.98047 137.00195 C 289.77377 137.01268 288 138.79069 288 141 L 288 197 C 288 199.216 289.784 201 292 201 L 364 201 C 366.216 201 368 199.216 368 197 L 368 141 C 368 138.784 366.216 137 364 137 L 363.98047 137 L 363.98047 132.99219 C 363.98047 128.99219 360.18555 128.99219 360.18555 128.99219 L 359.98047 128.99219 L 331.98047 128.99219 L 323.98047 120.99219 L 295.98047 120.99219 z "
+         transform="translate(0,76)"
+         id="path4467" />
       <path
          style="opacity:0.5;fill:#000000;fill-opacity:1;stroke:none;filter:url(#filter4493)"
          d="M 143.98047 164.99219 C 142.87247 164.99219 141.98047 165.88419 141.98047 166.99219 L 141.98047 173.00195 C 141.97915 173.00197 141.97788 173.00194 141.97656 173.00195 C 141.8421 173.00352 141.71068 173.0183 141.58398 173.04492 C 141.58275 173.04518 141.58132 173.04466 141.58008 173.04492 C 141.55439 173.05037 141.53117 173.06194 141.50586 173.06836 C 141.4032 173.09442 141.30258 173.12288 141.20703 173.16406 C 141.08879 173.21503 140.97611 173.27586 140.87109 173.34766 C 140.86419 173.35236 140.85841 173.35849 140.85156 173.36328 C 140.75422 173.43164 140.66156 173.50754 140.57812 173.5918 C 140.48906 173.68174 140.40863 173.78115 140.33789 173.88672 C 140.26759 173.99164 140.20592 174.10287 140.15625 174.2207 C 140.15568 174.22205 140.15486 174.22326 140.1543 174.22461 C 140.05446 174.46272 140 174.72467 140 175 L 140 199 L 140 203 C 140 204.108 140.892 205 142 205 L 178 205 C 179.108 205 180 204.108 180 203 L 180 199 L 180 175 C 180 173.892 179.108 173 178 173 L 177.98047 173 L 177.98047 170.99219 C 177.98047 169.88419 177.08847 168.99219 175.98047 168.99219 L 172.08203 168.99219 L 159.98047 168.99219 L 155.98047 164.99219 L 143.98047 164.99219 z "
@@ -2294,15 +2281,6 @@
          y="254"
          rx="0"
          ry="0.5" />
-      <rect
-         style="display:inline;opacity:0.5;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new;filter:url(#filter4445)"
-         id="rect4443"
-         width="80"
-         height="64"
-         x="288"
-         y="213"
-         rx="4"
-         ry="4" />
       <rect
          ry="4"
          rx="4"

@@ -28,14 +28,14 @@
      stroke="#ef2929"
      fill="#f57900"
      id="base"
-     pagecolor="#474747"
+     pagecolor="#727272"
      bordercolor="#666666"
      borderopacity="0.25490196"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="118.45129"
-     inkscape:cy="37.648662"
+     inkscape:cx="163.09727"
+     inkscape:cy="20.039059"
      inkscape:current-layer="layer6"
      showgrid="false"
      inkscape:grid-bbox="true"
@@ -1671,14 +1671,6 @@
          id="feGaussianBlur4126" />
     </filter>
     <filter
-       inkscape:collect="always"
-       id="filter4000">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="0.975"
-         id="feGaussianBlur4002" />
-    </filter>
-    <filter
        style="color-interpolation-filters:sRGB"
        inkscape:collect="always"
        id="filter4129">
@@ -1699,19 +1691,6 @@
          inkscape:collect="always"
          stdDeviation="0.8"
          id="feGaussianBlur8383" />
-    </filter>
-    <filter
-       inkscape:collect="always"
-       style="color-interpolation-filters:sRGB"
-       id="filter8401"
-       x="-0.0585"
-       width="1.117"
-       y="-0.061578947"
-       height="1.1231579">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="1.95"
-         id="feGaussianBlur8403" />
     </filter>
     <filter
        inkscape:collect="always"
@@ -1742,19 +1721,6 @@
     <filter
        inkscape:collect="always"
        style="color-interpolation-filters:sRGB"
-       id="filter8523"
-       x="-0.057857143"
-       width="1.1157143"
-       y="-0.062307692"
-       height="1.1246154">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="1.35"
-         id="feGaussianBlur8525" />
-    </filter>
-    <filter
-       inkscape:collect="always"
-       style="color-interpolation-filters:sRGB"
        id="filter4439"
        x="-0.06"
        width="1.12"
@@ -1764,6 +1730,45 @@
          inkscape:collect="always"
          stdDeviation="0.375"
          id="feGaussianBlur4441" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter4413"
+       x="-0.023142857"
+       width="1.0462857"
+       y="-0.024923077"
+       height="1.0498462">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.54"
+         id="feGaussianBlur4415" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter4417"
+       x="-0.0234"
+       width="1.0468"
+       y="-0.024631579"
+       height="1.0492632">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.78"
+         id="feGaussianBlur4419" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter4421"
+       x="-0.0234"
+       width="1.0468"
+       y="-0.024631579"
+       height="1.0492632">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.39"
+         id="feGaussianBlur4423" />
     </filter>
   </defs>
   <metadata
@@ -1938,7 +1943,7 @@
          inkscape:connector-curvature="0"
          id="path8521"
          d="m 224,226 -3,3 0,6 -17,0 0,40 c 0,1.662 1.338,3 3,3 l 50,0 c 1.662,0 3,-1.338 3,-3 l 0,-40 -17,0 0,-6 -3,-3 z m 0,3 16,0 0,6 -16,0 z"
-         style="fill:#000000;fill-opacity:1;stroke:none;opacity:0.5;filter:url(#filter8523)" />
+         style="fill:#000000;fill-opacity:1;stroke:none;opacity:0.5;filter:url(#filter4413)" />
       <path
          sodipodi:nodetypes="cccccsssscccccccccc"
          inkscape:connector-curvature="0"
@@ -1952,7 +1957,7 @@
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="cccccsssscccccccccc" />
       <path
-         style="opacity:0.5;fill:#000000;fill-opacity:1;stroke:none;filter:url(#filter8401)"
+         style="opacity:0.5;fill:#000000;fill-opacity:1;stroke:none;filter:url(#filter4417)"
          d="m 316.00037,197.32 -4,4 0,8 -24,0 0,0 0,60 c 0,2.216 1.784,4 4,4 l 72,0 c 2.216,0 4,-1.784 4,-4 l 0,-60 -24,0 0,-8 -4,-4 z m 0,4 24,0 0,8 -24,0 z"
          id="path8399"
          inkscape:connector-curvature="0"
@@ -1968,7 +1973,7 @@
          inkscape:connector-curvature="0"
          id="path3998"
          d="m 154,241 -2,2 0,4 -12,0 0,0 0,30 c 0,1.108 0.892,2 2,2 l 36,0 c 1.108,0 2,-0.892 2,-2 l 0,-30 -12,0 0,-4 -2,-2 z m 0,2 12,0 0,4 -12,0 z"
-         style="opacity:0.5;fill:#000000;fill-opacity:1;stroke:none;filter:url(#filter4000)" />
+         style="opacity:0.5;fill:#000000;fill-opacity:1;stroke:none;filter:url(#filter4421)" />
       <path
          style="fill:#e6e6e6;fill-opacity:1;stroke:none"
          d="m 154,240 -2,2 0,4 -12,0 0,0 0,30 c 0,1.108 0.892,2 2,2 l 36,0 c 1.108,0 2,-0.892 2,-2 l 0,-30 -12,0 0,-4 -2,-2 z m 0,2 12,0 0,4 -12,0 z"
@@ -2050,12 +2055,12 @@
          rx="0"
          ry="0" />
       <path
-         style="fill:#ffffff;fill-opacity:1;stroke:none;opacity:0.4"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;opacity:0.1"
          d="M 316 120 L 312 124 L 312 125 L 316 121 L 340 121 L 344 125 L 344 124 L 340 120 L 316 120 z M 288 132 L 288 133 L 312 133 L 312 132 L 288 132 z M 316 132 L 316 133 L 340 133 L 340 132 L 316 132 z M 344 132 L 344 133 L 368 133 L 368 132 L 344 132 z "
          transform="translate(0,76)"
          id="path8322" />
       <path
-         style="fill:#ffffff;fill-opacity:1;stroke:none;opacity:0.4"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;opacity:0.1"
          d="M 154 164 L 152 166 L 152 167 L 154 165 L 166 165 L 168 167 L 168 166 L 166 164 L 154 164 z M 140 170 L 140 171 L 152 171 L 152 170 L 140 170 z M 154 170 L 154 171 L 166 171 L 166 170 L 154 170 z M 168 170 L 168 171 L 180 171 L 180 170 L 168 170 z "
          id="path8327"
          transform="translate(0,76)" />
@@ -2095,7 +2100,7 @@
          id="rect8460"
          style="opacity:0.2;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       <path
-         style="fill:#ffffff;fill-opacity:1;stroke:none;opacity:0.6"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;opacity:0.1"
          d="M 464 32 L 456 40 L 456 41 L 464 33 L 512 33 L 520 41 L 520 40 L 512 32 L 464 32 z M 408 56 L 408 57 L 456 57 L 456 56 L 408 56 z M 464 56 L 464 57 L 512 57 L 512 56 L 464 56 z M 520 56 L 520 57 L 568 57 L 568 56 L 520 56 z "
          transform="translate(0,76)"
          id="path8413" />
@@ -2125,7 +2130,7 @@
          id="rect8498"
          style="opacity:0.2;fill:#000000;fill-opacity:1;stroke:none" />
       <path
-         style="fill:#ffffff;fill-opacity:1;stroke:none;opacity:0.4"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;opacity:0.1"
          d="M 224 149 L 221 152 L 221 153 L 224 150 L 240 150 L 243 153 L 243 152 L 240 149 L 224 149 z M 204 158 L 204 159 L 221 159 L 221 158 L 204 158 z M 224 158 L 224 159 L 240 159 L 240 158 L 224 158 z M 243 158 L 243 159 L 260 159 L 260 158 L 243 158 z "
          transform="translate(0,76)"
          id="path8500" />
@@ -2238,12 +2243,12 @@
          id="path4428"
          inkscape:connector-curvature="0" />
       <path
-         style="fill:#ffffff;fill-opacity:1;stroke:none;opacity:0.4"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;opacity:0.1"
          d="M 100 179 L 98 181 L 98 182 L 100 180 L 108 180 L 110 182 L 110 181 L 108 179 L 100 179 z M 90 184 L 90 185 L 98 185 L 98 184 L 90 184 z M 100 184 L 100 185 L 108 185 L 108 184 L 100 184 z M 110 184 L 110 185 L 118 185 L 118 184 L 110 184 z "
          transform="translate(0,76)"
          id="path4432" />
       <path
-         style="fill:#ffffff;fill-opacity:1;stroke:none;opacity:0.4"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;opacity:0.1"
          d="M 57 186 L 56 187 L 56 188 L 57 187 L 63 187 L 64 188 L 64 187 L 63 186 L 57 186 z M 50 189 L 50 190 L 56 190 L 56 189 L 50 189 z M 57 189 L 57 190 L 63 190 L 63 189 L 57 189 z M 64 189 L 64 190 L 70 190 L 70 189 L 64 189 z "
          transform="translate(0,76)"
          id="path4451" />
