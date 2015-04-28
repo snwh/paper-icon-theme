@@ -18,8 +18,14 @@ The Paper icons can be downloaded from [here](https://github.com/snwh/paper-icon
 
 ###Installing Paper
 
-To install Paper, you can manually copy the main theme folder (Paper) into ```~/.local/share/icons``` or copy it into ```/usr/share/icons``` to make it available system-wide, or run the provided installation script which'll do it for you:
+You can build and install the theme from source or run the included install script.
 
-    bash install.sh
+    bash autogen.sh
+    make
+    sudo make install
+
+Or run the provided interactive installation script which will walk you through installing Paper:
+
+    bash install-icon-theme.sh
 
 -----------
