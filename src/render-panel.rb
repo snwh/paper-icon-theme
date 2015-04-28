@@ -10,8 +10,8 @@ INKSCAPE = '/usr/bin/inkscape'
 #INKSCAPE = '/usr/bin/inkscape' # like this works for me, while using `which` inkscape hangs
 
 # Render 24x24 pixel panel icons
-SRC24 = "src/panel/source-panel-24.svg"
-PREFIX24 = "Paper/24x24"
+SRC24 = "panel/source-panel-24.svg"
+PREFIX24 = "../Paper/24x24"
 
 
 def chopSVG(icon)
@@ -88,8 +88,8 @@ end
 
 
 # Render 22x22 pixel panel icons
-SRC22 = "src/panel/source-panel-22.svg"
-PREFIX22 = "Paper/22x22"
+SRC22 = "panel/source-panel-22.svg"
+PREFIX22 = "../Paper/22x22"
 
 
 def chopSVG(icon)
@@ -165,8 +165,8 @@ else #only render the icons passed
 end
 
 # Render 16x16 pixel panel icons
-SRC16 = "src/panel/source-panel-16.svg"
-PREFIX16 = "Paper/16x16"
+SRC16 = "panel/source-panel-16.svg"
+PREFIX16 = "../Paper/16x16"
 
 
 def chopSVG(icon)

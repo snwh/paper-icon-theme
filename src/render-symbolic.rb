@@ -8,8 +8,8 @@ include REXML
 
 INKSCAPE = '/usr/bin/inkscape'
 #INKSCAPE = '/usr/bin/inkscape' # like this works for me, while using `which` inkscape hangs
-SRC = "src/symbolic/source-symbolic.svg"
-PREFIX = "Paper/symbolic"
+SRC = "symbolic/source-symbolic.svg"
+PREFIX = "../Paper/symbolic"
 
 
 def chopSVG(icon)

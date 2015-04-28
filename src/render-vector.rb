@@ -8,8 +8,8 @@ include REXML
 
 INKSCAPE = '/usr/bin/inkscape'
 #INKSCAPE = '/usr/bin/inkscape' # like this works for me, while using `which` inkscape hangs
-SRC16 = "src/vector/source-16x16.svg"
-PREFIX16 = "Paper/16x16"
+SRC16 = "vector/source-16x16.svg"
+PREFIX16 = "../Paper/16x16"
 
 def chopSVG(icon)
 	FileUtils.mkdir_p(icon[:dir]) unless File.exists?(icon[:dir])
@@ -83,8 +83,8 @@ else #only render the icons passed
   puts "\nrendered #{ARGV.length} icons"
 end
 
-SRC48 = "src/vector/source-48x48.svg"
-PREFIX48 = "Paper/48x48"
+SRC48 = "vector/source-48x48.svg"
+PREFIX48 = "../Paper/48x48"
 
 def chopSVG(icon)
 	FileUtils.mkdir_p(icon[:dir]) unless File.exists?(icon[:dir])
