@@ -2,7 +2,7 @@
 # -*- Mode: sh; coding: utf-8; indent-tabs-mode: nil; tab-width: 4 -*-
 #
 # Authors:
-#   Sam Hewitt <hewittsamuel@gmail.com>
+#   Sam Hewitt <sam@snwh.org>
 #
 # Description:
 #   An installation bash script for Paper Icon Theme
