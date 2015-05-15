@@ -34,8 +34,8 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="182.60496"
-     inkscape:cy="32.24834"
+     inkscape:cx="218.73159"
+     inkscape:cy="55.847936"
      inkscape:current-layer="layer6"
      showgrid="false"
      inkscape:grid-bbox="true"
@@ -1714,6 +1714,45 @@
          stdDeviation="1.8"
          id="feGaussianBlur4657" />
     </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter4470"
+       x="-0.059691226"
+       width="1.1193825"
+       y="-0.060311985"
+       height="1.120624">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.89536839"
+         id="feGaussianBlur4472" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter4482"
+       x="-0.06"
+       width="1.12"
+       y="-0.06"
+       height="1.12">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.15"
+         id="feGaussianBlur4484" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter4490"
+       x="-0.053571455"
+       width="1.1071429"
+       y="-0.068181775"
+       height="1.1363635">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.2500027"
+         id="feGaussianBlur4492" />
+    </filter>
   </defs>
   <metadata
      id="metadata4">
@@ -1872,6 +1911,25 @@
        style="display:inline">
       <rect
          style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect4486"
+         width="10"
+         height="7"
+         x="209"
+         y="229"
+         rx="0"
+         ry="1" />
+      <rect
+         transform="matrix(0,-1,-1,0,0,0)"
+         style="fill:#000000;fill-opacity:1;stroke:none;filter:url(#filter4490);opacity:0.5"
+         id="rect4488"
+         width="44.000122"
+         height="56.000092"
+         x="-275"
+         y="-260"
+         rx="3"
+         ry="3" />
+      <rect
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="rect4683"
          width="28"
          height="16"
@@ -1937,6 +1995,13 @@
          id="rect4229"
          style="fill:#eaeaea;fill-opacity:1;stroke:none"
          transform="matrix(0,-1,-1,0,0,0)" />
+      <ellipse
+         ry="17.814735"
+         rx="18"
+         style="opacity:0.5;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4470)"
+         id="ellipse4460"
+         cx="232.00592"
+         cy="253.18527" />
       <rect
          ry="2"
          rx="1.9722718"
@@ -2266,6 +2331,62 @@
          d="M 292 128 C 289.784 128 288 129.784 288 132 L 288 133 C 288 130.784 289.784 129 292 129 L 364 129 C 366.216 129 368 130.784 368 133 L 368 132 C 368 129.784 366.216 128 364 128 L 292 128 z "
          transform="translate(0,76)"
          id="path4560" />
+      <ellipse
+         cy="252.18527"
+         cx="232.00592"
+         id="circle4417"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         rx="18"
+         ry="17.814735" />
+      <circle
+         transform="scale(1,-1)"
+         style="opacity:1;fill:#009587;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="circle4419"
+         cx="232"
+         cy="-252"
+         r="15" />
+      <g
+         transform="matrix(1.0606602,1.0606602,-1.0606602,1.0606602,338.06602,-193.47728)"
+         id="g4423">
+        <path
+           inkscape:connector-curvature="0"
+           style="opacity:0.2;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 160,178 a 6,6 0 0 0 -6,6 l 6,0 0,-6 z"
+           transform="translate(0,76)"
+           id="path4425" />
+        <path
+           id="path4427"
+           d="m 160,254 a 6,6 0 0 1 6,6 l -6,0 0,-6 z"
+           style="opacity:0.4;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           inkscape:connector-curvature="0" />
+        <path
+           inkscape:connector-curvature="0"
+           style="opacity:0.4;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 160,266 a 6,6 0 0 1 -6,-6 l 6,0 0,6 z"
+           id="path4429" />
+        <path
+           id="path4431"
+           d="m 160,266 a 6,6 0 0 0 6,-6 l -6,0 0,6 z"
+           style="opacity:0.6;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           inkscape:connector-curvature="0" />
+      </g>
+      <path
+         style="opacity:0.2;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 232 161 A 15 15 0 0 0 217 176 A 15 15 0 0 0 217.01953 176.41406 A 15 15 0 0 1 232 162 A 15 15 0 0 1 246.98047 176.58594 A 15 15 0 0 0 247 176 A 15 15 0 0 0 232 161 z "
+         transform="translate(0,76)"
+         id="circle4455" />
+      <circle
+         style="opacity:0.2;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4482)"
+         id="circle4474"
+         cx="253"
+         cy="238"
+         r="3" />
+      <circle
+         cy="237"
+         cx="253"
+         id="circle4476"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         r="3" />
     </g>
   </g>
 </svg>
