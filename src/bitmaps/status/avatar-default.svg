@@ -16,7 +16,7 @@
    height="224"
    id="svg11300"
    sodipodi:version="0.32"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.48.4 r9939"
    sodipodi:docname="avatar-default.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    version="1.0"
@@ -34,17 +34,17 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="189.02017"
-     inkscape:cy="47.736204"
+     inkscape:cx="79.443639"
+     inkscape:cy="28.300132"
      inkscape:current-layer="layer6"
      showgrid="false"
      inkscape:grid-bbox="true"
      inkscape:document-units="px"
      inkscape:showpageshadow="false"
      inkscape:window-width="1366"
-     inkscape:window-height="699"
+     inkscape:window-height="709"
      inkscape:window-x="0"
-     inkscape:window-y="27"
+     inkscape:window-y="32"
      width="400px"
      height="300px"
      inkscape:snap-nodes="true"
@@ -1690,16 +1690,11 @@
     </filter>
     <filter
        inkscape:collect="always"
-       style="color-interpolation-filters:sRGB"
-       id="filter4528"
-       x="-0.18000001"
-       width="1.36"
-       y="-0.18000001"
-       height="1.36">
+       id="filter3993">
       <feGaussianBlur
          inkscape:collect="always"
-         stdDeviation="2.1"
-         id="feGaussianBlur4530" />
+         stdDeviation="0.7"
+         id="feGaussianBlur3995" />
     </filter>
   </defs>
   <metadata
@@ -1925,7 +1920,7 @@
          height="28"
          width="28"
          id="rect4453"
-         style="display:inline;opacity:0.5;fill:#000000;fill-opacity:1;stroke:none;filter:url(#filter4528);enable-background:new"
+         style="display:inline;opacity:0.50000000000000000;fill:#000000;fill-opacity:1;stroke:none;enable-background:new;filter:url(#filter3993)"
          transform="matrix(0,-1,-1,0,-1e-7,-0.0400002)" />
       <path
          inkscape:connector-curvature="0"
