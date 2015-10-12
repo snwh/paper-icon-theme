@@ -8,7 +8,7 @@ Attribution-Share Alike 4.0 International](https://creativecommons.org/licenses/
 
 ###Getting Paper
 
-The Paper icons can be downloaded from [here](https://github.com/snwh/paper-icon-theme/raw/master/paper-icon-theme.tar.gz).
+The Paper icons can be downloaded from [here](https://github.com/snwh/paper-icon-theme/archive/master.zip).
 
 ###Installing Paper
 
