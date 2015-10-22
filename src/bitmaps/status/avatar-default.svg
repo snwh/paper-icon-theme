@@ -16,7 +16,7 @@
    height="224"
    id="svg11300"
    sodipodi:version="0.32"
-   inkscape:version="0.48.4 r9939"
+   inkscape:version="0.91 r13725"
    sodipodi:docname="avatar-default.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    version="1.0"
@@ -34,17 +34,17 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="79.443639"
-     inkscape:cy="28.300132"
+     inkscape:cx="168.15615"
+     inkscape:cy="19.551786"
      inkscape:current-layer="layer6"
      showgrid="false"
      inkscape:grid-bbox="true"
      inkscape:document-units="px"
      inkscape:showpageshadow="false"
      inkscape:window-width="1366"
-     inkscape:window-height="709"
+     inkscape:window-height="712"
      inkscape:window-x="0"
-     inkscape:window-y="32"
+     inkscape:window-y="30"
      width="400px"
      height="300px"
      inkscape:snap-nodes="true"
@@ -1652,19 +1652,6 @@
     <filter
        inkscape:collect="always"
        style="color-interpolation-filters:sRGB"
-       id="filter4520"
-       x="-0.059999999"
-       width="1.12"
-       y="-0.059999999"
-       height="1.12">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="1"
-         id="feGaussianBlur4522" />
-    </filter>
-    <filter
-       inkscape:collect="always"
-       style="color-interpolation-filters:sRGB"
        id="filter4512"
        x="-0.024"
        width="1.048"
@@ -1695,6 +1682,19 @@
          inkscape:collect="always"
          stdDeviation="0.7"
          id="feGaussianBlur3995" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter4385"
+       x="-0.024"
+       width="1.048"
+       y="-0.024"
+       height="1.048">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.4"
+         id="feGaussianBlur4387" />
     </filter>
   </defs>
   <metadata
@@ -1880,7 +1880,7 @@
          height="40"
          width="40"
          id="rect4445"
-         style="display:inline;opacity:0.5;fill:#000000;fill-opacity:1;stroke:none;filter:url(#filter4520);enable-background:new"
+         style="display:inline;opacity:0.5;fill:#000000;fill-opacity:1;stroke:none;enable-background:new;filter:url(#filter4385)"
          transform="matrix(0,-1,-1,0,-1e-7,-0.0400002)" />
       <rect
          ry="40"
