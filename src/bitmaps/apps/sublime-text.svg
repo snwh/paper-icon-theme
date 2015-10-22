@@ -28,14 +28,14 @@
      stroke="#ef2929"
      fill="#f57900"
      id="base"
-     pagecolor="#474747"
+     pagecolor="#ffffff"
      bordercolor="#666666"
      borderopacity="0.25490196"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="186.89862"
-     inkscape:cy="30.54617"
+     inkscape:cx="110.37009"
+     inkscape:cy="17.972953"
      inkscape:current-layer="layer6"
      showgrid="false"
      inkscape:grid-bbox="true"
@@ -1697,14 +1697,6 @@
        id="linearGradient3209"
        xlink:href="#linearGradient4038-8"
        inkscape:collect="always" />
-    <filter
-       inkscape:collect="always"
-       id="filter4106">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="1"
-         id="feGaussianBlur4108" />
-    </filter>
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient4038-6"
@@ -1752,45 +1744,29 @@
        y2="100" />
     <filter
        inkscape:collect="always"
-       id="filter4251">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="1.575"
-         id="feGaussianBlur4253" />
-    </filter>
-    <filter
-       inkscape:collect="always"
-       id="filter4260">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="2"
-         id="feGaussianBlur4262" />
-    </filter>
-    <filter
-       inkscape:collect="always"
        style="color-interpolation-filters:sRGB"
-       id="filter4451"
-       x="-0.06"
-       width="1.12"
-       y="-0.06"
-       height="1.12">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="4"
-         id="feGaussianBlur4453" />
-    </filter>
-    <filter
-       inkscape:collect="always"
-       style="color-interpolation-filters:sRGB"
-       id="filter4602"
+       id="filter4457"
        x="-0.024"
        width="1.048"
        y="-0.024"
        height="1.048">
       <feGaussianBlur
          inkscape:collect="always"
-         stdDeviation="0.56"
-         id="feGaussianBlur4604" />
+         stdDeviation="1.6"
+         id="feGaussianBlur4459" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter4463"
+       x="-0.024"
+       width="1.048"
+       y="-0.024"
+       height="1.048">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.8"
+         id="feGaussianBlur4465" />
     </filter>
   </defs>
   <metadata
@@ -1950,64 +1926,44 @@
        style="display:inline">
       <rect
          transform="matrix(0,-1,-1,0,0,0)"
-         style="fill:#000000;fill-opacity:1;stroke:#000000;opacity:0.05;stroke-opacity:1;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
-         id="rect4647"
-         width="28"
-         height="28"
-         x="-283"
-         y="-118"
-         rx="1.5"
-         ry="1.5" />
-      <rect
-         ry="1.5"
-         rx="1.5"
-         y="-118"
-         x="-283"
-         height="28"
-         width="28"
-         id="rect4645"
-         style="fill:#000000;fill-opacity:1;stroke:none;opacity:0.2"
-         transform="matrix(0,-1,-1,0,0,0)" />
-      <rect
-         ry="1"
-         rx="1"
-         y="-70"
-         x="-283"
-         height="20"
-         width="20"
-         id="rect4620"
-         style="fill:#000000;fill-opacity:1;stroke:#000000;opacity:0.05;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         transform="matrix(0,-1,-1,0,0,0)" />
+         style="fill:#000000;fill-opacity:1;stroke:none;opacity:0.2;filter:url(#filter4463)"
+         id="rect4461"
+         width="80"
+         height="80"
+         x="-277"
+         y="-368"
+         rx="4"
+         ry="4" />
       <rect
          transform="matrix(0,-1,-1,0,0,0)"
-         style="fill:#000000;fill-opacity:1;stroke:none;opacity:0.2"
-         id="rect4618"
-         width="20"
-         height="20"
-         x="-283"
-         y="-70"
-         rx="1"
-         ry="1" />
-      <rect
-         transform="matrix(0,-1,-1,0,0,0)"
-         style="fill:#000000;fill-opacity:1;stroke:none;opacity:0.4;filter:url(#filter4602)"
-         id="rect4552"
-         width="56"
-         height="56"
-         x="-281"
-         y="-260"
-         rx="3"
-         ry="3" />
+         style="fill:#000000;fill-opacity:1;stroke:none;opacity:0.2;filter:url(#filter4457)"
+         id="rect4453"
+         width="160"
+         height="160"
+         x="-269"
+         y="-568"
+         rx="8"
+         ry="8" />
       <rect
          ry="8"
          rx="8"
          y="-568"
-         x="-270"
+         x="-269"
          height="160"
          width="160"
-         id="rect4433"
-         style="fill:#000000;fill-opacity:1;stroke:none;opacity:0.5;filter:url(#filter4451)"
+         id="rect4449"
+         style="fill:#000000;fill-opacity:1;stroke:none;opacity:0.2"
          transform="matrix(0,-1,-1,0,0,0)" />
+      <rect
+         transform="matrix(0,-1,-1,0,0,0)"
+         style="fill:#000000;fill-opacity:1;stroke:none;opacity:0.2"
+         id="rect4451"
+         width="80"
+         height="80"
+         x="-277"
+         y="-368"
+         rx="4"
+         ry="4" />
       <rect
          transform="matrix(0,-1,-1,0,0,0)"
          style="fill:#cecece;fill-opacity:1;stroke:none"
@@ -2018,16 +1974,6 @@
          y="-568"
          rx="8"
          ry="8" />
-      <rect
-         transform="matrix(0,-2,-2,0,-168,-283)"
-         style="opacity:0.5;fill:#000000;fill-opacity:1;stroke:none;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4251)"
-         id="rect4412"
-         width="62"
-         height="64"
-         x="-268"
-         y="-360"
-         rx="4"
-         ry="4" />
       <rect
          ry="8"
          rx="8"
@@ -2056,16 +2002,6 @@
          d="m 432,121 c -4.432,0 -8,3.568 -8,8 l 0,1 c 0,-4.432 3.568,-8 8,-8 l 112,0 c 4.432,0 8,3.568 8,8 l 0,-1 c 0,-4.432 -3.568,-8 -8,-8 l -112,0 z"
          id="path4422"
          inkscape:connector-curvature="0" />
-      <rect
-         transform="matrix(0,-1,-1,0,0,1)"
-         style="opacity:0.5;fill:#000000;fill-opacity:1;stroke:none;filter:url(#filter4260)"
-         id="rect4258"
-         width="80"
-         height="80"
-         x="-276"
-         y="-368"
-         rx="4"
-         ry="4" />
       <rect
          ry="4"
          rx="4"
@@ -2105,16 +2041,6 @@
          d="m 300,203 c -2.216,0 -4,1.784 -4,4 l 0,1 c 0,-2.216 1.784,-4 4,-4 l 56,0 c 2.216,0 4,1.784 4,4 l 0,-1 c 0,-2.216 -1.784,-4 -4,-4 l -56,0 z"
          id="path4236" />
       <rect
-         ry="2"
-         rx="2"
-         y="-180"
-         x="-280"
-         height="40"
-         width="40"
-         id="rect4104"
-         style="opacity:0.5;fill:#000000;fill-opacity:1;stroke:none;filter:url(#filter4106)"
-         transform="matrix(0,-1,-1,0,0,1)" />
-      <rect
          ry="3"
          rx="3"
          y="-260"
@@ -2124,26 +2050,6 @@
          id="rect4229"
          style="fill:#cecece;fill-opacity:1;stroke:none"
          transform="matrix(0,-1,-1,0,0,0)" />
-      <rect
-         ry="3"
-         rx="3"
-         y="-254"
-         x="-275"
-         height="44"
-         width="45"
-         id="rect4595"
-         style="fill:#000000;fill-opacity:1;stroke:#000000;opacity:0.05;stroke-opacity:1;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
-         transform="matrix(0,-1,-1,0,0,0)" />
-      <rect
-         transform="matrix(0,-1,-1,0,0,0)"
-         style="fill:#000000;fill-opacity:1;stroke:none;opacity:0.1"
-         id="rect4593"
-         width="45"
-         height="44"
-         x="-275"
-         y="-254"
-         rx="3"
-         ry="3" />
       <rect
          ry="1"
          rx="1"
@@ -2175,25 +2081,15 @@
          rx="1.5"
          ry="1.5" />
       <rect
-         ry="1.5"
-         rx="1.5"
-         y="-115"
-         x="-280"
-         height="22"
-         width="22"
-         id="rect4649"
-         style="fill:#000000;fill-opacity:1;stroke:none;opacity:0.1"
-         transform="matrix(0,-1,-1,0,0,0)" />
-      <rect
          transform="matrix(0,-1,-1,0,0,0)"
-         style="display:inline;enable-background:new;fill:#cecece;fill-opacity:1;stroke:none"
+         style="display:inline;fill:#cecece;fill-opacity:1;stroke:none;enable-background:new"
          id="rect4265"
          width="16"
          height="16"
          x="-284"
          y="-32"
-         rx="1"
-         ry="1" />
+         rx="2"
+         ry="2" />
       <rect
          transform="matrix(0,-1,-1,0,0,0)"
          style="fill:#cecece;fill-opacity:1;stroke:none"
@@ -2202,16 +2098,6 @@
          height="40"
          x="-280"
          y="-180"
-         rx="2"
-         ry="2" />
-      <rect
-         transform="matrix(0,-1,-1,0,0,0)"
-         style="opacity:0.1;fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="rect4204"
-         width="31"
-         height="32"
-         x="-276"
-         y="-176"
          rx="2"
          ry="2" />
       <rect
@@ -2242,11 +2128,6 @@
          d="m 174,243 c 1.108,0 2,0.892 2,2 l 0,1 c 0,-1.108 -0.892,-2 -2,-2 l -28,0 c -1.108,0 -2,0.892 -2,2 l 0,-1 c 0,-1.108 0.892,-2 2,-2 l 28,0 z"
          id="rect4206"
          inkscape:connector-curvature="0" />
-      <path
-         style="fill:#ffffff;fill-opacity:1;stroke:none;opacity:0.4"
-         d="M 142 164 C 140.892 164 140 164.892 140 166 L 140 167 C 140 165.892 140.892 165 142 165 L 178 165 C 179.108 165 180 165.892 180 167 L 180 166 C 180 164.892 179.108 164 178 164 L 142 164 z "
-         transform="translate(0,76)"
-         id="rect4481" />
       <path
          style="fill:#ffffff;fill-opacity:1;stroke:none;opacity:0.4"
          d="M 292 120 C 289.784 120 288 121.784 288 124 L 288 125 C 288 122.784 289.784 121 292 121 L 364 121 C 366.216 121 368 122.784 368 125 L 368 124 C 368 121.784 366.216 120 364 120 L 292 120 z "
@@ -2293,16 +2174,6 @@
          id="rect4597"
          transform="translate(0,76)" />
       <rect
-         ry="1"
-         rx="1"
-         y="-68"
-         x="-281"
-         height="16"
-         width="16"
-         id="rect4622"
-         style="fill:#000000;fill-opacity:1;stroke:none;opacity:0.2"
-         transform="matrix(0,-1,-1,0,0,0)" />
-      <rect
          transform="matrix(0,-1,-1,0,0,0)"
          style="fill:#555555;fill-opacity:1;stroke:none"
          id="rect4606"
@@ -2320,11 +2191,6 @@
          d="m 57.388464,274.72501 c 0.592714,0.82109 1.561137,1.3591 2.57142,1.42857 0.715315,0.0492 1.466334,-0.14246 1.99892,-0.62251 0.266293,-0.24002 0.473035,-0.54853 0.579021,-0.891 0.105987,-0.34248 0.108856,-0.71848 -0.0065,-1.05791 -0.166605,-0.49014 -0.565141,-0.8738 -1.01482,-1.13028 -0.449679,-0.25648 -0.952618,-0.40154 -1.448987,-0.54854 -0.49637,-0.147 -0.997771,-0.30093 -1.438595,-0.57235 -0.220412,-0.1357 -0.424239,-0.30058 -0.591292,-0.49829 -0.167054,-0.19772 -0.29675,-0.429 -0.363436,-0.6791 -0.08744,-0.32793 -0.06332,-0.68255 0.05532,-1.00052 0.118634,-0.31798 0.329725,-0.59898 0.593802,-0.81216 0.528156,-0.42637 1.250219,-0.56812 1.922302,-0.47303 0.778732,0.11018 1.509717,0.52789 2,1.14286"
          style="display:inline;fill:none;stroke:#ffab36;stroke-width:1.67856669;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new"
          id="path4608" />
-      <path
-         style="fill:#ffffff;fill-opacity:1;stroke:none;opacity:0.2"
-         d="M 51 186 C 50.446 186 50 186.446 50 187 L 50 188 C 50 187.446 50.446 187 51 187 L 69 187 C 69.554 187 70 187.446 70 188 L 70 187 C 70 186.446 69.554 186 69 186 L 51 186 z "
-         transform="translate(0,76)"
-         id="rect4624" />
       <rect
          transform="matrix(0,-1,-1,0,0,0)"
          style="fill:#555555;fill-opacity:1;stroke:none"
@@ -2350,11 +2216,6 @@
          id="rect4635"
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="csssscssc" />
-      <path
-         style="fill:#ffffff;fill-opacity:1;stroke:none;opacity:0.2"
-         d="M 91.5 178 C 90.669 178 90 178.669 90 179.5 L 90 180.5 C 90 179.669 90.669 179 91.5 179 L 116.5 179 C 117.331 179 118 179.669 118 180.5 L 118 179.5 C 118 178.669 117.331 178 116.5 178 L 91.5 178 z "
-         transform="translate(0,76)"
-         id="rect4640" />
       <rect
          ry="0.75"
          rx="0.75"
@@ -2374,10 +2235,30 @@
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="cssssc" />
       <path
-         style="display:inline;enable-background:new;fill:#ffffff;fill-opacity:1;stroke:none;opacity:0.1"
-         d="M 17 192 C 16.446 192 16 192.446 16 193 L 16 194 C 16 193.446 16.446 193 17 193 L 31 193 C 31.554 193 32 193.446 32 194 L 32 193 C 32 192.446 31.554 192 31 192 L 17 192 z "
+         style="fill:#000000;fill-opacity:1;stroke:none;opacity:0.2"
+         d="M 204 200 L 204 201 C 204 202.662 205.338 204 207 204 L 257 204 C 258.662 204 260 202.662 260 201 L 260 200 C 260 201.662 258.662 203 257 203 L 207 203 C 205.338 203 204 201.662 204 200 z "
          transform="translate(0,76)"
-         id="rect4659" />
+         id="rect4419" />
+      <path
+         style="opacity:0.2;fill:#000000;fill-opacity:1;stroke:none"
+         d="m 140,277 0,1 c 0,1.108 0.892,2 2,2 l 36,0 c 1.108,0 2,-0.892 2,-2 l 0,-1 c 0,1.108 -0.892,2 -2,2 l -36,0 c -1.108,0 -2,-0.892 -2,-2 z"
+         id="rect4417"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4436"
+         d="m 91.5,282 c -0.831,0 -1.5,-0.669 -1.5,-1.5 l 0,-1 c 0,0.831 0.669,1.5 1.5,1.5 l 25,0 c 0.831,0 1.5,-0.669 1.5,-1.5 l 0,1 c 0,0.831 -0.669,1.5 -1.5,1.5 l -25,0 z"
+         style="opacity:0.2;fill:#000000;fill-opacity:1;stroke:none"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4438"
+         d="m 51,282 c -0.554,0 -1,-0.446 -1,-1 l 0,-1 c 0,0.554 0.446,1 1,1 l 18,0 c 0.554,0 1,-0.446 1,-1 l 0,1 c 0,0.554 -0.446,1 -1,1 l -18,0 z"
+         style="opacity:0.2;fill:#000000;fill-opacity:1;stroke:none"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4447"
+         d="m 18,284 c -1.108,0 -2,-0.892 -2,-2 l 0,-1 c 0,1.108 0.892,2 2,2 l 12,0 c 1.108,0 2,-0.892 2,-2 l 0,1 c 0,1.108 -0.892,2 -2,2 l -12,0 z"
+         style="display:inline;opacity:0.1;fill:#000000;fill-opacity:1;stroke:none;enable-background:new"
+         inkscape:connector-curvature="0" />
     </g>
   </g>
 </svg>
