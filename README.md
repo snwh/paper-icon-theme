@@ -10,16 +10,18 @@ Attribution-Share Alike 4.0 International](https://creativecommons.org/licenses/
 
 The Paper icons can be downloaded from [here](https://github.com/snwh/paper-icon-theme/archive/master.zip).
 
-###Installing Paper
+###Building Paper
 
-You can build and install the theme from source or run the included install script.
+Build the Paper icon themes from source:
 
-    bash autogen.sh
+    ./autogen.sh
     make
     sudo make install
 
-Or run the provided interactive installation script which will walk you through installing Paper:
+###Installing Paper
 
-    bash install-icon-theme.sh
+Alternatively you may install Paper with the provided installation script:
+
+    ./install-icon-theme.sh
 
 -----------
