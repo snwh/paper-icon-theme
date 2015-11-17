@@ -10,7 +10,8 @@ import subprocess
 INKSCAPE = '/usr/bin/inkscape'
 OPTIPNG = '/usr/bin/optipng'
 MAINDIR = '../Paper'
-SOURCES = ('bitmaps/actions', 'bitmaps/apps', 'bitmaps/categories', 'bitmaps/devices', 'bitmaps/games', 'bitmaps/mimetypes', 'bitmaps/places', 'bitmaps/preferences', 'bitmaps/status', 'bitmaps/web')
+# SOURCES = ('bitmaps/actions', 'bitmaps/apps', 'bitmaps/categories', 'bitmaps/devices', 'bitmaps/games', 'bitmaps/mimetypes', 'bitmaps/places', 'bitmaps/preferences', 'bitmaps/status', 'bitmaps/web')
+SRC = 'bitmaps'
 
 inkscape_process = None
 
@@ -174,6 +175,6 @@ def main(SRC):
             print ("Error: No such file", file)
             sys.exit(1)
 
-for source in SOURCES:
-    SRC = os.path.join('.', source)
-    main(SRC)
+# for source in SOURCES:
+#    SRC = os.path.join('.', source)
+main(SRC)
