@@ -34,8 +34,8 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="295.06385"
-     inkscape:cy="383.86239"
+     inkscape:cx="357.56814"
+     inkscape:cy="393.13158"
      inkscape:current-layer="layer6"
      showgrid="false"
      inkscape:grid-bbox="true"
@@ -1849,6 +1849,21 @@
        id="layer6"
        inkscape:label="Symbols"
        style="display:inline">
+      <path
+         id="path4411"
+         d="m 56,283 c 0,0 -2,0 -2,-2 l 0,-1 c 0,2 2,2 2,2 l 6,0 2,0 8,0 c 0,0 2,0 2,-2 l 0,1 c 0,2 -2,2 -2,2 l -8,0 -2,0 -6,0 z"
+         style="opacity:0.2;fill:#000000;fill-opacity:1;stroke:none"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4399"
+         d="m 150,281 c -1.108,0 -2,-0.892 -2,-2 l 0,-1 c 0,1.108 0.892,2 2,2 l 18,0 18,0 c 1.108,0 2,-0.892 2,-2 l 0,1 c 0,1.108 -0.892,2 -2,2 l -18,0 -18,0 z"
+         style="opacity:0.2;fill:#000000;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4395"
+         d="m 99.5,283 c -0.831,0 -1.5,-0.669 -1.5,-1.5 l 0,-1 c 0,0.831 0.669,1.5 1.5,1.5 l 12.5,0 12.5,0 c 0.831,0 1.5,-0.669 1.5,-1.5 l 0,1 c 0,0.831 -0.669,1.5 -1.5,1.5 l -12.5,0 -12.5,0 z"
+         style="opacity:0.2;fill:#000000;fill-opacity:1;stroke:none" />
       <rect
          ry="24"
          y="-188"
@@ -2008,6 +2023,12 @@
          id="path4449"
          inkscape:connector-curvature="0" />
       <circle
+         id="circle4397"
+         style="display:inline;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;enable-background:new;opacity:0.2"
+         cx="119"
+         cy="276"
+         r="8" />
+      <circle
          r="8"
          cy="275"
          cx="119"
@@ -2071,6 +2092,12 @@
          id="path4605"
          inkscape:connector-curvature="0" />
       <circle
+         cy="278.5"
+         cx="69"
+         style="display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;enable-background:new;opacity:0.2"
+         id="circle4413"
+         r="5.5" />
+      <circle
          r="5.5"
          id="circle7479"
          style="display:inline;fill:#07ce8e;fill-opacity:1;stroke:none;stroke-width:2;enable-background:new"
@@ -2092,6 +2119,12 @@
          id="path4108"
          d="m 186,280 c 1.108,0 2,-0.892 2,-2 l 0,-18 -20,0 0,20 18,0 z"
          style="fill:#666666;fill-opacity:1;stroke:none" />
+      <circle
+         r="12"
+         cy="271"
+         cx="178"
+         id="circle4401"
+         style="fill:#000000;fill-opacity:1;stroke:none;opacity:0.2" />
       <circle
          style="fill:#07ce8e;fill-opacity:1;stroke:none"
          id="path4058"
@@ -2143,7 +2176,7 @@
       <path
          id="path4471"
          d="m 352,-144 c -6.62742,0 -12,5.37258 -12,12 0,6.62742 5.37258,12 12,12 6.62742,0 12,-5.37258 12,-12 0,-6.62742 -5.37258,-12 -12,-12 z m 0,80 c -6.62742,0 -12,5.37258 -12,12 0,6.62742 5.37258,12 12,12 6.62742,0 12,-5.37258 12,-12 0,-6.62742 -5.37258,-12 -12,-12 z"
-         style="opacity:1;fill:#ebebeb;fill-opacity:1;stroke:#ebebeb;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         style="opacity:1;fill:#ebebeb;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="ssssssssss" />
       <path
@@ -2152,6 +2185,11 @@
          id="path4398"
          d="m 304,-100 0,16 96,0 0,-16 z"
          style="opacity:1;fill:#ebebeb;fill-opacity:1;stroke:none;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         style="fill:#ffffff;fill-opacity:1;stroke:none;opacity:0.1"
+         d="M 56 506 C 56 506 54 506 54 508 L 54 509 C 54 507 56 507 56 507 L 62 507 L 64 507 L 72 507 C 72 507 74 507 74 509 L 74 508 C 74 506 72 506 72 506 L 64 506 L 62 506 L 56 506 z "
+         transform="translate(0,-244)"
+         id="path4403" />
     </g>
   </g>
 </svg>
