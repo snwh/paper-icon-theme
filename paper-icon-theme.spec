@@ -15,9 +15,7 @@
 
 # GitHub Stuff
 %global commit0 40-CHARACTER-HASH-VALUE
-%global gittag0 GIT-TAG
 %global shortcommit0 %(c=%{commit0}; echo ${c:0:7})
-
 
 name:		paper-icon-theme
 version:	1.0
