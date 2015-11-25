@@ -176,5 +176,5 @@ def main(SRC):
             sys.exit(1)
 
 for source in SOURCES:
-   SRC = os.path.join('.', source)
-main(SRC)
+    SRC = os.path.join('.', source)
+    main(SRC)
