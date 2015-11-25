@@ -13,9 +13,15 @@
 #
 
 
-Name:		paper-icon-theme
-Version:	1.0
-Release:	1
+# GitHub Stuff
+%global commit0 40-CHARACTER-HASH-VALUE
+%global gittag0 GIT-TAG
+%global shortcommit0 %(c=%{commit0}; echo ${c:0:7})
+
+
+name:		paper-icon-theme
+version:	1.0
+release:	1
 
 Summary:	Paper Icon theme
 Group:		System/GUI/Other
