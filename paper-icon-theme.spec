@@ -21,8 +21,8 @@ Summary:	Paper Icon theme
 Group:		System/GUI/Other
 License:    CC-BY-SA-4.0
 Group:      System/GUI/GNOME
-Url:        http://snwh.org/paper-icon-theme
-Source0:	%{name}-%{version}.tar.gz
+Url:        http://samuelhewitt.com/paper/icons
+Source0:    https://github.com/snwh/%{name}/archive/%{commit0}.tar.gz#/%{name}-%{shortcommit0}.tar.gz
 Requires:	hicolor-icon-theme, gnome-icon-theme
 BuildArch:	noarch
 
@@ -31,7 +31,7 @@ BuildArch:	noarch
 Paper Icon Theme
 
 %prep
-%setup -q
+%setup -qn %{name}-%{commit0}
 
 # Delete dead icon symlinks
 find -L . -type l -delete
@@ -43,5 +43,5 @@ install -dpm 0755 $RPM_BUILD_ROOT%{_datadir}/icons/
 cp -a Paper/ $RPM_BUILD_ROOT%{_datadir}/icons/
 
 %files
-%doc AUTHORS LICENSE
+%doc AUTHORS COPYING LICENSE
 %{_datadir}/icons/Paper/
