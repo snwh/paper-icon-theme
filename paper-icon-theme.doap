@@ -1,0 +1,20 @@
+<Project xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:gnome="http://api.gnome.org/doap-extensions#"
+         xmlns="http://usefulinc.com/ns/doap#">
+
+  <name xml:lang="en">paper-icon-theme</name>
+  <shortdesc xml:lang="en">Paper Icons</shortdesc>
+  <homepage rdf:resource="http://samuelhewitt.com/paper/icons" />
+  <download-page rdf:resource="https://github.com/snwh/paper-icon-theme" />
+  <bug-database rdf:resource="https://github.com/snwh/paper-icon-theme/issues" />
+  <category rdf:resource="http://api.gnome.org/doap-extensions#core" />
+
+  <maintainer>
+    <foaf:Person>
+      <foaf:name>Sam Hewitt</foaf:name>
+      <gnome:userid>snwh</gnome:userid>
+    </foaf:Person>
+  </maintainer>
+</Project>
