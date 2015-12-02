@@ -1,5 +1,4 @@
 #!/bin/sh
-
 xcursorgen left_ptr_watch.in ../../../Paper/cursors/left_ptr_watch
 #xcursorgen hand1.in ../../../Paper/cursors/hand1
 xcursorgen hand2.in ../../../Paper/cursors/hand2
