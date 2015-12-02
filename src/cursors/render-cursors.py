@@ -199,7 +199,7 @@ class SVGRect:
 		
 		dbg('Saving slice as: "%s"' % pngsliceFName)
 		for i, size in enumerate (sizes):
-			subdir = 'cursors/{}x{}'.format (size, size)
+			subdir = 'bitmaps/{}x{}'.format (size, size)
 			if not os.path.exists (subdir):
 				os.makedirs (subdir)
 			relslice = '{}/{}'.format (subdir, pngsliceFName)
@@ -208,7 +208,7 @@ class SVGRect:
 				hotrelslice = '{}/{}'.format (subdir, hotsliceFName)
 				do_res (size, hotrelslice, hotsvgFName, skipped, roundrobin)
 			for scale in scale_pairs:
-				subdir = 'cursors/{}x{}_{}'.format (size, size, scale[1])
+				subdir = 'bitmaps/{}x{}_{}'.format (size, size, scale[1])
 				relslice = '{}/{}'.format (subdir, pngsliceFName)
 				if not os.path.exists (subdir):
 					os.makedirs (subdir)
@@ -242,7 +242,7 @@ def postprocess_slice (slicename, skipped):
 	hotsliceFName = slicename + '.hotspot.png'
 	
 	for i, size in enumerate (sizes):
-		subdir = 'cursors/{}x{}'.format (size, size)
+		subdir = 'bitmaps/{}x{}'.format (size, size)
 		relslice = '{}/{}'.format (subdir, pngsliceFName)
 		csize = get_csize (i, size)
 		if relslice not in skipped:
@@ -251,7 +251,7 @@ def postprocess_slice (slicename, skipped):
 				hotrelslice = '{}/{}'.format (subdir, hotsliceFName)
 				cropalign_hotspot (new_base, csize, hotrelslice)
 		for scale in scale_pairs:
-			subdir = 'cursors/{}x{}_{}'.format (size, size, scale[1])
+			subdir = 'bitmaps/{}x{}_{}'.format (size, size, scale[1])
 			relslice = '{}/{}'.format (subdir, pngsliceFName)
 			if relslice not in skipped:
 				new_base = cropalign (csize, relslice)
@@ -287,19 +287,19 @@ def write_xcur(slicename):
 			# For xcursorgen use milliseconds
 			fps_field = ' {}'.format (int (1000.0 / options.fps))
 	xcur = {}
-	xcur['s0'] = open ('cursors/{}.in'.format (slicename), mode)
+	xcur['s0'] = open ('bitmaps/{}.in'.format (slicename), mode)
 	if len (scale_pairs) > 0:
-		xcur['s1'] = open ('cursors/{}.s1.in'.format (slicename), mode)
-		xcur['s2'] = open ('cursors/{}.s2.in'.format (slicename), mode)
+		xcur['s1'] = open ('bitmaps/{}.s1.in'.format (slicename), mode)
+		xcur['s2'] = open ('bitmaps/{}.s2.in'.format (slicename), mode)
 	for i, size in enumerate (sizes):
-		subdir = 'cursors/{}x{}'.format (size, size)
+		subdir = 'bitmaps/{}x{}'.format (size, size)
 		relslice = '{}/{}'.format (subdir, pngsliceFName)
 		hotrelslice = '{}/{}'.format (subdir, hotsliceFName)
 		hot = find_hotspot (hotrelslice)
 		csize = get_csize (i, size)
 		xcur['s0'].write ("{csize} {hotx} {hoty} {filename}{fps_field}\n".format (csize=csize, hotx=hot[0], hoty=hot[1], filename='{}x{}/{}'.format (size, size, pngsliceFName), fps_field=fps_field))
 		for scale in scale_pairs:
-			subdir = 'cursors/{}x{}_{}'.format (size, size, scale[1])
+			subdir = 'bitmaps/{}x{}_{}'.format (size, size, scale[1])
 			relslice = '{}/{}'.format (subdir, pngsliceFName)
 			scaled_size = int (size * scale[0])
 			hotrelslice = '{}/{}'.format (subdir, hotsliceFName)
@@ -331,21 +331,21 @@ def sort_xcur(slicename, passed):
 		return
 	passed[slicename] = True
 
-	sort_file ('cursors/{}.in'.format (slicename))
+	sort_file ('bitmaps/{}.in'.format (slicename))
 	if len (scale_pairs) > 0:
-		sort_file ('cursors/{}.s1.in'.format (slicename))
-		sort_file ('cursors/{}.s2.in'.format (slicename))
+		sort_file ('bitmaps/{}.s1.in'.format (slicename))
+		sort_file ('bitmaps/{}.s2.in'.format (slicename))
 
 def delete_hotspot(slicename):
 	hotsliceFName = slicename + '.hotspot.png'
 	
 	for i, size in enumerate (sizes):
-		subdir = 'cursors/{}x{}'.format (size, size)
+		subdir = 'bitmaps/{}x{}'.format (size, size)
 		hotrelslice = '{}/{}'.format (subdir, hotsliceFName)
 		if os.path.exists (hotrelslice):
 			os.unlink (hotrelslice)
 		for scale in scale_pairs:
-			subdir = 'cursors/{}x{}_{}'.format (size, size, scale[1])
+			subdir = 'bitmaps/{}x{}_{}'.format (size, size, scale[1])
 			hotrelslice = '{}/{}'.format (subdir, hotsliceFName)
 			if os.path.exists (hotrelslice):
 				os.unlink (hotrelslice)
