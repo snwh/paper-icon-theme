@@ -22,9 +22,9 @@
 # this program; if not, see <https://www.gnu.org/licenses/lgpl-3.0.txt>
 
 clear
-echo '#------------------------------------------#'
-echo '#     Paper Icon Theme Install Script      #'
-echo '#------------------------------------------#'
+echo '#-----------------------------------------#'
+echo '#     Paper Icon Theme Install Script     #'
+echo '#-----------------------------------------#'
 
 
 show_question() {
@@ -65,7 +65,7 @@ if [ "$UID" -eq "$ROOT_UID" ]; then
 		esac
 	fi
 	echo "Installing..."
-	cp -R ./Paper/ /usr/share/icons/
+	cp -RvH ./Paper/ /usr/share/icons/
 	chmod -R 755 /usr/share/icons/Paper
 	echo "Installation complete!"
 	echo "You will have to set your theme manually."
@@ -85,44 +85,53 @@ elif [ "$UID" -ne "$ROOT_UID" ]; then
 	echo "Installing..."
 	# .local/share/icons
 	if [ -d $HOME/.local/share/icons ]; then
-		cp -R ./Paper/ $HOME/.local/share/icons/
+		cp -RvH ./Paper/ $HOME/.local/share/icons/
 	else
 		mkdir -p $HOME/.local/share/icons
-		cp -R ./Paper/ $HOME/.local/share/icons/
-	fi
-	# ./icons
-	if [ -d $HOME/.icons ]; then
-		cp -R ./Paper/ $HOME/.icons/
-	else
-		mkdir -p $HOME/.icons
-		cp -R ./Paper/ $HOME/.icons/
+		cp -RvH ./Paper/ $HOME/.local/share/icons/
 	fi
 	echo "Installation complete!"
-	set
+	useicons
 fi
 }
 
 
-
-function set {
+function useicons {
 echo
 show_question '\tDo you want to set Paper as your icon theme? (Y)es, (N)o : ' 
 echo
 read INPUT
 case $INPUT in
-	[Yy]* ) settheme;;
-    [Nn]* ) end;;
+	[Yy]* ) 
+		echo "Setting Paper as desktop icon theme..."
+		gsettings reset org.gnome.desktop.interface icon-theme
+		gsettings set org.gnome.desktop.interface icon-theme "Paper"
+		echo "Done."
+		usecursors
+		;;
+    [Nn]* ) usecursors;;
     * ) echo; show_error "\aUh oh, invalid response. Please retry."; set;;
 esac
 }
 
-function settheme {
-echo "Setting Paper as desktop icon theme..."
-gsettings reset org.gnome.desktop.interface icon-theme
-gsettings set org.gnome.desktop.interface icon-theme "Paper"
-gsettings set org.gnome.desktop.interface cursor-theme "Paper"
-echo "Done."
-end
+function usecursors {
+echo
+show_question '\tDo you want to set Paper as your cursor theme? (Y)es, (N)o : ' 
+echo
+read INPUT
+case $INPUT in
+	[Yy]* ) 
+		echo "Setting Paper as desktop cursor theme..."
+		gsettings reset org.gnome.desktop.interface cursor-theme
+		gsettings set org.gnome.desktop.interface cursor-theme "Paper"
+		echo "Done."
+		echo
+		echo "You may need to log out & back in for the cursor change to take effect."
+		end
+		;;
+    [Nn]* ) end;;
+    * ) echo; show_error "\aUh oh, invalid response. Please retry."; set;;
+esac
 }
 
 function end {
@@ -133,7 +142,7 @@ function end {
 ROOT_UID=0
 if [ "$UID" -ne "$ROOT_UID" ]; then
 	echo
-	echo "Paper Icon Theme will be installed in:"
+	echo "Paper will be installed in:"
 	echo
 	show_dir '\t$HOME/.local/share/icons'
 	echo
@@ -141,7 +150,7 @@ if [ "$UID" -ne "$ROOT_UID" ]; then
 	continue
 else
 	echo
-	echo "Paper Icon Theme will be installed in:"
+	echo "Paper will be installed in:"
 	echo
 	show_dir '\t/usr/share/icons'
 	echo
