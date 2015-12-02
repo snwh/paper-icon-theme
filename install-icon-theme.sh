@@ -117,9 +117,10 @@ esac
 }
 
 function settheme {
-echo "Setting Paper as desktop Icon theme..."
+echo "Setting Paper as desktop icon theme..."
 gsettings reset org.gnome.desktop.interface icon-theme
 gsettings set org.gnome.desktop.interface icon-theme "Paper"
+gsettings set org.gnome.desktop.interface cursor-theme "Paper"
 echo "Done."
 end
 }
