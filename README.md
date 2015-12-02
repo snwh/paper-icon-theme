@@ -1,5 +1,5 @@
 Paper Icon Theme
-===================
+================
 
 Paper is simple and modern icon theme inspired by Google's material design.
 
@@ -23,5 +23,3 @@ Build the Paper icon themes from source:
 Alternatively you may install Paper with the provided installation script:
 
     ./install-icon-theme.sh
-
------------
