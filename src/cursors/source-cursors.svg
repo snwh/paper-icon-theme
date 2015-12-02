@@ -731,8 +731,8 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="341.30351"
-     inkscape:cy="201.87905"
+     inkscape:cx="248.33646"
+     inkscape:cy="195.9342"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      width="400px"
@@ -777,16 +777,16 @@
         <dc:title></dc:title>
         <dc:creator>
           <cc:Agent>
-            <dc:title>Jakub Steiner</dc:title>
+            <dc:title>Sam Hewitt</dc:title>
           </cc:Agent>
         </dc:creator>
         <cc:license
-           rdf:resource="http://en.wikipedia.org/wiki/MIT_License" />
-        <dc:source>http://jimmac.musichall.cz/themes.php?skin=7</dc:source>
+           rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/" />
+        <dc:source>https://github.com/snwh/paper-icon-theme</dc:source>
         <dc:subject>
           <rdf:Bag>
-            <rdf:li>negative</rdf:li>
-            <rdf:li>inverted</rdf:li>
+            <rdf:li>simple</rdf:li>
+            <rdf:li>dark</rdf:li>
             <rdf:li>cursor</rdf:li>
             <rdf:li>theme</rdf:li>
             <rdf:li>X</rdf:li>
@@ -794,8 +794,23 @@
             <rdf:li>xcursor</rdf:li>
           </rdf:Bag>
         </dc:subject>
-        <dc:description>Inverted variant of the DMZ cursor theme.</dc:description>
+        <dc:description>The Paper cursor theme</dc:description>
       </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by-sa/3.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#ShareAlike" />
+      </cc:License>
     </rdf:RDF>
   </metadata>
   <g
