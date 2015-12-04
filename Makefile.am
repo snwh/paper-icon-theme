@@ -4,8 +4,6 @@ EXTRA_DIST = \
 	AUTHORS \
 	README.md
 
-xsessiondir = $(datadir)/xsessions
-
 themedir = $(datadir)/icons
 
 install-data-hook:
