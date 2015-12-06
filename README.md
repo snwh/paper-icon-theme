@@ -4,19 +4,21 @@ Paper Icon Theme
 Paper is simple and modern icon theme with material design influences
 
 Paper is a free culture icon theme by Sam Hewitt and is licenced under the terms of the [Creative Commons 
-Attribution-Share Alike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/), unless otherwise specified.
+Attribution-Share Alike](https://creativecommons.org/licenses/by-sa/4.0/), unless otherwise specified.
 
 ###Getting Paper
 
-The Paper icons can be downloaded from [here](https://github.com/snwh/paper-icon-theme/archive/master.zip).
+You can download the Paper icons or clone from source [here](https://github.com/snwh/paper-icon-theme/archive/master.zip).
 
 ###Building Paper
 
-Build the Paper icon themes from source:
+You can build and install the Paper icon themes from source:
 
     ./autogen.sh
     make
     sudo make install
+
+This procedure requires ```gnome-common``` on your system.
 
 ###Installing Paper
 
