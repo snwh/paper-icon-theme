@@ -16,18 +16,18 @@
 # GitHub Stuff
 %global commit0 40-CHARACTER-HASH-VALUE
 
-name:		paper-icon-theme
-version:	1.0
-release:	1
+name:       paper-icon-theme
+version:    1.0
+release:    1
 
-Summary:	Paper Icon theme
-Group:		System/GUI/Other
+Summary:    Paper Icon theme
+Group:      System/GUI/Other
 License:    CC-BY-SA-4.0
 Group:      System/GUI/GNOME
 Url:        http://samuelhewitt.com/paper/icons
 Source0:    https://github.com/snwh/%{name}/archive/%{commit0}.tar.gz
-Requires:	hicolor-icon-theme, gnome-icon-theme
-BuildArch:	noarch
+Requires:   hicolor-icon-theme, gnome-icon-theme
+BuildArch:  noarch
 
 
 %description
@@ -46,5 +46,5 @@ install -dpm 0755 $RPM_BUILD_ROOT%{_datadir}/icons/
 cp -a Paper/ $RPM_BUILD_ROOT%{_datadir}/icons/
 
 %files
-%doc AUTHORS COPYING LICENSE
+%doc AUTHORS COPYING
 %{_datadir}/icons/Paper/
