@@ -18,7 +18,7 @@ You can build and install the Paper icon themes from source:
     make
     sudo make install
 
-This procedure requires ```gnome-common``` on your system.
+This procedure requires ```autotools``` on your system.
 
 ###Installing Paper
 

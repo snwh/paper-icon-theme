@@ -1,5 +1,11 @@
 #!/bin/sh
-# Run this to generate all the initial makefiles, etc.
 
-autoreconf -vfi
-./configure --prefix=/usr $*
+set -e
+
+autoreconf --force --install --symlink --warnings=all
+
+if test -z "${NOCONFIGURE}"; then
+    set -x
+    ./configure --prefix=/usr "$@"
+    make clean
+fi

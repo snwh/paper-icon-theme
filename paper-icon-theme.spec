@@ -17,7 +17,7 @@
 %global commit0 40-CHARACTER-HASH-VALUE
 
 name:       paper-icon-theme
-version:    1.0
+version:    1.1
 release:    1
 
 Summary:    Paper Icon theme
