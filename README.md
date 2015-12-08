@@ -3,8 +3,10 @@ Paper Icon Theme
 
 Paper is simple and modern icon theme with material design influences
 
-Paper is a free culture icon theme by Sam Hewitt and is licenced under the terms of the [Creative Commons 
-Attribution-Share Alike](https://creativecommons.org/licenses/by-sa/4.0/), unless otherwise specified.
+Paper is a free culture icon theme and is licenced under the terms of the [Creative Commons 
+Attribution-ShareAlike](https://creativecommons.org/licenses/by-sa/4.0/), unless otherwise specified.
+
+Software that is part of the Paper Icon Theme source is free software; you can redistribute it and/or modify it under the terms of the [GNU Lesser General Public License](https://www.gnu.org/licenses/lgpl-3.0.txt)
 
 ###Getting Paper
 
