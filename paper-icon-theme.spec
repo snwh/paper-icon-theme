@@ -23,7 +23,6 @@ release:    1
 Summary:    Paper Icon theme
 Group:      System/GUI/Other
 License:    CC-BY-SA-4.0
-Group:      System/GUI/GNOME
 Url:        http://samuelhewitt.com/paper/icons
 Source0:    https://github.com/snwh/%{name}/archive/%{commit0}.tar.gz
 Requires:   hicolor-icon-theme, gnome-icon-theme
