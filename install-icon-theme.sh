@@ -90,12 +90,8 @@ elif [ "$UID" -ne "$ROOT_UID" ]; then
 	fi
 	echo "Installing..."
 	# .local/share/icons
-	if [ -d $HOME/.local/share/icons ]; then
-		cp -RH ./Paper/ $HOME/.local/share/icons/
-	else
-		mkdir -p $HOME/.local/share/icons
-		cp -RH ./Paper/ $HOME/.local/share/icons/
-	fi
+	install -d $HOME/.local/share/icons
+	cp -RH ./Paper/ $HOME/.local/share/icons/
 	show_success "Installation complete!"
 	echo
 	useicons
