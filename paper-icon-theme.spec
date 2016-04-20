@@ -1,6 +1,6 @@
 # Spec file for package paper-icon-theme
 #
-# Copyright (c) 2015 Sam Hewitt <sam@snwh.org>
+# Copyright (c) 2016 Sam Hewitt <sam@snwh.org>
 #
 # All modifications and additions to the file contributed by third parties
 # remain the property of their copyright owners, unless otherwise agreed
@@ -17,13 +17,13 @@
 %global commit0 40-CHARACTER-HASH-VALUE
 
 name:       paper-icon-theme
-version:    1.1
+version:    1.2
 release:    1
 
 Summary:    Paper Icon theme
 Group:      System/GUI/Other
 License:    CC-BY-SA-4.0
-Url:        http://samuelhewitt.com/paper/icons
+Url:        http://snwh.org/paper/icons
 Source0:    https://github.com/snwh/%{name}/archive/%{commit0}.tar.gz
 Requires:   hicolor-icon-theme, gnome-icon-theme
 BuildArch:  noarch
