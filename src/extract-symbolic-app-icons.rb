@@ -22,7 +22,6 @@ require "fileutils"
 include REXML
 
 INKSCAPE = '/usr/bin/inkscape'
-#INKSCAPE = '/usr/bin/inkscape' # like this works for me, while using `which` inkscape hangs
 SRC = "symbolic/source-apps-symbolic.svg"
 PREFIX = "../Paper/symbolic"
 
@@ -32,7 +31,7 @@ def chopSVG(icon)
 	unless (File.exists?(icon[:file]) && !icon[:forcerender])
 		FileUtils.cp(SRC,icon[:file]) 
 		puts " >> #{icon[:name]}"
-		cmd = "#{INKSCAPE} -f #{icon[:file]} --select #{icon[:id]} --verb=FitCanvasToSelection  --verb=EditInvertInAllLayers "
+		cmd = "#{INKSCAPE} -f -z #{icon[:file]} --select #{icon[:id]} --verb=FitCanvasToSelection  --verb=EditInvertInAllLayers "
 		cmd += "--verb=EditDelete --verb=EditSelectAll --verb=SelectionUnGroup --verb=SelectionUnGroup --verb=SelectionUnGroup --verb=StrokeToPath --verb=FileVacuum "
 		cmd += "--verb=FileSave --verb=FileClose > /dev/null 2>&1"
 		system(cmd)

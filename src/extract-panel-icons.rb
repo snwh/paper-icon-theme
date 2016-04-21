@@ -22,7 +22,6 @@ require "fileutils"
 include REXML
 
 INKSCAPE = '/usr/bin/inkscape'
-#INKSCAPE = '/usr/bin/inkscape' # like this works for me, while using `which` inkscape hangs
 
 # Render 24x24 pixel panel icons
 SRC24 = "panel/source-panel-24.svg"
@@ -34,12 +33,12 @@ def chopSVG(icon)
 	unless (File.exists?(icon[:file]) && !icon[:forcerender])
 		FileUtils.cp(SRC24,icon[:file]) 
 		puts " >> #{icon[:name]}"
-		cmd = "#{INKSCAPE} -f #{icon[:file]} --select #{icon[:id]} --verb=FitCanvasToSelection  --verb=EditInvertInAllLayers "
+		cmd = "#{INKSCAPE} -f -z #{icon[:file]} --select #{icon[:id]} --verb=FitCanvasToSelection  --verb=EditInvertInAllLayers "
 		cmd += "--verb=EditDelete --verb=EditSelectAll --verb=SelectionUnGroup --verb=SelectionUnGroup --verb=SelectionUnGroup --verb=StrokeToPath --verb=FileVacuum "
 		cmd += "--verb=FileSave --verb=FileClose > /dev/null 2>&1"
 		system(cmd)
 		#saving as plain SVG gets rid of the classes :/
-		#cmd = "#{INKSCAPE} -f #{icon[:file]} -z --vacuum-defs -l #{icon[:file]} > /dev/null 2>&1"
+		#cmd = "#{INKSCAPE} -f -z #{icon[:file]} --vacuum-defs -l #{icon[:file]} > /dev/null 2>&1"
 		#system(cmd)
 		svgcrop = Document.new(File.new(icon[:file], 'r'))
 		svgcrop.root.each_element("//rect") do |rect| 
@@ -112,12 +111,12 @@ def chopSVG(icon)
 	unless (File.exists?(icon[:file]) && !icon[:forcerender])
 		FileUtils.cp(SRC22,icon[:file]) 
 		puts " >> #{icon[:name]}"
-		cmd = "#{INKSCAPE} -f #{icon[:file]} --select #{icon[:id]} --verb=FitCanvasToSelection  --verb=EditInvertInAllLayers "
+		cmd = "#{INKSCAPE} -f -z #{icon[:file]} --select #{icon[:id]} --verb=FitCanvasToSelection  --verb=EditInvertInAllLayers "
 		cmd += "--verb=EditDelete --verb=EditSelectAll --verb=SelectionUnGroup --verb=SelectionUnGroup --verb=SelectionUnGroup --verb=StrokeToPath --verb=FileVacuum "
 		cmd += "--verb=FileSave --verb=FileClose > /dev/null 2>&1"
 		system(cmd)
 		#saving as plain SVG gets rid of the classes :/
-		#cmd = "#{INKSCAPE} -f #{icon[:file]} -z --vacuum-defs -l #{icon[:file]} > /dev/null 2>&1"
+		#cmd = "#{INKSCAPE} -f -z #{icon[:file]} --vacuum-defs -l #{icon[:file]} > /dev/null 2>&1"
 		#system(cmd)
 		svgcrop = Document.new(File.new(icon[:file], 'r'))
 		svgcrop.root.each_element("//rect") do |rect| 
@@ -189,12 +188,12 @@ def chopSVG(icon)
 	unless (File.exists?(icon[:file]) && !icon[:forcerender])
 		FileUtils.cp(SRC16,icon[:file]) 
 		puts " >> #{icon[:name]}"
-		cmd = "#{INKSCAPE} -f #{icon[:file]} --select #{icon[:id]} --verb=FitCanvasToSelection  --verb=EditInvertInAllLayers "
+		cmd = "#{INKSCAPE} -f -z #{icon[:file]} --select #{icon[:id]} --verb=FitCanvasToSelection  --verb=EditInvertInAllLayers "
 		cmd += "--verb=EditDelete --verb=EditSelectAll --verb=SelectionUnGroup --verb=SelectionUnGroup --verb=SelectionUnGroup --verb=StrokeToPath --verb=FileVacuum "
 		cmd += "--verb=FileSave --verb=FileClose > /dev/null 2>&1"
 		system(cmd)
 		#saving as plain SVG gets rid of the classes :/
-		#cmd = "#{INKSCAPE} -f #{icon[:file]} -z --vacuum-defs -l #{icon[:file]} > /dev/null 2>&1"
+		#cmd = "#{INKSCAPE} -f -z #{icon[:file]} --vacuum-defs -l #{icon[:file]} > /dev/null 2>&1"
 		#system(cmd)
 		svgcrop = Document.new(File.new(icon[:file], 'r'))
 		svgcrop.root.each_element("//rect") do |rect| 
