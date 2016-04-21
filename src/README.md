@@ -6,6 +6,8 @@ Notes
 
 ## Source folders
 
+The sources for all the different Paper icons are kept organized in this `src` folder for ease of development.
+
 `bitmaps`
  - all the sources for hires icons
 
@@ -23,7 +25,7 @@ Notes
 
 ## Render Scripts
 
-Paper is a large and complex theme, to keep it maintainable and easily editable it's written and processed in SASS and organized in a modular fashion. 
+For simplified development, Paper has various scripts to extract or render icons from the larger SVG source files.
 
 `extract-panel-icons.rb`
  - this script will chop up the source plate in the `panel` folder into individual icons.
