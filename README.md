@@ -8,10 +8,6 @@ Attribution-ShareAlike](https://creativecommons.org/licenses/by-sa/4.0/), unless
 
 Software that is part of the Paper Icon Theme source is free software; you can redistribute it and/or modify it under the terms of the [GNU Lesser General Public License](https://www.gnu.org/licenses/lgpl-3.0.txt)
 
-###Getting Paper
-
-You can download the Paper icons or clone from source [here](https://github.com/snwh/paper-icon-theme/archive/master.zip).
-
 ###Building Paper
 
 You can build and install the Paper icon themes from source:
