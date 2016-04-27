@@ -25,7 +25,8 @@ import subprocess
 INKSCAPE = '/usr/bin/inkscape'
 OPTIPNG = '/usr/bin/optipng'
 MAINDIR = '../Paper'
-SOURCES = ('bitmaps/apps', 'bitmaps/categories', 'bitmaps/devices', 'bitmaps/games', 'bitmaps/logos', 'bitmaps/mimetypes', 'bitmaps/places', 'bitmaps/preferences', 'bitmaps/status', 'bitmaps/third-party', 'bitmaps/web')
+SOURCES = ('bitmaps/apps', 'bitmaps/categories', 'bitmaps/devices', 'bitmaps/games', 'bitmaps/logos', 'bitmaps/mimetypes', 'bitmaps/places', 'bitmaps/preferences', 'bitmaps/status', 'bitmaps/stock', 'bitmaps/web')
+# SRC = 'bitmaps'
 
 inkscape_process = None
 
