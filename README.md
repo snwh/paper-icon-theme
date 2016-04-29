@@ -32,4 +32,4 @@ When filing an icon request or reporting a missing icon, please take care in pro
  - The file name for the missing icon or the requested icon, for example `gimp.png` or `system-shutdown.svg`
  - A short description of the application or software that you are requesting an icon for.
 
-Note: some software does ship their icons in a hardcoded state, meaning when you install it their icons are not place in the system-wide directory `/usr/share/icons` which makes them unthemeable.
+Note: some software ships hardcoded icons, meaning when you install icons are not placed in the system-wide directory `/usr/share/icons` which makes them unthemeable.
