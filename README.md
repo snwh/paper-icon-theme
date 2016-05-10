@@ -1,12 +1,17 @@
 Paper Icon Theme
 ================
 
-Paper is simple and modern freedesktop icon theme with some material design influences
+Paper is a modern freedesktop icon theme whose design is based around the use of bold colours and simple geometric shapes to compose icons. Each icon has been meticulously designed for pixel-perfect viewing.
 
-Paper is a free culture icon theme and is licenced under the terms of the [Creative Commons 
-Attribution-ShareAlike](https://creativecommons.org/licenses/by-sa/4.0/), unless otherwise specified.
+While it does take some inspiration from the icons in Google's Material Design, some aspects have been adjusted to better suit a desktop environment.
 
-Software that is part of the Paper Icon Theme source is free software; you can redistribute it and/or modify it under the terms of the [GNU Lesser General Public License](https://www.gnu.org/licenses/lgpl-3.0.txt)
+###Copying or Reusing
+
+Paper is licenced under the terms of the [Creative Commons Attribution-ShareAlike](https://creativecommons.org/licenses/by-sa/4.0/). When reusing this work be sure to include a proper attribution:
+
+	"[Paper Icons](http://snwh.org/paper/icons)" by [Sam Hewitt](http://samuelhewitt.com/) is licensed under [CC-SA-4.0](http://creativecommons.org/licenses/by-sa/4.0/)
+
+Software that is included is free software; you can redistribute it and/or modify it under the terms of the [GNU Lesser General Public License](https://www.gnu.org/licenses/lgpl-3.0.txt)
 
 ###Building Paper
 
@@ -20,7 +25,7 @@ This procedure requires ```autotools``` on your system.
 
 ###Installing Paper
 
-Alternatively you may install Paper with the provided installation script:
+You may install Paper by running the provided installation script:
 
     ./install-icon-theme.sh
     

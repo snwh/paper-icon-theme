@@ -44,3 +44,7 @@ For simplified development, Paper has various scripts to extract or render icons
 
 `render-cursors.sh`
 - will render the cursor assets and build the cursor theme
+
+## Colour Palette
+
+To use the included Inkscape [colour palette](./paper_palette.gpl) copy it to `.config/inkscape/palettes` and restart Inkscape. You should then be able to choose it from the palette menu.
