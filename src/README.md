@@ -30,17 +30,14 @@ For simplified development, Paper has various scripts to extract or render icons
 `extract-panel-icons.rb`
  - this script will chop up the source plate in the `panel` folder into individual icons.
 
-`extract-symbolic-icons.rb`
- - this script will chop up the `source-symbolic.svg` plate in the `symbolic` folder into individual icons.
-
-`extract-symbolic-app-icons.rb`
- - this script will chop up the `source-apps-symbolic.svg` plate in the `symbolic` folder into individual icons.
+`extract-symbolic-(app-)icons.rb`
+ - this script will chop up the `source-(apps-)symbolic.svg` plate in the [symbolic](./symbolic)` folder into individual icons.
 
 `extract-vector-app-icons.rb`
- - this script will chop up the source plates in the `vector` folder into individual icons.
+ - this script will chop up the source plates in [vector](./vector) into individual icons.
 
 `render-bitmaps(-hidpi).py`
-- will render all hicolor icons for Paper both the normal and high dpi variations respectively.
+- will render all hicolor Paper icons in both @1x and @2x resolutions from the source files in [bitmaps](./bitmaps).
 
 `render-cursors.sh`
 - will render the cursor assets and build the cursor theme
