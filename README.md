@@ -27,7 +27,7 @@ This procedure requires ```autotools``` on your system.
 
 You may install Paper by running the provided installation script:
 
-    ./install.sh
+    ./install-icon-theme.sh
     
 ##Missing Icons & Requests
 
