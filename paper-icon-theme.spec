@@ -1,30 +1,14 @@
-# Spec file for package paper-icon-theme
-#
-# Copyright (c) 2016 Sam Hewitt <sam@snwh.org>
-#
-# All modifications and additions to the file contributed by third parties
-# remain the property of their copyright owners, unless otherwise agreed
-# upon. The license for this file, and modifications and additions to the
-# file, is the same license as for the pristine package itself (unless the
-# license for the pristine package is not an Open Source License, in which
-# case the license is the MIT License). An "Open Source License" is a
-# license that conforms to the Open Source Definition (Version 1.9)
-# published by the Open Source Initiative.
-#
-
-
-# GitHub Stuff
-%global commit0 40-CHARACTER-HASH-VALUE
-
 Name:       paper-icon-theme
-Version:    1.3
-Release:	.git%{commit0}
 Summary:    Paper Icons
-Source0:    https://github.com/snwh/%{name}/archive/%{commit0}.tar.gz
-
+Version:    1.3
 Group:      System/GUI/Other
 License:    CC-BY-SA-4.0
 Url:        http://snwh.org/paper/icons
+
+%global commit0 40-CHARACTER-HASH-VALUE
+
+Release:	.git%{commit0}
+Source0:    https://github.com/snwh/%{name}/archive/%{commit0}.tar.gz
 
 BuildArch:  noarch
 Requires:   hicolor-icon-theme, gnome-icon-theme
