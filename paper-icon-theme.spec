@@ -5,12 +5,10 @@ Group:      System/GUI/Other
 License:    CC-BY-SA-4.0
 Url:        http://snwh.org/paper/icons
 
-%global commit0 40-CHARACTER-HASH-VALUE
-%global shortcommit0 %(c=%{commit0}; echo ${c:0:7})
+%global 	commit0 40-CHARACTER-HASH-VALUE
 
-
-Release:	%{timestamp}.git%{?dist}
-Source0:  	https://github.com/snwh/%{name}/archive/%{commit0}.tar.gz#/%{name}-%{shortcommit0}.tar.gz
+Release:	.git%{?dist}
+Source0:    https://github.com/snwh/%{name}/archive/%{commit0}.tar.gz
 
 BuildArch:  noarch
 Requires:   hicolor-icon-theme, gnome-icon-theme
@@ -19,7 +17,7 @@ Requires:   hicolor-icon-theme, gnome-icon-theme
 Paper Icon Theme
 
 %prep
-%autosetup -n %{name}-%{commit0}
+%setup -qn %{name}-%{commit0}
 
 # Delete dead icon symlinks
 find -L . -type l -delete
