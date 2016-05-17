@@ -7,7 +7,7 @@ Url:        http://snwh.org/paper/icons
 
 %global 	commit0 40-CHARACTER-HASH-VALUE
 
-Release:	.git%{commit0}
+Release:	%{timestamp}.git
 Source0:    https://github.com/snwh/%{name}/archive/%{commit0}.tar.gz
 
 BuildArch:  noarch
