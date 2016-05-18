@@ -8,7 +8,7 @@ Url:        http://snwh.org/paper/icons
 %global 	commit0 40-CHARACTER-HASH-VALUE
 
 Release:	%{timestamp}.git
-Source0:    https://github.com/snwh/%{name}/archive/%{commit0}.tar.gz
+Source0:    https://github.com/snwh/%{name}/archive/%{commit0}.tar.gz#/%{name}-%{commit0}.tar.gz
 
 BuildArch:  noarch
 Requires:   hicolor-icon-theme, gnome-icon-theme
