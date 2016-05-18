@@ -34,6 +34,7 @@ Paper is simple and modern icon theme with material design influences.
 %prep
 %setup -q
 find -L . -type l -print -delete
+chmod +x autogen.sh
 chmod a-x AUTHORS README.md
 
 %build
