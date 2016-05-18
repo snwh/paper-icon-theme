@@ -1,34 +1,55 @@
-Name:       paper-icon-theme
-Summary:    Paper Icons
-Version:    1.3
-Group:      System/GUI/Other
-License:    CC-BY-SA-4.0
-Url:        http://snwh.org/paper/icons
+#
+# Spec file for package paper-icon-theme
+#
+# Copyright (c) 2016 Sam Hewitt
+#
+# All modifications and additions to the file contributed by third parties
+# remain the property of their copyright owners, unless otherwise agreed
+# upon. The license for this file, and modifications and additions to the
+# file, is the same license as for the pristine package itself (unless the
+# license for the pristine package is not an Open Source License, in which
+# case the license is the MIT License). An "Open Source License" is a
+# license that conforms to the Open Source Definition (Version 1.9)
+# published by the Open Source Initiative.
+#
 
-%global 	commit0 40-CHARACTER-HASH-VALUE
-
-Release:	%{timestamp}.git
-Source0:    https://github.com/snwh/%{name}/archive/%{commit0}.tar.gz#/%{name}-%{commit0}.tar.gz
-
-BuildArch:  noarch
-Requires:   hicolor-icon-theme, gnome-icon-theme
+Name:           paper-icon-theme
+Version:        1.3
+Release:        0
+License:        CC-BY-SA-4.0
+Summary:        Paper Icon theme
+Url:            https://snwh.org/paper
+Group:          System/GUI/Other
+Source:         %{name}-%{version}.tar.xz
+BuildRequires:  automake
+BuildRequires:  fdupes
+BuildRequires:  hicolor-icon-theme
+BuildRequires:  icon-naming-utils >= 0.8.7
+BuildRoot:      %{_tmppath}/%{name}-%{version}-build
+BuildArch:      noarch
 
 %description
-Paper Icon Theme
+Paper is simple and modern icon theme with material design influences.
 
 %prep
-%setup -qn %{name}-%{commit0}
-
-# Delete dead icon symlinks
-find -L . -type l -delete
+%setup -q
+find -L . -type l -print -delete
+chmod a-x AUTHORS README.md
 
 %build
+./autogen.sh
+make %{?_smp_mflags}
 
 %install
-install -dpm 0755 $RPM_BUILD_ROOT%{_datadir}/icons/
-cp -a Paper/ $RPM_BUILD_ROOT%{_datadir}/icons/
+make install DESTDIR=%{buildroot} %{?_smp_mflags}
+rm -f %{buildroot}%{_datadir}/icons/Paper/AUTHORS
+%fdupes %{buildroot}%{_datadir}/icons/Paper
+
+%post
+%icon_theme_cache_post Paper
 
 %files
-%doc AUTHORS COPYING
-%{_datadir}/icons/Paper/
-
+%defattr(-,root,root)
+%doc AUTHORS COPYING LICENSE_* README.md
+%{_datadir}/icons/Paper
+%ghost %{_datadir}/icons/Paper/icon-theme.cache
