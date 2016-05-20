@@ -107,7 +107,7 @@ def chopSVG(icon)
     puts " >> #{icon[:name]}"
     cmd = "#{INKSCAPE} -f #{icon[:file]} --select #{icon[:id]} --verb=FitCanvasToSelection  --verb=EditInvertInAllLayers "
     cmd += "--verb=EditDelete --verb=EditSelectAll --verb=SelectionUnGroup --verb=SelectionUnGroup --verb=SelectionUnGroup --verb=StrokeToPath --verb=FileVacuum "
-    cmd += "--verb=FileSave --verb=FileClose > /dev/null 2>&1"
+    cmd += "--verb=FileSave --verb=FileQuit > /dev/null 2>&1"
     system(cmd)
     #saving as plain SVG gets rid of the classes :/
     #cmd = "#{INKSCAPE} -f #{icon[:file]} --vacuum-defs -l #{icon[:file]} > /dev/null 2>&1"
