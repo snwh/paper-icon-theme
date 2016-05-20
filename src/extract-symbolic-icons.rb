@@ -23,7 +23,7 @@ include REXML
 
 INKSCAPE = '/usr/bin/inkscape'
 SRC = "symbolic/source-symbolic.svg"
-PREFIX = "../Paper/symbolic"
+PREFIX = "../Paper/scalable"
 
 
 def chopSVG(icon)
