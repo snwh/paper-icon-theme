@@ -13,7 +13,11 @@ Paper is licenced under the terms of the [Creative Commons Attribution-ShareAlik
 
 Software that is included is free software; you can redistribute it and/or modify it under the terms of the [GNU Lesser General Public License](https://www.gnu.org/licenses/lgpl-3.0.txt)
 
-###Building Paper
+###Downloading Paper
+
+Download instructions and options are available on the [official site](https://snwh.org/paper/download).
+
+###Installing From Source
 
 You can build and install the Paper icon themes from source:
 
@@ -23,12 +27,10 @@ You can build and install the Paper icon themes from source:
 
 This procedure requires ```autotools``` on your system.
 
-###Installing Paper
-
-You may install Paper by running the provided installation script:
+Or you can install Paper by running the provided installation script:
 
     ./install-icon-theme.sh
-    
+
 ##Missing Icons & Requests
 
 When filing an icon request or reporting a missing icon, please take care in providing the following useful information: 
