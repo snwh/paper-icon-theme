@@ -21,12 +21,17 @@ PanelDefault=32
 PanelSizes=16,22,32,48,64,72,96,128
 
 # Directory list
-Directories=8x8/emblems,16x16/actions,16x16/apps,16x16/categories,16x16/devices,16x16/emblems,16x16/emotes,16x16/mimetypes,16x16/panel,16x16/places,16x16/status,16x16/web,22x22/animations,22x22/panel,24x24/actions,24x24/animations,24x24/apps,24x24/categories,24x24/devices,24x24/emblems,24x24/emotes,24x24/mimetypes,24x24/panel,24x24/places,24x24/status,24x24/web,32x32/actions,32x32/apps,32x32/categories,32x32/devices,32x32/emblems,32x32/emotes,32x32/mimetypes,32x32/places,32x32/status,32x32/web,48x48/actions,48x48/apps,48x48/categories,48x48/devices,48x48/emblems,48x48/emotes,48x48/mimetypes,48x48/notifications,48x48/places,48x48/status,48x48/web,512x512/actions,512x512/apps,512x512/categories,512x512/devices,512x512/emblems,512x512/emotes,512x512/mimetypes,512x512/places,512x512/status,512x512/web,8x8@2x/emblems,16x16@2x/actions,16x16@2x/apps,16x16@2x/categories,16x16@2x/devices,16x16@2x/emblems,16x16@2x/emotes,16x16@2x/mimetypes,16x16@2x/places,16x16@2x/status,16x16@2x/web,24x24@2x/actions,24x24@2x/apps,24x24@2x/categories,24x24@2x/devices,24x24@2x/emblems,24x24@2x/emotes,24x24@2x/mimetypes,24x24@2x/places,24x24@2x/status,24x24@2x/web,32x32@2x/actions,32x32@2x/apps,32x32@2x/categories,32x32@2x/devices,32x32@2x/emblems,32x32@2x/emotes,32x32@2x/mimetypes,32x32@2x/places,32x32@2x/status,32x32@2x/web,48x48@2x/actions,48x48@2x/apps,48x48@2x/categories,48x48@2x/devices,48x48@2x/emblems,48x48@2x/emotes,48x48@2x/mimetypes,48x48@2x/places,48x48@2x/status,48x48@2x/web,512x512@2x/actions,512x512@2x/apps,512x512@2x/categories,512x512@2x/devices,512x512@2x/emblems,512x512@2x/emotes,512x512@2x/mimetypes,512x512@2x/places,512x512@2x/status,512x512@2x/web,scalable/actions,scalable/apps,scalable/categories,scalable/devices,scalable/emblems,scalable/emotes,scalable/mimetypes,scalable/places,scalable/status
+Directories=8x8/emblems,16x16/actions,16x16/apps,16x16/categories,16x16/devices,16x16/emblems,16x16/emotes,16x16/mimetypes,16x16/panel,16x16/places,16x16/status,16x16/web,22x22/actions,22x22/animations,22x22/apps,22x22/categories,22x22/devices,22x22/emblems,22x22/emotes,22x22/mimetypes,22x22/panel,22x22/places,22x22/status,22x22/web,24x24/actions,24x24/animations,24x24/apps,24x24/categories,24x24/devices,24x24/emblems,24x24/emotes,24x24/mimetypes,24x24/panel,24x24/places,24x24/status,24x24/web,32x32/actions,32x32/apps,32x32/categories,32x32/devices,32x32/emblems,32x32/emotes,32x32/mimetypes,32x32/places,32x32/status,32x32/web,48x48/actions,48x48/apps,48x48/categories,48x48/devices,48x48/emblems,48x48/emotes,48x48/mimetypes,48x48/notifications,48x48/places,48x48/status,48x48/web,512x512/actions,512x512/apps,512x512/categories,512x512/devices,512x512/emblems,512x512/emotes,512x512/mimetypes,512x512/places,512x512/status,512x512/web,8x8@2x/emblems,16x16@2x/actions,16x16@2x/apps,16x16@2x/categories,16x16@2x/devices,16x16@2x/emblems,16x16@2x/emotes,16x16@2x/mimetypes,16x16@2x/places,16x16@2x/status,16x16@2x/web,24x24@2x/actions,24x24@2x/apps,24x24@2x/categories,24x24@2x/devices,24x24@2x/emblems,24x24@2x/emotes,24x24@2x/mimetypes,24x24@2x/places,24x24@2x/status,24x24@2x/web,32x32@2x/actions,32x32@2x/apps,32x32@2x/categories,32x32@2x/devices,32x32@2x/emblems,32x32@2x/emotes,32x32@2x/mimetypes,32x32@2x/places,32x32@2x/status,32x32@2x/web,48x48@2x/actions,48x48@2x/apps,48x48@2x/categories,48x48@2x/devices,48x48@2x/emblems,48x48@2x/emotes,48x48@2x/mimetypes,48x48@2x/places,48x48@2x/status,48x48@2x/web,512x512@2x/actions,512x512@2x/apps,512x512@2x/categories,512x512@2x/devices,512x512@2x/emblems,512x512@2x/emotes,512x512@2x/mimetypes,512x512@2x/places,512x512@2x/status,512x512@2x/web,scalable/actions,scalable/apps,scalable/categories,scalable/devices,scalable/emblems,scalable/emotes,scalable/mimetypes,scalable/places,scalable/status
 
 # Actions
 [16x16/actions]
 Context=Actions
 Size=16
+Type=Fixed
+
+[22x22/actions]
+Context=Actions
+Size=22
 Type=Fixed
 
 [24x24/actions]
@@ -77,6 +82,11 @@ Context=Applications
 Size=16
 Type=Fixed
 
+[22x22/apps]
+Context=Applications
+Size=22
+Type=Fixed
+
 [24x24/apps]
 Context=Applications
 Size=24
@@ -114,6 +124,11 @@ Context=Categories
 Size=16
 Type=Fixed
 
+[22x22/categories]
+Context=Categories
+Size=22
+Type=Fixed
+
 [24x24/categories]
 Context=Categories
 Size=24
@@ -148,6 +163,11 @@ Type=Scalable
 [16x16/devices]
 Context=Devices
 Size=16
+Type=Fixed
+
+[22x22/devices]
+Context=Devices
+Size=22
 Type=Fixed
 
 [24x24/devices]
@@ -191,6 +211,11 @@ Context=Emblems
 Size=16
 Type=Fixed
 
+[22x22/emblems]
+Context=Emblems
+Size=22
+Type=Fixed
+
 [24x24/emblems]
 Context=Emblems
 Size=24
@@ -227,6 +252,11 @@ Context=Emotes
 Size=16
 Type=Fixed
 
+[22x22/emotes]
+Context=Emotes
+Size=22
+Type=Fixed
+
 [24x24/emotes]
 Context=Emotes
 Size=24
@@ -261,6 +291,11 @@ Type=Scalable
 [16x16/mimetypes]
 Context=MimeTypes
 Size=16
+Type=Fixed
+
+[22x22/mimetypes]
+Context=MimeTypes
+Size=22
 Type=Fixed
 
 [24x24/mimetypes]
@@ -325,6 +360,11 @@ Context=Places
 Size=16
 Type=Fixed
 
+[22x22/places]
+Context=Places
+Size=22
+Type=Fixed
+
 [24x24/places]
 Context=Places
 Size=24
@@ -361,6 +401,11 @@ Context=Status
 Size=16
 Type=Fixed
 
+[22x22/status]
+Context=Status
+Size=22
+Type=Fixed
+
 [24x24/status]
 Context=Status
 Size=24
@@ -395,6 +440,11 @@ Type=Scalable
 [16x16/web]
 Context=Applications
 Size=16
+Type=Fixed
+
+[22x22/web]
+Context=Applications
+Size=22
 Type=Fixed
 
 [24x24/web]
@@ -439,6 +489,12 @@ Scale=2
 Size=16
 Type=Fixed
 
+[22x22@2x/actions]
+Context=Actions
+Scale=2
+Size=22
+Type=Fixed
+
 [24x24@2x/actions]
 Context=Actions
 Scale=2
@@ -472,6 +528,12 @@ Type=Scalable
 Context=Applications
 Scale=2
 Size=16
+Type=Fixed
+
+[22x22@2x/apps]
+Context=Applications
+Scale=2
+Size=22
 Type=Fixed
 
 [24x24@2x/apps]
@@ -508,6 +570,12 @@ Scale=2
 Size=16
 Type=Fixed
 
+[22x22@2x/categories]
+Context=Categories
+Scale=2
+Size=22
+Type=Fixed
+
 [24x24@2x/categories]
 Context=Categories
 Scale=2
@@ -540,6 +608,12 @@ Type=Scalable
 Context=Devices
 Scale=2
 Size=16
+Type=Fixed
+
+[22x22@2x/devices]
+Context=Devices
+Scale=2
+Size=22
 Type=Fixed
 
 [24x24@2x/devices]
@@ -583,6 +657,12 @@ Scale=2
 Size=16
 Type=Fixed
 
+[22x22@2x/emblems]
+Context=Emblems
+Scale=2
+Size=22
+Type=Fixed
+
 [24x24@2x/emblems]
 Context=Emblems
 Scale=2
@@ -615,6 +695,12 @@ Type=Scalable
 Context=Emotes
 Scale=2
 Size=16
+Type=Fixed
+
+[22x22@2x/emotes]
+Context=Emotes
+Scale=2
+Size=22
 Type=Fixed
 
 [24x24@2x/emotes]
@@ -651,6 +737,12 @@ Scale=2
 Size=16
 Type=Fixed
 
+[22x22@2x/mimetypes]
+Context=MimeTypes
+Scale=2
+Size=22
+Type=Fixed
+
 [24x24@2x/mimetypes]
 Context=MimeTypes
 Scale=2
@@ -683,6 +775,12 @@ Type=Scalable
 Context=Places
 Scale=2
 Size=16
+Type=Fixed
+
+[22x22@2x/places]
+Context=Places
+Scale=2
+Size=22
 Type=Fixed
 
 [24x24@2x/places]
@@ -719,6 +817,12 @@ Scale=2
 Size=16
 Type=Fixed
 
+[22x22@2x/status]
+Context=Status
+Scale=2
+Size=22
+Type=Fixed
+
 [24x24@2x/status]
 Context=Status
 Scale=2
@@ -751,6 +855,12 @@ Type=Scalable
 Context=Applications
 Scale=2
 Size=16
+Type=Fixed
+
+[22x22@2x/web]
+Context=Applications
+Scale=2
+Size=22
 Type=Fixed
 
 [24x24@2x/web]
