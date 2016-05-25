@@ -31,16 +31,16 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:window-width="1920"
-     inkscape:window-height="984"
+     inkscape:window-height="1023"
      id="namedview88"
      showgrid="false"
-     inkscape:zoom="1"
-     inkscape:cx="435.53923"
-     inkscape:cy="645.79611"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="199.5981"
+     inkscape:cy="103.03924"
      inkscape:window-x="0"
-     inkscape:window-y="32"
+     inkscape:window-y="27"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer9"
+     inkscape:current-layer="layer12"
      showborder="true"
      inkscape:snap-nodes="true"
      inkscape:snap-bbox="true"
@@ -3925,27 +3925,6 @@
          transform="translate(241.0002,-727)"
          d="m 88,273 0,2 8,0 0,-2 z m -2,3 c -0.5,0 -1,0.5 -1,1 l 0,4 c 0,0.5 0.5,1 1,1 l 1,0 0,-2 7,0 1.673828,0 c 0.221777,-0.15629 0.481418,-0.25653 0.759766,-0.26953 l 0.002,0 c 0.5384,-0.0244 1.047523,0.25604 1.314453,0.72461 l 0.767578,1.35351 C 98.791419,281.61891 99,281.31648 99,281 l 0,-4 c 0,-0.5 -0.5,-1 -1,-1 z m 2,5 0,5 4.130859,0 c 0.02059,-0.0494 0.0314,-0.10057 0.05859,-0.14844 L 94.941406,281 Z"
          style="fill:#4d4d4d;fill-opacity:1;stroke:none;" />
-    </g>
-    <g
-       id="g6284-3"
-       inkscape:label="system-lock-screen "
-       transform="translate(280.00261,0.0034)"
-       style="display:inline;enable-background:new">
-      <path
-         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#4d4d4d;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;enable-background:accumulate"
-         d="m 232,53 c -2.216,0 -4,1.82162 -4,4.0625 l 0,1.9375 -2,0 0,8 12,0 0,-8 -2,0 0,-1.9375 C 236,54.8225 234.216,53 232,53 Z m 0,2 c 1.108,0 2,0.892 2,2 l 0,2 -4,0 0,-2 c 0,-1.108 0.892,-2 2,-2 z"
-         transform="translate(141.0002,-467)"
-         id="path5739-9"
-         inkscape:connector-curvature="0" />
-      <rect
-         clip-path="none"
-         style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:1;marker:none"
-         id="rect5737-9"
-         width="16"
-         height="16"
-         x="399.00336"
-         y="364.99759"
-         transform="matrix(0,-1,1,0,0,0)" />
     </g>
     <g
        style="display:inline;enable-background:new"
@@ -11235,8 +11214,7 @@
          transform="scale(-1,-1)" />
       <path
          style="display:inline;fill:#4d4d4d;fill-opacity:1;stroke:none;enable-background:new"
-         d="m 272,774 a 1,1 0 0 0 -1,1 1,1 0 0 0 1,1 4,4 0 0 1 4,4 l -2,0 3,4 3,-4 -2,0 a 6,6 0 0 0 -6,-6 z m -5,2 -3,4 2,0 a 6,6 0 0 0 6,6 1,1 0 0 0 1,-1 1,1 0 0 0 -1,-1 4,4 0 0 1 -4,-4 l 2,0 -3,-4 z"
-         transform="translate(241.0002,-567)"
+         d="m 513.0002,207 a 1,1 0 0 1 1,1 1,1 0 0 1 -1,1 4,4 0 0 0 -4,4 l 2,0 -3,4 -3,-4 2,0 a 6,6 0 0 1 6,-6 z m 5,2 3,4 -2,0 a 6,6 0 0 1 -6,6 1,1 0 0 1 -1,-1 1,1 0 0 1 1,-1 4,4 0 0 0 4,-4 l -2,0 3,-4 z"
          id="path6366"
          inkscape:connector-curvature="0" />
     </g>
@@ -11618,6 +11596,27 @@
          height="16"
          x="405.00043"
          y="-255.00336" />
+    </g>
+    <g
+       id="g6284-3"
+       inkscape:label="system-lock-screen"
+       transform="translate(140.00261,580.0034)"
+       style="display:inline;enable-background:new">
+      <path
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#4d4d4d;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;enable-background:accumulate"
+         d="m 232,53 c -2.216,0 -4,1.82162 -4,4.0625 l 0,1.9375 -2,0 0,8 12,0 0,-8 -2,0 0,-1.9375 C 236,54.8225 234.216,53 232,53 Z m 0,2 c 1.108,0 2,0.892 2,2 l 0,2 -4,0 0,-2 c 0,-1.108 0.892,-2 2,-2 z"
+         transform="translate(141.0002,-467)"
+         id="path5739-9"
+         inkscape:connector-curvature="0" />
+      <rect
+         clip-path="none"
+         style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:1;marker:none"
+         id="rect5737-9"
+         width="16"
+         height="16"
+         x="399.00336"
+         y="364.99759"
+         transform="matrix(0,-1,1,0,0,0)" />
     </g>
   </g>
 </svg>
