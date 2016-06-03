@@ -40,3 +40,7 @@ When filing an icon request or reporting a missing icon, please take care in pro
  - A short description of the application or software that you are requesting an icon for.
 
 Note: some software ships hardcoded icons, meaning when you install icons are not placed in the system-wide directory `/usr/share/icons` which makes them unthemeable.
+
+##Help & Support
+
+You can visit the support channel `#Paper-Chat` on Freenode for questions and discussion.
