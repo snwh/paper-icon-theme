@@ -34,9 +34,9 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="-18.914193"
-     inkscape:cy="-419.62041"
-     inkscape:current-layer="g3816"
+     inkscape:cx="109.88472"
+     inkscape:cy="24.776193"
+     inkscape:current-layer="layer6"
      showgrid="false"
      inkscape:grid-bbox="true"
      inkscape:document-units="px"
@@ -101,18 +101,6 @@
          style="fill:#ffffff;fill-opacity:1;stroke:none"
          inkscape:connector-curvature="0" />
     </clipPath>
-    <filter
-       inkscape:collect="always"
-       id="filter4987"
-       x="-0.13"
-       width="1.26"
-       y="-0.11142857"
-       height="1.2228571">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="0.65"
-         id="feGaussianBlur4989" />
-    </filter>
     <clipPath
        clipPathUnits="userSpaceOnUse"
        id="clipPath4140-8">
@@ -131,18 +119,6 @@
          style="fill:#e1e1e1;fill-opacity:1;stroke:none"
          inkscape:connector-curvature="0" />
     </clipPath>
-    <filter
-       inkscape:collect="always"
-       id="filter4148"
-       x="-0.1275"
-       width="1.255"
-       y="-0.11333333"
-       height="1.2266667">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="0.425"
-         id="feGaussianBlur4150" />
-    </filter>
     <clipPath
        clipPathUnits="userSpaceOnUse"
        id="clipPath4278">
@@ -403,8 +379,8 @@
            clip-path="url(#clipPath4266-4)"
            inkscape:connector-curvature="0"
            id="path3338"
-           d="m 163.22,242.44857 0,11 c 0,1.10457 0.89543,2 2,2 l 10,0 -1,-1 -10,-9 z"
-           style="display:inline;opacity:0.1;fill:#000000;fill-opacity:1;stroke:none;filter:url(#filter4987);enable-background:new"
+           d="m 163.22,242.44857 0,11 c 0,1.10457 0.89543,2 2,2 l 10,0 0,-1 -11,-9 z"
+           style="display:inline;opacity:0.1;fill:#000000;fill-opacity:1;stroke:none;enable-background:new"
            transform="translate(8.78,-2.44857)" />
         <path
            inkscape:connector-curvature="0"
@@ -438,7 +414,7 @@
         <path
            transform="translate(8,0)"
            clip-path="url(#clipPath4168)"
-           style="display:inline;opacity:0.1;fill:#000000;fill-opacity:1;stroke:none;filter:url(#filter4148);enable-background:new"
+           style="display:inline;opacity:0.1;fill:#000000;fill-opacity:1;stroke:none;enable-background:new"
            d="m 107,254 0,7.5 c 0,0.82843 0.67158,1.5 1.5,1.5 l 6.5,0 0,-1 z"
            id="path4110"
            inkscape:connector-curvature="0"
