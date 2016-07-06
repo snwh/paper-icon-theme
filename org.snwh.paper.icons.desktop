@@ -1,0 +1,7 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Type=Application
+Terminal=false
+Name=Paper Icon Theme
+Icon=preferences-color
+Exec=bash -c 'notify-send "Paper Icon Theme" "Getting the latest version of the Paper icons..." -i system-software-update; cd /tmp/; rm -Rf /tmp/paper-icon-theme.zip 2>/dev/null; rm -Rf /tmp/paper-icon-theme-master/ 2>/dev/null; wget https://github.com/snwh/paper-icon-theme/archive/master.zip -O paper-icon-theme.zip; unzip paper-icon-theme.zip; cd paper-icon-theme-master; rm -Rf "$HOME/.local/share/icons/Paper" 2>/dev/null; install -d $HOME/.local/share/icons; cp -R ./Paper/ $HOME/.local/share/icons/; install -d $HOME/.icons; cp -R ./Paper/ $HOME/.icons/;gsettings reset org.gnome.desktop.interface icon-theme; gsettings set org.gnome.desktop.interface icon-theme "Paper"; notify-send "All done!" "Enjoy the latest version of Paper!" -i face-smile'

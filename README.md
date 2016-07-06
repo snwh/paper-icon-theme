@@ -17,7 +17,13 @@ Software that is included is free software; you can redistribute it and/or modif
 
 Download instructions and options are available on the [official site](https://snwh.org/paper/download).
 
-###Installing From Source
+###Install
+
+You can install or update Paper on-demand via the provided `.desktop` file. Moving it to your local applications folder will allow it to appear in your applications menu.
+
+	cp -r org.snwh.paper.icons.desktop ~/.local/share/applications
+
+###Build From Source
 
 You can build and install the Paper icon themes from source:
 
@@ -26,10 +32,6 @@ You can build and install the Paper icon themes from source:
     sudo make install
 
 This procedure requires ```autotools``` on your system.
-
-Or you can install Paper by running the provided installation script:
-
-    ./install-icon-theme.sh
 
 ##Missing Icons & Requests
 
