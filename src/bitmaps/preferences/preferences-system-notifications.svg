@@ -29,23 +29,23 @@
      stroke="#ef2929"
      fill="#f57900"
      id="base"
-     pagecolor="#ffffff"
+     pagecolor="#3e3e3e"
      bordercolor="#666666"
      borderopacity="0.25490196"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="110.9515"
-     inkscape:cy="23.533567"
+     inkscape:cx="374.4515"
+     inkscape:cy="141.53357"
      inkscape:current-layer="layer6"
      showgrid="false"
      inkscape:grid-bbox="true"
      inkscape:document-units="px"
      inkscape:showpageshadow="false"
      inkscape:window-width="1920"
-     inkscape:window-height="1023"
+     inkscape:window-height="1020"
      inkscape:window-x="0"
-     inkscape:window-y="27"
+     inkscape:window-y="30"
      width="400px"
      height="300px"
      inkscape:snap-nodes="true"
@@ -1655,15 +1655,15 @@
     <filter
        inkscape:collect="always"
        style="color-interpolation-filters:sRGB"
-       id="filter4603"
-       x="-0.024"
-       width="1.048"
-       y="-0.024"
-       height="1.048">
+       id="filter4367"
+       x="-0.06"
+       width="1.12"
+       y="-0.06"
+       height="1.12">
       <feGaussianBlur
          inkscape:collect="always"
-         stdDeviation="2.4"
-         id="feGaussianBlur4605" />
+         stdDeviation="6"
+         id="feGaussianBlur4369" />
     </filter>
   </defs>
   <metadata
@@ -1855,7 +1855,7 @@
          d="m 280,-144 c -13.296,0 -24,10.704 -24,24 l 0,272 c 0,13.296 10.704,24 24,24 l 216,0 48,48 48,-48 56,0 c 13.296,0 24,-10.704 24,-24 l 0,-272 c 0,-13.296 -10.704,-24 -24,-24 z"
          style="opacity:0.2;fill:#000000;fill-opacity:1;stroke:none;filter:url(#filter4508)" />
       <path
-         style="opacity:1;fill:#455a64;fill-opacity:1;stroke:none"
+         style="opacity:1;fill:#cfd8dc;fill-opacity:1;stroke:none"
          d="m 153,244 c -3,0 -3,3 -3,3 l 0,22 c 0,0 0.0179,3 3,3 l 17,0 4,4 4,-4 5,0 c 3,0 3,-3 3,-3 l 0,-22 c 0,0 0,-3 -3,-3 z"
          id="rect4203"
          inkscape:connector-curvature="0"
@@ -1866,19 +1866,19 @@
          transform="translate(0,-244)"
          id="path4368" />
       <path
-         style="opacity:1;fill:#455a64;fill-opacity:1;stroke:none"
+         style="opacity:1;fill:#cfd8dc;fill-opacity:1;stroke:none"
          d="m 280,-148 c -13.296,0 -24,10.704 -24,24 l 0,272 c 0,13.296 10.704,24 24,24 l 216,0 48,48 48,-48 56,0 c 13.296,0 24,-10.704 24,-24 l 0,-272 c 0,-13.296 -10.704,-24 -24,-24 z"
          id="rect4229"
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="sssscccsssss" />
       <path
-         style="opacity:1;fill:#455a64;fill-opacity:1;stroke:none"
+         style="opacity:1;fill:#cfd8dc;fill-opacity:1;stroke:none"
          d="m 100.5,257 c -0.831,0 -1.5,0.669 -1.5,1.5 l 0,17 c 0,0.831 0.669,1.5 1.5,1.5 l 13.5,0 3,3 3,-3 3.5,0 c 0.831,0 1.5,-0.669 1.5,-1.5 l 0,-17 c 0,-0.831 -0.669,-1.5 -1.5,-1.5 z"
          id="rect4255"
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="sssscccsssss" />
       <path
-         style="display:inline;opacity:1;fill:#455a64;fill-opacity:1;stroke:none;enable-background:new"
+         style="display:inline;opacity:1;fill:#cfd8dc;fill-opacity:1;stroke:none;enable-background:new"
          d="m 18,270 c -0.554,0 -1,0.446 -1,1 l 0,10 c 0,0.554 0.467316,1.1522 1,1 l 7,0 2,2 2,-2 1,0 c 0.554,0 1,-0.446 1,-1 l 0,-10 c 0,-0.554 -0.446,-1 -1,-1 z"
          id="rect4265"
          inkscape:connector-curvature="0"
@@ -1925,16 +1925,10 @@
          r="8" />
       <circle
          r="120"
-         cy="-86"
+         cy="-88"
          cx="344"
-         style="display:inline;opacity:0.2;fill:#000000;fill-opacity:1;stroke:none;filter:url(#filter4603);enable-background:new"
+         style="display:inline;opacity:0.5;fill:#000000;fill-opacity:1;stroke:none;enable-background:new;filter:url(#filter4367)"
          id="circle5192" />
-      <circle
-         id="circle4607"
-         style="display:inline;opacity:0.1;fill:#000000;fill-opacity:1;stroke:#000000;filter:url(#filter4603);enable-background:new;stroke-opacity:1;stroke-width:8;stroke-miterlimit:4;stroke-dasharray:none"
-         cx="344"
-         cy="-86"
-         r="120" />
       <circle
          id="circle5194"
          style="display:inline;fill:#03a9f4;fill-opacity:1;stroke:none;enable-background:new"
@@ -1951,7 +1945,7 @@
          inkscape:connector-curvature="0"
          id="path4578"
          d="m 56,265 c -0.554,0 -1,0.446 -1,1 l 0,12 c 0,0.554 0.446,1 1,1 l 9,0 2,2 2,-2 3,0 c 0.554,0 1,-0.446 1,-1 l 0,-12 c 0,-0.554 -0.446,-1 -1,-1 z"
-         style="opacity:1;fill:#455a64;fill-opacity:1;stroke:none" />
+         style="opacity:1;fill:#cfd8dc;fill-opacity:1;stroke:none" />
       <circle
          r="6"
          id="circle5188"
