@@ -45,4 +45,6 @@ Note: some software ships hardcoded icons, meaning when you install icons are no
 
 ##Help & Support
 
-You can visit the support channel `#Paper-Chat` on Freenode for questions and discussion.
+You can visit the support channel `#Paper-Chat` on Freenode for questions and discussion or join the Gitter chat:
+
+[![Join the chat at https://gitter.im/paper-icon-theme/Lobby](https://badges.gitter.im/paper-icon-theme/Lobby.svg)](https://gitter.im/paper-icon-theme/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
