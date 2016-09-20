@@ -51,6 +51,6 @@ rm -f %{buildroot}%{_datadir}/icons/Paper/AUTHORS
 
 %files
 %defattr(-,root,root)
-%doc AUTHORS COPYING LICENSE_* README.md
+%doc AUTHORS COPYING LICENSE README.md
 %{_datadir}/icons/Paper
 %ghost %{_datadir}/icons/Paper/icon-theme.cache
