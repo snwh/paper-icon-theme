@@ -5,7 +5,7 @@ Paper is a modern freedesktop icon theme whose design is based around the use of
 
 While it does take some inspiration from the icons in Google's Material Design, some aspects have been adjusted to better suit a desktop environment.
 
-###Copying or Reusing
+##Copying or Reusing
 
 Paper is licenced under the terms of the [Creative Commons Attribution-ShareAlike](https://creativecommons.org/licenses/by-sa/4.0/). When reusing this work be sure to include a proper attribution:
 
@@ -13,7 +13,7 @@ Paper is licenced under the terms of the [Creative Commons Attribution-ShareAlik
 
 Software that is included is free software; you can redistribute it and/or modify it under the terms of the [GNU Lesser General Public License](https://www.gnu.org/licenses/lgpl-3.0.txt)
 
-###Downloading Paper
+##Downloading Paper
 
 Download instructions are available on the [official site](https://snwh.org/paper/download).
 
