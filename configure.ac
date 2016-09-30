@@ -1,4 +1,4 @@
-AC_INIT([Paper ], 1.1, [https://github.com/snwh/paper-icon-theme/issues], [paper-icon-theme], [http://snwh.org/paper])
+AC_INIT([Paper ], 1.3, [https://github.com/snwh/paper-icon-theme/issues], [paper-icon-theme], [http://snwh.org/paper])
 AM_INIT_AUTOMAKE([-Wno-portability no-dist-gzip dist-xz foreign subdir-objects 1.9 tar-ustar])
 AC_PREFIX_DEFAULT(/usr/local)
 AM_SILENT_RULES([yes])
