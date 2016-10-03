@@ -21,6 +21,7 @@ import os
 import sys
 import xml.sax
 import subprocess
+import argparse
 
 INKSCAPE = '/usr/bin/inkscape'
 OPTIPNG = '/usr/bin/optipng'
@@ -28,9 +29,14 @@ MAINDIR = '../Paper'
 SOURCES = ('bitmaps/actions', 'bitmaps/apps', 'bitmaps/categories', 'bitmaps/devices', 'bitmaps/emblems', 'bitmaps/emotes', 'bitmaps/games', 'bitmaps/logos', 'bitmaps/mimetypes', 'bitmaps/places', 'bitmaps/preferences', 'bitmaps/status', 'bitmaps/stock', 'bitmaps/web')
 # SRC = 'bitmaps'
 
+# the resolution that non-hi-dpi icons are rendered at
+DPI_1_TO_1 = 90
+# DPI multipliers to render at
+DPIS = [1, 2]
+
 inkscape_process = None
 
-def main(SRC):
+def main(args, SRC):
 
     def optimize_png(png_file):
         if os.path.exists(OPTIPNG):
@@ -57,11 +63,16 @@ def main(SRC):
         wait_for_prompt(process)
         return process
 
-    def inkscape_render_rect(icon_file, rect, output_file):
+    def inkscape_render_rect(icon_file, rect, dpi, output_file):
         global inkscape_process
         if inkscape_process is None:
             inkscape_process = start_inkscape()
-        wait_for_prompt(inkscape_process, '%s -i %s -e %s' % (icon_file, rect, output_file))
+
+        cmd = [icon_file,
+               '--export-dpi', str(dpi),
+               '-i', rect,
+               '-e', output_file]
+        wait_for_prompt(inkscape_process, ' '.join(cmd))
         optimize_png(output_file)
 
     class ContentHandler(xml.sax.ContentHandler):
@@ -138,34 +149,41 @@ def main(SRC):
 
                 print (self.context, self.icon_name)
                 for rect in self.rects:
-                    width = rect['width']
-                    height = rect['height']
-                    id = rect['id']
+                    for dpi_factor in DPIS:
+                        width = rect['width']
+                        height = rect['height']
+                        id = rect['id']
+                        dpi = DPI_1_TO_1 * dpi_factor
 
-                    dir = os.path.join(MAINDIR, "%sx%s" % (width, height), self.context)
-                    outfile = os.path.join(dir, self.icon_name+'.png')
-                    if not os.path.exists(dir):
-                        os.makedirs(dir)
-                    # Do a time based check!
-                    if self.force or not os.path.exists(outfile):
-                        inkscape_render_rect(self.path, id, outfile)
-                        sys.stdout.write('.')
-                    else:
-                        stat_in = os.stat(self.path)
-                        stat_out = os.stat(outfile)
-                        if stat_in.st_mtime > stat_out.st_mtime:
-                            inkscape_render_rect(self.path, id, outfile)
+                        size_str = "%sx%s" % (width, height)
+                        if dpi_factor != 1:
+                            size_str += "@%sx" % dpi_factor
+
+                        dir = os.path.join(MAINDIR, size_str, self.context)
+                        outfile = os.path.join(dir, self.icon_name+'.png')
+                        if not os.path.exists(dir):
+                            os.makedirs(dir)
+                        # Do a time based check!
+                        if self.force or not os.path.exists(outfile):
+                            inkscape_render_rect(self.path, id, dpi, outfile)
                             sys.stdout.write('.')
                         else:
-                            sys.stdout.write('-')
-                    sys.stdout.flush()
+                            stat_in = os.stat(self.path)
+                            stat_out = os.stat(outfile)
+                            if stat_in.st_mtime > stat_out.st_mtime:
+                                inkscape_render_rect(self.path, id, dpi, outfile)
+                                sys.stdout.write('.')
+                            else:
+                                sys.stdout.write('-')
+                        sys.stdout.flush()
                 sys.stdout.write('\n')
                 sys.stdout.flush()
 
         def characters(self, chars):
             self.chars += chars.strip()
 
-    if len(sys.argv) == 1:
+
+    if not args.svg:
         if not os.path.exists(MAINDIR):
             os.mkdir(MAINDIR)
         print ('')
@@ -178,18 +196,24 @@ def main(SRC):
                 xml.sax.parse(open(file), handler)
         print ('')
     else:
-        file = os.path.join(SRC, sys.argv[1] + '.svg')
-        if len(sys.argv) > 2:
-            icons = sys.argv[2:]
-        else:
-            icons = None
+        file = os.path.join(SRC, args.svg + '.svg')
+
         if os.path.exists(os.path.join(file)):
-            handler = ContentHandler(file, True, filter=icons)
+            handler = ContentHandler(file, True, filter=args.filter)
             xml.sax.parse(open(file), handler)
         else:
-            print ("Error: No such file", file)
-            sys.exit(1)
+            # icon not in this directory, try the next one
+            pass
+
+parser = argparse.ArgumentParser(description='Render icons from SVG to PNG')
+
+parser.add_argument('svg', type=str, nargs='?', metavar='SVG',
+                    help="Optional SVG names (without extensions) to render. If not given, render all icons")
+parser.add_argument('filter', type=str, nargs='?', metavar='FILTER',
+                    help="Optional filter for the SVG file")
+
+args = parser.parse_args()
 
 for source in SOURCES:
     SRC = os.path.join('.', source)
-    main(SRC)
+    main(args, SRC)

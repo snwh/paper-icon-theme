@@ -36,7 +36,7 @@ For simplified development, Paper has various scripts to extract or render icons
 `extract-vector-app-icons.rb`
  - this script will chop up the source plates in [vector](./vector) into individual icons.
 
-`render-bitmaps(-hidpi).py`
+`render-bitmaps.py`
 - will render all hicolor Paper icons in both @1x and @2x resolutions from the source files in [bitmaps](./bitmaps).
 
 `render-cursors.sh`
