@@ -12,8 +12,8 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="720"
-   height="600"
-   viewBox="0 0 720 600.00001"
+   height="900"
+   viewBox="0 0 720 900.00001"
    id="svg6530"
    version="1.1"
    inkscape:version="0.91 r"
@@ -359,15 +359,15 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="327.11148"
-     inkscape:cy="60.952626"
+     inkscape:cx="157.61602"
+     inkscape:cy="315.25156"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1920"
-     inkscape:window-height="1023"
+     inkscape:window-height="1024"
      inkscape:window-x="0"
-     inkscape:window-y="27"
+     inkscape:window-y="30"
      inkscape:window-maximized="1"
      units="px"
      inkscape:snap-bbox="true"
@@ -390,7 +390,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -398,12 +398,12 @@
      inkscape:label="panel"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,-452.36216)"
+     transform="translate(0,-152.36216)"
      style="display:inline">
     <g
        id="g5030"
        inkscape:label="system-log-out"
-       transform="translate(0,-6)">
+       transform="translate(0,-306)">
       <rect
          transform="matrix(0,1,-1,0,0,0)"
          style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:1;marker:none;enable-background:new"
@@ -427,7 +427,7 @@
          sodipodi:nodetypes="cccccccc" />
     </g>
     <g
-       transform="translate(96,2)"
+       transform="translate(96,-298)"
        id="g5229"
        inkscape:label="dropboxstatus-busy2"
        style="stroke:none">
@@ -448,7 +448,7 @@
     <g
        inkscape:label="dropboxstatus-blank"
        id="g5108"
-       transform="translate(120,2)"
+       transform="translate(120,-298)"
        style="stroke:none">
       <rect
          y="931.36053"
@@ -459,7 +459,7 @@
          style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:1;marker:none;enable-background:new" />
     </g>
     <g
-       transform="translate(48,2)"
+       transform="translate(48,-298)"
        id="g5185"
        inkscape:label="dropboxstatus-x"
        style="stroke:none">
@@ -480,7 +480,7 @@
     <g
        inkscape:label="dropboxstatus-idle"
        id="g5145"
-       transform="translate(24,2)"
+       transform="translate(24,-298)"
        style="stroke:none">
       <path
          style="color:#000000;fill:#dbdee0;fill-opacity:1;stroke:none"
@@ -497,7 +497,7 @@
          style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:1;marker:none;enable-background:new" />
     </g>
     <g
-       transform="translate(100,30)"
+       transform="translate(100,-270)"
        inkscape:label="network-wireless-secure-signal-none"
        id="g10150">
       <rect
@@ -522,7 +522,7 @@
          sodipodi:nodetypes="ssccccccccccccssssccss" />
     </g>
     <g
-       transform="translate(-177.0002,1067.3639)"
+       transform="translate(-177.0002,767.3639)"
        id="g6839"
        inkscape:label="microphone-sensitivity-muted"
        style="display:inline;enable-background:new">
@@ -549,7 +549,7 @@
     </g>
     <g
        inkscape:label="microphone-sensitivity-low"
-       transform="translate(-141.0002,1066.3631)"
+       transform="translate(-141.0002,766.3631)"
        id="g6819"
        style="display:inline;enable-background:new">
       <rect
@@ -570,7 +570,7 @@
     <g
        inkscape:label="battery-missing"
        id="g5697"
-       transform="matrix(-1,0,0,1,437.00017,1067.3639)"
+       transform="matrix(-1,0,0,1,437.00017,767.3639)"
        style="display:inline;enable-background:new">
       <rect
          y="-284.00018"
@@ -589,7 +589,7 @@
     <g
        id="g5684"
        inkscape:label="network-cellular-no-route"
-       transform="translate(-104.0002,931.36549)"
+       transform="translate(-104.0002,631.36549)"
        style="display:inline;enable-background:new">
       <rect
          y="-330.00333"
@@ -608,7 +608,7 @@
     <g
        inkscape:label="audio-volume-muted"
        id="g5101"
-       transform="translate(-157.0002,1065.3639)"
+       transform="translate(-157.0002,765.3639)"
        style="display:inline;enable-background:new">
       <rect
          inkscape:label="audio-volume-high"
@@ -640,7 +640,7 @@
     <g
        inkscape:label="audio-volume-high"
        id="g5071"
-       transform="translate(-229.0004,1065.3639)"
+       transform="translate(-229.0004,765.3639)"
        style="display:inline;enable-background:new">
       <rect
          inkscape:label="audio-volume-high"
@@ -660,7 +660,7 @@
     <g
        inkscape:label="battery-empty-charging"
        id="g6816"
-       transform="translate(-111.0002,1091.3639)"
+       transform="translate(-111.0002,791.3639)"
        style="display:inline;enable-background:new">
       <rect
          y="-286.00018"
@@ -678,7 +678,7 @@
          sodipodi:nodetypes="cccssssssccccccccccc" />
     </g>
     <g
-       transform="translate(-135.0002,1091.3639)"
+       transform="translate(-135.0002,791.3639)"
        id="g6797"
        inkscape:label="battery-caution-charging"
        style="display:inline;enable-background:new">
@@ -705,7 +705,7 @@
     <g
        inkscape:label="battery-medium-charging"
        id="g6770"
-       transform="translate(-183.0002,1091.3622)"
+       transform="translate(-183.0002,791.3622)"
        style="display:inline;enable-background:new">
       <rect
          y="-286.00018"
@@ -728,7 +728,7 @@
          inkscape:connector-curvature="0" />
     </g>
     <g
-       transform="translate(-207.0002,1091.3639)"
+       transform="translate(-207.0002,791.3639)"
        id="g6759"
        inkscape:label="battery-good-charging"
        style="display:inline;enable-background:new">
@@ -753,7 +753,7 @@
          inkscape:connector-curvature="0" />
     </g>
     <g
-       transform="translate(-87.0002,1091.3639)"
+       transform="translate(-87.0002,791.3639)"
        id="g6753"
        inkscape:label="battery-full-charged"
        style="display:inline;enable-background:new">
@@ -775,7 +775,7 @@
     <g
        inkscape:label="battery-full-charging"
        id="g6744"
-       transform="translate(-231.0002,1091.3639)"
+       transform="translate(-231.0002,791.3639)"
        style="display:inline;enable-background:new">
       <rect
          y="-286.00018"
@@ -795,7 +795,7 @@
     <g
        inkscape:label="battery-caution"
        id="g6705"
-       transform="matrix(-1,0,0,1,413.00017,1067.3639)"
+       transform="matrix(-1,0,0,1,413.00017,767.3639)"
        style="display:inline;enable-background:new">
       <rect
          y="-284.00018"
@@ -821,7 +821,7 @@
          class="error" />
     </g>
     <g
-       transform="matrix(-1,0,0,1,365.00017,1067.3639)"
+       transform="matrix(-1,0,0,1,365.00017,767.3639)"
        id="g6697"
        inkscape:label="battery-medium"
        style="display:inline;enable-background:new">
@@ -849,7 +849,7 @@
     <g
        inkscape:label="battery-good"
        id="g6686"
-       transform="translate(-207.0002,1067.3639)"
+       transform="translate(-207.0002,767.3639)"
        style="display:inline;enable-background:new">
       <rect
          y="-286.00018"
@@ -872,7 +872,7 @@
          inkscape:connector-curvature="0" />
     </g>
     <g
-       transform="translate(-181.0002,1065.3639)"
+       transform="translate(-181.0002,765.3639)"
        id="g6038"
        inkscape:label="audio-volume-low"
        style="display:inline;enable-background:new">
@@ -906,7 +906,7 @@
     <g
        inkscape:label="bluetooth-disabled"
        id="g5811"
-       transform="translate(-206.0004,1087.3639)"
+       transform="translate(-206.0004,787.3639)"
        style="display:inline;enable-background:new">
       <path
          inkscape:connector-curvature="0"
@@ -922,7 +922,7 @@
          style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:1;marker:none" />
     </g>
     <g
-       transform="translate(-128.00019,931.36549)"
+       transform="translate(-128.00019,631.36549)"
        inkscape:label="network-cellular-signal-none"
        id="g6591"
        style="display:inline;enable-background:new">
@@ -944,7 +944,7 @@
     <g
        id="g6580"
        inkscape:label="network-cellular-signal-low"
-       transform="translate(-152.0004,931.36549)"
+       transform="translate(-152.0004,631.36549)"
        style="display:inline;enable-background:new">
       <rect
          y="-330.00333"
@@ -968,7 +968,7 @@
          inkscape:connector-curvature="0" />
     </g>
     <g
-       transform="translate(-176.0004,931.36549)"
+       transform="translate(-176.0004,631.36549)"
        inkscape:label="network-cellular-signal-ok"
        id="g6560"
        style="display:inline;enable-background:new">
@@ -996,7 +996,7 @@
     <g
        inkscape:label="network-cellular-signal-excellent"
        id="g6547"
-       transform="translate(-224.0004,931.36549)"
+       transform="translate(-224.0004,631.36549)"
        style="display:inline;enable-background:new">
       <rect
          style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:1;marker:none"
@@ -1016,7 +1016,7 @@
     <g
        id="g5961"
        inkscape:label="user-away"
-       transform="translate(39,463.36052)"
+       transform="translate(39,163.36052)"
        style="display:inline;enable-background:new">
       <rect
          y="354"
@@ -1035,7 +1035,7 @@
     <g
        id="g6002"
        inkscape:label="user-busy"
-       transform="translate(35,463.36052)"
+       transform="translate(35,163.36052)"
        style="display:inline;enable-background:new">
       <rect
          y="354"
@@ -1054,7 +1054,7 @@
     <g
        id="g5191"
        inkscape:label="user-idle"
-       transform="translate(27,463.36052)"
+       transform="translate(27,163.36052)"
        style="display:inline;enable-background:new">
       <rect
          y="354"
@@ -1073,7 +1073,7 @@
     <g
        id="g6028"
        inkscape:label="user-offline"
-       transform="translate(23,463.36052)"
+       transform="translate(23,163.36052)"
        style="display:inline;enable-background:new">
       <rect
          y="354"
@@ -1092,7 +1092,7 @@
     <g
        id="g6041"
        inkscape:label="user-available"
-       transform="translate(-4.9999997,463.36052)"
+       transform="translate(-4.9999997,163.36052)"
        style="display:inline;enable-background:new">
       <rect
          style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:1;marker:none"
@@ -1111,7 +1111,7 @@
     <g
        id="g5195"
        inkscape:label="user-invisible"
-       transform="translate(31,463.36052)"
+       transform="translate(31,163.36052)"
        style="display:inline;enable-background:new">
       <rect
          y="354"
@@ -1130,7 +1130,7 @@
     <g
        id="g5204"
        inkscape:label="network-cellular-4g"
-       transform="translate(199,295.36052)"
+       transform="translate(199,-4.63948)"
        style="display:inline;enable-background:new">
       <rect
          style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:1;marker:none"
@@ -1149,7 +1149,7 @@
     <g
        id="g16087"
        inkscape:label="network-cellular-3g"
-       transform="translate(195.0002,295.36052)"
+       transform="translate(195.0002,-4.63948)"
        style="display:inline;enable-background:new">
       <rect
          y="234"
@@ -1168,7 +1168,7 @@
     <g
        id="g16103"
        inkscape:label="network-cellular-edge"
-       transform="translate(167,295.36052)"
+       transform="translate(167,-4.63948)"
        style="display:inline;enable-background:new">
       <rect
          style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:1;marker:none"
@@ -1187,7 +1187,7 @@
     <g
        id="g16119"
        inkscape:label="network-cellular-gprs"
-       transform="translate(163,295.36052)"
+       transform="translate(163,-4.63948)"
        style="display:inline;enable-background:new">
       <rect
          style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:1;marker:none"
@@ -1212,7 +1212,7 @@
     <g
        id="g5779"
        inkscape:label="network-cellular-cdma-1x"
-       transform="translate(-16.99998,846.3605)"
+       transform="translate(-16.99998,546.3605)"
        style="display:inline;enable-background:new">
       <path
          style="color:#bebebe;fill:#dbdee0;fill-opacity:1;stroke:none"
@@ -1231,7 +1231,7 @@
     <g
        id="g5794"
        inkscape:label="network-cellular-hspa"
-       transform="translate(-13.00001,846.3605)"
+       transform="translate(-13.00001,546.3605)"
        style="display:inline;enable-background:new">
       <path
          sodipodi:nodetypes="csscsccscccccccccccccc"
@@ -1250,7 +1250,7 @@
     <g
        id="g5813"
        inkscape:label="network-cellular-umts"
-       transform="translate(-9.00001,846.3605)"
+       transform="translate(-9.00001,546.3605)"
        style="display:inline;enable-background:new">
       <rect
          y="-317"
@@ -1269,7 +1269,7 @@
     <g
        id="g10060"
        inkscape:label="network-wireless-signal-excellent"
-       transform="translate(4,6)">
+       transform="translate(4,-294)">
       <rect
          transform="matrix(0,-1,1,0,0,0)"
          y="29.000202"
@@ -1289,7 +1289,7 @@
     <g
        id="g6070"
        inkscape:label="battery-empty"
-       transform="translate(-183,1044.3639)"
+       transform="translate(-183,744.3639)"
        style="display:inline;enable-background:new">
       <rect
          transform="matrix(0,1,-1,0,0,0)"
@@ -1315,7 +1315,7 @@
     <g
        id="g10249"
        inkscape:label="network-error"
-       transform="translate(0,2)">
+       transform="translate(0,-298)">
       <rect
          transform="matrix(0,-1,1,0,0,0)"
          y="129.0002"
@@ -1341,7 +1341,7 @@
     <g
        id="g6543"
        inkscape:label="network-cellular-signal-good"
-       transform="translate(-200.0004,931.36549)"
+       transform="translate(-200.0004,631.36549)"
        style="display:inline;enable-background:new">
       <rect
          y="-330.00333"
@@ -1367,7 +1367,7 @@
     <g
        id="g8268"
        inkscape:label="network-cellular-offline"
-       transform="translate(-225.0004,954.36549)"
+       transform="translate(-225.0004,654.36549)"
        style="display:inline;enable-background:new">
       <rect
          y="-353.00333"
@@ -1391,7 +1391,7 @@
     <g
        id="g5926"
        inkscape:label="bluetooth-active"
-       transform="translate(-230.0004,1087.3639)"
+       transform="translate(-230.0004,787.3639)"
        style="display:inline;enable-background:new">
       <path
          id="rect5886"
@@ -1409,7 +1409,7 @@
     <g
        id="g6230"
        inkscape:label="microphone-sensitivity-high"
-       transform="translate(-189.0002,1066.3631)"
+       transform="translate(-189.0002,766.3631)"
        style="display:inline;enable-background:new">
       <rect
          y="-417"
@@ -1428,7 +1428,7 @@
     </g>
     <g
        id="g6239"
-       transform="translate(-164.99924,1066.3605)"
+       transform="translate(-164.99924,766.3605)"
        inkscape:label="microphone-sensitivity-medium"
        style="display:inline;enable-background:new">
       <rect
@@ -1448,7 +1448,7 @@
     </g>
     <g
        id="g6016"
-       transform="translate(-205.0002,1065.3639)"
+       transform="translate(-205.0002,765.3639)"
        inkscape:label="audio-volume-medium"
        style="display:inline;enable-background:new">
       <rect
@@ -1475,7 +1475,7 @@
     <g
        id="g6682"
        inkscape:label="battery-full"
-       transform="translate(-231.0002,1067.3639)"
+       transform="translate(-231.0002,767.3639)"
        style="display:inline;enable-background:new">
       <rect
          transform="matrix(0,1,-1,0,0,0)"
@@ -1493,7 +1493,7 @@
          style="fill:#dbdee0;fill-opacity:1;stroke:none" />
     </g>
     <g
-       transform="translate(-369.0002,1167.3639)"
+       transform="translate(-369.0002,867.3639)"
        id="g10621"
        inkscape:label="avatar-default"
        style="display:inline;enable-background:new">
@@ -1512,7 +1512,7 @@
          sodipodi:nodetypes="ssssssccccs" />
     </g>
     <g
-       transform="translate(-369.0002,1099.3639)"
+       transform="translate(-369.0002,799.3639)"
        id="g11504"
        inkscape:label="indicator-messages"
        style="display:inline;enable-background:new">
@@ -1533,7 +1533,7 @@
     <g
        id="g5800"
        inkscape:label="network-cellular-acquiring"
-       transform="translate(-189.0004,963.36549)"
+       transform="translate(-189.0004,663.36549)"
        style="display:inline;enable-background:new">
       <rect
          y="-338.00333"
@@ -1555,7 +1555,7 @@
          style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#dbdee0;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;enable-background:new" />
     </g>
     <g
-       transform="translate(-181.0002,1095.3639)"
+       transform="translate(-181.0002,795.3639)"
        id="g6494"
        inkscape:label="user-status-pending"
        style="display:inline;enable-background:new">
@@ -1582,16 +1582,16 @@
     <text
        sodipodi:linespacing="125%"
        id="text6726"
-       y="492.2587"
+       y="192.2587"
        x="33.790039"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:125%;font-family:'Droid Sans';text-align:start;text-anchor:start;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;enable-background:new"
        xml:space="preserve"><tspan
-         y="492.2587"
+         y="192.2587"
          x="33.790039"
          id="tspan6728"
          sodipodi:role="line">panel</tspan></text>
     <g
-       transform="translate(28,6)"
+       transform="translate(28,-294)"
        inkscape:label="network-wireless-signal-good"
        id="g10064">
       <rect
@@ -1619,7 +1619,7 @@
     <g
        id="g10072"
        inkscape:label="network-wireless-signal-ok"
-       transform="translate(52,6)">
+       transform="translate(52,-294)">
       <rect
          transform="matrix(0,-1,1,0,0,0)"
          y="29.000202"
@@ -1643,7 +1643,7 @@
          style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#dbdee0;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;enable-background:accumulate" />
     </g>
     <g
-       transform="translate(76,6)"
+       transform="translate(76,-294)"
        inkscape:label="network-wireless-signal-low"
        id="g10080">
       <rect
@@ -1671,7 +1671,7 @@
     <g
        id="g10088"
        inkscape:label="network-wireless-signal-none"
-       transform="translate(100,6)">
+       transform="translate(100,-294)">
       <rect
          transform="matrix(0,-1,1,0,0,0)"
          y="29.000202"
@@ -1691,7 +1691,7 @@
     <g
        id="g10107"
        inkscape:label="network-wireless-acquiring"
-       transform="translate(0,2)">
+       transform="translate(0,-298)">
       <path
          style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.35;fill:#dbdee0;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;enable-background:accumulate"
          d="m 164,509.36216 c -3.03435,0 -5.76588,1.07815 -8.03125,2.75 l 0.23242,0.25391 15.50977,0 0.25781,-0.28516 c -2.25661,-1.65329 -4.9577,-2.71875 -7.96875,-2.71875 z m -2.29102,9.00391 2.29102,2.49609 2.26562,-2.49609 -4.55664,0 z"
@@ -1713,7 +1713,7 @@
          style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#dbdee0;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;enable-background:new" />
     </g>
     <g
-       transform="translate(4,30)"
+       transform="translate(4,-270)"
        inkscape:label="network-wireless-secure-signal-excellent"
        id="g10120">
       <rect
@@ -1734,7 +1734,7 @@
     <g
        id="g10126"
        inkscape:label="network-wireless-secure-signal-good"
-       transform="translate(28,30)">
+       transform="translate(28,-270)">
       <rect
          transform="matrix(0,-1,1,0,0,0)"
          y="29.000202"
@@ -1762,7 +1762,7 @@
          inkscape:connector-curvature="0" />
     </g>
     <g
-       transform="translate(52,30)"
+       transform="translate(52,-270)"
        inkscape:label="network-wireless-secure-signal-ok"
        id="g10134">
       <rect
@@ -1788,7 +1788,7 @@
     <g
        id="g4903"
        inkscape:label="network-wireless-secure-signal-low"
-       transform="translate(0,2)">
+       transform="translate(0,-298)">
       <rect
          transform="matrix(0,-1,1,0,0,0)"
          y="105.0002"
@@ -1818,7 +1818,7 @@
     <g
        id="g10271"
        inkscape:label="network-wired"
-       transform="translate(0,2)">
+       transform="translate(0,-298)">
       <g
          transform="translate(-409.0002,1007.3639)"
          id="g6478">
@@ -1842,7 +1842,7 @@
     <g
        id="g10265"
        inkscape:label="network-wired-offline"
-       transform="translate(0,2)">
+       transform="translate(0,-298)">
       <g
          transform="translate(-385.0002,1007.3639)"
          id="g6515">
@@ -1870,7 +1870,7 @@
     <g
        id="g10259"
        inkscape:label="network-wired-acquiring"
-       transform="translate(0,2)">
+       transform="translate(0,-298)">
       <path
          inkscape:connector-curvature="0"
          style="opacity:0.35;fill:#dbdee0;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -1894,7 +1894,7 @@
     <g
        id="g10254"
        inkscape:label="network-idle"
-       transform="translate(0,2)">
+       transform="translate(0,-298)">
       <g
          transform="translate(-337.0002,1007.3639)"
          id="g6540">
@@ -1918,7 +1918,7 @@
     <g
        id="g10290"
        inkscape:label="network-wired-no-route"
-       transform="translate(0,2)">
+       transform="translate(0,-298)">
       <g
          transform="translate(-289.0002,1007.3622)"
          id="g6609">
@@ -1941,7 +1941,7 @@
     <g
        id="g10311"
        inkscape:label="network-vpn"
-       transform="translate(0,2)">
+       transform="translate(0,-298)">
       <path
          sodipodi:nodetypes="csccccccccccsssss"
          inkscape:connector-curvature="0"
@@ -1961,7 +1961,7 @@
     <g
        id="g10323"
        inkscape:label="network-vpn-acquiring"
-       transform="translate(0,2)">
+       transform="translate(0,-298)">
       <path
          id="path5810"
          d="m 64.5,582.3639 c -1.06313,0 -2.02683,0.38353 -2.79688,1 l 5.59961,0 c -0.77946,-0.62546 -1.7558,-0.99853 -2.80273,-1 z m -3.73828,7 c 0.8074,1.20511 2.17874,2 3.73828,2 1.52116,-0.002 2.89978,-0.77661 3.7207,-2 l -7.45898,0 z m 11.23828,0 0,0.99609 3,0 0,-0.99609 -3,0 z"
@@ -1985,7 +1985,7 @@
     <g
        id="g10341"
        inkscape:label="network-wireless-no-route"
-       transform="translate(0,2)">
+       transform="translate(0,-298)">
       <path
          style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#dbdee0;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;enable-background:accumulate"
          d="m 164.03125,533.35995 c -3.03435,0 -5.76588,1.07815 -8.03125,2.75 l 8.03125,8.75 L 172,536.0787 c -2.25661,-1.65329 -4.9577,-2.71875 -7.96875,-2.71875 z M 164,535.36386 c 1.10457,0 2,0.89543 2,2 0,1.10457 -0.89543,2 -2,2 l 0,1 -1,0 0,-2 1,0 c 0.55229,0 1,-0.44772 1,-1 0,-0.55228 -0.44771,-1 -1,-1 -0.55228,0 -1,0.44772 -1,1 l -1,0 c 0,-1.10457 0.89543,-2 2,-2 z m -0.5,5.75 a 0.75,0.75 0 0 1 0.75,0.75 0.75,0.75 0 0 1 -0.75,0.75 0.75,0.75 0 0 1 -0.75,-0.75 0.75,0.75 0 0 1 0.75,-0.75 z"
@@ -2004,7 +2004,7 @@
     <g
        id="g10356"
        inkscape:label="network-wireless-offline"
-       transform="translate(0,2)">
+       transform="translate(0,-298)">
       <path
          inkscape:connector-curvature="0"
          style="display:inline;fill:#dbdee0;fill-opacity:1;stroke:none;enable-background:new"
@@ -2029,7 +2029,7 @@
     <g
        id="g10371"
        inkscape:label="network-wireless-hotspot"
-       transform="translate(0,2)">
+       transform="translate(0,-298)">
       <path
          style="fill:#dbdee0;fill-opacity:1;stroke:none"
          id="path10431"
@@ -2049,7 +2049,7 @@
     <g
        id="g10408"
        inkscape:label="network-transmit-receive"
-       transform="translate(0,2)">
+       transform="translate(0,-298)">
       <path
          sodipodi:nodetypes="cccccccc"
          inkscape:connector-curvature="0"
@@ -2075,7 +2075,7 @@
     <g
        id="g10415"
        inkscape:label="network-transmit"
-       transform="translate(0,2)">
+       transform="translate(0,-298)">
       <path
          sodipodi:nodetypes="cccccccc"
          inkscape:connector-curvature="0"
@@ -2101,7 +2101,7 @@
     <g
        id="g10422"
        inkscape:label="network-receive"
-       transform="translate(0,2)">
+       transform="translate(0,-298)">
       <path
          style="color:#000000;opacity:0.35;fill:#dbdee0;fill-opacity:1;stroke:none"
          d="m 262,515.36548 5.5,-4.5 -5.5,-4.5 c 0.004,0.003 0,1.33333 0,2 -1,0 -2,0 -3,0 0,1.66667 0,3.33333 0,5 1,0 2,0 3,0 0,0.66667 0,2 0,2 z"
@@ -2127,7 +2127,7 @@
     <g
        id="g10575"
        inkscape:label="network-cellular-secure-signal-excellent"
-       transform="translate(0,4)">
+       transform="translate(0,-296)">
       <path
          style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#dbdee0;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;enable-background:accumulate"
          d="m 49,633.36216 c -1.108,0 -2,0.91085 -2,2.03125 l 0,0.96875 -1,0 0,1 0,2 0,1 1,0 4,0 1,0 0,-1 0,-2 0,-1 -1,0 0,-0.96875 c 0,-1.1199 -0.892,-2.03125 -2,-2.03125 z m 0,1 c 0.554,0 1,0.4424 1,1 l 0,1 -2,0 0,-1 c 0,-0.5576 0.446,-1 1,-1 z"
@@ -2150,7 +2150,7 @@
     <g
        id="g10583"
        inkscape:label="network-cellular-secure-signal-good"
-       transform="translate(0,4)">
+       transform="translate(0,-296)">
       <rect
          style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:1;marker:none"
          id="rect10486"
@@ -2179,7 +2179,7 @@
     <g
        id="g10592"
        inkscape:label="network-cellular-secure-signal-ok"
-       transform="translate(0,4)">
+       transform="translate(0,-296)">
       <rect
          y="621.36218"
          x="81"
@@ -2207,7 +2207,7 @@
     <g
        id="g10601"
        inkscape:label="network-cellular-secure-signal-low"
-       transform="translate(1.9836426e-4,4)">
+       transform="translate(1.9836426e-4,-296)">
       <rect
          style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:1;marker:none"
          id="rect10464"
@@ -2235,7 +2235,7 @@
     <g
        id="g10609"
        inkscape:label="network-cellular-secure-signal-none"
-       transform="translate(0,4)">
+       transform="translate(0,-296)">
       <rect
          y="621.36218"
          x="129.0002"
@@ -2258,7 +2258,7 @@
     <g
        inkscape:label="nm-vpn-lock"
        id="g10622"
-       transform="translate(72,-44.000023)">
+       transform="translate(72,-344.00002)">
       <rect
          style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:1;marker:none"
          id="rect10624"
@@ -2275,7 +2275,7 @@
     </g>
     <g
        style="display:inline;enable-background:new"
-       transform="translate(-133.0002,1065.3639)"
+       transform="translate(-133.0002,765.3639)"
        id="g10632"
        inkscape:label="audio-volume-muted-blocking">
       <rect
@@ -2307,7 +2307,7 @@
     </g>
     <g
        id="g10660"
-       transform="translate(22,48)"
+       transform="translate(22,-252)"
        inkscape:label="phone-battery-good">
       <rect
          y="-56.999985"
@@ -2339,7 +2339,7 @@
     <g
        id="g10666"
        inkscape:label="phone-battery-full"
-       transform="translate(-2,48)">
+       transform="translate(-2,-252)">
       <rect
          transform="matrix(0,1,-1,0,0,0)"
          style="color:#dddddd;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:1;marker:none"
@@ -2362,7 +2362,7 @@
          id="path10672" />
     </g>
     <g
-       transform="translate(46,48)"
+       transform="translate(46,-252)"
        id="g10676"
        inkscape:label="phone-battery-medium">
       <rect
@@ -2394,7 +2394,7 @@
     </g>
     <g
        id="g10686"
-       transform="translate(94,48)"
+       transform="translate(94,-252)"
        inkscape:label="phone-battery-caution">
       <rect
          y="-56.999985"
@@ -2426,7 +2426,7 @@
     <g
        inkscape:label="phone-battery-low"
        id="g10696"
-       transform="translate(70,48)">
+       transform="translate(70,-252)">
       <rect
          y="-56.999985"
          x="697.36389"
@@ -2458,7 +2458,7 @@
        style="display:inline;enable-background:new"
        inkscape:label="battery-low"
        id="g10706"
-       transform="matrix(-1,0,0,1,389.00017,1067.3639)">
+       transform="matrix(-1,0,0,1,389.00017,767.3639)">
       <rect
          y="-284.00018"
          x="-394"
@@ -2482,7 +2482,7 @@
     </g>
     <g
        style="display:inline;enable-background:new"
-       transform="translate(-159.0002,1091.3622)"
+       transform="translate(-159.0002,791.3622)"
        id="g10722"
        inkscape:label="battery-low-charging">
       <rect
@@ -2508,7 +2508,7 @@
     <g
        id="g10813"
        inkscape:label="mouse-battery-full"
-       transform="translate(-2,24)">
+       transform="translate(-2,-276)">
       <rect
          y="-56.999985"
          x="745.36389"
@@ -2533,7 +2533,7 @@
     <g
        id="g10818"
        inkscape:label="mouse-battery-good"
-       transform="translate(-2,24)">
+       transform="translate(-2,-276)">
       <rect
          transform="matrix(0,1,-1,0,0,0)"
          style="color:#dddddd;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:1;marker:none"
@@ -2564,7 +2564,7 @@
     <g
        id="g10830"
        inkscape:label="mouse-battery-medium"
-       transform="translate(-2,24)">
+       transform="translate(-2,-276)">
       <rect
          y="-104.99998"
          x="745.36389"
@@ -2595,7 +2595,7 @@
     <g
        id="g10836"
        inkscape:label="mouse-battery-low"
-       transform="translate(-2,24)">
+       transform="translate(-2,-276)">
       <rect
          transform="matrix(0,1,-1,0,0,0)"
          style="color:#dddddd;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:1;marker:none"
@@ -2626,7 +2626,7 @@
     <g
        id="g10842"
        inkscape:label="mouse-battery-caution"
-       transform="translate(-2,24)">
+       transform="translate(-2,-276)">
       <rect
          transform="matrix(0,1,-1,0,0,0)"
          style="color:#dddddd;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:1;marker:none"
@@ -2657,7 +2657,7 @@
     <g
        id="g10935"
        inkscape:label="keyboard-battery-full"
-       transform="translate(-2,0)">
+       transform="translate(-2,-300)">
       <rect
          y="-56.999985"
          x="721.36389"
@@ -2681,7 +2681,7 @@
     <g
        id="g10940"
        inkscape:label="keyboard-battery-good"
-       transform="translate(-2,0)">
+       transform="translate(-2,-300)">
       <rect
          transform="matrix(0,1,-1,0,0,0)"
          style="color:#dddddd;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:1;marker:none"
@@ -2711,7 +2711,7 @@
     <g
        id="g10946"
        inkscape:label="keyboard-battery-medium"
-       transform="translate(-2,0)">
+       transform="translate(-2,-300)">
       <rect
          y="-104.99998"
          x="721.36389"
@@ -2741,7 +2741,7 @@
     <g
        id="g10952"
        inkscape:label="keyboard-battery-low"
-       transform="translate(-2,0)">
+       transform="translate(-2,-300)">
       <rect
          transform="matrix(0,1,-1,0,0,0)"
          style="color:#dddddd;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:1;marker:none"
@@ -2771,7 +2771,7 @@
     <g
        id="g10958"
        inkscape:label="keyboard-battery-caution"
-       transform="translate(-2,0)">
+       transform="translate(-2,-300)">
       <rect
          transform="matrix(0,1,-1,0,0,0)"
          style="color:#dddddd;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:1;marker:none"
@@ -2800,7 +2800,7 @@
     </g>
     <g
        style="display:inline;enable-background:new"
-       transform="translate(-182.0004,1087.3639)"
+       transform="translate(-182.0004,787.3639)"
        inkscape:label="bluetooth-paired"
        id="g10964">
       <path
@@ -2821,7 +2821,7 @@
        style="display:inline;enable-background:new"
        inkscape:label="indicator-messages-new"
        id="g10985"
-       transform="translate(-345.0002,1099.3639)">
+       transform="translate(-345.0002,799.3639)">
       <path
          sodipodi:nodetypes="sccscccccccccscssscccc"
          style="opacity:1;fill:#03a9f4;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -2837,7 +2837,7 @@
          y="-258.00336" />
     </g>
     <g
-       transform="translate(-321.0002,1099.3639)"
+       transform="translate(-321.0002,799.3639)"
        id="g10991"
        inkscape:label="indicator-messages-red"
        style="display:inline;enable-background:new">
@@ -2856,7 +2856,7 @@
          style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:1;marker:none;enable-background:new" />
     </g>
     <g
-       transform="translate(-289.0002,847.3639)"
+       transform="translate(-289.0002,547.3639)"
        style="display:inline;enable-background:new"
        id="g6800"
        inkscape:label="system-devices-panel">
@@ -2895,7 +2895,7 @@
        inkscape:label="system-devices-information"
        id="g11029"
        style="display:inline;enable-background:new"
-       transform="translate(-265.0002,847.3639)">
+       transform="translate(-265.0002,547.3639)">
       <rect
          style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:1;marker:none;enable-background:new"
          id="rect11031"
@@ -2913,7 +2913,7 @@
          inkscape:connector-curvature="0" />
     </g>
     <g
-       transform="translate(-241.0002,847.3639)"
+       transform="translate(-241.0002,547.3639)"
        style="display:inline;enable-background:new"
        id="g11037"
        inkscape:label="system-devices-panel-alert">
@@ -2951,7 +2951,7 @@
     <g
        id="g9311"
        inkscape:label="ac-adapter"
-       transform="translate(-282.00021,197.36552)"
+       transform="translate(-282.00021,-102.63448)"
        style="display:inline;enable-background:new">
       <path
          id="path9297"
@@ -2970,7 +2970,7 @@
     <g
        inkscape:label="krb-expiring-ticket"
        id="g11074"
-       transform="translate(48,2)">
+       transform="translate(48,-298)">
       <path
          style="display:inline;opacity:1;fill:#e74c3c;fill-opacity:1;stroke:none;stroke-width:31;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new"
          d="m 40.5002,582.3639 c -2.48528,0 -4.5,2.01472 -4.5,4.5 0,2.48528 2.01472,4.5 4.5,4.5 1.90471,-0.003 3.60143,-1.20422 4.23633,-3 l 3.26367,-0.004 0,2 3,0 0,-2.00391 1,0.004 0,-3 -7.26367,0.004 c -0.6349,-1.79578 -2.33162,-2.99733 -4.23633,-3 z m 0,3 c 0.82843,0 1.5,0.67157 1.5,1.5 0,0.82843 -0.67157,1.5 -1.5,1.5 -0.82843,0 -1.5,-0.67157 -1.5,-1.5 0,-0.82843 0.67157,-1.5 1.5,-1.5 z"
@@ -2990,7 +2990,7 @@
     <g
        inkscape:label="krb-valid-ticket"
        id="g11080"
-       transform="translate(72,2)">
+       transform="translate(72,-298)">
       <path
          style="display:inline;opacity:1;fill:#dbdee0;fill-opacity:1;stroke:none;stroke-width:31;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new"
          d="m 40.5002,582.3639 c -2.48528,0 -4.5,2.01472 -4.5,4.5 0,2.48528 2.01472,4.5 4.5,4.5 1.90471,-0.003 3.60143,-1.20422 4.23633,-3 l 3.26367,-0.004 0,2 3,0 0,-2.00391 1,0.004 0,-3 -7.26367,0.004 c -0.6349,-1.79578 -2.33162,-2.99733 -4.23633,-3 z m 0,3 c 0.82843,0 1.5,0.67157 1.5,1.5 0,0.82843 -0.67157,1.5 -1.5,1.5 -0.82843,0 -1.5,-0.67157 -1.5,-1.5 0,-0.82843 0.67157,-1.5 1.5,-1.5 z"
@@ -3010,7 +3010,7 @@
     <g
        id="g11110"
        inkscape:label="krb-no-valid-ticket"
-       transform="translate(-24,2)">
+       transform="translate(-24,-298)">
       <path
          style="display:inline;opacity:1;fill:#dbdee0;fill-opacity:1;stroke:none;stroke-width:31;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new"
          d="m 160.5,582.36411 c -2.48528,0 -4.5,2.01472 -4.5,4.5 0,2.48528 2.01472,4.5 4.5,4.5 1.90471,-0.003 3.60143,-1.20422 4.23633,-3 l 2.26367,-0.002 0,-3 -2.26367,0.002 c -0.6349,-1.79578 -2.33162,-2.99733 -4.23633,-3 z m 10.5,2.9961 0,2.99609 1,0.004 0,-3 -1,0 z m -10.5,0.004 c 0.82843,0 1.5,0.67157 1.5,1.5 0,0.82843 -0.67157,1.5 -1.5,1.5 -0.82843,0 -1.5,-0.67157 -1.5,-1.5 0,-0.82843 0.67157,-1.5 1.5,-1.5 z"
@@ -3035,7 +3035,7 @@
     </g>
     <g
        style="display:inline;enable-background:new"
-       transform="translate(191,295.36052)"
+       transform="translate(191,-4.63948)"
        inkscape:label="network-cellular-evdo"
        id="g11126">
       <rect
@@ -3055,7 +3055,7 @@
     </g>
     <g
        style="display:inline;enable-background:new"
-       transform="translate(-185.0002,993.3639)"
+       transform="translate(-185.0002,693.3639)"
        id="g11140"
        inkscape:label="nm-vpn-standalone-lock">
       <path
@@ -3076,7 +3076,7 @@
     </g>
     <g
        style="display:inline;enable-background:new"
-       transform="translate(19.000003,463.36052)"
+       transform="translate(19.000003,163.36052)"
        inkscape:label="user-status-new"
        id="g11146">
       <rect
@@ -3094,7 +3094,7 @@
          sodipodi:nodetypes="cssccccssccscc" />
     </g>
     <g
-       transform="translate(-285.00021,1051.3655)"
+       transform="translate(-285.00021,751.3655)"
        style="display:inline;enable-background:new"
        id="g6100-3-5"
        inkscape:label="indicator-keyboard">
@@ -3115,18 +3115,18 @@
     <text
        sodipodi:linespacing="125%"
        id="text6726-4"
-       y="490.26028"
+       y="190.26028"
        x="449.78983"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:125%;font-family:'Droid Sans';text-align:start;text-anchor:start;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;enable-background:new"
        xml:space="preserve"><tspan
-         y="490.26028"
+         y="190.26028"
          x="449.78983"
          id="tspan6728-9"
          sodipodi:role="line">indicator-keyboard</tspan></text>
     <g
        id="g11771"
        inkscape:label="indicator-keyboard-Ak"
-       transform="translate(415.9998,4.00163)">
+       transform="translate(415.9998,-295.99837)">
       <path
          style="color:#bebebe;fill:#dbdee0;fill-opacity:1;stroke:none"
          d="m 38,51.998047 c 0,0 -2,0 -2,2.0625 l 0,11.9375 c 0,2 2,2 2,2 l 12,0 c 2,0 2,-2 2,-2 l 0,-12 c 0,0 0,-2 -2,-2 l -12,0 z m 7.195312,4 0.976563,0 0,4.632812 2.484375,-2.390625 1.150391,0 -2.267579,2.169922 2.623047,3.587891 -1.15625,0 -2.128906,-2.970703 -0.705078,0.662109 0,2.308594 -0.976563,0 0,-8 z m -5.007812,0.324219 1.259766,0 2.349609,7.675781 -1.074219,0 -0.566406,-2 -2.6875,0 -0.556641,2 -1.074218,0 2.349609,-7.675781 z m 0.626953,0.916015 -1.09375,3.927735 2.189453,0 -1.095703,-3.927735 z"
@@ -3143,7 +3143,7 @@
     </g>
     <g
        id="g11801"
-       transform="translate(439.9998,4.00163)"
+       transform="translate(439.9998,-295.99837)"
        inkscape:label="indicator-keyboard-Am">
       <path
          style="color:#bebebe;fill:#dbdee0;fill-opacity:1;stroke:none"
@@ -3160,7 +3160,7 @@
          y="501.36053" />
     </g>
     <g
-       transform="translate(463.9998,4.00163)"
+       transform="translate(463.9998,-295.99837)"
        id="g11811"
        inkscape:label="indicator-keyboard-Ar">
       <path
@@ -3179,7 +3179,7 @@
     </g>
     <g
        id="g11821"
-       transform="translate(487.9998,4.00163)"
+       transform="translate(487.9998,-295.99837)"
        inkscape:label="indicator-keyboard-Av">
       <path
          style="color:#bebebe;fill:#dbdee0;fill-opacity:1;stroke:none"
@@ -3196,7 +3196,7 @@
          y="501.36053" />
     </g>
     <g
-       transform="translate(511.9998,4.00163)"
+       transform="translate(511.9998,-295.99837)"
        id="g11831"
        inkscape:label="indicator-keyboard-Az">
       <path
@@ -3215,7 +3215,7 @@
     </g>
     <g
        id="g11841"
-       transform="translate(535.9998,4.00163)"
+       transform="translate(535.9998,-295.99837)"
        inkscape:label="indicator-keyboard-Be">
       <path
          style="color:#bebebe;fill:#dbdee0;fill-opacity:1;stroke:none"
@@ -3232,7 +3232,7 @@
          y="501.36053" />
     </g>
     <g
-       transform="translate(559.9998,4.00163)"
+       transform="translate(559.9998,-295.99837)"
        id="g11851"
        inkscape:label="indicator-keyboard-Bg">
       <path
@@ -3251,7 +3251,7 @@
     </g>
     <g
        id="g11861"
-       transform="translate(583.9998,4.00163)"
+       transform="translate(583.9998,-295.99837)"
        inkscape:label="indicator-keyboard-Bm">
       <path
          style="color:#bebebe;fill:#dbdee0;fill-opacity:1;stroke:none"
@@ -3268,7 +3268,7 @@
          y="501.36053" />
     </g>
     <g
-       transform="translate(607.9998,4.00163)"
+       transform="translate(607.9998,-295.99837)"
        id="g11871"
        inkscape:label="indicator-keyboard-Bn">
       <path
@@ -3287,7 +3287,7 @@
     </g>
     <g
        id="g11881"
-       transform="translate(631.9998,4.00163)"
+       transform="translate(631.9998,-295.99837)"
        inkscape:label="indicator-keyboard-Br">
       <path
          style="color:#bebebe;fill:#dbdee0;fill-opacity:1;stroke:none"
@@ -3305,7 +3305,7 @@
     </g>
     <g
        id="g11891"
-       transform="translate(415.9998,28.00163)"
+       transform="translate(415.9998,-271.99837)"
        inkscape:label="indicator-keyboard-Bs">
       <path
          style="color:#bebebe;fill:#dbdee0;fill-opacity:1;stroke:none"
@@ -3322,7 +3322,7 @@
          y="501.36053" />
     </g>
     <g
-       transform="translate(439.9998,28.00163)"
+       transform="translate(439.9998,-271.99837)"
        id="g11901"
        inkscape:label="indicator-keyboard-By">
       <path
@@ -3341,7 +3341,7 @@
     </g>
     <g
        id="g11911"
-       transform="translate(463.9998,28.00163)"
+       transform="translate(463.9998,-271.99837)"
        inkscape:label="indicator-keyboard-Ch">
       <path
          style="color:#bebebe;fill:#dbdee0;fill-opacity:1;stroke:none"
@@ -3358,7 +3358,7 @@
          y="501.36053" />
     </g>
     <g
-       transform="translate(487.9998,28.00163)"
+       transform="translate(487.9998,-271.99837)"
        id="g11921"
        inkscape:label="indicator-keyboard-Cm">
       <path
@@ -3377,7 +3377,7 @@
     </g>
     <g
        id="g11931"
-       transform="translate(511.9998,28.00163)"
+       transform="translate(511.9998,-271.99837)"
        inkscape:label="indicator-keyboard-Cr">
       <path
          style="color:#bebebe;fill:#dbdee0;fill-opacity:1;stroke:none"
@@ -3394,7 +3394,7 @@
          y="501.36053" />
     </g>
     <g
-       transform="translate(535.9998,28.00163)"
+       transform="translate(535.9998,-271.99837)"
        id="g11941"
        inkscape:label="indicator-keyboard-Cs">
       <path
@@ -3413,7 +3413,7 @@
     </g>
     <g
        id="g11951"
-       transform="translate(559.9998,28.00163)"
+       transform="translate(559.9998,-271.99837)"
        inkscape:label="indicator-keyboard-Da">
       <path
          style="color:#bebebe;fill:#dbdee0;fill-opacity:1;stroke:none"
@@ -3430,7 +3430,7 @@
          y="501.36053" />
     </g>
     <g
-       transform="translate(583.9998,28.00163)"
+       transform="translate(583.9998,-271.99837)"
        id="g11961"
        inkscape:label="indicator-keyboard-De">
       <path
@@ -3449,7 +3449,7 @@
     </g>
     <g
        id="g11971"
-       transform="translate(607.9998,28.00163)"
+       transform="translate(607.9998,-271.99837)"
        inkscape:label="indicator-keyboard-Dv">
       <path
          style="color:#bebebe;fill:#dbdee0;fill-opacity:1;stroke:none"
@@ -3466,7 +3466,7 @@
          y="501.36053" />
     </g>
     <g
-       transform="translate(631.9998,28.00163)"
+       transform="translate(631.9998,-271.99837)"
        id="g11981"
        inkscape:label="indicator-keyboard-Dz">
       <path
@@ -3485,7 +3485,7 @@
     </g>
     <g
        id="g11991"
-       transform="translate(415.9998,52.00163)"
+       transform="translate(415.9998,-247.99837)"
        inkscape:label="indicator-keyboard-Ee">
       <path
          style="color:#bebebe;fill:#dbdee0;fill-opacity:1;stroke:none"
@@ -3502,7 +3502,7 @@
          y="501.36053" />
     </g>
     <g
-       transform="translate(439.9998,52.00163)"
+       transform="translate(439.9998,-247.99837)"
        id="g12001"
        inkscape:label="indicator-keyboard-En">
       <path
@@ -3521,7 +3521,7 @@
     </g>
     <g
        id="g12011"
-       transform="translate(463.9998,52.00163)"
+       transform="translate(463.9998,-247.99837)"
        inkscape:label="indicator-keyboard-Eo">
       <path
          style="color:#bebebe;fill:#dbdee0;fill-opacity:1;stroke:none"
@@ -3538,7 +3538,7 @@
          y="501.36053" />
     </g>
     <g
-       transform="translate(487.9998,52.00163)"
+       transform="translate(487.9998,-247.99837)"
        id="g12021"
        inkscape:label="indicator-keyboard-Es">
       <path
@@ -3557,7 +3557,7 @@
     </g>
     <g
        id="g12031"
-       transform="translate(511.9998,52.00163)"
+       transform="translate(511.9998,-247.99837)"
        inkscape:label="indicator-keyboard-Et">
       <path
          style="color:#bebebe;fill:#dbdee0;fill-opacity:1;stroke:none"
@@ -3574,7 +3574,7 @@
          y="501.36053" />
     </g>
     <g
-       transform="translate(535.9998,52.00163)"
+       transform="translate(535.9998,-247.99837)"
        id="g12041"
        inkscape:label="indicator-keyboard-Fa">
       <path
@@ -3593,7 +3593,7 @@
     </g>
     <g
        id="g12051"
-       transform="translate(559.9998,52.00163)"
+       transform="translate(559.9998,-247.99837)"
        inkscape:label="indicator-keyboard-Ff">
       <path
          style="color:#bebebe;fill:#dbdee0;fill-opacity:1;stroke:none"
@@ -3610,7 +3610,7 @@
          y="501.36053" />
     </g>
     <g
-       transform="translate(583.9998,52.00163)"
+       transform="translate(583.9998,-247.99837)"
        id="g12061"
        inkscape:label="indicator-keyboard-Fi">
       <path
@@ -3629,7 +3629,7 @@
     </g>
     <g
        id="g12071"
-       transform="translate(607.9998,52.00163)"
+       transform="translate(607.9998,-247.99837)"
        inkscape:label="indicator-keyboard-Fo">
       <path
          style="color:#bebebe;fill:#dbdee0;fill-opacity:1;stroke:none"
@@ -3646,7 +3646,7 @@
          y="501.36053" />
     </g>
     <g
-       transform="translate(631.9998,52.00163)"
+       transform="translate(631.9998,-247.99837)"
        id="g12081"
        inkscape:label="indicator-keyboard-Fr">
       <path
@@ -3664,7 +3664,7 @@
          style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:1;marker:none" />
     </g>
     <g
-       transform="translate(415.9998,76.00163)"
+       transform="translate(415.9998,-223.99837)"
        id="g12091"
        inkscape:label="indicator-keyboard-Ga">
       <path
@@ -3683,7 +3683,7 @@
     </g>
     <g
        id="g12101"
-       transform="translate(439.9998,76.00163)"
+       transform="translate(439.9998,-223.99837)"
        inkscape:label="indicator-keyboard-Gr">
       <path
          style="color:#bebebe;fill:#dbdee0;fill-opacity:1;stroke:none"
@@ -3700,7 +3700,7 @@
          y="501.36053" />
     </g>
     <g
-       transform="translate(463.9998,76.00163)"
+       transform="translate(463.9998,-223.99837)"
        id="g12111"
        inkscape:label="indicator-keyboard-Gu">
       <path
@@ -3719,7 +3719,7 @@
     </g>
     <g
        id="g12121"
-       transform="translate(487.9998,76.00163)"
+       transform="translate(487.9998,-223.99837)"
        inkscape:label="indicator-keyboard-Ha">
       <path
          style="color:#bebebe;fill:#dbdee0;fill-opacity:1;stroke:none"
@@ -3736,7 +3736,7 @@
          y="501.36053" />
     </g>
     <g
-       transform="translate(511.9998,76.00163)"
+       transform="translate(511.9998,-223.99837)"
        id="g12131"
        inkscape:label="indicator-keyboard-He">
       <path
@@ -3755,7 +3755,7 @@
     </g>
     <g
        id="g12141"
-       transform="translate(535.9998,76.00163)"
+       transform="translate(535.9998,-223.99837)"
        inkscape:label="indicator-keyboard-Hi">
       <path
          style="color:#bebebe;fill:#dbdee0;fill-opacity:1;stroke:none"
@@ -3772,7 +3772,7 @@
          y="501.36053" />
     </g>
     <g
-       transform="translate(559.9998,76.00163)"
+       transform="translate(559.9998,-223.99837)"
        id="g12151"
        inkscape:label="indicator-keyboard-Hr">
       <path
@@ -3791,7 +3791,7 @@
     </g>
     <g
        id="g12161"
-       transform="translate(583.9998,76.00163)"
+       transform="translate(583.9998,-223.99837)"
        inkscape:label="indicator-keyboard-Hu">
       <path
          style="color:#bebebe;fill:#dbdee0;fill-opacity:1;stroke:none"
@@ -3808,7 +3808,7 @@
          y="501.36053" />
     </g>
     <g
-       transform="translate(607.9998,76.00163)"
+       transform="translate(607.9998,-223.99837)"
        id="g12171"
        inkscape:label="indicator-keyboard-Hy">
       <path
@@ -3827,7 +3827,7 @@
     </g>
     <g
        id="g12181"
-       transform="translate(631.9998,76.00163)"
+       transform="translate(631.9998,-223.99837)"
        inkscape:label="indicator-keyboard-Ie">
       <path
          style="color:#bebebe;fill:#dbdee0;fill-opacity:1;stroke:none"
@@ -3845,7 +3845,7 @@
     </g>
     <g
        id="g12191"
-       transform="translate(415.9998,100.00163)"
+       transform="translate(415.9998,-199.99837)"
        inkscape:label="indicator-keyboard-Ig">
       <path
          style="color:#bebebe;fill:#dbdee0;fill-opacity:1;stroke:none"
@@ -3862,7 +3862,7 @@
          y="501.36053" />
     </g>
     <g
-       transform="translate(439.9998,100.00163)"
+       transform="translate(439.9998,-199.99837)"
        id="g12201"
        inkscape:label="indicator-keyboard-Ik">
       <path
@@ -3881,7 +3881,7 @@
     </g>
     <g
        id="g12211"
-       transform="translate(463.9998,100.00163)"
+       transform="translate(463.9998,-199.99837)"
        inkscape:label="indicator-keyboard-In">
       <path
          style="color:#bebebe;fill:#dbdee0;fill-opacity:1;stroke:none"
@@ -3898,7 +3898,7 @@
          y="501.36053" />
     </g>
     <g
-       transform="translate(487.9998,100.00163)"
+       transform="translate(487.9998,-199.99837)"
        id="g12221"
        inkscape:label="indicator-keyboard-Is">
       <path
@@ -3917,7 +3917,7 @@
     </g>
     <g
        id="g12231"
-       transform="translate(511.9998,100.00163)"
+       transform="translate(511.9998,-199.99837)"
        inkscape:label="indicator-keyboard-It">
       <path
          style="color:#bebebe;fill:#dbdee0;fill-opacity:1;stroke:none"
@@ -3934,7 +3934,7 @@
          y="501.36053" />
     </g>
     <g
-       transform="translate(535.9998,100.00163)"
+       transform="translate(535.9998,-199.99837)"
        id="g12241"
        inkscape:label="indicator-keyboard-Ja">
       <path
@@ -3953,7 +3953,7 @@
     </g>
     <g
        id="g12251"
-       transform="translate(559.9998,100.00163)"
+       transform="translate(559.9998,-199.99837)"
        inkscape:label="indicator-keyboard-Ka">
       <path
          style="color:#bebebe;fill:#dbdee0;fill-opacity:1;stroke:none"
@@ -3970,7 +3970,7 @@
          y="501.36053" />
     </g>
     <g
-       transform="translate(583.9998,100.00163)"
+       transform="translate(583.9998,-199.99837)"
        id="g12261"
        inkscape:label="indicator-keyboard-Ki">
       <path
@@ -3989,7 +3989,7 @@
     </g>
     <g
        id="g12271"
-       transform="translate(607.9998,100.00163)"
+       transform="translate(607.9998,-199.99837)"
        inkscape:label="indicator-keyboard-Kk">
       <path
          style="color:#bebebe;fill:#dbdee0;fill-opacity:1;stroke:none"
@@ -4006,7 +4006,7 @@
          y="501.36053" />
     </g>
     <g
-       transform="translate(631.9998,100.00163)"
+       transform="translate(631.9998,-199.99837)"
        id="g12281"
        inkscape:label="indicator-keyboard-Km">
       <path
@@ -4024,7 +4024,7 @@
          style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:1;marker:none" />
     </g>
     <g
-       transform="translate(415.9998,124.00163)"
+       transform="translate(415.9998,-175.99837)"
        id="g12291"
        inkscape:label="indicator-keyboard-Kn">
       <path
@@ -4043,7 +4043,7 @@
     </g>
     <g
        id="g12301"
-       transform="translate(439.9998,124.00163)"
+       transform="translate(439.9998,-175.99837)"
        inkscape:label="indicator-keyboard-Ko">
       <path
          style="color:#bebebe;fill:#dbdee0;fill-opacity:1;stroke:none"
@@ -4060,7 +4060,7 @@
          y="501.36053" />
     </g>
     <g
-       transform="translate(463.9998,124.00163)"
+       transform="translate(463.9998,-175.99837)"
        id="g12311"
        inkscape:label="indicator-keyboard-Ku">
       <path
@@ -4079,7 +4079,7 @@
     </g>
     <g
        id="g12321"
-       transform="translate(487.9998,124.00163)"
+       transform="translate(487.9998,-175.99837)"
        inkscape:label="indicator-keyboard-Lo">
       <path
          style="color:#bebebe;fill:#dbdee0;fill-opacity:1;stroke:none"
@@ -4096,7 +4096,7 @@
          y="501.36053" />
     </g>
     <g
-       transform="translate(511.9998,124.00163)"
+       transform="translate(511.9998,-175.99837)"
        id="g12331"
        inkscape:label="indicator-keyboard-Lt">
       <path
@@ -4115,7 +4115,7 @@
     </g>
     <g
        id="g12341"
-       transform="translate(535.9998,124.00163)"
+       transform="translate(535.9998,-175.99837)"
        inkscape:label="indicator-keyboard-Lv">
       <path
          style="color:#bebebe;fill:#dbdee0;fill-opacity:1;stroke:none"
@@ -4132,7 +4132,7 @@
          y="501.36053" />
     </g>
     <g
-       transform="translate(415.9998,148.00163)"
+       transform="translate(415.9998,-151.99837)"
        id="g12391"
        inkscape:label="indicator-keyboard-Mn">
       <path
@@ -4151,7 +4151,7 @@
     </g>
     <g
        id="g12401"
-       transform="translate(439.9998,148.00163)"
+       transform="translate(439.9998,-151.99837)"
        inkscape:label="indicator-keyboard-Md">
       <path
          style="color:#bebebe;fill:#dbdee0;fill-opacity:1;stroke:none"
@@ -4168,7 +4168,7 @@
          y="501.36053" />
     </g>
     <g
-       transform="translate(463.9998,148.00163)"
+       transform="translate(463.9998,-151.99837)"
        id="g12411"
        inkscape:label="indicator-keyboard-Mi">
       <path
@@ -4187,7 +4187,7 @@
     </g>
     <g
        id="g12421"
-       transform="translate(487.9998,148.00163)"
+       transform="translate(487.9998,-151.99837)"
        inkscape:label="indicator-keyboard-Mk">
       <path
          style="color:#bebebe;fill:#dbdee0;fill-opacity:1;stroke:none"
@@ -4204,7 +4204,7 @@
          y="501.36053" />
     </g>
     <g
-       transform="translate(511.9998,148.00163)"
+       transform="translate(511.9998,-151.99837)"
        id="g12431"
        inkscape:label="indicator-keyboard-Ml">
       <path
@@ -4223,7 +4223,7 @@
     </g>
     <g
        id="g12441"
-       transform="translate(535.9998,148.00163)"
+       transform="translate(535.9998,-151.99837)"
        inkscape:label="indicator-keyboard-Mn">
       <path
          style="color:#bebebe;fill:#dbdee0;fill-opacity:1;stroke:none"
@@ -4240,7 +4240,7 @@
          y="501.36053" />
     </g>
     <g
-       transform="translate(559.9998,148.00163)"
+       transform="translate(559.9998,-151.99837)"
        id="g12451"
        inkscape:label="indicator-keyboard-Mr">
       <path
@@ -4259,7 +4259,7 @@
     </g>
     <g
        id="g12461"
-       transform="translate(583.9998,148.00163)"
+       transform="translate(583.9998,-151.99837)"
        inkscape:label="indicator-keyboard-Mt">
       <path
          style="color:#bebebe;fill:#dbdee0;fill-opacity:1;stroke:none"
@@ -4276,7 +4276,7 @@
          y="501.36053" />
     </g>
     <g
-       transform="translate(607.9998,148.00163)"
+       transform="translate(607.9998,-151.99837)"
        id="g12471"
        inkscape:label="indicator-keyboard-My">
       <path
@@ -4295,7 +4295,7 @@
     </g>
     <g
        id="g12481"
-       transform="translate(631.9998,148.00163)"
+       transform="translate(631.9998,-151.99837)"
        inkscape:label="indicator-keyboard-Ne">
       <path
          style="color:#bebebe;fill:#dbdee0;fill-opacity:1;stroke:none"
@@ -4313,7 +4313,7 @@
     </g>
     <g
        id="g12591"
-       transform="translate(415.9998,172.00163)"
+       transform="translate(415.9998,-127.99837)"
        inkscape:label="indicator-keyboard-Nl">
       <path
          style="color:#bebebe;fill:#dbdee0;fill-opacity:1;stroke:none"
@@ -4330,7 +4330,7 @@
          y="501.36053" />
     </g>
     <g
-       transform="translate(439.9998,172.00163)"
+       transform="translate(439.9998,-127.99837)"
        id="g12601"
        inkscape:label="indicator-keyboard-No">
       <path
@@ -4349,7 +4349,7 @@
     </g>
     <g
        id="g12611"
-       transform="translate(463.9998,172.00163)"
+       transform="translate(463.9998,-127.99837)"
        inkscape:label="indicator-keyboard-Or">
       <path
          style="color:#bebebe;fill:#dbdee0;fill-opacity:1;stroke:none"
@@ -4367,7 +4367,7 @@
     </g>
     <g
        id="g12631"
-       transform="translate(487.9998,172.00163)"
+       transform="translate(487.9998,-127.99837)"
        inkscape:label="indicator-keyboard-Pa">
       <path
          style="color:#bebebe;fill:#dbdee0;fill-opacity:1;stroke:none"
@@ -4384,7 +4384,7 @@
          y="501.36053" />
     </g>
     <g
-       transform="translate(511.9998,172.00163)"
+       transform="translate(511.9998,-127.99837)"
        id="g12641"
        inkscape:label="indicator-keyboard-Ph">
       <path
@@ -4403,7 +4403,7 @@
     </g>
     <g
        id="g12651"
-       transform="translate(535.9998,172.00163)"
+       transform="translate(535.9998,-127.99837)"
        inkscape:label="indicator-keyboard-Pl">
       <path
          style="color:#bebebe;fill:#dbdee0;fill-opacity:1;stroke:none"
@@ -4420,7 +4420,7 @@
          y="501.36053" />
     </g>
     <g
-       transform="translate(559.9998,172.00163)"
+       transform="translate(559.9998,-127.99837)"
        id="g12661"
        inkscape:label="indicator-keyboard-Ps">
       <path
@@ -4439,7 +4439,7 @@
     </g>
     <g
        id="g12671"
-       transform="translate(583.9998,172.00163)"
+       transform="translate(583.9998,-127.99837)"
        inkscape:label="indicator-keyboard-Pt">
       <path
          style="color:#bebebe;fill:#dbdee0;fill-opacity:1;stroke:none"
@@ -4456,7 +4456,7 @@
          y="501.36053" />
     </g>
     <g
-       transform="translate(607.9998,172.00163)"
+       transform="translate(607.9998,-127.99837)"
        id="g12681"
        inkscape:label="indicator-keyboard-Ro">
       <path
@@ -4474,7 +4474,7 @@
          style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:1;marker:none" />
     </g>
     <g
-       transform="translate(631.9998,172.00163)"
+       transform="translate(631.9998,-127.99837)"
        id="g12691"
        inkscape:label="indicator-keyboard-Ru">
       <path
@@ -4493,7 +4493,7 @@
     </g>
     <g
        id="g12701"
-       transform="translate(415.9998,196.00163)"
+       transform="translate(415.9998,-103.99837)"
        inkscape:label="indicator-keyboard-Sa">
       <path
          style="color:#bebebe;fill:#dbdee0;fill-opacity:1;stroke:none"
@@ -4510,7 +4510,7 @@
          y="501.36053" />
     </g>
     <g
-       transform="translate(439.9998,196.00163)"
+       transform="translate(439.9998,-103.99837)"
        id="g12711"
        inkscape:label="indicator-keyboard-Sd">
       <path
@@ -4529,7 +4529,7 @@
     </g>
     <g
        id="g12721"
-       transform="translate(463.9998,196.00163)"
+       transform="translate(463.9998,-103.99837)"
        inkscape:label="indicator-keyboard-Si">
       <path
          style="color:#bebebe;fill:#dbdee0;fill-opacity:1;stroke:none"
@@ -4546,7 +4546,7 @@
          y="501.36053" />
     </g>
     <g
-       transform="translate(487.9998,196.00163)"
+       transform="translate(487.9998,-103.99837)"
        id="g12731"
        inkscape:label="indicator-keyboard-Sk">
       <path
@@ -4565,7 +4565,7 @@
     </g>
     <g
        id="g12741"
-       transform="translate(511.9998,196.00163)"
+       transform="translate(511.9998,-103.99837)"
        inkscape:label="indicator-keyboard-Sl">
       <path
          style="color:#bebebe;fill:#dbdee0;fill-opacity:1;stroke:none"
@@ -4582,7 +4582,7 @@
          y="501.36053" />
     </g>
     <g
-       transform="translate(535.9998,196.00163)"
+       transform="translate(535.9998,-103.99837)"
        id="g12751"
        inkscape:label="indicator-keyboard-Sq">
       <path
@@ -4601,7 +4601,7 @@
     </g>
     <g
        id="g12761"
-       transform="translate(559.9998,196.00163)"
+       transform="translate(559.9998,-103.99837)"
        inkscape:label="indicator-keyboard-Sr">
       <path
          style="color:#bebebe;fill:#dbdee0;fill-opacity:1;stroke:none"
@@ -4618,7 +4618,7 @@
          y="501.36053" />
     </g>
     <g
-       transform="translate(583.9998,196.00163)"
+       transform="translate(583.9998,-103.99837)"
        id="g12771"
        inkscape:label="indicator-keyboard-Sv">
       <path
@@ -4637,7 +4637,7 @@
     </g>
     <g
        id="g12781"
-       transform="translate(607.9998,196.00163)"
+       transform="translate(607.9998,-103.99837)"
        inkscape:label="indicator-keyboard-Sw">
       <path
          style="color:#bebebe;fill:#dbdee0;fill-opacity:1;stroke:none"
@@ -4655,7 +4655,7 @@
     </g>
     <g
        id="g12795"
-       transform="translate(632.0918,195.75977)"
+       transform="translate(632.0918,-104.24023)"
        inkscape:label="indicator-keyboard-Sy">
       <path
          style="color:#bebebe;fill:#dbdee0;fill-opacity:1;stroke:none"
@@ -4672,7 +4672,7 @@
          y="501.36053" />
     </g>
     <g
-       transform="translate(415.9998,220.00163)"
+       transform="translate(415.9998,-79.99837)"
        id="g12805"
        inkscape:label="indicator-keyboard-Ta">
       <path
@@ -4691,7 +4691,7 @@
     </g>
     <g
        id="g12815"
-       transform="translate(439.9998,220.00163)"
+       transform="translate(439.9998,-79.99837)"
        inkscape:label="indicator-keyboard-Te">
       <path
          style="color:#bebebe;fill:#dbdee0;fill-opacity:1;stroke:none"
@@ -4708,7 +4708,7 @@
          y="501.36053" />
     </g>
     <g
-       transform="translate(463.9998,220.00163)"
+       transform="translate(463.9998,-79.99837)"
        id="g12825"
        inkscape:label="indicator-keyboard-Tg">
       <path
@@ -4727,7 +4727,7 @@
     </g>
     <g
        id="g12835"
-       transform="translate(487.9998,220.00163)"
+       transform="translate(487.9998,-79.99837)"
        inkscape:label="indicator-keyboard-Th">
       <path
          style="color:#bebebe;fill:#dbdee0;fill-opacity:1;stroke:none"
@@ -4744,7 +4744,7 @@
          y="501.36053" />
     </g>
     <g
-       transform="translate(511.9998,220.00163)"
+       transform="translate(511.9998,-79.99837)"
        id="g12845"
        inkscape:label="indicator-keyboard-Tk">
       <path
@@ -4763,7 +4763,7 @@
     </g>
     <g
        id="g12855"
-       transform="translate(535.9998,220.00163)"
+       transform="translate(535.9998,-79.99837)"
        inkscape:label="indicator-keyboard-Tn">
       <path
          style="color:#bebebe;fill:#dbdee0;fill-opacity:1;stroke:none"
@@ -4780,7 +4780,7 @@
          y="501.36053" />
     </g>
     <g
-       transform="translate(559.9998,220.00163)"
+       transform="translate(559.9998,-79.99837)"
        id="g12865"
        inkscape:label="indicator-keyboard-Tr">
       <path
@@ -4799,7 +4799,7 @@
     </g>
     <g
        id="g12875"
-       transform="translate(583.9998,220.00163)"
+       transform="translate(583.9998,-79.99837)"
        inkscape:label="indicator-keyboard-Uk">
       <path
          style="color:#bebebe;fill:#dbdee0;fill-opacity:1;stroke:none"
@@ -4816,7 +4816,7 @@
          y="501.36053" />
     </g>
     <g
-       transform="translate(607.9998,220.00163)"
+       transform="translate(607.9998,-79.99837)"
        id="g12885"
        inkscape:label="indicator-keyboard-Ur">
       <path
@@ -4834,7 +4834,7 @@
          style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:1;marker:none" />
     </g>
     <g
-       transform="translate(631.9996,220.00326)"
+       transform="translate(631.9996,-79.99674)"
        id="g12903"
        inkscape:label="indicator-keyboard-Uz">
       <path
@@ -4853,7 +4853,7 @@
     </g>
     <g
        id="g12913"
-       transform="translate(415.9998,244.00163)"
+       transform="translate(415.9998,-55.99837)"
        inkscape:label="indicator-keyboard-Vi">
       <path
          style="color:#bebebe;fill:#dbdee0;fill-opacity:1;stroke:none"
@@ -4870,7 +4870,7 @@
          y="501.36053" />
     </g>
     <g
-       transform="translate(439.9998,244.00163)"
+       transform="translate(439.9998,-55.99837)"
        id="g12923"
        inkscape:label="indicator-keyboard-Wo">
       <path
@@ -4889,7 +4889,7 @@
     </g>
     <g
        id="g12933"
-       transform="translate(463.9998,244.00163)"
+       transform="translate(463.9998,-55.99837)"
        inkscape:label="indicator-keyboard-Xs">
       <path
          style="color:#bebebe;fill:#dbdee0;fill-opacity:1;stroke:none"
@@ -4906,7 +4906,7 @@
          y="501.36053" />
     </g>
     <g
-       transform="translate(487.9998,244.00163)"
+       transform="translate(487.9998,-55.99837)"
        id="g12943"
        inkscape:label="indicator-keyboard-Yo">
       <path
@@ -4925,7 +4925,7 @@
     </g>
     <g
        id="g12953"
-       transform="translate(511.9998,244.00163)"
+       transform="translate(511.9998,-55.99837)"
        inkscape:label="indicator-keyboard-Zh">
       <path
          style="color:#bebebe;fill:#dbdee0;fill-opacity:1;stroke:none"
@@ -4944,7 +4944,7 @@
     <g
        inkscape:label="keyboard-battery-empty"
        id="g5537"
-       transform="translate(22,0)">
+       transform="translate(22,-300)">
       <rect
          y="-152.99998"
          x="721.36389"
@@ -4967,7 +4967,7 @@
     </g>
     <g
        inkscape:label="phone-battery-empty"
-       transform="translate(118,48)"
+       transform="translate(118,-252)"
        id="g5547">
       <rect
          transform="matrix(0,1,-1,0,0,0)"
@@ -4991,7 +4991,7 @@
          id="path5553" />
     </g>
     <g
-       transform="translate(22,24)"
+       transform="translate(22,-276)"
        inkscape:label="mouse-battery-empty"
        id="g5557">
       <rect
@@ -5016,7 +5016,7 @@
          sodipodi:nodetypes="cccccccccsssscccc" />
     </g>
     <g
-       transform="translate(-621.00018,1123.3622)"
+       transform="translate(-621.00018,823.3622)"
        style="display:inline;enable-background:new"
        inkscape:label="account-logged-in"
        id="g6716">
@@ -5040,7 +5040,7 @@
        id="g5587"
        inkscape:label="application-running"
        style="display:inline;enable-background:new"
-       transform="translate(-597.00018,1123.3622)">
+       transform="translate(-597.00018,823.3622)">
       <path
          style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#dbdee0;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.84323651;marker:none;enable-background:accumulate"
          d="m 703.00018,-227.00004 0,8 4,-4 z"
@@ -5060,7 +5060,7 @@
     <g
        inkscape:label="network-wireless-connected"
        id="g5596"
-       transform="translate(24,26)">
+       transform="translate(24,-274)">
       <path
          style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#dbdee0;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;enable-background:accumulate"
          d="m 164.03125,532.36021 c -3.03435,0 -5.76588,1.07815 -8.03125,2.75 l 8.03125,8.75 L 172,535.07896 c -2.25661,-1.65329 -4.9577,-2.71875 -7.96875,-2.71875 z m 0,2 c 1.73882,0 3.30252,0.5296 4.78125,1.25586 l -4.78906,5.27929 -4.82617,-5.25781 c 1.4936,-0.7378 3.07648,-1.27734 4.83398,-1.27734 z"
@@ -5079,7 +5079,7 @@
     <g
        id="g7700"
        inkscape:label="remote-folder-sync-up"
-       transform="translate(0,2)">
+       transform="translate(0,-298)">
       <g
          transform="translate(-430,689.36216)"
          style="display:inline;fill:#dbdee0;fill-opacity:1"
@@ -5103,7 +5103,7 @@
     </g>
     <g
        id="g7705"
-       transform="translate(24,2)"
+       transform="translate(24,-298)"
        inkscape:label="remote-folder-sync-down">
       <g
          id="g7707"
@@ -5128,7 +5128,7 @@
     </g>
     <g
        inkscape:label="remote-folder-sync"
-       transform="translate(48,2)"
+       transform="translate(48,-298)"
        id="g7724">
       <g
          transform="translate(-430,689.36216)"
@@ -5155,7 +5155,7 @@
        id="g5141"
        inkscape:label="dropboxstatus-logo"
        style="stroke:none"
-       transform="translate(0,2)">
+       transform="translate(0,-298)">
       <path
          inkscape:connector-curvature="0"
          id="path3967"
@@ -5172,7 +5172,7 @@
     <g
        inkscape:label="dropboxstatus-busy"
        id="g5201"
-       transform="translate(72,2)"
+       transform="translate(72,-298)"
        style="stroke:none">
       <path
          style="color:#000000;fill:#dbdee0;fill-opacity:1;stroke:none"
@@ -5191,7 +5191,7 @@
     <g
        id="g6355"
        inkscape:label="weather-fog"
-       transform="translate(-405.00005,1301.29)"
+       transform="translate(-405.00005,1001.29)"
        style="display:inline;enable-background:new">
       <rect
          width="22"
@@ -5222,7 +5222,7 @@
     <g
        id="g5998"
        inkscape:label="weather-showers-scattered"
-       transform="translate(-469.00042,1339.2933)"
+       transform="translate(-469.00042,1039.2933)"
        style="display:inline;enable-background:new">
       <rect
          width="22"
@@ -5248,7 +5248,7 @@
     <g
        id="g7521"
        inkscape:label="weather-clear-night"
-       transform="translate(-296.00008,1258.29)"
+       transform="translate(-296.00008,958.29)"
        style="display:inline;enable-background:new">
       <rect
          width="22"
@@ -5275,7 +5275,7 @@
     <g
        id="g6125"
        inkscape:label="weather-clear"
-       transform="translate(-326.00021,1258.29)"
+       transform="translate(-326.00021,958.29)"
        style="display:inline;enable-background:new">
       <path
          style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:#dbdee0;fill-opacity:1;stroke:none;stroke-width:2;marker:none;enable-background:accumulate"
@@ -5294,7 +5294,7 @@
     <g
        id="g6211"
        inkscape:label="weather-storm"
-       transform="translate(-413.00042,1339.2928)"
+       transform="translate(-413.00042,1039.2928)"
        style="display:inline;enable-background:new">
       <path
          id="path6162"
@@ -5319,7 +5319,7 @@
     <g
        id="g5902"
        inkscape:label="weather-showers"
-       transform="translate(-353.00039,1315.2933)"
+       transform="translate(-353.00039,1015.2933)"
        style="display:inline;enable-background:new">
       <rect
          style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:1.78100002;marker:none;enable-background:new"
@@ -5344,7 +5344,7 @@
     <g
        id="g5943"
        inkscape:label="weather-severe-alert"
-       transform="translate(-357.00042,1340.2932)"
+       transform="translate(-357.00042,1040.2932)"
        style="display:inline;enable-background:new">
       <rect
          width="22"
@@ -5370,7 +5370,7 @@
     <g
        id="g6081"
        inkscape:label="weather-overcast"
-       transform="translate(-362.00021,1338.29)"
+       transform="translate(-362.00021,1038.29)"
        style="display:inline;enable-background:new">
       <rect
          width="22"
@@ -5394,7 +5394,7 @@
     <g
        id="g6272"
        inkscape:label="weather-few-clouds-night"
-       transform="translate(-244.99838,1315.2953)"
+       transform="translate(-244.99838,1015.2953)"
        style="display:inline;enable-background:new">
       <path
          id="path6240"
@@ -5425,7 +5425,7 @@
     <g
        id="g6318"
        inkscape:label="weather-few-clouds"
-       transform="translate(-249.00042,1315.2933)"
+       transform="translate(-249.00042,1015.2933)"
        style="display:inline;enable-background:new">
       <rect
          width="22"
@@ -5447,7 +5447,7 @@
          style="fill:#dbdee0;fill-opacity:1;stroke:none" />
     </g>
     <g
-       transform="translate(-465.00018,1343.29)"
+       transform="translate(-465.00018,1043.29)"
        id="g6943"
        inkscape:label="weather-snow"
        style="display:inline;enable-background:new">
@@ -5480,7 +5480,7 @@
          inkscape:connector-curvature="0" />
     </g>
     <g
-       transform="translate(56.002093,47.96392)"
+       transform="translate(56.002093,-252.03608)"
        id="g5141-5"
        inkscape:label="weather-clouds-night">
       <rect
@@ -5509,7 +5509,7 @@
          id="path5884-3" />
     </g>
     <g
-       transform="translate(28.000049,47.961906)"
+       transform="translate(28.000049,-252.03809)"
        id="g5192"
        inkscape:label="weather-clouds">
       <path
@@ -5539,7 +5539,7 @@
          width="16" />
     </g>
     <g
-       transform="translate(-44,432.27434)"
+       transform="translate(-316,312.27434)"
        id="g14113-1"
        inkscape:label="synapse">
       <path
@@ -5564,18 +5564,18 @@
     <text
        sodipodi:linespacing="125%"
        id="text7086"
-       y="898.17236"
-       x="309.78983"
+       y="778.17236"
+       x="37.789825"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:125%;font-family:'Droid Sans';text-align:start;text-anchor:start;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;enable-background:new"
        xml:space="preserve"><tspan
-         y="898.17236"
-         x="309.78983"
+         y="778.17236"
+         x="37.789825"
          id="tspan7088"
          sodipodi:role="line">apps</tspan></text>
     <g
        id="g7891"
        inkscape:label="spotify"
-       transform="translate(-140,440.27424)">
+       transform="translate(-412,320.27424)">
       <path
          inkscape:connector-curvature="0"
          id="path3763"
@@ -5592,7 +5592,7 @@
     <g
        id="g7943"
        inkscape:label="grive-app-ind"
-       transform="translate(-140,440.27424)">
+       transform="translate(-412,320.27424)">
       <g
          transform="translate(492,-560.36)"
          id="layer1-1"
@@ -5619,7 +5619,7 @@
     <g
        id="g7983"
        inkscape:label="google-hangouts-panel"
-       transform="translate(-140,440.27424)">
+       transform="translate(-412,320.27424)">
       <path
          sodipodi:nodetypes="ssccsscsssscccscsccssssscscccscsccsssscc"
          inkscape:connector-curvature="0"
@@ -5637,7 +5637,7 @@
     <g
        id="g7931"
        inkscape:label="notes"
-       transform="translate(-140,440.27424)">
+       transform="translate(-412,320.27424)">
       <rect
          style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:1;marker:none;enable-background:new"
          id="rect7899"
@@ -5653,7 +5653,7 @@
     </g>
     <g
        id="g7975"
-       transform="translate(-140,440.27424)"
+       transform="translate(-412,320.27424)"
        inkscape:label="deluge">
       <path
          d="m 575.99991,471.99838 c 0,0 -3.22882,4.05539 -4.26622,6.4 -0.5932,1.34069 -1.06756,2.99106 -1.06756,4.26667 0,2.94552 2.38781,5.33333 5.33333,5.33333 2.94553,0 5.26426,-2.38862 5.33334,-5.33333 0.0274,-1.16809 -0.47283,-2.92602 -1.06577,-4.26667 -1.03712,-2.34492 -4.26712,-6.4 -4.26712,-6.4 z"
@@ -5671,7 +5671,7 @@
     </g>
     <g
        id="g9088"
-       transform="translate(-140,440.27424)"
+       transform="translate(-412,320.27424)"
        inkscape:label="variety-indicator">
       <path
          d="m 449,497.00005 c -1,0 -1,1 -1,1 l 0,8.9375 0,2.71875 c 0.21549,0.23277 0.54729,0.35699 0.875,0.3125 0.0445,0.006 0.0788,0.0312 0.125,0.0312 l 14,0 c 0.554,0 1,-0.446 1,-1 l 0,-11 c 0,-0.554 -0.446,-1 -1,-1 l -2.90625,0 -1.0625,0 z m 0,1 10.40625,0 1.0625,0 2.53125,0 0,7 0,1.09375 0,1.90625 -4.5625,0 -9.4375,0 0,-0.15625 z m 8,1 c -0.55228,0 -1,0.44772 -1,1 0,0.55228 0.44772,1 1,1 0.55228,0 1,-0.44772 1,-1 0,-0.55228 -0.44772,-1 -1,-1 z m -4,3 c -1.5,0 -3,2 -3,4.53125 l 0,0.46875 12,0 0,0 c 0,0 -1,-4 -2.5,-4 -1.5,0 -1.5,2 -2.5,2 -1,0 -2.5,-3 -4,-3 z"
@@ -5690,7 +5690,7 @@
     <g
        id="g9092"
        inkscape:label="transmission-tray-icon"
-       transform="translate(-140,440.27424)">
+       transform="translate(-412,320.27424)">
       <path
          sodipodi:nodetypes="ccccccccccccccccccccccccccc"
          inkscape:connector-curvature="0"
@@ -5706,7 +5706,7 @@
          style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:1;marker:none;enable-background:new" />
     </g>
     <g
-       transform="translate(-140,456.27424)"
+       transform="translate(-412,336.27424)"
        id="g15556"
        inkscape:label="steam_tray_mono">
       <path
@@ -5725,7 +5725,7 @@
     <g
        id="g9135"
        inkscape:label="shutter-panel"
-       transform="translate(-140,440.27424)">
+       transform="translate(-412,320.27424)">
       <path
          id="path3526"
          d="m 533.34713,495.99734 c -1.97367,0.0295 -5.73941,0.85776 -6.74999,2.25 -0.71194,1.20649 -0.4664,5.72928 -0.28125,5.4375 1.52603,-2.40476 5.35708,-5.53797 7.68749,-6.84375 1.08024,-0.60527 0.52796,-0.86143 -0.65625,-0.84375 z m -8.56249,2.6875 c -0.52117,0.0888 -2.60717,1.5317 -2.125,4.125 0.45775,1.32398 3.38195,3.08057 3.28125,2.75 -0.83292,-2.73425 -1.12504,-4.51182 -1.03125,-6.84375 0.002,-0.0432 -0.0505,-0.0439 -0.125,-0.0312 z m 6.6875,1.6875 c -1.39724,0.10081 -3.8766,2.48079 -3.53125,2.46875 2.85657,-0.0996 4.64614,0.0892 6.87499,0.78125 0.33002,0.10247 -0.33812,-3.01804 -3.34374,-3.25 z m -10.125,2.78125 c -0.27981,0.14749 -0.77373,2.93197 1.65625,4.375 1.29737,0.5285 4.53371,-0.51408 4.21875,-0.65625 -2.60519,-1.17598 -4.12072,-2.11109 -5.8125,-3.71875 -0.0157,-0.0149 -0.0439,-0.01 -0.0625,0 z m 8.03125,0.15625 c -0.0738,0.004 -0.0872,0.0271 -0.0625,0.0625 1.63357,2.3455 2.43447,3.93978 3.06249,6.1875 0.093,0.33282 2.34221,-1.91191 0.90625,-4.5625 -0.73745,-0.97912 -3.38988,-1.71407 -3.90624,-1.6875 z m 0.625,2.125 c -0.0163,-0.004 -0.0258,0.0104 -0.0312,0.0312 -0.72156,2.76573 -1.41818,4.43716 -2.71875,6.375 -0.19257,0.28693 2.98063,0.50125 4.0625,-2.3125 0.28407,-1.28224 -1.06874,-4.03103 -1.3125,-4.09375 z m -1.03125,1.3125 c -2.57851,1.23336 -4.2741,1.80569 -6.59375,2.0625 -0.34346,0.038 1.52731,2.58283 4.375,1.59375 1.24041,-0.65104 2.53049,-3.80536 2.21875,-3.65625 z"
@@ -5742,7 +5742,7 @@
     <g
        id="g9131"
        inkscape:label="redshift-status-on"
-       transform="translate(-140,440.27424)">
+       transform="translate(-412,320.27424)">
       <path
          sodipodi:nodetypes="sscsccscssscccccssccccccccccc"
          id="path4766-4"
@@ -5760,7 +5760,7 @@
     <g
        id="g9127"
        inkscape:label="redshift-status-off"
-       transform="translate(-140,440.27424)">
+       transform="translate(-412,320.27424)">
       <path
          sodipodi:nodetypes="sscsccscssscccccssccccccccccc"
          id="path4766"
@@ -5778,7 +5778,7 @@
     <g
        id="g9119"
        inkscape:label="caffeine-cup-full"
-       transform="translate(-140,440.36375)">
+       transform="translate(-412,320.36375)">
       <path
          inkscape:connector-curvature="0"
          id="path4274-6"
@@ -5795,7 +5795,7 @@
     <g
        id="g9112"
        inkscape:label="caffeine-cup-empty"
-       transform="translate(-140,440.27424)">
+       transform="translate(-412,320.27424)">
       <path
          style="color:#000000;fill:#dbdee0;fill-opacity:1;stroke:none"
          d="m 546.00002,530 c 0,3 2,5 5,5 l 2,0 c 3,0 4.7598,-1.56569 4.959,-4 l 0.541,0 c 1.5,0 1.5,-1.5 1.5,-1.5 l 0,-1 c 0,-1.5 -1.5,-1.5 -1.5,-1.5 l -0.5,0 -12,0 z m 12.5,-2 c 0.5,-0.0323 0.5156,0.53125 0.5156,0.53125 l 0,1 c 0,0.46875 -0.5156,0.46875 -0.5156,0.46875 l -0.5,0 0.01,-1.98438 z"
@@ -5831,7 +5831,7 @@
     <g
        id="g9108"
        inkscape:label="cpu-frequency-indicator"
-       transform="translate(-140,440.27424)">
+       transform="translate(-412,320.27424)">
       <path
          inkscape:connector-curvature="0"
          id="path4188"
@@ -5848,7 +5848,7 @@
     <g
        id="g9104"
        inkscape:label="glippy-panel"
-       transform="translate(-140,440.27424)">
+       transform="translate(-412,320.27424)">
       <path
          sodipodi:nodetypes="scsccsscscccccccccccccccscccccsccccccccccccscccscccc"
          inkscape:connector-curvature="0"
@@ -5866,7 +5866,7 @@
     <g
        id="g9096"
        inkscape:label="indicator-virtual-box"
-       transform="translate(-140,440.27424)">
+       transform="translate(-412,320.27424)">
       <path
          inkscape:connector-curvature="0"
          id="path4054"
@@ -5883,7 +5883,7 @@
     <g
        id="g9100"
        inkscape:label="onboard"
-       transform="translate(-140,440.27424)">
+       transform="translate(-412,320.27424)">
       <path
          inkscape:connector-curvature="0"
          id="rect2989"
@@ -5898,7 +5898,7 @@
          y="516.99841" />
     </g>
     <g
-       transform="translate(-140,456.27586)"
+       transform="translate(-412,336.27586)"
        id="g14215"
        inkscape:label="google-chrome-panel">
       <g
@@ -5926,7 +5926,7 @@
          style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:1;marker:none;enable-background:new" />
     </g>
     <g
-       transform="translate(-140,456.27424)"
+       transform="translate(-412,336.27424)"
        id="g15507"
        inkscape:label="clipboard">
       <path
@@ -5955,7 +5955,7 @@
          sodipodi:nodetypes="ssccccccscsccssssc" />
     </g>
     <g
-       transform="translate(-140,-7.999999)"
+       transform="translate(-412,-128)"
        id="g6718"
        inkscape:label="fluxgui-panel">
       <path
@@ -5981,7 +5981,7 @@
     <g
        id="g5241"
        inkscape:label="uget-tray-downloading"
-       transform="translate(-144,0)">
+       transform="translate(-416,-120)">
       <g
          transform="translate(24,0)"
          id="g5193">
@@ -6003,7 +6003,7 @@
     <g
        id="g5273"
        inkscape:label="uget-tray-error"
-       transform="translate(-144,0)">
+       transform="translate(-416,-120)">
       <path
          id="path5258"
          transform="translate(0,452.36216)"
@@ -6027,7 +6027,7 @@
     </g>
     <g
        id="g5246"
-       transform="translate(-168,0)"
+       transform="translate(-440,-120)"
        inkscape:label="uget-tray-default">
       <g
          id="g5248"
@@ -6049,7 +6049,7 @@
     </g>
     <g
        id="g5194"
-       transform="translate(-168,0)"
+       transform="translate(-440,-120)"
        inkscape:label="im-skype">
       <rect
          y="933.27264"
@@ -6068,7 +6068,7 @@
     <g
        id="g5226"
        inkscape:label="skype-status-away"
-       transform="translate(-168,0)">
+       transform="translate(-440,-120)">
       <path
          sodipodi:nodetypes="ccccccccccccccccccccc"
          inkscape:connector-curvature="0"
@@ -6087,7 +6087,7 @@
     <g
        id="g5230"
        inkscape:label="skype-status-disturb"
-       transform="translate(-168,0)">
+       transform="translate(-440,-120)">
       <path
          sodipodi:nodetypes="cccccccccccccccccc"
          inkscape:connector-curvature="0"
@@ -6106,7 +6106,7 @@
     <g
        id="g5234"
        inkscape:label="skype-status-offline"
-       transform="translate(-144,0)">
+       transform="translate(-416,-120)">
       <path
          id="path5212"
          transform="translate(0,452.36216)"
@@ -6124,7 +6124,7 @@
     <g
        inkscape:label="skype-status-connected"
        id="g5272"
-       transform="translate(-144,0)">
+       transform="translate(-416,-120)">
       <path
          style="opacity:1;fill:#dbdee0;fill-opacity:1;stroke:none;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          d="m 672.5,503.91016 c -2.48528,0 -4.5,2.01472 -4.5,4.5 0.002,0.79285 0.21369,1.57106 0.61328,2.25586 -0.0723,0.41084 -0.11019,0.827 -0.11328,1.24414 0,4.14214 3.35786,7.5 7.5,7.5 0.41888,-1.9e-4 0.83701,-0.0355 1.25,-0.10547 0.68384,0.39586 1.45985,0.60468 2.25,0.60547 2.48528,0 4.5,-2.01472 4.5,-4.5 -0.002,-0.79285 -0.21369,-1.57106 -0.61328,-2.25586 0.0723,-0.41084 0.11019,-0.827 0.11328,-1.24414 0,-4.14214 -3.35786,-7.5 -7.5,-7.5 -0.41888,1.8e-4 -0.83701,0.0355 -1.25,0.10546 -0.68384,-0.39584 -1.45985,-0.60468 -2.25,-0.60546 z m 7,4.1748 1.41406,1.41406 -0.70703,0.70703 -5.70703,5.70899 -2.70703,-2.70899 -0.70703,-0.70703 1.41406,-1.41406 0.70703,0.70703 1.29297,1.29297 4.29297,-4.29297 z"
@@ -6141,7 +6141,7 @@
          y="933.27264" />
     </g>
     <g
-       transform="translate(-168,24)"
+       transform="translate(-440,-96)"
        inkscape:label="skype-status-away-notification"
        id="g5302">
       <path
@@ -6160,7 +6160,7 @@
          style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:1;marker:none;enable-background:new" />
     </g>
     <g
-       transform="translate(-168,24)"
+       transform="translate(-440,-96)"
        inkscape:label="skype-status-disturb-notification"
        id="g5308">
       <path
@@ -6181,7 +6181,7 @@
     <g
        inkscape:label="skype-status-offline-notification"
        id="g5314"
-       transform="translate(-144,24)">
+       transform="translate(-416,-96)">
       <path
          style="opacity:0.35;fill:#03a9f4;fill-opacity:1;stroke:none;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          d="m 696.5,483.91016 c -2.48528,0 -4.5,2.01472 -4.5,4.5 0.002,0.79285 0.21369,1.57106 0.61328,2.25586 -0.0723,0.41084 -0.11019,0.827 -0.11328,1.24414 0,4.14214 3.35786,7.5 7.5,7.5 0.41888,-1.9e-4 0.83701,-0.0355 1.25,-0.10547 0.68384,0.39586 1.45985,0.60468 2.25,0.60547 2.48528,0 4.5,-2.01472 4.5,-4.5 -0.002,-0.79285 -0.21369,-1.57106 -0.61328,-2.25586 0.0723,-0.41084 0.11019,-0.827 0.11328,-1.24414 0,-4.14214 -3.35786,-7.5 -7.5,-7.5 -0.41888,1.8e-4 -0.83701,0.0355 -1.25,0.10546 -0.68384,-0.39584 -1.45985,-0.60468 -2.25,-0.60546 z m 1.20703,4.38281 2.29297,2.29297 2.29297,-2.29297 1.41406,1.41406 -2.29297,2.29297 2.29297,2.29297 -1.41406,1.41406 -2.29297,-2.29297 -2.29297,2.29297 -1.41406,-1.41406 2.29297,-2.29297 -2.29297,-2.29297 1.41406,-1.41406 z"
@@ -6199,7 +6199,7 @@
     <g
        id="g5320"
        inkscape:label="skype-status-connected-notification"
-       transform="translate(-144,24)">
+       transform="translate(-416,-96)">
       <path
          sodipodi:nodetypes="cccccccccccccccccccccccc"
          inkscape:connector-curvature="0"
@@ -6218,7 +6218,7 @@
     <g
        inkscape:label="skype-status-invisible"
        id="g5329"
-       transform="translate(-120,0)">
+       transform="translate(-392,-120)">
       <path
          style="opacity:1;fill:#dbdee0;fill-opacity:1;stroke:none;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          d="m 696.5,483.91016 c -2.48528,0 -4.5,2.01472 -4.5,4.5 0.002,0.79285 0.21369,1.57106 0.61328,2.25586 -0.0723,0.41084 -0.11019,0.827 -0.11328,1.24414 0,4.14214 3.35786,7.5 7.5,7.5 0.41888,-1.9e-4 0.83701,-0.0355 1.25,-0.10547 0.68384,0.39586 1.45985,0.60468 2.25,0.60547 2.48528,0 4.5,-2.01472 4.5,-4.5 -0.002,-0.79285 -0.21369,-1.57106 -0.61328,-2.25586 0.0723,-0.41084 0.11019,-0.827 0.11328,-1.24414 0,-4.14214 -3.35786,-7.5 -7.5,-7.5 -0.41888,1.8e-4 -0.83701,0.0355 -1.25,0.10546 -0.68384,-0.39584 -1.45985,-0.60468 -2.25,-0.60546 z m 1.20703,4.38281 2.29297,2.29297 2.29297,-2.29297 1.41406,1.41406 -2.29297,2.29297 2.29297,2.29297 -1.41406,1.41406 -2.29297,-2.29297 -2.29297,2.29297 -1.41406,-1.41406 2.29297,-2.29297 -2.29297,-2.29297 1.41406,-1.41406 z"
@@ -6234,7 +6234,7 @@
          style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:1;marker:none;enable-background:new" />
     </g>
     <g
-       transform="translate(-120,24)"
+       transform="translate(-392,-96)"
        id="g5335"
        inkscape:label="skype-status-invisible-notification">
       <path
@@ -6252,7 +6252,7 @@
          y="933.27264" />
     </g>
     <g
-       transform="translate(-96,0)"
+       transform="translate(-368,-120)"
        id="g5341"
        inkscape:label="skype-status-connecting-0">
       <path
@@ -6272,7 +6272,7 @@
     <g
        inkscape:label="skype-status-connecting-1"
        id="g5376"
-       transform="translate(-72,0)">
+       transform="translate(-344,-120)">
       <path
          style="opacity:1;fill:#dbdee0;fill-opacity:1;stroke:none;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          d="m 624.5,483.91016 c -2.48528,0 -4.5,2.01472 -4.5,4.5 0.002,0.79285 0.21369,1.57106 0.61328,2.25586 -0.0723,0.41084 -0.11019,0.827 -0.11328,1.24414 0,4.14214 3.35786,7.5 7.5,7.5 0.41888,-1.9e-4 0.83701,-0.0355 1.25,-0.10547 0.68384,0.39586 1.45985,0.60468 2.25,0.60547 2.48528,0 4.5,-2.01472 4.5,-4.5 -0.002,-0.79285 -0.21369,-1.57106 -0.61328,-2.25586 0.0723,-0.41084 0.11019,-0.827 0.11328,-1.24414 0,-4.14214 -3.35786,-7.5 -7.5,-7.5 -0.41888,1.8e-4 -0.83701,0.0355 -1.25,0.10546 -0.68384,-0.39584 -1.45985,-0.60468 -2.25,-0.60546 z M 628,486 l 0,1 a 5,5 0 0 1 4.99609,4.90625 A 1,1 0 0 1 633,492 a 1,1 0 0 1 -1,1 1,1 0 0 1 -1,-1 3,3 0 0 0 -3,-3 l 0,1 -3,-2 3,-2 z m -4,5 a 1,1 0 0 1 1,1 3,3 0 0 0 3,3 l 0,-1 3,2 -3,2 0,-1 A 5,5 0 0 1 623.00391,492.09375 1,1 0 0 1 623,492 a 1,1 0 0 1 1,-1 z"
@@ -6288,7 +6288,7 @@
          style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:1;marker:none;enable-background:new" />
     </g>
     <g
-       transform="translate(-188,488.36375)"
+       transform="translate(-460,368.36375)"
        inkscape:label="syspeek-0"
        id="g5411">
       <path
@@ -6308,7 +6308,7 @@
     <g
        id="g5420"
        inkscape:label="syspeek-10"
-       transform="translate(-164,488.36375)">
+       transform="translate(-436,368.36375)">
       <path
          style="color:#000000;fill:#dbdee0;fill-opacity:1;stroke:none;stroke-width:2"
          d="m 334,552.00195 c -2,0 -2,2 -2,2 l 0,12 c 0,2 2,2 2,2 l 12,0 c 0,0 2,0 2,-2 l 0,-12 c 0,-2 -2,-2 -2,-2 l -12,0 z m 0,1.99805 12,0 0,12 -12,0 0,-12 z m 1,10 0,1 10,0 0,-1 -10,0 z"
@@ -6326,7 +6326,7 @@
     <g
        id="g5426"
        inkscape:label="syspeek-20"
-       transform="translate(-140,488.36375)">
+       transform="translate(-412,368.36375)">
       <path
          style="color:#000000;fill:#dbdee0;fill-opacity:1;stroke:none;stroke-width:2"
          d="m 358,552.00195 c -2,0 -2,2 -2,2 l 0,12 c 0,2 2,2 2,2 l 12,0 c 0,0 2,0 2,-2 l 0,-12 c 0,-2 -2,-2 -2,-2 l -12,0 z m 0,1.99805 12,0 0,12 -12,0 0,-12 z m 1,9 0,2 10,0 0,-2 -10,0 z"
@@ -6342,7 +6342,7 @@
          y="516.99841" />
     </g>
     <g
-       transform="translate(-116,488.36375)"
+       transform="translate(-388,368.36375)"
        inkscape:label="syspeek-30"
        id="g5432">
       <path
@@ -6362,7 +6362,7 @@
     <g
        id="g5438"
        inkscape:label="syspeek-40"
-       transform="translate(-92,488.36375)">
+       transform="translate(-364,368.36375)">
       <path
          style="color:#000000;fill:#dbdee0;fill-opacity:1;stroke:none;stroke-width:2"
          d="m 406,552.00195 c -2,0 -2,2 -2,2 l 0,12 c 0,2 2,2 2,2 l 12,0 c 0,0 2,0 2,-2 l 0,-12 c 0,-2 -2,-2 -2,-2 l -12,0 z m 0,1.99805 12,0 0,12 -12,0 0,-12 z m 1,7 0,4 10,0 0,-4 -10,0 z"
@@ -6378,7 +6378,7 @@
          y="516.99841" />
     </g>
     <g
-       transform="translate(-68,488.36375)"
+       transform="translate(-340,368.36375)"
        inkscape:label="syspeek-50"
        id="g5444">
       <path
@@ -6396,7 +6396,7 @@
          style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:1;marker:none;enable-background:new" />
     </g>
     <g
-       transform="translate(-44,488.36375)"
+       transform="translate(-316,368.36375)"
        inkscape:label="syspeek-60"
        id="g5450">
       <path
@@ -6416,7 +6416,7 @@
     <g
        id="g5456"
        inkscape:label="syspeek-70"
-       transform="translate(-20,488.36375)">
+       transform="translate(-292,368.36375)">
       <path
          style="color:#000000;fill:#dbdee0;fill-opacity:1;stroke:none;stroke-width:2"
          d="m 478,552.00195 c -2,0 -2,2 -2,2 l 0,12 c 0,2 2,2 2,2 l 12,0 c 0,0 2,0 2,-2 l 0,-12 c 0,-2 -2,-2 -2,-2 l -12,0 z m 0,1.99805 12,0 0,12 -12,0 0,-12 z m 1,4 0,7 10,0 0,-7 -10,0 z"
@@ -6432,7 +6432,7 @@
          y="516.99841" />
     </g>
     <g
-       transform="translate(4,488.36375)"
+       transform="translate(-268,368.36375)"
        inkscape:label="syspeek-80"
        id="g5462">
       <path
@@ -6452,7 +6452,7 @@
     <g
        id="g5484"
        inkscape:label="syspeek-90"
-       transform="translate(28,488.36375)">
+       transform="translate(-244,368.36375)">
       <path
          style="color:#000000;fill:#dbdee0;fill-opacity:1;stroke:none;stroke-width:2"
          d="m 526,552.00195 c -2,0 -2,2 -2,2 l 0,12 c 0,2 2,2 2,2 l 12,0 c 0,0 2,0 2,-2 l 0,-12 c 0,-2 -2,-2 -2,-2 l -12,0 z m 0,1.99805 12,0 0,12 -12,0 0,-12 z m 1,2 0,9 10,0 0,-9 -10,0 z"
@@ -6468,7 +6468,7 @@
          y="516.99841" />
     </g>
     <g
-       transform="translate(52,488.36375)"
+       transform="translate(-220,368.36375)"
        inkscape:label="syspeek-100"
        id="g5492">
       <path
@@ -6487,7 +6487,8 @@
     </g>
     <g
        id="g5623"
-       inkscape:label="kazam-countdown">
+       inkscape:label="kazam-countdown"
+       transform="translate(-272,-120)">
       <rect
          width="22"
          height="22"
@@ -6498,13 +6499,15 @@
          transform="matrix(0,1,1,0,0,0)" />
       <path
          style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:Sans;-inkscape-font-specification:Sans;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#dbdee0;fill-opacity:1;stroke:none;stroke-width:2;marker:none;enable-background:accumulate"
-         d="M 309.00391 535 C 309.00391 535 308.00391 535 308.00391 536 L 308.00391 544 C 308.00391 544 308.00391 545 309.00391 545 L 319 545 C 320 545 320 544 320 544 L 320 540.80078 L 324 544 L 324 536 L 320 539.19922 L 320 536 C 320 535 319 535 319 535 L 309.00391 535 z M 311 539 A 1 1 0 0 1 312 540 A 1 1 0 0 1 311 541 A 1 1 0 0 1 310 540 A 1 1 0 0 1 311 539 z M 314 539 A 1 1 0 0 1 315 540 A 1 1 0 0 1 314 541 A 1 1 0 0 1 313 540 A 1 1 0 0 1 314 539 z M 317 539 A 1 1 0 0 1 318 540 A 1 1 0 0 1 317 541 A 1 1 0 0 1 316 540 A 1 1 0 0 1 317 539 z "
+         d="m 309.00391,535 c 0,0 -1,0 -1,1 l 0,8 c 0,0 0,1 1,1 L 319,545 c 1,0 1,-1 1,-1 l 0,-3.19922 4,3.19922 0,-8 -4,3.19922 L 320,536 c 0,-1 -1,-1 -1,-1 l -9.99609,0 z M 311,539 a 1,1 0 0 1 1,1 1,1 0 0 1 -1,1 1,1 0 0 1 -1,-1 1,1 0 0 1 1,-1 z m 3,0 a 1,1 0 0 1 1,1 1,1 0 0 1 -1,1 1,1 0 0 1 -1,-1 1,1 0 0 1 1,-1 z m 3,0 a 1,1 0 0 1 1,1 1,1 0 0 1 -1,1 1,1 0 0 1 -1,-1 1,1 0 0 1 1,-1 z"
          transform="translate(0,452.36216)"
-         id="path5243-2" />
+         id="path5243-2"
+         inkscape:connector-curvature="0" />
     </g>
     <g
        id="g5602"
-       inkscape:label="kazam-stopped">
+       inkscape:label="kazam-stopped"
+       transform="translate(-272,-120)">
       <rect
          width="22"
          height="22"
@@ -6515,13 +6518,15 @@
          transform="matrix(0,1,1,0,0,0)" />
       <path
          style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:Sans;-inkscape-font-specification:Sans;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#dbdee0;fill-opacity:1;stroke:none;stroke-width:2;marker:none;enable-background:accumulate"
-         d="M 357.00391 535 C 357.00391 535 356.00391 535 356.00391 536 L 356.00391 544 C 356.00391 544 356.00391 545 357.00391 545 L 367 545 C 368 545 368 544 368 544 L 368 540.80078 L 372 544 L 372 536 L 368 539.19922 L 368 536 C 368 535 367 535 367 535 L 357.00391 535 z M 359 537 L 365 537 L 365 543 L 359 543 L 359 537 z "
+         d="m 357.00391,535 c 0,0 -1,0 -1,1 l 0,8 c 0,0 0,1 1,1 L 367,545 c 1,0 1,-1 1,-1 l 0,-3.19922 4,3.19922 0,-8 -4,3.19922 L 368,536 c 0,-1 -1,-1 -1,-1 l -9.99609,0 z m 1.99609,2 6,0 0,6 -6,0 0,-6 z"
          transform="translate(0,452.36216)"
-         id="path5578" />
+         id="path5578"
+         inkscape:connector-curvature="0" />
     </g>
     <g
        id="g5619"
-       inkscape:label="kazam-paused">
+       inkscape:label="kazam-paused"
+       transform="translate(-272,-120)">
       <rect
          transform="matrix(0,1,1,0,0,0)"
          style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:1;marker:none;enable-background:new"
@@ -6533,12 +6538,14 @@
       <path
          id="path5584"
          transform="translate(0,452.36216)"
-         d="M 381.00391 535 C 381.00391 535 380.00391 535 380.00391 536 L 380.00391 544 C 380.00391 544 380.00391 545 381.00391 545 L 391 545 C 392 545 392 544 392 544 L 392 540.80078 L 396 544 L 396 536 L 392 539.19922 L 392 536 C 392 535 391 535 391 535 L 381.00391 535 z M 383 537 L 385 537 L 385 543 L 383 543 L 383 537 z M 387 537 L 389 537 L 389 543 L 387 543 L 387 537 z "
-         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:Sans;-inkscape-font-specification:Sans;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#dbdee0;fill-opacity:1;stroke:none;stroke-width:2;marker:none;enable-background:accumulate" />
+         d="m 381.00391,535 c 0,0 -1,0 -1,1 l 0,8 c 0,0 0,1 1,1 L 391,545 c 1,0 1,-1 1,-1 l 0,-3.19922 4,3.19922 0,-8 -4,3.19922 L 392,536 c 0,-1 -1,-1 -1,-1 l -9.99609,0 z m 1.99609,2 2,0 0,6 -2,0 0,-6 z m 4,0 2,0 0,6 -2,0 0,-6 z"
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:Sans;-inkscape-font-specification:Sans;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#dbdee0;fill-opacity:1;stroke:none;stroke-width:2;marker:none;enable-background:accumulate"
+         inkscape:connector-curvature="0" />
     </g>
     <g
        id="g5597"
-       inkscape:label="kazam-recording">
+       inkscape:label="kazam-recording"
+       transform="translate(-272,-120)">
       <rect
          transform="matrix(0,1,1,0,0,0)"
          style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:1;marker:none;enable-background:new"
@@ -6560,13 +6567,35 @@
          id="path5594"
          style="opacity:1;fill:#f44336;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     </g>
+    <g
+       style="display:inline"
+       transform="translate(264,214)"
+       inkscape:label="ic_light_enpass"
+       id="g7921">
+      <path
+         style="display:inline;opacity:1;fill:#dbdee0;fill-opacity:1;stroke:none;stroke-width:31;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new"
+         d="m 40.5002,582.3639 c -2.48528,0 -4.5,2.01472 -4.5,4.5 0,2.48528 2.01472,4.5 4.5,4.5 1.90471,-0.003 3.60143,-1.20422 4.23633,-3 l 3.26367,-0.004 0,2 3,0 0,-2.00391 1,0.004 0,-3 -7.26367,0.004 c -0.6349,-1.79578 -2.33162,-2.99733 -4.23633,-3 z m 0,3 c 0.82843,0 1.5,0.67157 1.5,1.5 0,0.82843 -0.67157,1.5 -1.5,1.5 -0.82843,0 -1.5,-0.67157 -1.5,-1.5 0,-0.82843 0.67157,-1.5 1.5,-1.5 z"
+         id="path7923"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="csccccccccccsssss" />
+      <rect
+         transform="matrix(0,-1,1,0,0,0)"
+         y="33.000202"
+         x="-597.36047"
+         height="22"
+         width="22"
+         id="rect7925"
+         style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:1;marker:none"
+         clip-path="none" />
+    </g>
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer2"
-     inkscape:label="animations">
+     inkscape:label="animations"
+     transform="translate(0,300)">
     <g
-       transform="translate(96,0)"
+       transform="translate(96,-300)"
        id="g5049"
        inkscape:label="nm-stage01-connecting05">
       <path
@@ -6592,16 +6621,17 @@
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:125%;font-family:'Droid Sans';text-align:start;text-anchor:start;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;enable-background:new"
        x="449.78983"
-       y="357.89813"
+       y="57.898132"
        id="text4900"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan4902"
          x="449.78983"
-         y="357.89813">animations</tspan></text>
+         y="57.898132">animations</tspan></text>
     <g
        id="g4941"
-       inkscape:label="nm-stage01-connecting01">
+       inkscape:label="nm-stage01-connecting01"
+       transform="translate(0,-300)">
       <path
          inkscape:connector-curvature="0"
          id="path2990"
@@ -6624,7 +6654,7 @@
     <g
        inkscape:label="nm-stage01-connecting02"
        id="g4953"
-       transform="translate(24,0)">
+       transform="translate(24,-300)">
       <path
          style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:Sans;-inkscape-font-specification:Sans;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:url(#linearGradient4963);fill-opacity:1;stroke:none;stroke-width:2;marker:none;enable-background:accumulate"
          d="m 464,373.0718 c -3.81608,-2.20322 -8.72499,-0.88788 -10.9282,2.9282 -2.20322,3.81608 -0.88788,8.72499 2.9282,10.9282 l 1,-1.73205 c -2.88001,-1.66277 -3.85893,-5.31614 -2.19615,-8.19615 1.66277,-2.88001 5.31614,-3.85893 8.19615,-2.19615 0.47829,0.27614 1.08988,0.11226 1.36602,-0.36603 0.27615,-0.47829 0.11227,-1.08988 -0.36602,-1.36602 z"
@@ -6645,7 +6675,7 @@
          y="369.00003" />
     </g>
     <g
-       transform="translate(48,0)"
+       transform="translate(48,-300)"
        id="g4967"
        inkscape:label="nm-stage01-connecting03">
       <path
@@ -6670,7 +6700,7 @@
     <g
        inkscape:label="nm-stage01-connecting04"
        id="g4981"
-       transform="translate(72,0)">
+       transform="translate(72,-300)">
       <path
          style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:Sans;-inkscape-font-specification:Sans;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:url(#linearGradient4991);fill-opacity:1;stroke:none;stroke-width:2;marker:none;enable-background:accumulate"
          d="m 468,380 c 0,-4.40643 -3.59357,-8 -8,-8 -4.40643,0 -8,3.59357 -8,8 l 2,0 c 0,-3.32555 2.67445,-6 6,-6 3.32555,0 6,2.67445 6,6 0,0.55228 0.44772,1 1,1 0.55228,0 1,-0.44772 1,-1 z"
@@ -6693,7 +6723,7 @@
     <g
        inkscape:label="nm-stage01-connecting06"
        id="g5069"
-       transform="translate(120,0)">
+       transform="translate(120,-300)">
       <path
          style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:Sans;-inkscape-font-specification:Sans;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:url(#linearGradient5084);fill-opacity:1;stroke:none;stroke-width:2;marker:none;enable-background:accumulate"
          d="m 464,386.92821 c 3.81608,-2.20322 5.13142,-7.11212 2.9282,-10.92821 -2.20322,-3.81608 -7.11212,-5.13142 -10.9282,-2.9282 l 1,1.73205 c 2.88001,-1.66277 6.53337,-0.68386 8.19615,2.19615 1.66277,2.88002 0.68386,6.53338 -2.19615,8.19616 -0.4783,0.27614 -0.64217,0.88773 -0.36603,1.36602 0.27614,0.4783 0.88773,0.64217 1.36603,0.36603 z"
@@ -6714,7 +6744,7 @@
          y="369.00003" />
     </g>
     <g
-       transform="translate(0,24)"
+       transform="translate(0,-276)"
        id="g5120"
        inkscape:label="nm-stage01-connecting07">
       <path
@@ -6739,7 +6769,7 @@
     <g
        inkscape:label="nm-stage01-connecting08"
        id="g5132"
-       transform="translate(24,24)">
+       transform="translate(24,-276)">
       <path
          style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:Sans;-inkscape-font-specification:Sans;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:url(#linearGradient5140);fill-opacity:1;stroke:none;stroke-width:2;marker:none;enable-background:accumulate"
          d="m 456,386.92821 c 3.81608,2.20321 8.72499,0.88788 10.92821,-2.92821 2.2032,-3.81608 0.88787,-8.72499 -2.92821,-10.9282 l -1,1.73205 c 2.88001,1.66278 3.85892,5.31613 2.19615,8.19615 -1.66278,2.88002 -5.31614,3.85893 -8.19615,2.19616 -0.47829,-0.27615 -1.08988,-0.11227 -1.36602,0.36602 -0.27616,0.47829 -0.11227,1.08988 0.36602,1.36603 z"
@@ -6760,7 +6790,7 @@
          y="369.00003" />
     </g>
     <g
-       transform="translate(48,24)"
+       transform="translate(48,-276)"
        id="g5144"
        inkscape:label="nm-stage01-connecting09">
       <path
@@ -6785,7 +6815,7 @@
     <g
        inkscape:label="nm-stage01-connecting10"
        id="g5156"
-       transform="translate(72,24)">
+       transform="translate(72,-276)">
       <path
          style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:Sans;-inkscape-font-specification:Sans;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:url(#linearGradient5164);fill-opacity:1;stroke:none;stroke-width:2;marker:none;enable-background:accumulate"
          d="m 451.99999,380.00001 c 10e-6,4.40642 3.59358,8 8.00002,8 4.40641,-10e-6 7.99999,-3.59358 7.99998,-8 L 466,380 c -10e-6,3.32556 -2.67445,6 -6,6 -3.32556,0 -6,-2.67445 -6.00001,-5.99999 10e-6,-0.55229 -0.4477,-1 -0.99998,-1 -0.5523,-2e-5 -1,0.44771 -1.00002,1 z"
@@ -6806,7 +6836,7 @@
          y="369.00003" />
     </g>
     <g
-       transform="translate(96,24)"
+       transform="translate(96,-276)"
        id="g5168"
        inkscape:label="nm-stage01-connecting11">
       <path
@@ -6831,7 +6861,7 @@
     <g
        inkscape:label="nm-stage01-connecting12"
        id="g5180"
-       transform="translate(120,24)">
+       transform="translate(120,-276)">
       <path
          style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:Sans;-inkscape-font-specification:Sans;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:url(#linearGradient5188);fill-opacity:1;stroke:none;stroke-width:2;marker:none;enable-background:accumulate"
          d="m 455.99999,373.0718 c -3.81607,2.20323 -5.13141,7.11213 -2.92819,10.92822 2.20321,3.81606 7.11212,5.13141 10.92819,2.92819 L 463,385.19617 c -2.88002,1.66276 -6.53338,0.68384 -8.19615,-2.19616 -1.66278,-2.88002 -0.68386,-6.53337 2.19614,-8.19616 0.4783,-0.27613 0.64218,-0.88772 0.36604,-1.36601 -0.27614,-0.47831 -0.88773,-0.64217 -1.36604,-0.36604 z"
