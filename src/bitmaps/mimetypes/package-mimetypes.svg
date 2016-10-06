@@ -35,9 +35,9 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="492.9939"
-     inkscape:cy="479.68893"
-     inkscape:current-layer="layer3"
+     inkscape:cx="332.9939"
+     inkscape:cy="-120.31107"
+     inkscape:current-layer="g4424"
      showgrid="false"
      inkscape:grid-bbox="true"
      inkscape:document-units="px"
@@ -1738,7 +1738,7 @@
   <g
      style="display:inline"
      inkscape:groupmode="layer"
-     inkscape:label="package-x-generic (clone source)"
+     inkscape:label="package-x-generic"
      id="layer1"
      transform="translate(0,244)">
     <g
@@ -2137,7 +2137,7 @@
   <g
      transform="translate(0,244)"
      id="g4424"
-     inkscape:label="application-zip"
+     inkscape:label="application-x-zip (clone source)"
      inkscape:groupmode="layer"
      style="display:inline">
     <g
@@ -2178,7 +2178,7 @@
            sodipodi:role="line"
            x="142.48828"
            y="-307.51477"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18px;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans Bold'">application-zip</tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18px;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans Bold'">application-x-zip</tspan></text>
       <rect
          transform="scale(-1,1)"
          inkscape:label="16x16"
@@ -2655,7 +2655,7 @@
   <g
      style="display:inline"
      inkscape:groupmode="layer"
-     inkscape:label="application-7zip"
+     inkscape:label="application-x-7zip"
      id="g5387"
      transform="translate(0,244)">
     <g
@@ -2696,7 +2696,7 @@
            y="-947.51477"
            x="142.48828"
            sodipodi:role="line"
-           id="tspan5399">application-7zip</tspan></text>
+           id="tspan5399">application-x-7zip</tspan></text>
       <rect
          style="display:inline;overflow:visible;visibility:visible;fill:#e9e9e9;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;enable-background:accumulate"
          id="rect5401"
@@ -2733,6 +2733,82 @@
          id="rect5407"
          style="display:inline;overflow:visible;visibility:visible;fill:#e9e9e9;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;enable-background:accumulate"
          transform="scale(-1,1)" />
+    </g>
+    <g
+       inkscape:groupmode="layer"
+       id="g8054"
+       inkscape:label="Baseplate (7zip)"
+       style="display:none">
+      <rect
+         transform="scale(-1,1)"
+         inkscape:label="48x48"
+         y="-1508"
+         x="-720"
+         height="512"
+         width="512"
+         id="rect8056"
+         style="display:inline;overflow:visible;visibility:visible;fill:#e9e9e9;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;enable-background:accumulate" />
+      <text
+         id="text8058"
+         inkscape:label="context"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18px;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans';display:inline;fill:#000000;fill-opacity:1;stroke:none;enable-background:new"
+         x="15.006836"
+         xml:space="preserve"
+         y="-947.51477"><tspan
+           id="tspan8060"
+           sodipodi:role="line"
+           x="15.006836"
+           y="-947.51477"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans'">apps</tspan></text>
+      <text
+         id="text8062"
+         inkscape:label="icon-name"
+         sodipodi:linespacing="125%"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18px;line-height:125%;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans Bold';text-align:start;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;enable-background:new"
+         x="142.48828"
+         xml:space="preserve"
+         y="-947.51477"><tspan
+           id="tspan8064"
+           sodipodi:role="line"
+           x="142.48828"
+           y="-947.51477"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18px;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans Bold'">7zip</tspan></text>
+      <rect
+         transform="scale(-1,1)"
+         inkscape:label="16x16"
+         y="-1012"
+         x="-32"
+         height="16"
+         width="16"
+         id="rect8066"
+         style="display:inline;overflow:visible;visibility:visible;fill:#e9e9e9;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;enable-background:accumulate" />
+      <rect
+         transform="scale(-1,1)"
+         inkscape:label="24x24"
+         y="-1020"
+         x="-76"
+         height="24"
+         width="24"
+         id="rect8068"
+         style="display:inline;overflow:visible;visibility:visible;fill:#e9e9e9;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;enable-background:accumulate" />
+      <rect
+         transform="scale(-1,1)"
+         inkscape:label="32x32"
+         y="-1028"
+         x="-128"
+         height="32"
+         width="32"
+         id="rect8070"
+         style="display:inline;overflow:visible;visibility:visible;fill:#e9e9e9;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;enable-background:accumulate" />
+      <rect
+         transform="scale(-1,1)"
+         style="display:inline;overflow:visible;visibility:visible;fill:#e9e9e9;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;enable-background:accumulate"
+         id="rect8072"
+         width="48"
+         height="48"
+         x="-192"
+         y="-1044"
+         inkscape:label="48x48" />
     </g>
     <g
        inkscape:groupmode="layer"
