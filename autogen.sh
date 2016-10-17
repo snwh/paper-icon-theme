@@ -1,7 +1,6 @@
 #!/bin/sh
 
 set -e
-
 autoreconf --force --install --symlink --warnings=all
 
 if test -z "${NOCONFIGURE}"; then
