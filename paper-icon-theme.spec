@@ -14,8 +14,8 @@
 #
 
 Name:           paper-icon-theme
-Version:        1.3
-Release:        4
+Version:        1.4
+Release:        0
 License:        CC-BY-SA-4.0
 Summary:        Paper Icon theme
 Url:            https://snwh.org/paper
