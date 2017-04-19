@@ -8,10 +8,10 @@ EXTRA_DIST = \
 themedir = $(datadir)/icons
 
 install-data-hook:
-	$(MKDIR_P) $(DESTDIR)/usr/share/icons
-	cp -Rv Paper $(DESTDIR)/usr/share/icons/.
-	cp -Rv Paper-Mono-Dark $(DESTDIR)/usr/share/icons/.
+	$(MKDIR_P) $(DESTDIR)$(datadir)/icons
+	cp -Rv Paper $(DESTDIR)$(datadir)/icons/.
+	cp -Rv Paper-Mono-Dark $(DESTDIR)$(datadir)/icons/.
 
 uninstall-hook:
-	test -e $(DESTDIR)/usr/share/icons/Paper && rm -rfv $(DESTDIR)/usr/share/icons/Paper
-	test -e $(DESTDIR)/usr/share/icons/Paper-Mono-Dark && rm -rfv $(DESTDIR)/usr/share/icons/Paper-Mono-Dark
+	test -e $(DESTDIR)$(datadir)/icons/Paper && rm -rfv $(DESTDIR)$(datadir)/icons/Paper
+	test -e $(DESTDIR)$(datadir)/icons/Paper-Mono-Dark && rm -rfv $(DESTDIR)$(datadir)/icons/Paper-Mono-Dark
