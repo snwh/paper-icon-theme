@@ -30,7 +30,7 @@ SOURCES = ('bitmaps/actions', 'bitmaps/apps', 'bitmaps/categories', 'bitmaps/dev
 # SRC = 'bitmaps'
 
 # the resolution that non-hi-dpi icons are rendered at
-DPI_1_TO_1 = 90
+DPI_1_TO_1 = 96
 # DPI multipliers to render at
 DPIS = [1, 2]
 
