@@ -35,16 +35,6 @@ You can file an icon request as a [GitHub issue](https://github.com/snwh/paper-i
 
 Note: some software ships hardcoded icons, meaning when you install icons are not placed in the system-wide directory `/usr/share/icons` which makes them unthemeable.
 
-If you like, you can assign a bounty to your request via Bountysource:
-
-[![Bountysource](https://www.bountysource.com/badge/tracker?tracker_id=9370873)](https://www.bountysource.com/trackers/9370873)
-
 ## Help & Support
 
-You can visit the support channel `#Paper-Chat` on Freenode for questions and discussion or join the Gitter chat:
-
-[![Join the chat at https://gitter.im/paper-icon-theme/Lobby](https://badges.gitter.im/snwh/paper-icon-theme.svg)](https://gitter.im/snwh/paper-icon-theme?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
-### Donate
-
-You can also support the development of Paper by [donating](http://snwh.org/paper/donate). Donations are much appreciated. &#x1F60A;
+You can visit the support channel `#Paper-Chat` on Freenode for questions or discussion. The development of Paper is in part supported by [Patreon](http://patreon.com/snwh/), pledges are much appreciated. &#x1F60A;
