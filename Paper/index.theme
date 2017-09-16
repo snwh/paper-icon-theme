@@ -286,7 +286,7 @@ MaxSize=512
 Type=Scalable
 
 [scalable/mimetypes]
-Context=Mimetypes
+Context=MimeTypes
 Size=16
 MinSize=16
 MaxSize=512
@@ -493,7 +493,7 @@ Size=48
 Type=Fixed
 
 [512x512@2x/apps]
-Context=Apps
+Context=Applications
 Scale=2
 Size=512
 MinSize=64
@@ -670,7 +670,7 @@ Size=48
 Type=Fixed
 
 [512x512@2x/mimetypes]
-Context=Mimetypes
+Context=MimeTypes
 Scale=2
 Size=512
 MinSize=64
