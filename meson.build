@@ -1,4 +1,4 @@
-project('suru-icon-theme',
+project('paper-icon-theme',
     version: '1.5',
     meson_version: '>= 0.40',
     license: 'CC-by-SA',
