@@ -67,16 +67,16 @@ do
 		# Get list file
 		LIST="$DIR/panel/$CONTEXT.list"
 		# for both panel themes
-		for THEME in "${PANELTHEMES[@]}"
+		for VAR in "${PANELTHEMES[@]}"
 		do
 			# Check if directory exists
-			if [ -d "$DIR/../../$THEME/$SIZE/$CONTEXT" ]; then
-				cd $DIR/../../$THEME/$SIZE/$CONTEXT
+			if [ -d "$DIR/../../$VAR/$SIZE/$CONTEXT" ]; then
+				cd $DIR/../../$VAR/$SIZE/$CONTEXT
 				while read line;
 				do
 					ln -sf $line
 				done < $LIST
-				cd $DIR/../../$THEME
+				cd $DIR/../../$VAR
 			else
 				echo "  -- skipping panel/"$CONTEXT
 			fi
@@ -85,11 +85,11 @@ do
 done
 echo "Done."
 
+
+# echo $DIR
 # Clear symlink errors
 if command -v symlinks 2>&1 >/dev/null; then
 	echo "Deleting broken links..."
-	cd $DIR
-	cd ../../
-	symlinks -cdr $THEME
+	symlinks -cdr cd $DIR/../../$THEME
 	echo "Done."
 fi
