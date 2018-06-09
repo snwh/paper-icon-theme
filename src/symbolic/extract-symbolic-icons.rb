@@ -2,11 +2,11 @@
 #
 # Legal Stuff:
 #
-# This file is part of the Paper Icon Theme and is free software; you can redistribute it and/or modify it under
+# This file is free software; you can redistribute it and/or modify it under
 # the terms of the GNU Lesser General Public License as published by the Free Software
 # Foundation; version 3.
 #
-# This file is part of the Paper Icon Theme and is distributed in the hope that it will be useful, but WITHOUT
+# This file is distributed in the hope that it will be useful, but WITHOUT
 # ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
 # FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for more
 # details.
@@ -17,14 +17,18 @@
 #
 # Thanks to the GNOME icon developers for the original version of this script
 
+
 require "rexml/document"
 require "fileutils"
 include REXML
 
+# INKSCAPE = 'flatpak run org.inkscape.Inkscape'
 INKSCAPE = '/usr/bin/inkscape'
-SRC = "symbolic/source-symbolic.svg"
-PREFIX = "../Paper/scalable"
+SRC = "./source-symbolic.svg"
+PREFIX = "../../Paper/scalable"
 
+# install with `sudo npm install -g svgo`
+SVGO = '/usr/local/bin/svgo'
 
 def chopSVG(icon)
 	FileUtils.mkdir_p(icon[:dir]) unless File.exists?(icon[:dir])
@@ -36,8 +40,12 @@ def chopSVG(icon)
 		cmd += "--verb=FileSave --verb=FileQuit > /dev/null 2>&1"
 		system(cmd)
 		#saving as plain SVG gets rid of the classes :/
-		#cmd = "#{INKSCAPE} -f -z #{icon[:file]} -z --vacuum-defs -l #{icon[:file]} > /dev/null 2>&1"
-		#system(cmd)
+		cmd = "#{INKSCAPE} --vacuum-defs -z #{icon[:file]} --export-plain-svg=#{icon[:file]} > /dev/null 2>&1"
+		system(cmd)
+		#completely vaccuum with svgo
+		cmd = "#{SVGO} --pretty --disable=convertShapeToPath -i  #{icon[:file]} -o  #{icon[:file]} > /dev/null 2>&1"
+		system(cmd)
+		# crop
 		svgcrop = Document.new(File.new(icon[:file], 'r'))
 		svgcrop.root.each_element("//rect") do |rect| 
 			w = ((rect.attributes["width"].to_f * 10).round / 10.0).to_i #get rid of 16 vs 15.99999 
@@ -46,9 +54,9 @@ def chopSVG(icon)
 				rect.remove
 			end
 		end
-    icon_f = File.new(icon[:file],'w+')
-    icon_f.puts svgcrop
-    icon_f.close
+		icon_f = File.new(icon[:file],'w+')
+		icon_f.puts svgcrop
+		icon_f.close
 	else
 		puts " -- #{icon[:name]} already exists"
 	end
@@ -56,11 +64,11 @@ end #end of function
 
 def get_output_filename(d,n)
 	if (/rtl$/.match(n))
-	  outfile = "#{d}/#{n.chomp('-rtl')}-symbolic-rtl.svg"
+		outfile = "#{d}/#{n.chomp('-rtl')}-symbolic-rtl.svg"
 	else
-	  outfile = "#{d}/#{n}-symbolic.svg"	  
-  end
-  return outfile
+		outfile = "#{d}/#{n}-symbolic.svg"
+	end
+	return outfile
 end
 
 #main
@@ -68,7 +76,7 @@ end
 svg = Document.new(File.new(SRC, 'r'))
 
 if (ARGV[0].nil?) #render all SVGs
-  puts "Rendering from icons in #{SRC}"
+	puts "Rendering from icons in #{SRC}"
 	# Go through every layer.
 	svg.root.each_element("/svg/g[@inkscape:groupmode='layer']") do |context| 
 		context_name = context.attributes.get_attribute("inkscape:label").value  
@@ -77,25 +85,29 @@ if (ARGV[0].nil?) #render all SVGs
 			#puts "DEBUG #{icon.attributes.get_attribute('id')}"
 			dir = "#{PREFIX}/#{context_name}"
 			icon_name = icon.attributes.get_attribute("inkscape:label").value
-			chopSVG({	:name => icon_name,
-			 					:id => icon.attributes.get_attribute("id"),
-			 					:dir => dir,
-			 					:file => get_output_filename(dir, icon_name)})
+			if icon_name.end_with?("-alt")
+				puts " >> skipping icon '" + icon_name + "'"
+			else
+				chopSVG({ :name => icon_name,
+						:id => icon.attributes.get_attribute("id"),
+						:dir => dir,
+						:file => get_output_filename(dir, icon_name)})
+			end
 		end
 	end
-  puts "\nrendered all SVGs"
+	puts "\nrendered all SVGs"
 else #only render the icons passed
-  icons = ARGV
-  ARGV.each do |icon_name|
-  	icon = svg.root.elements["//g[@inkscape:label='#{icon_name}']"]
-  	dir = "#{PREFIX}/#{icon.parent.attributes['inkscape:label']}"
-		chopSVG({	:name => icon_name,
-		 					:id => icon.attributes["id"],
-		 					:dir => dir,
-		 					:file => get_output_filename(dir, icon_name),
-		 					:forcerender => true})
+	icons = ARGV
+	ARGV.each do |icon_name|
+		icon = svg.root.elements["//g[@inkscape:label='#{icon_name}']"]
+		dir = "#{PREFIX}/#{icon.parent.attributes['inkscape:label']}"
+		chopSVG({ :name => icon_name,
+				:id => icon.attributes["id"],
+				:dir => dir,
+				:file => get_output_filename(dir, icon_name),
+				:forcerender => true})
 	end
-  puts "\nrendered #{ARGV.length} icons"
+	puts "\nrendered #{ARGV.length} icons"
 end
 
 #EOF

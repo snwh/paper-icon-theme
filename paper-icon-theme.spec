@@ -1,7 +1,7 @@
 #
 # Spec file for package paper-icon-theme
 #
-# Copyright (c) 2016 Sam Hewitt
+# Copyright (c) 2018 Sam Hewitt
 #
 # All modifications and additions to the file contributed by third parties
 # remain the property of their copyright owners, unless otherwise agreed
@@ -14,7 +14,7 @@
 #
 
 Name:           paper-icon-theme
-Version:        1.4
+Version:        1.5
 Release:        0
 License:        CC-BY-SA-4.0
 Summary:        Paper Icon theme

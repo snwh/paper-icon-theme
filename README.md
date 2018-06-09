@@ -17,13 +17,44 @@ Software that is included is free software; you can redistribute it and/or modif
 
 Download instructions are available on the [official site](https://snwh.org/paper/download).
 
-### Build &amp; Install
+## Installing & Using
 
-You can build and install the Paper icon themes from source, provide you have ```gnome-common``` installed on your system.
+You can build and install Paper from source using Meson.
 
-    ./autogen.sh
-    make
-    sudo make install
+```bash
+# build
+meson "build" --prefix=/usr
+# install
+sudo ninja -C "build" install
+```
+
+By default it installs to `/usr/` but you can specify a different directory with a prefix like: `/usr/local` or `$HOME/.local`.
+
+After which you should be able to pick Paper as your icon or cursor theme in GNOME Tweak tool, or you can set either from a terminal with:
+
+```bash
+# set the icon theme
+gsettings set org.gnome.desktop.interface icon-theme "Paper"
+# or the cursor theme
+gsettings set org.gnome.desktop.interface cursor-theme "Paper"
+```
+
+### Uninstalling Paper
+
+To uninstall Paper, simply run the following. (If you installed it without superuser priveleges just omit the  `sudo`.)
+
+```bash
+sudo ninja -C "build" uninstall
+```
+
+Once uninstalled you can reset your icon and cursor theme to the default setting by running the following.
+
+```bash
+# reset icon theme to default
+gsettings reset org.gnome.desktop.interface icon-theme
+# reset cursor theme to default
+gsettings reset org.gnome.desktop.interface cursor-theme
+```
 
 ## Missing Icons & Requests
 
@@ -35,6 +66,6 @@ You can file an icon request as a [GitHub issue](https://github.com/snwh/paper-i
 
 Note: some software ships hardcoded icons, meaning when you install icons are not placed in the system-wide directory `/usr/share/icons` which makes them unthemeable.
 
-## Help & Support
+## Donate & Support
 
-You can visit the support channel `#Paper-Chat` on Freenode for questions or discussion. The development of Paper is in part supported by [Patreon](http://patreon.com/snwh/), pledges are much appreciated. &#x1F60A;
+If you would like to support development by making a donation you can do so [here](https://snwh.org/donate) or by becoming a Patron on [Patreon](http://patreon.com/snwh/). &#x1F60A;
