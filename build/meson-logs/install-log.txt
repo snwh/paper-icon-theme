@@ -291,6 +291,7 @@
 /usr/share/icons/Paper/scalable/apps/gnome-disks-state-standby-symbolic.svg
 /usr/share/icons/Paper/scalable/apps/gnome-power-manager-symbolic.svg
 /usr/share/icons/Paper/scalable/apps/password-manager-symbolic.svg
+/usr/share/icons/Paper/scalable/apps/org.gnome.Geary-symbolic.svg
 /usr/share/icons/Paper/scalable/apps/libreoffice-calc-symbolic.svg
 /usr/share/icons/Paper/scalable/apps/inkscape-symbolic.svg
 /usr/share/icons/Paper/scalable/apps/help-faq-symbolic.svg
@@ -725,7 +726,6 @@
 /usr/share/icons/Paper/32x32/mimetypes/audio-x-flac.png
 /usr/share/icons/Paper/32x32/mimetypes/gnome-mime-text-html.png
 /usr/share/icons/Paper/32x32/mimetypes/text-plain.png
-/usr/share/icons/Paper/32x32/mimetypes/image-vnd.adobe.photoshop.png
 /usr/share/icons/Paper/32x32/mimetypes/application-x-object.png
 /usr/share/icons/Paper/32x32/mimetypes/application-x-compressed-tar.png
 /usr/share/icons/Paper/32x32/mimetypes/gnome-mime-application-x-compress.png
@@ -833,7 +833,6 @@
 /usr/share/icons/Paper/32x32/mimetypes/gnome-mime-application-postscript.png
 /usr/share/icons/Paper/32x32/mimetypes/ascii.png
 /usr/share/icons/Paper/32x32/mimetypes/gnome-mime-application-xhtml+xml.png
-/usr/share/icons/Paper/32x32/mimetypes/application-illustrator.png
 /usr/share/icons/Paper/32x32/mimetypes/video-x-ogm+ogg.png
 /usr/share/icons/Paper/32x32/mimetypes/gnome-mime-application-x-bzip.png
 /usr/share/icons/Paper/32x32/mimetypes/text-x-script.png
@@ -901,7 +900,6 @@
 /usr/share/icons/Paper/32x32/mimetypes/gnome-mime-application-x-gzip.png
 /usr/share/icons/Paper/32x32/mimetypes/office-document.png
 /usr/share/icons/Paper/32x32/mimetypes/application-x-firmware.png
-/usr/share/icons/Paper/32x32/mimetypes/application-vnd.ms-access.png
 /usr/share/icons/Paper/32x32/mimetypes/text-x-ruby.png
 /usr/share/icons/Paper/32x32/mimetypes/gnome-fs-executable.png
 /usr/share/icons/Paper/32x32/mimetypes/text-x-generic.svapplication-x-awk.png
@@ -1184,7 +1182,6 @@
 /usr/share/icons/Paper/32x32/status/im-user-away.png
 /usr/share/icons/Paper/32x32/status/messagebox_warning.png
 /usr/share/icons/Paper/32x32/status/semi-starred-rtl.png
-/usr/share/icons/Paper/32x32/status/rating-unrated.png
 /usr/share/icons/Paper/32x32/status/network-offline.png
 /usr/share/icons/Paper/32x32/status/mail-signed.png
 /usr/share/icons/Paper/32x32/status/nm-device-wireless.png
@@ -1194,7 +1191,6 @@
 /usr/share/icons/Paper/32x32/status/weather-overcast.png
 /usr/share/icons/Paper/32x32/status/battery-caution-charging.png
 /usr/share/icons/Paper/32x32/status/gnome-netstatus-disconn.png
-/usr/share/icons/Paper/32x32/status/aptdaemon-download.png
 /usr/share/icons/Paper/32x32/status/xfce-battery-critical-charging.png
 /usr/share/icons/Paper/32x32/status/battery-080-charging.png
 /usr/share/icons/Paper/32x32/status/im-user-offline.png
@@ -1308,7 +1304,6 @@
 /usr/share/icons/Paper/32x32/status/starred.png
 /usr/share/icons/Paper/32x32/status/sync-error.png
 /usr/share/icons/Paper/32x32/status/stock_mail-replied.png
-/usr/share/icons/Paper/32x32/status/non-starred-grey.png
 /usr/share/icons/Paper/32x32/status/mail-signed-verified.png
 /usr/share/icons/Paper/32x32/status/gnome-netstatus-error.png
 /usr/share/icons/Paper/32x32/status/stock_mail-open.png
@@ -1316,7 +1311,6 @@
 /usr/share/icons/Paper/32x32/status/mail-replied.png
 /usr/share/icons/Paper/32x32/status/stock_mail-unread.png
 /usr/share/icons/Paper/32x32/status/aptdaemon-upgrade.png
-/usr/share/icons/Paper/32x32/status/pin-up.png
 /usr/share/icons/Paper/32x32/status/stock_dialog-question.png
 /usr/share/icons/Paper/32x32/status/gtk-dialog-authentication.png
 /usr/share/icons/Paper/32x32/status/stock_dialog-error.png
@@ -1338,9 +1332,7 @@
 /usr/share/icons/Paper/32x32/status/media-playlist-repeat.png
 /usr/share/icons/Paper/32x32/status/user-offline.png
 /usr/share/icons/Paper/32x32/status/stock_volume-mute.png
-/usr/share/icons/Paper/32x32/status/aptdaemon-add.png
 /usr/share/icons/Paper/32x32/status/gnome-netstatus-idle.png
-/usr/share/icons/Paper/32x32/status/feed-non-starred.png
 /usr/share/icons/Paper/32x32/status/battery-100-charging.png
 /usr/share/icons/Paper/32x32/status/stock_lock-ok.png
 /usr/share/icons/Paper/32x32/status/xfce-battery-full.png
@@ -1384,7 +1376,6 @@
 /usr/share/icons/Paper/32x32/apps/access.png
 /usr/share/icons/Paper/32x32/apps/ubiquity.png
 /usr/share/icons/Paper/32x32/apps/geeqie.png
-/usr/share/icons/Paper/32x32/apps/QtProject-linguist.png
 /usr/share/icons/Paper/32x32/apps/mintbackup.png
 /usr/share/icons/Paper/32x32/apps/qterminal.png
 /usr/share/icons/Paper/32x32/apps/iceweasel.png
@@ -1532,7 +1523,6 @@
 /usr/share/icons/Paper/32x32/apps/python3.3.png
 /usr/share/icons/Paper/32x32/apps/org.libreoffice.LibreOffice-writer.png
 /usr/share/icons/Paper/32x32/apps/vlc-xmas.png
-/usr/share/icons/Paper/32x32/apps/linphone.png
 /usr/share/icons/Paper/32x32/apps/xchat-mini.png
 /usr/share/icons/Paper/32x32/apps/preferences-desktop-theme.png
 /usr/share/icons/Paper/32x32/apps/stellarium.png
@@ -1549,6 +1539,7 @@
 /usr/share/icons/Paper/32x32/apps/preferences-system-firewall.png
 /usr/share/icons/Paper/32x32/apps/gpa.png
 /usr/share/icons/Paper/32x32/apps/multimedia-photo-manager.png
+/usr/share/icons/Paper/32x32/apps/org.gnome.DejaDup.png
 /usr/share/icons/Paper/32x32/apps/libreoffice.png
 /usr/share/icons/Paper/32x32/apps/clementine.png
 /usr/share/icons/Paper/32x32/apps/com.skype.Client.png
@@ -1562,7 +1553,6 @@
 /usr/share/icons/Paper/32x32/apps/kcmsound.png
 /usr/share/icons/Paper/32x32/apps/nvidia-x-server-settings.png
 /usr/share/icons/Paper/32x32/apps/system-os-installer.png
-/usr/share/icons/Paper/32x32/apps/xsane.png
 /usr/share/icons/Paper/32x32/apps/multimedia-audio-player.png
 /usr/share/icons/Paper/32x32/apps/aptdaemon-download.png
 /usr/share/icons/Paper/32x32/apps/password-manager.png
@@ -1647,6 +1637,7 @@
 /usr/share/icons/Paper/32x32/apps/preferences-desktop-display.png
 /usr/share/icons/Paper/32x32/apps/python2.7.png
 /usr/share/icons/Paper/32x32/apps/calendar-blue-14.png
+/usr/share/icons/Paper/32x32/apps/org.gnome.Geary.png
 /usr/share/icons/Paper/32x32/apps/redhat-filemanager.png
 /usr/share/icons/Paper/32x32/apps/calendar-blue-08.png
 /usr/share/icons/Paper/32x32/apps/google-chrome2.png
@@ -1692,6 +1683,7 @@
 /usr/share/icons/Paper/32x32/apps/wps-spreadsheets.png
 /usr/share/icons/Paper/32x32/apps/calendar-purple-01.png
 /usr/share/icons/Paper/32x32/apps/youtube-dl-gui.png
+/usr/share/icons/Paper/32x32/apps/org.gimp.GIMP.png
 /usr/share/icons/Paper/32x32/apps/org.gnome.Totem.png
 /usr/share/icons/Paper/32x32/apps/unity-display-panel.png
 /usr/share/icons/Paper/32x32/apps/utox.png
@@ -1776,7 +1768,6 @@
 /usr/share/icons/Paper/32x32/apps/mate-preferences-desktop-display.png
 /usr/share/icons/Paper/32x32/apps/calendar-purple-30.png
 /usr/share/icons/Paper/32x32/apps/libreoffice34-impress.png
-/usr/share/icons/Paper/32x32/apps/linguist.png
 /usr/share/icons/Paper/32x32/apps/smuxi-frontend-gnome.png
 /usr/share/icons/Paper/32x32/apps/multimedia-photo-viewer.png
 /usr/share/icons/Paper/32x32/apps/gaupol.png
@@ -1816,6 +1807,7 @@
 /usr/share/icons/Paper/32x32/apps/kodi.png
 /usr/share/icons/Paper/32x32/apps/xscreensaver.png
 /usr/share/icons/Paper/32x32/apps/ximian-evolution-calendar.png
+/usr/share/icons/Paper/32x32/apps/org.libreoffice.LibreOffice.math.png
 /usr/share/icons/Paper/32x32/apps/wine.png
 /usr/share/icons/Paper/32x32/apps/utilities-terminal-alt.png
 /usr/share/icons/Paper/32x32/apps/wps-writer.png
@@ -1834,7 +1826,9 @@
 /usr/share/icons/Paper/32x32/apps/calendar-purple-18.png
 /usr/share/icons/Paper/32x32/apps/accessibility_section.png
 /usr/share/icons/Paper/32x32/apps/showfoto.png
+/usr/share/icons/Paper/32x32/apps/org.gnome.GIMP.png
 /usr/share/icons/Paper/32x32/apps/gcolor2.png
+/usr/share/icons/Paper/32x32/apps/org.libreoffice.LibreOffice.base.png
 /usr/share/icons/Paper/32x32/apps/xfce4-mixer.png
 /usr/share/icons/Paper/32x32/apps/openjdk-8.png
 /usr/share/icons/Paper/32x32/apps/calendar-blue-12.png
@@ -1886,6 +1880,7 @@
 /usr/share/icons/Paper/32x32/apps/firefox-3.0.png
 /usr/share/icons/Paper/32x32/apps/gdm-login-photo.png
 /usr/share/icons/Paper/32x32/apps/background.png
+/usr/share/icons/Paper/32x32/apps/org.gnome.Meld.png
 /usr/share/icons/Paper/32x32/apps/libreoffice-calc.png
 /usr/share/icons/Paper/32x32/apps/cs-workspaces.png
 /usr/share/icons/Paper/32x32/apps/mate-notification-properties.png
@@ -1923,6 +1918,7 @@
 /usr/share/icons/Paper/32x32/apps/color-picker.png
 /usr/share/icons/Paper/32x32/apps/libreoffice3-impress.png
 /usr/share/icons/Paper/32x32/apps/exaile.png
+/usr/share/icons/Paper/32x32/apps/org.libreoffice.LibreOffice.calc.png
 /usr/share/icons/Paper/32x32/apps/cs-color.png
 /usr/share/icons/Paper/32x32/apps/style.png
 /usr/share/icons/Paper/32x32/apps/tomahawk.png
@@ -1995,6 +1991,7 @@
 /usr/share/icons/Paper/32x32/apps/gitkraken.png
 /usr/share/icons/Paper/32x32/apps/gnome-monitor.png
 /usr/share/icons/Paper/32x32/apps/vbam.png
+/usr/share/icons/Paper/32x32/apps/org.libreoffice.LibreOffice.writer.png
 /usr/share/icons/Paper/32x32/apps/redhat-web-browser.png
 /usr/share/icons/Paper/32x32/apps/multimedia.png
 /usr/share/icons/Paper/32x32/apps/palimpsest.png
@@ -2143,7 +2140,6 @@
 /usr/share/icons/Paper/32x32/apps/assistant.png
 /usr/share/icons/Paper/32x32/apps/quassel.png
 /usr/share/icons/Paper/32x32/apps/disks.png
-/usr/share/icons/Paper/32x32/apps/linguist-qt4.png
 /usr/share/icons/Paper/32x32/apps/seahorse.png
 /usr/share/icons/Paper/32x32/apps/kontact.png
 /usr/share/icons/Paper/32x32/apps/calendar-red-30.png
@@ -2207,9 +2203,11 @@
 /usr/share/icons/Paper/32x32/apps/calendar-red-09.png
 /usr/share/icons/Paper/32x32/apps/guake-prefs.png
 /usr/share/icons/Paper/32x32/apps/mate-session-properties.png
+/usr/share/icons/Paper/32x32/apps/org.libreoffice.LibreOffice.draw.png
 /usr/share/icons/Paper/32x32/apps/org.gnome.Books.png
 /usr/share/icons/Paper/32x32/apps/spotify-linux-48x48.png
 /usr/share/icons/Paper/32x32/apps/gnome-abrt.png
+/usr/share/icons/Paper/32x32/apps/org.gnome.meld.png
 /usr/share/icons/Paper/32x32/apps/cs-desktop-effects.png
 /usr/share/icons/Paper/32x32/apps/gdm2setup.png
 /usr/share/icons/Paper/32x32/apps/accessories-camera.png
@@ -2326,6 +2324,7 @@
 /usr/share/icons/Paper/32x32/apps/xfce4-notifyd.png
 /usr/share/icons/Paper/32x32/apps/transmission-qt.png
 /usr/share/icons/Paper/32x32/apps/code.png
+/usr/share/icons/Paper/32x32/apps/org.libreoffice.LibreOffice.impress.png
 /usr/share/icons/Paper/32x32/apps/postgresql.png
 /usr/share/icons/Paper/32x32/apps/codeblocks.png
 /usr/share/icons/Paper/32x32/apps/libreoffice4.2-writer.png
@@ -2407,6 +2406,7 @@
 /usr/share/icons/Paper/32x32/apps/calendar-red-26.png
 /usr/share/icons/Paper/32x32/apps/login.png
 /usr/share/icons/Paper/32x32/apps/vmware-player.png
+/usr/share/icons/Paper/32x32/apps/org.libreoffice.LibreOffice.startcenter.png
 /usr/share/icons/Paper/32x32/apps/libreoffice5.3-draw.png
 /usr/share/icons/Paper/32x32/apps/calendar-blue-07.png
 /usr/share/icons/Paper/32x32/apps/gdmsetup.png
@@ -2483,6 +2483,7 @@
 /usr/share/icons/Paper/32x32/apps/calendar-blue-04.png
 /usr/share/icons/Paper/32x32/apps/libreoffice34-base.png
 /usr/share/icons/Paper/32x32/apps/intellij-idea-ce.png
+/usr/share/icons/Paper/32x32/apps/org.mozilla.Firefox.png
 /usr/share/icons/Paper/32x32/apps/calendar-blue-31.png
 /usr/share/icons/Paper/32x32/apps/accessories-clipboard.png
 /usr/share/icons/Paper/32x32/apps/softwarecenter.png
@@ -2723,7 +2724,6 @@
 /usr/share/icons/Paper/32x32/actions/gtk-paste.png
 /usr/share/icons/Paper/32x32/actions/gtk-zoom-in.png
 /usr/share/icons/Paper/32x32/actions/stock_left.png
-/usr/share/icons/Paper/32x32/actions/mail-reply.png
 /usr/share/icons/Paper/32x32/actions/process-stop.png
 /usr/share/icons/Paper/32x32/actions/mail-send-receive.png
 /usr/share/icons/Paper/32x32/actions/stock_exit.png
@@ -2946,7 +2946,6 @@
 /usr/share/icons/Paper/24x24@2x/mimetypes/audio-x-flac.png
 /usr/share/icons/Paper/24x24@2x/mimetypes/gnome-mime-text-html.png
 /usr/share/icons/Paper/24x24@2x/mimetypes/text-plain.png
-/usr/share/icons/Paper/24x24@2x/mimetypes/image-vnd.adobe.photoshop.png
 /usr/share/icons/Paper/24x24@2x/mimetypes/application-x-object.png
 /usr/share/icons/Paper/24x24@2x/mimetypes/application-x-compressed-tar.png
 /usr/share/icons/Paper/24x24@2x/mimetypes/gnome-mime-application-x-compress.png
@@ -3054,7 +3053,6 @@
 /usr/share/icons/Paper/24x24@2x/mimetypes/gnome-mime-application-postscript.png
 /usr/share/icons/Paper/24x24@2x/mimetypes/ascii.png
 /usr/share/icons/Paper/24x24@2x/mimetypes/gnome-mime-application-xhtml+xml.png
-/usr/share/icons/Paper/24x24@2x/mimetypes/application-illustrator.png
 /usr/share/icons/Paper/24x24@2x/mimetypes/video-x-ogm+ogg.png
 /usr/share/icons/Paper/24x24@2x/mimetypes/gnome-mime-application-x-bzip.png
 /usr/share/icons/Paper/24x24@2x/mimetypes/text-x-script.png
@@ -3122,7 +3120,6 @@
 /usr/share/icons/Paper/24x24@2x/mimetypes/gnome-mime-application-x-gzip.png
 /usr/share/icons/Paper/24x24@2x/mimetypes/office-document.png
 /usr/share/icons/Paper/24x24@2x/mimetypes/application-x-firmware.png
-/usr/share/icons/Paper/24x24@2x/mimetypes/application-vnd.ms-access.png
 /usr/share/icons/Paper/24x24@2x/mimetypes/text-x-ruby.png
 /usr/share/icons/Paper/24x24@2x/mimetypes/gnome-fs-executable.png
 /usr/share/icons/Paper/24x24@2x/mimetypes/text-x-generic.svapplication-x-awk.png
@@ -3405,7 +3402,6 @@
 /usr/share/icons/Paper/24x24@2x/status/im-user-away.png
 /usr/share/icons/Paper/24x24@2x/status/messagebox_warning.png
 /usr/share/icons/Paper/24x24@2x/status/semi-starred-rtl.png
-/usr/share/icons/Paper/24x24@2x/status/rating-unrated.png
 /usr/share/icons/Paper/24x24@2x/status/network-offline.png
 /usr/share/icons/Paper/24x24@2x/status/mail-signed.png
 /usr/share/icons/Paper/24x24@2x/status/nm-device-wireless.png
@@ -3415,7 +3411,6 @@
 /usr/share/icons/Paper/24x24@2x/status/weather-overcast.png
 /usr/share/icons/Paper/24x24@2x/status/battery-caution-charging.png
 /usr/share/icons/Paper/24x24@2x/status/gnome-netstatus-disconn.png
-/usr/share/icons/Paper/24x24@2x/status/aptdaemon-download.png
 /usr/share/icons/Paper/24x24@2x/status/xfce-battery-critical-charging.png
 /usr/share/icons/Paper/24x24@2x/status/battery-080-charging.png
 /usr/share/icons/Paper/24x24@2x/status/im-user-offline.png
@@ -3529,7 +3524,6 @@
 /usr/share/icons/Paper/24x24@2x/status/starred.png
 /usr/share/icons/Paper/24x24@2x/status/sync-error.png
 /usr/share/icons/Paper/24x24@2x/status/stock_mail-replied.png
-/usr/share/icons/Paper/24x24@2x/status/non-starred-grey.png
 /usr/share/icons/Paper/24x24@2x/status/mail-signed-verified.png
 /usr/share/icons/Paper/24x24@2x/status/gnome-netstatus-error.png
 /usr/share/icons/Paper/24x24@2x/status/stock_mail-open.png
@@ -3537,7 +3531,6 @@
 /usr/share/icons/Paper/24x24@2x/status/mail-replied.png
 /usr/share/icons/Paper/24x24@2x/status/stock_mail-unread.png
 /usr/share/icons/Paper/24x24@2x/status/aptdaemon-upgrade.png
-/usr/share/icons/Paper/24x24@2x/status/pin-up.png
 /usr/share/icons/Paper/24x24@2x/status/stock_dialog-question.png
 /usr/share/icons/Paper/24x24@2x/status/gtk-dialog-authentication.png
 /usr/share/icons/Paper/24x24@2x/status/stock_dialog-error.png
@@ -3559,9 +3552,7 @@
 /usr/share/icons/Paper/24x24@2x/status/media-playlist-repeat.png
 /usr/share/icons/Paper/24x24@2x/status/user-offline.png
 /usr/share/icons/Paper/24x24@2x/status/stock_volume-mute.png
-/usr/share/icons/Paper/24x24@2x/status/aptdaemon-add.png
 /usr/share/icons/Paper/24x24@2x/status/gnome-netstatus-idle.png
-/usr/share/icons/Paper/24x24@2x/status/feed-non-starred.png
 /usr/share/icons/Paper/24x24@2x/status/battery-100-charging.png
 /usr/share/icons/Paper/24x24@2x/status/stock_lock-ok.png
 /usr/share/icons/Paper/24x24@2x/status/xfce-battery-full.png
@@ -3605,7 +3596,6 @@
 /usr/share/icons/Paper/24x24@2x/apps/access.png
 /usr/share/icons/Paper/24x24@2x/apps/ubiquity.png
 /usr/share/icons/Paper/24x24@2x/apps/geeqie.png
-/usr/share/icons/Paper/24x24@2x/apps/QtProject-linguist.png
 /usr/share/icons/Paper/24x24@2x/apps/mintbackup.png
 /usr/share/icons/Paper/24x24@2x/apps/qterminal.png
 /usr/share/icons/Paper/24x24@2x/apps/iceweasel.png
@@ -3753,7 +3743,6 @@
 /usr/share/icons/Paper/24x24@2x/apps/python3.3.png
 /usr/share/icons/Paper/24x24@2x/apps/org.libreoffice.LibreOffice-writer.png
 /usr/share/icons/Paper/24x24@2x/apps/vlc-xmas.png
-/usr/share/icons/Paper/24x24@2x/apps/linphone.png
 /usr/share/icons/Paper/24x24@2x/apps/xchat-mini.png
 /usr/share/icons/Paper/24x24@2x/apps/preferences-desktop-theme.png
 /usr/share/icons/Paper/24x24@2x/apps/stellarium.png
@@ -3770,6 +3759,7 @@
 /usr/share/icons/Paper/24x24@2x/apps/preferences-system-firewall.png
 /usr/share/icons/Paper/24x24@2x/apps/gpa.png
 /usr/share/icons/Paper/24x24@2x/apps/multimedia-photo-manager.png
+/usr/share/icons/Paper/24x24@2x/apps/org.gnome.DejaDup.png
 /usr/share/icons/Paper/24x24@2x/apps/libreoffice.png
 /usr/share/icons/Paper/24x24@2x/apps/clementine.png
 /usr/share/icons/Paper/24x24@2x/apps/com.skype.Client.png
@@ -3783,7 +3773,6 @@
 /usr/share/icons/Paper/24x24@2x/apps/kcmsound.png
 /usr/share/icons/Paper/24x24@2x/apps/nvidia-x-server-settings.png
 /usr/share/icons/Paper/24x24@2x/apps/system-os-installer.png
-/usr/share/icons/Paper/24x24@2x/apps/xsane.png
 /usr/share/icons/Paper/24x24@2x/apps/multimedia-audio-player.png
 /usr/share/icons/Paper/24x24@2x/apps/aptdaemon-download.png
 /usr/share/icons/Paper/24x24@2x/apps/password-manager.png
@@ -3868,6 +3857,7 @@
 /usr/share/icons/Paper/24x24@2x/apps/preferences-desktop-display.png
 /usr/share/icons/Paper/24x24@2x/apps/python2.7.png
 /usr/share/icons/Paper/24x24@2x/apps/calendar-blue-14.png
+/usr/share/icons/Paper/24x24@2x/apps/org.gnome.Geary.png
 /usr/share/icons/Paper/24x24@2x/apps/redhat-filemanager.png
 /usr/share/icons/Paper/24x24@2x/apps/calendar-blue-08.png
 /usr/share/icons/Paper/24x24@2x/apps/google-chrome2.png
@@ -3913,6 +3903,7 @@
 /usr/share/icons/Paper/24x24@2x/apps/wps-spreadsheets.png
 /usr/share/icons/Paper/24x24@2x/apps/calendar-purple-01.png
 /usr/share/icons/Paper/24x24@2x/apps/youtube-dl-gui.png
+/usr/share/icons/Paper/24x24@2x/apps/org.gimp.GIMP.png
 /usr/share/icons/Paper/24x24@2x/apps/org.gnome.Totem.png
 /usr/share/icons/Paper/24x24@2x/apps/unity-display-panel.png
 /usr/share/icons/Paper/24x24@2x/apps/utox.png
@@ -3997,7 +3988,6 @@
 /usr/share/icons/Paper/24x24@2x/apps/mate-preferences-desktop-display.png
 /usr/share/icons/Paper/24x24@2x/apps/calendar-purple-30.png
 /usr/share/icons/Paper/24x24@2x/apps/libreoffice34-impress.png
-/usr/share/icons/Paper/24x24@2x/apps/linguist.png
 /usr/share/icons/Paper/24x24@2x/apps/smuxi-frontend-gnome.png
 /usr/share/icons/Paper/24x24@2x/apps/multimedia-photo-viewer.png
 /usr/share/icons/Paper/24x24@2x/apps/gaupol.png
@@ -4037,6 +4027,7 @@
 /usr/share/icons/Paper/24x24@2x/apps/kodi.png
 /usr/share/icons/Paper/24x24@2x/apps/xscreensaver.png
 /usr/share/icons/Paper/24x24@2x/apps/ximian-evolution-calendar.png
+/usr/share/icons/Paper/24x24@2x/apps/org.libreoffice.LibreOffice.math.png
 /usr/share/icons/Paper/24x24@2x/apps/wine.png
 /usr/share/icons/Paper/24x24@2x/apps/utilities-terminal-alt.png
 /usr/share/icons/Paper/24x24@2x/apps/wps-writer.png
@@ -4055,7 +4046,9 @@
 /usr/share/icons/Paper/24x24@2x/apps/calendar-purple-18.png
 /usr/share/icons/Paper/24x24@2x/apps/accessibility_section.png
 /usr/share/icons/Paper/24x24@2x/apps/showfoto.png
+/usr/share/icons/Paper/24x24@2x/apps/org.gnome.GIMP.png
 /usr/share/icons/Paper/24x24@2x/apps/gcolor2.png
+/usr/share/icons/Paper/24x24@2x/apps/org.libreoffice.LibreOffice.base.png
 /usr/share/icons/Paper/24x24@2x/apps/xfce4-mixer.png
 /usr/share/icons/Paper/24x24@2x/apps/openjdk-8.png
 /usr/share/icons/Paper/24x24@2x/apps/calendar-blue-12.png
@@ -4107,6 +4100,7 @@
 /usr/share/icons/Paper/24x24@2x/apps/firefox-3.0.png
 /usr/share/icons/Paper/24x24@2x/apps/gdm-login-photo.png
 /usr/share/icons/Paper/24x24@2x/apps/background.png
+/usr/share/icons/Paper/24x24@2x/apps/org.gnome.Meld.png
 /usr/share/icons/Paper/24x24@2x/apps/libreoffice-calc.png
 /usr/share/icons/Paper/24x24@2x/apps/cs-workspaces.png
 /usr/share/icons/Paper/24x24@2x/apps/mate-notification-properties.png
@@ -4144,6 +4138,7 @@
 /usr/share/icons/Paper/24x24@2x/apps/color-picker.png
 /usr/share/icons/Paper/24x24@2x/apps/libreoffice3-impress.png
 /usr/share/icons/Paper/24x24@2x/apps/exaile.png
+/usr/share/icons/Paper/24x24@2x/apps/org.libreoffice.LibreOffice.calc.png
 /usr/share/icons/Paper/24x24@2x/apps/cs-color.png
 /usr/share/icons/Paper/24x24@2x/apps/style.png
 /usr/share/icons/Paper/24x24@2x/apps/tomahawk.png
@@ -4216,6 +4211,7 @@
 /usr/share/icons/Paper/24x24@2x/apps/gitkraken.png
 /usr/share/icons/Paper/24x24@2x/apps/gnome-monitor.png
 /usr/share/icons/Paper/24x24@2x/apps/vbam.png
+/usr/share/icons/Paper/24x24@2x/apps/org.libreoffice.LibreOffice.writer.png
 /usr/share/icons/Paper/24x24@2x/apps/redhat-web-browser.png
 /usr/share/icons/Paper/24x24@2x/apps/multimedia.png
 /usr/share/icons/Paper/24x24@2x/apps/palimpsest.png
@@ -4364,7 +4360,6 @@
 /usr/share/icons/Paper/24x24@2x/apps/assistant.png
 /usr/share/icons/Paper/24x24@2x/apps/quassel.png
 /usr/share/icons/Paper/24x24@2x/apps/disks.png
-/usr/share/icons/Paper/24x24@2x/apps/linguist-qt4.png
 /usr/share/icons/Paper/24x24@2x/apps/seahorse.png
 /usr/share/icons/Paper/24x24@2x/apps/kontact.png
 /usr/share/icons/Paper/24x24@2x/apps/calendar-red-30.png
@@ -4428,9 +4423,11 @@
 /usr/share/icons/Paper/24x24@2x/apps/calendar-red-09.png
 /usr/share/icons/Paper/24x24@2x/apps/guake-prefs.png
 /usr/share/icons/Paper/24x24@2x/apps/mate-session-properties.png
+/usr/share/icons/Paper/24x24@2x/apps/org.libreoffice.LibreOffice.draw.png
 /usr/share/icons/Paper/24x24@2x/apps/org.gnome.Books.png
 /usr/share/icons/Paper/24x24@2x/apps/spotify-linux-48x48.png
 /usr/share/icons/Paper/24x24@2x/apps/gnome-abrt.png
+/usr/share/icons/Paper/24x24@2x/apps/org.gnome.meld.png
 /usr/share/icons/Paper/24x24@2x/apps/cs-desktop-effects.png
 /usr/share/icons/Paper/24x24@2x/apps/gdm2setup.png
 /usr/share/icons/Paper/24x24@2x/apps/accessories-camera.png
@@ -4547,6 +4544,7 @@
 /usr/share/icons/Paper/24x24@2x/apps/xfce4-notifyd.png
 /usr/share/icons/Paper/24x24@2x/apps/transmission-qt.png
 /usr/share/icons/Paper/24x24@2x/apps/code.png
+/usr/share/icons/Paper/24x24@2x/apps/org.libreoffice.LibreOffice.impress.png
 /usr/share/icons/Paper/24x24@2x/apps/postgresql.png
 /usr/share/icons/Paper/24x24@2x/apps/codeblocks.png
 /usr/share/icons/Paper/24x24@2x/apps/libreoffice4.2-writer.png
@@ -4628,6 +4626,7 @@
 /usr/share/icons/Paper/24x24@2x/apps/calendar-red-26.png
 /usr/share/icons/Paper/24x24@2x/apps/login.png
 /usr/share/icons/Paper/24x24@2x/apps/vmware-player.png
+/usr/share/icons/Paper/24x24@2x/apps/org.libreoffice.LibreOffice.startcenter.png
 /usr/share/icons/Paper/24x24@2x/apps/libreoffice5.3-draw.png
 /usr/share/icons/Paper/24x24@2x/apps/calendar-blue-07.png
 /usr/share/icons/Paper/24x24@2x/apps/gdmsetup.png
@@ -4704,6 +4703,7 @@
 /usr/share/icons/Paper/24x24@2x/apps/calendar-blue-04.png
 /usr/share/icons/Paper/24x24@2x/apps/libreoffice34-base.png
 /usr/share/icons/Paper/24x24@2x/apps/intellij-idea-ce.png
+/usr/share/icons/Paper/24x24@2x/apps/org.mozilla.Firefox.png
 /usr/share/icons/Paper/24x24@2x/apps/calendar-blue-31.png
 /usr/share/icons/Paper/24x24@2x/apps/accessories-clipboard.png
 /usr/share/icons/Paper/24x24@2x/apps/softwarecenter.png
@@ -4944,7 +4944,6 @@
 /usr/share/icons/Paper/24x24@2x/actions/gtk-paste.png
 /usr/share/icons/Paper/24x24@2x/actions/gtk-zoom-in.png
 /usr/share/icons/Paper/24x24@2x/actions/stock_left.png
-/usr/share/icons/Paper/24x24@2x/actions/mail-reply.png
 /usr/share/icons/Paper/24x24@2x/actions/process-stop.png
 /usr/share/icons/Paper/24x24@2x/actions/mail-send-receive.png
 /usr/share/icons/Paper/24x24@2x/actions/stock_exit.png
@@ -6322,7 +6321,6 @@
 /usr/share/icons/Paper/24x24/mimetypes/audio-x-flac.png
 /usr/share/icons/Paper/24x24/mimetypes/gnome-mime-text-html.png
 /usr/share/icons/Paper/24x24/mimetypes/text-plain.png
-/usr/share/icons/Paper/24x24/mimetypes/image-vnd.adobe.photoshop.png
 /usr/share/icons/Paper/24x24/mimetypes/application-x-object.png
 /usr/share/icons/Paper/24x24/mimetypes/application-x-compressed-tar.png
 /usr/share/icons/Paper/24x24/mimetypes/gnome-mime-application-x-compress.png
@@ -6430,7 +6428,6 @@
 /usr/share/icons/Paper/24x24/mimetypes/gnome-mime-application-postscript.png
 /usr/share/icons/Paper/24x24/mimetypes/ascii.png
 /usr/share/icons/Paper/24x24/mimetypes/gnome-mime-application-xhtml+xml.png
-/usr/share/icons/Paper/24x24/mimetypes/application-illustrator.png
 /usr/share/icons/Paper/24x24/mimetypes/video-x-ogm+ogg.png
 /usr/share/icons/Paper/24x24/mimetypes/gnome-mime-application-x-bzip.png
 /usr/share/icons/Paper/24x24/mimetypes/text-x-script.png
@@ -6498,7 +6495,6 @@
 /usr/share/icons/Paper/24x24/mimetypes/gnome-mime-application-x-gzip.png
 /usr/share/icons/Paper/24x24/mimetypes/office-document.png
 /usr/share/icons/Paper/24x24/mimetypes/application-x-firmware.png
-/usr/share/icons/Paper/24x24/mimetypes/application-vnd.ms-access.png
 /usr/share/icons/Paper/24x24/mimetypes/text-x-ruby.png
 /usr/share/icons/Paper/24x24/mimetypes/gnome-fs-executable.png
 /usr/share/icons/Paper/24x24/mimetypes/text-x-generic.svapplication-x-awk.png
@@ -6781,7 +6777,6 @@
 /usr/share/icons/Paper/24x24/status/im-user-away.png
 /usr/share/icons/Paper/24x24/status/messagebox_warning.png
 /usr/share/icons/Paper/24x24/status/semi-starred-rtl.png
-/usr/share/icons/Paper/24x24/status/rating-unrated.png
 /usr/share/icons/Paper/24x24/status/network-offline.png
 /usr/share/icons/Paper/24x24/status/mail-signed.png
 /usr/share/icons/Paper/24x24/status/nm-device-wireless.png
@@ -6791,7 +6786,6 @@
 /usr/share/icons/Paper/24x24/status/weather-overcast.png
 /usr/share/icons/Paper/24x24/status/battery-caution-charging.png
 /usr/share/icons/Paper/24x24/status/gnome-netstatus-disconn.png
-/usr/share/icons/Paper/24x24/status/aptdaemon-download.png
 /usr/share/icons/Paper/24x24/status/xfce-battery-critical-charging.png
 /usr/share/icons/Paper/24x24/status/battery-080-charging.png
 /usr/share/icons/Paper/24x24/status/im-user-offline.png
@@ -6905,7 +6899,6 @@
 /usr/share/icons/Paper/24x24/status/starred.png
 /usr/share/icons/Paper/24x24/status/sync-error.png
 /usr/share/icons/Paper/24x24/status/stock_mail-replied.png
-/usr/share/icons/Paper/24x24/status/non-starred-grey.png
 /usr/share/icons/Paper/24x24/status/mail-signed-verified.png
 /usr/share/icons/Paper/24x24/status/gnome-netstatus-error.png
 /usr/share/icons/Paper/24x24/status/stock_mail-open.png
@@ -6913,7 +6906,6 @@
 /usr/share/icons/Paper/24x24/status/mail-replied.png
 /usr/share/icons/Paper/24x24/status/stock_mail-unread.png
 /usr/share/icons/Paper/24x24/status/aptdaemon-upgrade.png
-/usr/share/icons/Paper/24x24/status/pin-up.png
 /usr/share/icons/Paper/24x24/status/stock_dialog-question.png
 /usr/share/icons/Paper/24x24/status/gtk-dialog-authentication.png
 /usr/share/icons/Paper/24x24/status/stock_dialog-error.png
@@ -6935,9 +6927,7 @@
 /usr/share/icons/Paper/24x24/status/media-playlist-repeat.png
 /usr/share/icons/Paper/24x24/status/user-offline.png
 /usr/share/icons/Paper/24x24/status/stock_volume-mute.png
-/usr/share/icons/Paper/24x24/status/aptdaemon-add.png
 /usr/share/icons/Paper/24x24/status/gnome-netstatus-idle.png
-/usr/share/icons/Paper/24x24/status/feed-non-starred.png
 /usr/share/icons/Paper/24x24/status/battery-100-charging.png
 /usr/share/icons/Paper/24x24/status/stock_lock-ok.png
 /usr/share/icons/Paper/24x24/status/xfce-battery-full.png
@@ -6981,7 +6971,6 @@
 /usr/share/icons/Paper/24x24/apps/access.png
 /usr/share/icons/Paper/24x24/apps/ubiquity.png
 /usr/share/icons/Paper/24x24/apps/geeqie.png
-/usr/share/icons/Paper/24x24/apps/QtProject-linguist.png
 /usr/share/icons/Paper/24x24/apps/mintbackup.png
 /usr/share/icons/Paper/24x24/apps/qterminal.png
 /usr/share/icons/Paper/24x24/apps/iceweasel.png
@@ -7129,7 +7118,6 @@
 /usr/share/icons/Paper/24x24/apps/python3.3.png
 /usr/share/icons/Paper/24x24/apps/org.libreoffice.LibreOffice-writer.png
 /usr/share/icons/Paper/24x24/apps/vlc-xmas.png
-/usr/share/icons/Paper/24x24/apps/linphone.png
 /usr/share/icons/Paper/24x24/apps/xchat-mini.png
 /usr/share/icons/Paper/24x24/apps/preferences-desktop-theme.png
 /usr/share/icons/Paper/24x24/apps/stellarium.png
@@ -7146,6 +7134,7 @@
 /usr/share/icons/Paper/24x24/apps/preferences-system-firewall.png
 /usr/share/icons/Paper/24x24/apps/gpa.png
 /usr/share/icons/Paper/24x24/apps/multimedia-photo-manager.png
+/usr/share/icons/Paper/24x24/apps/org.gnome.DejaDup.png
 /usr/share/icons/Paper/24x24/apps/libreoffice.png
 /usr/share/icons/Paper/24x24/apps/clementine.png
 /usr/share/icons/Paper/24x24/apps/com.skype.Client.png
@@ -7159,7 +7148,6 @@
 /usr/share/icons/Paper/24x24/apps/kcmsound.png
 /usr/share/icons/Paper/24x24/apps/nvidia-x-server-settings.png
 /usr/share/icons/Paper/24x24/apps/system-os-installer.png
-/usr/share/icons/Paper/24x24/apps/xsane.png
 /usr/share/icons/Paper/24x24/apps/multimedia-audio-player.png
 /usr/share/icons/Paper/24x24/apps/aptdaemon-download.png
 /usr/share/icons/Paper/24x24/apps/password-manager.png
@@ -7244,6 +7232,7 @@
 /usr/share/icons/Paper/24x24/apps/preferences-desktop-display.png
 /usr/share/icons/Paper/24x24/apps/python2.7.png
 /usr/share/icons/Paper/24x24/apps/calendar-blue-14.png
+/usr/share/icons/Paper/24x24/apps/org.gnome.Geary.png
 /usr/share/icons/Paper/24x24/apps/redhat-filemanager.png
 /usr/share/icons/Paper/24x24/apps/calendar-blue-08.png
 /usr/share/icons/Paper/24x24/apps/google-chrome2.png
@@ -7289,6 +7278,7 @@
 /usr/share/icons/Paper/24x24/apps/wps-spreadsheets.png
 /usr/share/icons/Paper/24x24/apps/calendar-purple-01.png
 /usr/share/icons/Paper/24x24/apps/youtube-dl-gui.png
+/usr/share/icons/Paper/24x24/apps/org.gimp.GIMP.png
 /usr/share/icons/Paper/24x24/apps/org.gnome.Totem.png
 /usr/share/icons/Paper/24x24/apps/unity-display-panel.png
 /usr/share/icons/Paper/24x24/apps/utox.png
@@ -7373,7 +7363,6 @@
 /usr/share/icons/Paper/24x24/apps/mate-preferences-desktop-display.png
 /usr/share/icons/Paper/24x24/apps/calendar-purple-30.png
 /usr/share/icons/Paper/24x24/apps/libreoffice34-impress.png
-/usr/share/icons/Paper/24x24/apps/linguist.png
 /usr/share/icons/Paper/24x24/apps/smuxi-frontend-gnome.png
 /usr/share/icons/Paper/24x24/apps/multimedia-photo-viewer.png
 /usr/share/icons/Paper/24x24/apps/gaupol.png
@@ -7413,6 +7402,7 @@
 /usr/share/icons/Paper/24x24/apps/kodi.png
 /usr/share/icons/Paper/24x24/apps/xscreensaver.png
 /usr/share/icons/Paper/24x24/apps/ximian-evolution-calendar.png
+/usr/share/icons/Paper/24x24/apps/org.libreoffice.LibreOffice.math.png
 /usr/share/icons/Paper/24x24/apps/wine.png
 /usr/share/icons/Paper/24x24/apps/utilities-terminal-alt.png
 /usr/share/icons/Paper/24x24/apps/wps-writer.png
@@ -7431,7 +7421,9 @@
 /usr/share/icons/Paper/24x24/apps/calendar-purple-18.png
 /usr/share/icons/Paper/24x24/apps/accessibility_section.png
 /usr/share/icons/Paper/24x24/apps/showfoto.png
+/usr/share/icons/Paper/24x24/apps/org.gnome.GIMP.png
 /usr/share/icons/Paper/24x24/apps/gcolor2.png
+/usr/share/icons/Paper/24x24/apps/org.libreoffice.LibreOffice.base.png
 /usr/share/icons/Paper/24x24/apps/xfce4-mixer.png
 /usr/share/icons/Paper/24x24/apps/openjdk-8.png
 /usr/share/icons/Paper/24x24/apps/calendar-blue-12.png
@@ -7483,6 +7475,7 @@
 /usr/share/icons/Paper/24x24/apps/firefox-3.0.png
 /usr/share/icons/Paper/24x24/apps/gdm-login-photo.png
 /usr/share/icons/Paper/24x24/apps/background.png
+/usr/share/icons/Paper/24x24/apps/org.gnome.Meld.png
 /usr/share/icons/Paper/24x24/apps/libreoffice-calc.png
 /usr/share/icons/Paper/24x24/apps/cs-workspaces.png
 /usr/share/icons/Paper/24x24/apps/mate-notification-properties.png
@@ -7520,6 +7513,7 @@
 /usr/share/icons/Paper/24x24/apps/color-picker.png
 /usr/share/icons/Paper/24x24/apps/libreoffice3-impress.png
 /usr/share/icons/Paper/24x24/apps/exaile.png
+/usr/share/icons/Paper/24x24/apps/org.libreoffice.LibreOffice.calc.png
 /usr/share/icons/Paper/24x24/apps/cs-color.png
 /usr/share/icons/Paper/24x24/apps/style.png
 /usr/share/icons/Paper/24x24/apps/tomahawk.png
@@ -7592,6 +7586,7 @@
 /usr/share/icons/Paper/24x24/apps/gitkraken.png
 /usr/share/icons/Paper/24x24/apps/gnome-monitor.png
 /usr/share/icons/Paper/24x24/apps/vbam.png
+/usr/share/icons/Paper/24x24/apps/org.libreoffice.LibreOffice.writer.png
 /usr/share/icons/Paper/24x24/apps/redhat-web-browser.png
 /usr/share/icons/Paper/24x24/apps/multimedia.png
 /usr/share/icons/Paper/24x24/apps/palimpsest.png
@@ -7740,7 +7735,6 @@
 /usr/share/icons/Paper/24x24/apps/assistant.png
 /usr/share/icons/Paper/24x24/apps/quassel.png
 /usr/share/icons/Paper/24x24/apps/disks.png
-/usr/share/icons/Paper/24x24/apps/linguist-qt4.png
 /usr/share/icons/Paper/24x24/apps/seahorse.png
 /usr/share/icons/Paper/24x24/apps/kontact.png
 /usr/share/icons/Paper/24x24/apps/calendar-red-30.png
@@ -7804,9 +7798,11 @@
 /usr/share/icons/Paper/24x24/apps/calendar-red-09.png
 /usr/share/icons/Paper/24x24/apps/guake-prefs.png
 /usr/share/icons/Paper/24x24/apps/mate-session-properties.png
+/usr/share/icons/Paper/24x24/apps/org.libreoffice.LibreOffice.draw.png
 /usr/share/icons/Paper/24x24/apps/org.gnome.Books.png
 /usr/share/icons/Paper/24x24/apps/spotify-linux-48x48.png
 /usr/share/icons/Paper/24x24/apps/gnome-abrt.png
+/usr/share/icons/Paper/24x24/apps/org.gnome.meld.png
 /usr/share/icons/Paper/24x24/apps/cs-desktop-effects.png
 /usr/share/icons/Paper/24x24/apps/gdm2setup.png
 /usr/share/icons/Paper/24x24/apps/accessories-camera.png
@@ -7923,6 +7919,7 @@
 /usr/share/icons/Paper/24x24/apps/xfce4-notifyd.png
 /usr/share/icons/Paper/24x24/apps/transmission-qt.png
 /usr/share/icons/Paper/24x24/apps/code.png
+/usr/share/icons/Paper/24x24/apps/org.libreoffice.LibreOffice.impress.png
 /usr/share/icons/Paper/24x24/apps/postgresql.png
 /usr/share/icons/Paper/24x24/apps/codeblocks.png
 /usr/share/icons/Paper/24x24/apps/libreoffice4.2-writer.png
@@ -8004,6 +8001,7 @@
 /usr/share/icons/Paper/24x24/apps/calendar-red-26.png
 /usr/share/icons/Paper/24x24/apps/login.png
 /usr/share/icons/Paper/24x24/apps/vmware-player.png
+/usr/share/icons/Paper/24x24/apps/org.libreoffice.LibreOffice.startcenter.png
 /usr/share/icons/Paper/24x24/apps/libreoffice5.3-draw.png
 /usr/share/icons/Paper/24x24/apps/calendar-blue-07.png
 /usr/share/icons/Paper/24x24/apps/gdmsetup.png
@@ -8080,6 +8078,7 @@
 /usr/share/icons/Paper/24x24/apps/calendar-blue-04.png
 /usr/share/icons/Paper/24x24/apps/libreoffice34-base.png
 /usr/share/icons/Paper/24x24/apps/intellij-idea-ce.png
+/usr/share/icons/Paper/24x24/apps/org.mozilla.Firefox.png
 /usr/share/icons/Paper/24x24/apps/calendar-blue-31.png
 /usr/share/icons/Paper/24x24/apps/accessories-clipboard.png
 /usr/share/icons/Paper/24x24/apps/softwarecenter.png
@@ -8376,7 +8375,6 @@
 /usr/share/icons/Paper/24x24/actions/gtk-paste.png
 /usr/share/icons/Paper/24x24/actions/gtk-zoom-in.png
 /usr/share/icons/Paper/24x24/actions/stock_left.png
-/usr/share/icons/Paper/24x24/actions/mail-reply.png
 /usr/share/icons/Paper/24x24/actions/process-stop.png
 /usr/share/icons/Paper/24x24/actions/mail-send-receive.png
 /usr/share/icons/Paper/24x24/actions/stock_exit.png
@@ -8587,7 +8585,6 @@
 /usr/share/icons/Paper/48x48@2x/mimetypes/audio-x-flac.png
 /usr/share/icons/Paper/48x48@2x/mimetypes/gnome-mime-text-html.png
 /usr/share/icons/Paper/48x48@2x/mimetypes/text-plain.png
-/usr/share/icons/Paper/48x48@2x/mimetypes/image-vnd.adobe.photoshop.png
 /usr/share/icons/Paper/48x48@2x/mimetypes/application-x-object.png
 /usr/share/icons/Paper/48x48@2x/mimetypes/application-x-compressed-tar.png
 /usr/share/icons/Paper/48x48@2x/mimetypes/gnome-mime-application-x-compress.png
@@ -8695,7 +8692,6 @@
 /usr/share/icons/Paper/48x48@2x/mimetypes/gnome-mime-application-postscript.png
 /usr/share/icons/Paper/48x48@2x/mimetypes/ascii.png
 /usr/share/icons/Paper/48x48@2x/mimetypes/gnome-mime-application-xhtml+xml.png
-/usr/share/icons/Paper/48x48@2x/mimetypes/application-illustrator.png
 /usr/share/icons/Paper/48x48@2x/mimetypes/video-x-ogm+ogg.png
 /usr/share/icons/Paper/48x48@2x/mimetypes/gnome-mime-application-x-bzip.png
 /usr/share/icons/Paper/48x48@2x/mimetypes/text-x-script.png
@@ -8763,7 +8759,6 @@
 /usr/share/icons/Paper/48x48@2x/mimetypes/gnome-mime-application-x-gzip.png
 /usr/share/icons/Paper/48x48@2x/mimetypes/office-document.png
 /usr/share/icons/Paper/48x48@2x/mimetypes/application-x-firmware.png
-/usr/share/icons/Paper/48x48@2x/mimetypes/application-vnd.ms-access.png
 /usr/share/icons/Paper/48x48@2x/mimetypes/text-x-ruby.png
 /usr/share/icons/Paper/48x48@2x/mimetypes/gnome-fs-executable.png
 /usr/share/icons/Paper/48x48@2x/mimetypes/text-x-generic.svapplication-x-awk.png
@@ -9046,7 +9041,6 @@
 /usr/share/icons/Paper/48x48@2x/status/im-user-away.png
 /usr/share/icons/Paper/48x48@2x/status/messagebox_warning.png
 /usr/share/icons/Paper/48x48@2x/status/semi-starred-rtl.png
-/usr/share/icons/Paper/48x48@2x/status/rating-unrated.png
 /usr/share/icons/Paper/48x48@2x/status/network-offline.png
 /usr/share/icons/Paper/48x48@2x/status/mail-signed.png
 /usr/share/icons/Paper/48x48@2x/status/nm-device-wireless.png
@@ -9056,7 +9050,6 @@
 /usr/share/icons/Paper/48x48@2x/status/weather-overcast.png
 /usr/share/icons/Paper/48x48@2x/status/battery-caution-charging.png
 /usr/share/icons/Paper/48x48@2x/status/gnome-netstatus-disconn.png
-/usr/share/icons/Paper/48x48@2x/status/aptdaemon-download.png
 /usr/share/icons/Paper/48x48@2x/status/xfce-battery-critical-charging.png
 /usr/share/icons/Paper/48x48@2x/status/battery-080-charging.png
 /usr/share/icons/Paper/48x48@2x/status/im-user-offline.png
@@ -9170,7 +9163,6 @@
 /usr/share/icons/Paper/48x48@2x/status/starred.png
 /usr/share/icons/Paper/48x48@2x/status/sync-error.png
 /usr/share/icons/Paper/48x48@2x/status/stock_mail-replied.png
-/usr/share/icons/Paper/48x48@2x/status/non-starred-grey.png
 /usr/share/icons/Paper/48x48@2x/status/mail-signed-verified.png
 /usr/share/icons/Paper/48x48@2x/status/gnome-netstatus-error.png
 /usr/share/icons/Paper/48x48@2x/status/stock_mail-open.png
@@ -9178,7 +9170,6 @@
 /usr/share/icons/Paper/48x48@2x/status/mail-replied.png
 /usr/share/icons/Paper/48x48@2x/status/stock_mail-unread.png
 /usr/share/icons/Paper/48x48@2x/status/aptdaemon-upgrade.png
-/usr/share/icons/Paper/48x48@2x/status/pin-up.png
 /usr/share/icons/Paper/48x48@2x/status/stock_dialog-question.png
 /usr/share/icons/Paper/48x48@2x/status/gtk-dialog-authentication.png
 /usr/share/icons/Paper/48x48@2x/status/stock_dialog-error.png
@@ -9200,9 +9191,7 @@
 /usr/share/icons/Paper/48x48@2x/status/media-playlist-repeat.png
 /usr/share/icons/Paper/48x48@2x/status/user-offline.png
 /usr/share/icons/Paper/48x48@2x/status/stock_volume-mute.png
-/usr/share/icons/Paper/48x48@2x/status/aptdaemon-add.png
 /usr/share/icons/Paper/48x48@2x/status/gnome-netstatus-idle.png
-/usr/share/icons/Paper/48x48@2x/status/feed-non-starred.png
 /usr/share/icons/Paper/48x48@2x/status/battery-100-charging.png
 /usr/share/icons/Paper/48x48@2x/status/stock_lock-ok.png
 /usr/share/icons/Paper/48x48@2x/status/xfce-battery-full.png
@@ -9246,7 +9235,6 @@
 /usr/share/icons/Paper/48x48@2x/apps/access.png
 /usr/share/icons/Paper/48x48@2x/apps/ubiquity.png
 /usr/share/icons/Paper/48x48@2x/apps/geeqie.png
-/usr/share/icons/Paper/48x48@2x/apps/QtProject-linguist.png
 /usr/share/icons/Paper/48x48@2x/apps/mintbackup.png
 /usr/share/icons/Paper/48x48@2x/apps/qterminal.png
 /usr/share/icons/Paper/48x48@2x/apps/iceweasel.png
@@ -9394,7 +9382,6 @@
 /usr/share/icons/Paper/48x48@2x/apps/python3.3.png
 /usr/share/icons/Paper/48x48@2x/apps/org.libreoffice.LibreOffice-writer.png
 /usr/share/icons/Paper/48x48@2x/apps/vlc-xmas.png
-/usr/share/icons/Paper/48x48@2x/apps/linphone.png
 /usr/share/icons/Paper/48x48@2x/apps/xchat-mini.png
 /usr/share/icons/Paper/48x48@2x/apps/preferences-desktop-theme.png
 /usr/share/icons/Paper/48x48@2x/apps/stellarium.png
@@ -9411,6 +9398,7 @@
 /usr/share/icons/Paper/48x48@2x/apps/preferences-system-firewall.png
 /usr/share/icons/Paper/48x48@2x/apps/gpa.png
 /usr/share/icons/Paper/48x48@2x/apps/multimedia-photo-manager.png
+/usr/share/icons/Paper/48x48@2x/apps/org.gnome.DejaDup.png
 /usr/share/icons/Paper/48x48@2x/apps/libreoffice.png
 /usr/share/icons/Paper/48x48@2x/apps/clementine.png
 /usr/share/icons/Paper/48x48@2x/apps/com.skype.Client.png
@@ -9424,7 +9412,6 @@
 /usr/share/icons/Paper/48x48@2x/apps/kcmsound.png
 /usr/share/icons/Paper/48x48@2x/apps/nvidia-x-server-settings.png
 /usr/share/icons/Paper/48x48@2x/apps/system-os-installer.png
-/usr/share/icons/Paper/48x48@2x/apps/xsane.png
 /usr/share/icons/Paper/48x48@2x/apps/multimedia-audio-player.png
 /usr/share/icons/Paper/48x48@2x/apps/aptdaemon-download.png
 /usr/share/icons/Paper/48x48@2x/apps/password-manager.png
@@ -9509,6 +9496,7 @@
 /usr/share/icons/Paper/48x48@2x/apps/preferences-desktop-display.png
 /usr/share/icons/Paper/48x48@2x/apps/python2.7.png
 /usr/share/icons/Paper/48x48@2x/apps/calendar-blue-14.png
+/usr/share/icons/Paper/48x48@2x/apps/org.gnome.Geary.png
 /usr/share/icons/Paper/48x48@2x/apps/redhat-filemanager.png
 /usr/share/icons/Paper/48x48@2x/apps/calendar-blue-08.png
 /usr/share/icons/Paper/48x48@2x/apps/google-chrome2.png
@@ -9554,6 +9542,7 @@
 /usr/share/icons/Paper/48x48@2x/apps/wps-spreadsheets.png
 /usr/share/icons/Paper/48x48@2x/apps/calendar-purple-01.png
 /usr/share/icons/Paper/48x48@2x/apps/youtube-dl-gui.png
+/usr/share/icons/Paper/48x48@2x/apps/org.gimp.GIMP.png
 /usr/share/icons/Paper/48x48@2x/apps/org.gnome.Totem.png
 /usr/share/icons/Paper/48x48@2x/apps/unity-display-panel.png
 /usr/share/icons/Paper/48x48@2x/apps/utox.png
@@ -9638,7 +9627,6 @@
 /usr/share/icons/Paper/48x48@2x/apps/mate-preferences-desktop-display.png
 /usr/share/icons/Paper/48x48@2x/apps/calendar-purple-30.png
 /usr/share/icons/Paper/48x48@2x/apps/libreoffice34-impress.png
-/usr/share/icons/Paper/48x48@2x/apps/linguist.png
 /usr/share/icons/Paper/48x48@2x/apps/smuxi-frontend-gnome.png
 /usr/share/icons/Paper/48x48@2x/apps/multimedia-photo-viewer.png
 /usr/share/icons/Paper/48x48@2x/apps/gaupol.png
@@ -9678,6 +9666,7 @@
 /usr/share/icons/Paper/48x48@2x/apps/kodi.png
 /usr/share/icons/Paper/48x48@2x/apps/xscreensaver.png
 /usr/share/icons/Paper/48x48@2x/apps/ximian-evolution-calendar.png
+/usr/share/icons/Paper/48x48@2x/apps/org.libreoffice.LibreOffice.math.png
 /usr/share/icons/Paper/48x48@2x/apps/wine.png
 /usr/share/icons/Paper/48x48@2x/apps/utilities-terminal-alt.png
 /usr/share/icons/Paper/48x48@2x/apps/wps-writer.png
@@ -9696,7 +9685,9 @@
 /usr/share/icons/Paper/48x48@2x/apps/calendar-purple-18.png
 /usr/share/icons/Paper/48x48@2x/apps/accessibility_section.png
 /usr/share/icons/Paper/48x48@2x/apps/showfoto.png
+/usr/share/icons/Paper/48x48@2x/apps/org.gnome.GIMP.png
 /usr/share/icons/Paper/48x48@2x/apps/gcolor2.png
+/usr/share/icons/Paper/48x48@2x/apps/org.libreoffice.LibreOffice.base.png
 /usr/share/icons/Paper/48x48@2x/apps/xfce4-mixer.png
 /usr/share/icons/Paper/48x48@2x/apps/openjdk-8.png
 /usr/share/icons/Paper/48x48@2x/apps/calendar-blue-12.png
@@ -9748,6 +9739,7 @@
 /usr/share/icons/Paper/48x48@2x/apps/firefox-3.0.png
 /usr/share/icons/Paper/48x48@2x/apps/gdm-login-photo.png
 /usr/share/icons/Paper/48x48@2x/apps/background.png
+/usr/share/icons/Paper/48x48@2x/apps/org.gnome.Meld.png
 /usr/share/icons/Paper/48x48@2x/apps/libreoffice-calc.png
 /usr/share/icons/Paper/48x48@2x/apps/cs-workspaces.png
 /usr/share/icons/Paper/48x48@2x/apps/mate-notification-properties.png
@@ -9785,6 +9777,7 @@
 /usr/share/icons/Paper/48x48@2x/apps/color-picker.png
 /usr/share/icons/Paper/48x48@2x/apps/libreoffice3-impress.png
 /usr/share/icons/Paper/48x48@2x/apps/exaile.png
+/usr/share/icons/Paper/48x48@2x/apps/org.libreoffice.LibreOffice.calc.png
 /usr/share/icons/Paper/48x48@2x/apps/cs-color.png
 /usr/share/icons/Paper/48x48@2x/apps/style.png
 /usr/share/icons/Paper/48x48@2x/apps/tomahawk.png
@@ -9857,6 +9850,7 @@
 /usr/share/icons/Paper/48x48@2x/apps/gitkraken.png
 /usr/share/icons/Paper/48x48@2x/apps/gnome-monitor.png
 /usr/share/icons/Paper/48x48@2x/apps/vbam.png
+/usr/share/icons/Paper/48x48@2x/apps/org.libreoffice.LibreOffice.writer.png
 /usr/share/icons/Paper/48x48@2x/apps/redhat-web-browser.png
 /usr/share/icons/Paper/48x48@2x/apps/multimedia.png
 /usr/share/icons/Paper/48x48@2x/apps/palimpsest.png
@@ -10005,7 +9999,6 @@
 /usr/share/icons/Paper/48x48@2x/apps/assistant.png
 /usr/share/icons/Paper/48x48@2x/apps/quassel.png
 /usr/share/icons/Paper/48x48@2x/apps/disks.png
-/usr/share/icons/Paper/48x48@2x/apps/linguist-qt4.png
 /usr/share/icons/Paper/48x48@2x/apps/seahorse.png
 /usr/share/icons/Paper/48x48@2x/apps/kontact.png
 /usr/share/icons/Paper/48x48@2x/apps/calendar-red-30.png
@@ -10069,9 +10062,11 @@
 /usr/share/icons/Paper/48x48@2x/apps/calendar-red-09.png
 /usr/share/icons/Paper/48x48@2x/apps/guake-prefs.png
 /usr/share/icons/Paper/48x48@2x/apps/mate-session-properties.png
+/usr/share/icons/Paper/48x48@2x/apps/org.libreoffice.LibreOffice.draw.png
 /usr/share/icons/Paper/48x48@2x/apps/org.gnome.Books.png
 /usr/share/icons/Paper/48x48@2x/apps/spotify-linux-48x48.png
 /usr/share/icons/Paper/48x48@2x/apps/gnome-abrt.png
+/usr/share/icons/Paper/48x48@2x/apps/org.gnome.meld.png
 /usr/share/icons/Paper/48x48@2x/apps/cs-desktop-effects.png
 /usr/share/icons/Paper/48x48@2x/apps/gdm2setup.png
 /usr/share/icons/Paper/48x48@2x/apps/accessories-camera.png
@@ -10188,6 +10183,7 @@
 /usr/share/icons/Paper/48x48@2x/apps/xfce4-notifyd.png
 /usr/share/icons/Paper/48x48@2x/apps/transmission-qt.png
 /usr/share/icons/Paper/48x48@2x/apps/code.png
+/usr/share/icons/Paper/48x48@2x/apps/org.libreoffice.LibreOffice.impress.png
 /usr/share/icons/Paper/48x48@2x/apps/postgresql.png
 /usr/share/icons/Paper/48x48@2x/apps/codeblocks.png
 /usr/share/icons/Paper/48x48@2x/apps/libreoffice4.2-writer.png
@@ -10269,6 +10265,7 @@
 /usr/share/icons/Paper/48x48@2x/apps/calendar-red-26.png
 /usr/share/icons/Paper/48x48@2x/apps/login.png
 /usr/share/icons/Paper/48x48@2x/apps/vmware-player.png
+/usr/share/icons/Paper/48x48@2x/apps/org.libreoffice.LibreOffice.startcenter.png
 /usr/share/icons/Paper/48x48@2x/apps/libreoffice5.3-draw.png
 /usr/share/icons/Paper/48x48@2x/apps/calendar-blue-07.png
 /usr/share/icons/Paper/48x48@2x/apps/gdmsetup.png
@@ -10345,6 +10342,7 @@
 /usr/share/icons/Paper/48x48@2x/apps/calendar-blue-04.png
 /usr/share/icons/Paper/48x48@2x/apps/libreoffice34-base.png
 /usr/share/icons/Paper/48x48@2x/apps/intellij-idea-ce.png
+/usr/share/icons/Paper/48x48@2x/apps/org.mozilla.Firefox.png
 /usr/share/icons/Paper/48x48@2x/apps/calendar-blue-31.png
 /usr/share/icons/Paper/48x48@2x/apps/accessories-clipboard.png
 /usr/share/icons/Paper/48x48@2x/apps/softwarecenter.png
@@ -10585,7 +10583,6 @@
 /usr/share/icons/Paper/48x48@2x/actions/gtk-paste.png
 /usr/share/icons/Paper/48x48@2x/actions/gtk-zoom-in.png
 /usr/share/icons/Paper/48x48@2x/actions/stock_left.png
-/usr/share/icons/Paper/48x48@2x/actions/mail-reply.png
 /usr/share/icons/Paper/48x48@2x/actions/process-stop.png
 /usr/share/icons/Paper/48x48@2x/actions/mail-send-receive.png
 /usr/share/icons/Paper/48x48@2x/actions/stock_exit.png
@@ -10795,7 +10792,6 @@
 /usr/share/icons/Paper/16x16@2x/mimetypes/audio-x-flac.png
 /usr/share/icons/Paper/16x16@2x/mimetypes/gnome-mime-text-html.png
 /usr/share/icons/Paper/16x16@2x/mimetypes/text-plain.png
-/usr/share/icons/Paper/16x16@2x/mimetypes/image-vnd.adobe.photoshop.png
 /usr/share/icons/Paper/16x16@2x/mimetypes/application-x-object.png
 /usr/share/icons/Paper/16x16@2x/mimetypes/application-x-compressed-tar.png
 /usr/share/icons/Paper/16x16@2x/mimetypes/gnome-mime-application-x-compress.png
@@ -10903,7 +10899,6 @@
 /usr/share/icons/Paper/16x16@2x/mimetypes/gnome-mime-application-postscript.png
 /usr/share/icons/Paper/16x16@2x/mimetypes/ascii.png
 /usr/share/icons/Paper/16x16@2x/mimetypes/gnome-mime-application-xhtml+xml.png
-/usr/share/icons/Paper/16x16@2x/mimetypes/application-illustrator.png
 /usr/share/icons/Paper/16x16@2x/mimetypes/video-x-ogm+ogg.png
 /usr/share/icons/Paper/16x16@2x/mimetypes/gnome-mime-application-x-bzip.png
 /usr/share/icons/Paper/16x16@2x/mimetypes/text-x-script.png
@@ -10971,7 +10966,6 @@
 /usr/share/icons/Paper/16x16@2x/mimetypes/gnome-mime-application-x-gzip.png
 /usr/share/icons/Paper/16x16@2x/mimetypes/office-document.png
 /usr/share/icons/Paper/16x16@2x/mimetypes/application-x-firmware.png
-/usr/share/icons/Paper/16x16@2x/mimetypes/application-vnd.ms-access.png
 /usr/share/icons/Paper/16x16@2x/mimetypes/text-x-ruby.png
 /usr/share/icons/Paper/16x16@2x/mimetypes/gnome-fs-executable.png
 /usr/share/icons/Paper/16x16@2x/mimetypes/text-x-generic.svapplication-x-awk.png
@@ -11254,7 +11248,6 @@
 /usr/share/icons/Paper/16x16@2x/status/im-user-away.png
 /usr/share/icons/Paper/16x16@2x/status/messagebox_warning.png
 /usr/share/icons/Paper/16x16@2x/status/semi-starred-rtl.png
-/usr/share/icons/Paper/16x16@2x/status/rating-unrated.png
 /usr/share/icons/Paper/16x16@2x/status/network-offline.png
 /usr/share/icons/Paper/16x16@2x/status/mail-signed.png
 /usr/share/icons/Paper/16x16@2x/status/nm-device-wireless.png
@@ -11264,7 +11257,6 @@
 /usr/share/icons/Paper/16x16@2x/status/weather-overcast.png
 /usr/share/icons/Paper/16x16@2x/status/battery-caution-charging.png
 /usr/share/icons/Paper/16x16@2x/status/gnome-netstatus-disconn.png
-/usr/share/icons/Paper/16x16@2x/status/aptdaemon-download.png
 /usr/share/icons/Paper/16x16@2x/status/xfce-battery-critical-charging.png
 /usr/share/icons/Paper/16x16@2x/status/battery-080-charging.png
 /usr/share/icons/Paper/16x16@2x/status/im-user-offline.png
@@ -11378,7 +11370,6 @@
 /usr/share/icons/Paper/16x16@2x/status/starred.png
 /usr/share/icons/Paper/16x16@2x/status/sync-error.png
 /usr/share/icons/Paper/16x16@2x/status/stock_mail-replied.png
-/usr/share/icons/Paper/16x16@2x/status/non-starred-grey.png
 /usr/share/icons/Paper/16x16@2x/status/mail-signed-verified.png
 /usr/share/icons/Paper/16x16@2x/status/gnome-netstatus-error.png
 /usr/share/icons/Paper/16x16@2x/status/stock_mail-open.png
@@ -11386,7 +11377,6 @@
 /usr/share/icons/Paper/16x16@2x/status/mail-replied.png
 /usr/share/icons/Paper/16x16@2x/status/stock_mail-unread.png
 /usr/share/icons/Paper/16x16@2x/status/aptdaemon-upgrade.png
-/usr/share/icons/Paper/16x16@2x/status/pin-up.png
 /usr/share/icons/Paper/16x16@2x/status/stock_dialog-question.png
 /usr/share/icons/Paper/16x16@2x/status/gtk-dialog-authentication.png
 /usr/share/icons/Paper/16x16@2x/status/stock_dialog-error.png
@@ -11408,9 +11398,7 @@
 /usr/share/icons/Paper/16x16@2x/status/media-playlist-repeat.png
 /usr/share/icons/Paper/16x16@2x/status/user-offline.png
 /usr/share/icons/Paper/16x16@2x/status/stock_volume-mute.png
-/usr/share/icons/Paper/16x16@2x/status/aptdaemon-add.png
 /usr/share/icons/Paper/16x16@2x/status/gnome-netstatus-idle.png
-/usr/share/icons/Paper/16x16@2x/status/feed-non-starred.png
 /usr/share/icons/Paper/16x16@2x/status/battery-100-charging.png
 /usr/share/icons/Paper/16x16@2x/status/stock_lock-ok.png
 /usr/share/icons/Paper/16x16@2x/status/xfce-battery-full.png
@@ -11454,7 +11442,6 @@
 /usr/share/icons/Paper/16x16@2x/apps/access.png
 /usr/share/icons/Paper/16x16@2x/apps/ubiquity.png
 /usr/share/icons/Paper/16x16@2x/apps/geeqie.png
-/usr/share/icons/Paper/16x16@2x/apps/QtProject-linguist.png
 /usr/share/icons/Paper/16x16@2x/apps/mintbackup.png
 /usr/share/icons/Paper/16x16@2x/apps/qterminal.png
 /usr/share/icons/Paper/16x16@2x/apps/iceweasel.png
@@ -11602,7 +11589,6 @@
 /usr/share/icons/Paper/16x16@2x/apps/python3.3.png
 /usr/share/icons/Paper/16x16@2x/apps/org.libreoffice.LibreOffice-writer.png
 /usr/share/icons/Paper/16x16@2x/apps/vlc-xmas.png
-/usr/share/icons/Paper/16x16@2x/apps/linphone.png
 /usr/share/icons/Paper/16x16@2x/apps/xchat-mini.png
 /usr/share/icons/Paper/16x16@2x/apps/preferences-desktop-theme.png
 /usr/share/icons/Paper/16x16@2x/apps/stellarium.png
@@ -11619,6 +11605,7 @@
 /usr/share/icons/Paper/16x16@2x/apps/preferences-system-firewall.png
 /usr/share/icons/Paper/16x16@2x/apps/gpa.png
 /usr/share/icons/Paper/16x16@2x/apps/multimedia-photo-manager.png
+/usr/share/icons/Paper/16x16@2x/apps/org.gnome.DejaDup.png
 /usr/share/icons/Paper/16x16@2x/apps/libreoffice.png
 /usr/share/icons/Paper/16x16@2x/apps/clementine.png
 /usr/share/icons/Paper/16x16@2x/apps/com.skype.Client.png
@@ -11632,7 +11619,6 @@
 /usr/share/icons/Paper/16x16@2x/apps/kcmsound.png
 /usr/share/icons/Paper/16x16@2x/apps/nvidia-x-server-settings.png
 /usr/share/icons/Paper/16x16@2x/apps/system-os-installer.png
-/usr/share/icons/Paper/16x16@2x/apps/xsane.png
 /usr/share/icons/Paper/16x16@2x/apps/multimedia-audio-player.png
 /usr/share/icons/Paper/16x16@2x/apps/aptdaemon-download.png
 /usr/share/icons/Paper/16x16@2x/apps/password-manager.png
@@ -11717,6 +11703,7 @@
 /usr/share/icons/Paper/16x16@2x/apps/preferences-desktop-display.png
 /usr/share/icons/Paper/16x16@2x/apps/python2.7.png
 /usr/share/icons/Paper/16x16@2x/apps/calendar-blue-14.png
+/usr/share/icons/Paper/16x16@2x/apps/org.gnome.Geary.png
 /usr/share/icons/Paper/16x16@2x/apps/redhat-filemanager.png
 /usr/share/icons/Paper/16x16@2x/apps/calendar-blue-08.png
 /usr/share/icons/Paper/16x16@2x/apps/google-chrome2.png
@@ -11762,6 +11749,7 @@
 /usr/share/icons/Paper/16x16@2x/apps/wps-spreadsheets.png
 /usr/share/icons/Paper/16x16@2x/apps/calendar-purple-01.png
 /usr/share/icons/Paper/16x16@2x/apps/youtube-dl-gui.png
+/usr/share/icons/Paper/16x16@2x/apps/org.gimp.GIMP.png
 /usr/share/icons/Paper/16x16@2x/apps/org.gnome.Totem.png
 /usr/share/icons/Paper/16x16@2x/apps/unity-display-panel.png
 /usr/share/icons/Paper/16x16@2x/apps/utox.png
@@ -11846,7 +11834,6 @@
 /usr/share/icons/Paper/16x16@2x/apps/mate-preferences-desktop-display.png
 /usr/share/icons/Paper/16x16@2x/apps/calendar-purple-30.png
 /usr/share/icons/Paper/16x16@2x/apps/libreoffice34-impress.png
-/usr/share/icons/Paper/16x16@2x/apps/linguist.png
 /usr/share/icons/Paper/16x16@2x/apps/smuxi-frontend-gnome.png
 /usr/share/icons/Paper/16x16@2x/apps/multimedia-photo-viewer.png
 /usr/share/icons/Paper/16x16@2x/apps/gaupol.png
@@ -11886,6 +11873,7 @@
 /usr/share/icons/Paper/16x16@2x/apps/kodi.png
 /usr/share/icons/Paper/16x16@2x/apps/xscreensaver.png
 /usr/share/icons/Paper/16x16@2x/apps/ximian-evolution-calendar.png
+/usr/share/icons/Paper/16x16@2x/apps/org.libreoffice.LibreOffice.math.png
 /usr/share/icons/Paper/16x16@2x/apps/wine.png
 /usr/share/icons/Paper/16x16@2x/apps/utilities-terminal-alt.png
 /usr/share/icons/Paper/16x16@2x/apps/wps-writer.png
@@ -11904,7 +11892,9 @@
 /usr/share/icons/Paper/16x16@2x/apps/calendar-purple-18.png
 /usr/share/icons/Paper/16x16@2x/apps/accessibility_section.png
 /usr/share/icons/Paper/16x16@2x/apps/showfoto.png
+/usr/share/icons/Paper/16x16@2x/apps/org.gnome.GIMP.png
 /usr/share/icons/Paper/16x16@2x/apps/gcolor2.png
+/usr/share/icons/Paper/16x16@2x/apps/org.libreoffice.LibreOffice.base.png
 /usr/share/icons/Paper/16x16@2x/apps/xfce4-mixer.png
 /usr/share/icons/Paper/16x16@2x/apps/openjdk-8.png
 /usr/share/icons/Paper/16x16@2x/apps/calendar-blue-12.png
@@ -11956,6 +11946,7 @@
 /usr/share/icons/Paper/16x16@2x/apps/firefox-3.0.png
 /usr/share/icons/Paper/16x16@2x/apps/gdm-login-photo.png
 /usr/share/icons/Paper/16x16@2x/apps/background.png
+/usr/share/icons/Paper/16x16@2x/apps/org.gnome.Meld.png
 /usr/share/icons/Paper/16x16@2x/apps/libreoffice-calc.png
 /usr/share/icons/Paper/16x16@2x/apps/cs-workspaces.png
 /usr/share/icons/Paper/16x16@2x/apps/mate-notification-properties.png
@@ -11993,6 +11984,7 @@
 /usr/share/icons/Paper/16x16@2x/apps/color-picker.png
 /usr/share/icons/Paper/16x16@2x/apps/libreoffice3-impress.png
 /usr/share/icons/Paper/16x16@2x/apps/exaile.png
+/usr/share/icons/Paper/16x16@2x/apps/org.libreoffice.LibreOffice.calc.png
 /usr/share/icons/Paper/16x16@2x/apps/cs-color.png
 /usr/share/icons/Paper/16x16@2x/apps/style.png
 /usr/share/icons/Paper/16x16@2x/apps/tomahawk.png
@@ -12065,6 +12057,7 @@
 /usr/share/icons/Paper/16x16@2x/apps/gitkraken.png
 /usr/share/icons/Paper/16x16@2x/apps/gnome-monitor.png
 /usr/share/icons/Paper/16x16@2x/apps/vbam.png
+/usr/share/icons/Paper/16x16@2x/apps/org.libreoffice.LibreOffice.writer.png
 /usr/share/icons/Paper/16x16@2x/apps/redhat-web-browser.png
 /usr/share/icons/Paper/16x16@2x/apps/multimedia.png
 /usr/share/icons/Paper/16x16@2x/apps/palimpsest.png
@@ -12213,7 +12206,6 @@
 /usr/share/icons/Paper/16x16@2x/apps/assistant.png
 /usr/share/icons/Paper/16x16@2x/apps/quassel.png
 /usr/share/icons/Paper/16x16@2x/apps/disks.png
-/usr/share/icons/Paper/16x16@2x/apps/linguist-qt4.png
 /usr/share/icons/Paper/16x16@2x/apps/seahorse.png
 /usr/share/icons/Paper/16x16@2x/apps/kontact.png
 /usr/share/icons/Paper/16x16@2x/apps/calendar-red-30.png
@@ -12277,9 +12269,11 @@
 /usr/share/icons/Paper/16x16@2x/apps/calendar-red-09.png
 /usr/share/icons/Paper/16x16@2x/apps/guake-prefs.png
 /usr/share/icons/Paper/16x16@2x/apps/mate-session-properties.png
+/usr/share/icons/Paper/16x16@2x/apps/org.libreoffice.LibreOffice.draw.png
 /usr/share/icons/Paper/16x16@2x/apps/org.gnome.Books.png
 /usr/share/icons/Paper/16x16@2x/apps/spotify-linux-48x48.png
 /usr/share/icons/Paper/16x16@2x/apps/gnome-abrt.png
+/usr/share/icons/Paper/16x16@2x/apps/org.gnome.meld.png
 /usr/share/icons/Paper/16x16@2x/apps/cs-desktop-effects.png
 /usr/share/icons/Paper/16x16@2x/apps/gdm2setup.png
 /usr/share/icons/Paper/16x16@2x/apps/accessories-camera.png
@@ -12396,6 +12390,7 @@
 /usr/share/icons/Paper/16x16@2x/apps/xfce4-notifyd.png
 /usr/share/icons/Paper/16x16@2x/apps/transmission-qt.png
 /usr/share/icons/Paper/16x16@2x/apps/code.png
+/usr/share/icons/Paper/16x16@2x/apps/org.libreoffice.LibreOffice.impress.png
 /usr/share/icons/Paper/16x16@2x/apps/postgresql.png
 /usr/share/icons/Paper/16x16@2x/apps/codeblocks.png
 /usr/share/icons/Paper/16x16@2x/apps/libreoffice4.2-writer.png
@@ -12477,6 +12472,7 @@
 /usr/share/icons/Paper/16x16@2x/apps/calendar-red-26.png
 /usr/share/icons/Paper/16x16@2x/apps/login.png
 /usr/share/icons/Paper/16x16@2x/apps/vmware-player.png
+/usr/share/icons/Paper/16x16@2x/apps/org.libreoffice.LibreOffice.startcenter.png
 /usr/share/icons/Paper/16x16@2x/apps/libreoffice5.3-draw.png
 /usr/share/icons/Paper/16x16@2x/apps/calendar-blue-07.png
 /usr/share/icons/Paper/16x16@2x/apps/gdmsetup.png
@@ -12553,6 +12549,7 @@
 /usr/share/icons/Paper/16x16@2x/apps/calendar-blue-04.png
 /usr/share/icons/Paper/16x16@2x/apps/libreoffice34-base.png
 /usr/share/icons/Paper/16x16@2x/apps/intellij-idea-ce.png
+/usr/share/icons/Paper/16x16@2x/apps/org.mozilla.Firefox.png
 /usr/share/icons/Paper/16x16@2x/apps/calendar-blue-31.png
 /usr/share/icons/Paper/16x16@2x/apps/accessories-clipboard.png
 /usr/share/icons/Paper/16x16@2x/apps/softwarecenter.png
@@ -12793,7 +12790,6 @@
 /usr/share/icons/Paper/16x16@2x/actions/gtk-paste.png
 /usr/share/icons/Paper/16x16@2x/actions/gtk-zoom-in.png
 /usr/share/icons/Paper/16x16@2x/actions/stock_left.png
-/usr/share/icons/Paper/16x16@2x/actions/mail-reply.png
 /usr/share/icons/Paper/16x16@2x/actions/process-stop.png
 /usr/share/icons/Paper/16x16@2x/actions/mail-send-receive.png
 /usr/share/icons/Paper/16x16@2x/actions/stock_exit.png
@@ -14134,7 +14130,6 @@
 /usr/share/icons/Paper/48x48/mimetypes/audio-x-flac.png
 /usr/share/icons/Paper/48x48/mimetypes/gnome-mime-text-html.png
 /usr/share/icons/Paper/48x48/mimetypes/text-plain.png
-/usr/share/icons/Paper/48x48/mimetypes/image-vnd.adobe.photoshop.png
 /usr/share/icons/Paper/48x48/mimetypes/application-x-object.png
 /usr/share/icons/Paper/48x48/mimetypes/application-x-compressed-tar.png
 /usr/share/icons/Paper/48x48/mimetypes/gnome-mime-application-x-compress.png
@@ -14242,7 +14237,6 @@
 /usr/share/icons/Paper/48x48/mimetypes/gnome-mime-application-postscript.png
 /usr/share/icons/Paper/48x48/mimetypes/ascii.png
 /usr/share/icons/Paper/48x48/mimetypes/gnome-mime-application-xhtml+xml.png
-/usr/share/icons/Paper/48x48/mimetypes/application-illustrator.png
 /usr/share/icons/Paper/48x48/mimetypes/video-x-ogm+ogg.png
 /usr/share/icons/Paper/48x48/mimetypes/gnome-mime-application-x-bzip.png
 /usr/share/icons/Paper/48x48/mimetypes/text-x-script.png
@@ -14310,7 +14304,6 @@
 /usr/share/icons/Paper/48x48/mimetypes/gnome-mime-application-x-gzip.png
 /usr/share/icons/Paper/48x48/mimetypes/office-document.png
 /usr/share/icons/Paper/48x48/mimetypes/application-x-firmware.png
-/usr/share/icons/Paper/48x48/mimetypes/application-vnd.ms-access.png
 /usr/share/icons/Paper/48x48/mimetypes/text-x-ruby.png
 /usr/share/icons/Paper/48x48/mimetypes/gnome-fs-executable.png
 /usr/share/icons/Paper/48x48/mimetypes/text-x-generic.svapplication-x-awk.png
@@ -14593,7 +14586,6 @@
 /usr/share/icons/Paper/48x48/status/im-user-away.png
 /usr/share/icons/Paper/48x48/status/messagebox_warning.png
 /usr/share/icons/Paper/48x48/status/semi-starred-rtl.png
-/usr/share/icons/Paper/48x48/status/rating-unrated.png
 /usr/share/icons/Paper/48x48/status/network-offline.png
 /usr/share/icons/Paper/48x48/status/mail-signed.png
 /usr/share/icons/Paper/48x48/status/nm-device-wireless.png
@@ -14603,7 +14595,6 @@
 /usr/share/icons/Paper/48x48/status/weather-overcast.png
 /usr/share/icons/Paper/48x48/status/battery-caution-charging.png
 /usr/share/icons/Paper/48x48/status/gnome-netstatus-disconn.png
-/usr/share/icons/Paper/48x48/status/aptdaemon-download.png
 /usr/share/icons/Paper/48x48/status/xfce-battery-critical-charging.png
 /usr/share/icons/Paper/48x48/status/battery-080-charging.png
 /usr/share/icons/Paper/48x48/status/im-user-offline.png
@@ -14717,7 +14708,6 @@
 /usr/share/icons/Paper/48x48/status/starred.png
 /usr/share/icons/Paper/48x48/status/sync-error.png
 /usr/share/icons/Paper/48x48/status/stock_mail-replied.png
-/usr/share/icons/Paper/48x48/status/non-starred-grey.png
 /usr/share/icons/Paper/48x48/status/mail-signed-verified.png
 /usr/share/icons/Paper/48x48/status/gnome-netstatus-error.png
 /usr/share/icons/Paper/48x48/status/stock_mail-open.png
@@ -14725,7 +14715,6 @@
 /usr/share/icons/Paper/48x48/status/mail-replied.png
 /usr/share/icons/Paper/48x48/status/stock_mail-unread.png
 /usr/share/icons/Paper/48x48/status/aptdaemon-upgrade.png
-/usr/share/icons/Paper/48x48/status/pin-up.png
 /usr/share/icons/Paper/48x48/status/stock_dialog-question.png
 /usr/share/icons/Paper/48x48/status/gtk-dialog-authentication.png
 /usr/share/icons/Paper/48x48/status/stock_dialog-error.png
@@ -14747,9 +14736,7 @@
 /usr/share/icons/Paper/48x48/status/media-playlist-repeat.png
 /usr/share/icons/Paper/48x48/status/user-offline.png
 /usr/share/icons/Paper/48x48/status/stock_volume-mute.png
-/usr/share/icons/Paper/48x48/status/aptdaemon-add.png
 /usr/share/icons/Paper/48x48/status/gnome-netstatus-idle.png
-/usr/share/icons/Paper/48x48/status/feed-non-starred.png
 /usr/share/icons/Paper/48x48/status/battery-100-charging.png
 /usr/share/icons/Paper/48x48/status/stock_lock-ok.png
 /usr/share/icons/Paper/48x48/status/xfce-battery-full.png
@@ -14833,7 +14820,6 @@
 /usr/share/icons/Paper/48x48/apps/access.png
 /usr/share/icons/Paper/48x48/apps/ubiquity.png
 /usr/share/icons/Paper/48x48/apps/geeqie.png
-/usr/share/icons/Paper/48x48/apps/QtProject-linguist.png
 /usr/share/icons/Paper/48x48/apps/mintbackup.png
 /usr/share/icons/Paper/48x48/apps/qterminal.png
 /usr/share/icons/Paper/48x48/apps/iceweasel.png
@@ -14981,7 +14967,6 @@
 /usr/share/icons/Paper/48x48/apps/python3.3.png
 /usr/share/icons/Paper/48x48/apps/org.libreoffice.LibreOffice-writer.png
 /usr/share/icons/Paper/48x48/apps/vlc-xmas.png
-/usr/share/icons/Paper/48x48/apps/linphone.png
 /usr/share/icons/Paper/48x48/apps/xchat-mini.png
 /usr/share/icons/Paper/48x48/apps/preferences-desktop-theme.png
 /usr/share/icons/Paper/48x48/apps/stellarium.png
@@ -14998,6 +14983,7 @@
 /usr/share/icons/Paper/48x48/apps/preferences-system-firewall.png
 /usr/share/icons/Paper/48x48/apps/gpa.png
 /usr/share/icons/Paper/48x48/apps/multimedia-photo-manager.png
+/usr/share/icons/Paper/48x48/apps/org.gnome.DejaDup.png
 /usr/share/icons/Paper/48x48/apps/libreoffice.png
 /usr/share/icons/Paper/48x48/apps/clementine.png
 /usr/share/icons/Paper/48x48/apps/com.skype.Client.png
@@ -15011,7 +14997,6 @@
 /usr/share/icons/Paper/48x48/apps/kcmsound.png
 /usr/share/icons/Paper/48x48/apps/nvidia-x-server-settings.png
 /usr/share/icons/Paper/48x48/apps/system-os-installer.png
-/usr/share/icons/Paper/48x48/apps/xsane.png
 /usr/share/icons/Paper/48x48/apps/multimedia-audio-player.png
 /usr/share/icons/Paper/48x48/apps/aptdaemon-download.png
 /usr/share/icons/Paper/48x48/apps/password-manager.png
@@ -15096,6 +15081,7 @@
 /usr/share/icons/Paper/48x48/apps/preferences-desktop-display.png
 /usr/share/icons/Paper/48x48/apps/python2.7.png
 /usr/share/icons/Paper/48x48/apps/calendar-blue-14.png
+/usr/share/icons/Paper/48x48/apps/org.gnome.Geary.png
 /usr/share/icons/Paper/48x48/apps/redhat-filemanager.png
 /usr/share/icons/Paper/48x48/apps/calendar-blue-08.png
 /usr/share/icons/Paper/48x48/apps/google-chrome2.png
@@ -15141,6 +15127,7 @@
 /usr/share/icons/Paper/48x48/apps/wps-spreadsheets.png
 /usr/share/icons/Paper/48x48/apps/calendar-purple-01.png
 /usr/share/icons/Paper/48x48/apps/youtube-dl-gui.png
+/usr/share/icons/Paper/48x48/apps/org.gimp.GIMP.png
 /usr/share/icons/Paper/48x48/apps/org.gnome.Totem.png
 /usr/share/icons/Paper/48x48/apps/unity-display-panel.png
 /usr/share/icons/Paper/48x48/apps/utox.png
@@ -15225,7 +15212,6 @@
 /usr/share/icons/Paper/48x48/apps/mate-preferences-desktop-display.png
 /usr/share/icons/Paper/48x48/apps/calendar-purple-30.png
 /usr/share/icons/Paper/48x48/apps/libreoffice34-impress.png
-/usr/share/icons/Paper/48x48/apps/linguist.png
 /usr/share/icons/Paper/48x48/apps/smuxi-frontend-gnome.png
 /usr/share/icons/Paper/48x48/apps/multimedia-photo-viewer.png
 /usr/share/icons/Paper/48x48/apps/gaupol.png
@@ -15265,6 +15251,7 @@
 /usr/share/icons/Paper/48x48/apps/kodi.png
 /usr/share/icons/Paper/48x48/apps/xscreensaver.png
 /usr/share/icons/Paper/48x48/apps/ximian-evolution-calendar.png
+/usr/share/icons/Paper/48x48/apps/org.libreoffice.LibreOffice.math.png
 /usr/share/icons/Paper/48x48/apps/wine.png
 /usr/share/icons/Paper/48x48/apps/utilities-terminal-alt.png
 /usr/share/icons/Paper/48x48/apps/wps-writer.png
@@ -15283,7 +15270,9 @@
 /usr/share/icons/Paper/48x48/apps/calendar-purple-18.png
 /usr/share/icons/Paper/48x48/apps/accessibility_section.png
 /usr/share/icons/Paper/48x48/apps/showfoto.png
+/usr/share/icons/Paper/48x48/apps/org.gnome.GIMP.png
 /usr/share/icons/Paper/48x48/apps/gcolor2.png
+/usr/share/icons/Paper/48x48/apps/org.libreoffice.LibreOffice.base.png
 /usr/share/icons/Paper/48x48/apps/xfce4-mixer.png
 /usr/share/icons/Paper/48x48/apps/openjdk-8.png
 /usr/share/icons/Paper/48x48/apps/calendar-blue-12.png
@@ -15335,6 +15324,7 @@
 /usr/share/icons/Paper/48x48/apps/firefox-3.0.png
 /usr/share/icons/Paper/48x48/apps/gdm-login-photo.png
 /usr/share/icons/Paper/48x48/apps/background.png
+/usr/share/icons/Paper/48x48/apps/org.gnome.Meld.png
 /usr/share/icons/Paper/48x48/apps/libreoffice-calc.png
 /usr/share/icons/Paper/48x48/apps/cs-workspaces.png
 /usr/share/icons/Paper/48x48/apps/mate-notification-properties.png
@@ -15372,6 +15362,7 @@
 /usr/share/icons/Paper/48x48/apps/color-picker.png
 /usr/share/icons/Paper/48x48/apps/libreoffice3-impress.png
 /usr/share/icons/Paper/48x48/apps/exaile.png
+/usr/share/icons/Paper/48x48/apps/org.libreoffice.LibreOffice.calc.png
 /usr/share/icons/Paper/48x48/apps/cs-color.png
 /usr/share/icons/Paper/48x48/apps/style.png
 /usr/share/icons/Paper/48x48/apps/tomahawk.png
@@ -15444,6 +15435,7 @@
 /usr/share/icons/Paper/48x48/apps/gitkraken.png
 /usr/share/icons/Paper/48x48/apps/gnome-monitor.png
 /usr/share/icons/Paper/48x48/apps/vbam.png
+/usr/share/icons/Paper/48x48/apps/org.libreoffice.LibreOffice.writer.png
 /usr/share/icons/Paper/48x48/apps/redhat-web-browser.png
 /usr/share/icons/Paper/48x48/apps/multimedia.png
 /usr/share/icons/Paper/48x48/apps/palimpsest.png
@@ -15592,7 +15584,6 @@
 /usr/share/icons/Paper/48x48/apps/assistant.png
 /usr/share/icons/Paper/48x48/apps/quassel.png
 /usr/share/icons/Paper/48x48/apps/disks.png
-/usr/share/icons/Paper/48x48/apps/linguist-qt4.png
 /usr/share/icons/Paper/48x48/apps/seahorse.png
 /usr/share/icons/Paper/48x48/apps/kontact.png
 /usr/share/icons/Paper/48x48/apps/calendar-red-30.png
@@ -15656,9 +15647,11 @@
 /usr/share/icons/Paper/48x48/apps/calendar-red-09.png
 /usr/share/icons/Paper/48x48/apps/guake-prefs.png
 /usr/share/icons/Paper/48x48/apps/mate-session-properties.png
+/usr/share/icons/Paper/48x48/apps/org.libreoffice.LibreOffice.draw.png
 /usr/share/icons/Paper/48x48/apps/org.gnome.Books.png
 /usr/share/icons/Paper/48x48/apps/spotify-linux-48x48.png
 /usr/share/icons/Paper/48x48/apps/gnome-abrt.png
+/usr/share/icons/Paper/48x48/apps/org.gnome.meld.png
 /usr/share/icons/Paper/48x48/apps/cs-desktop-effects.png
 /usr/share/icons/Paper/48x48/apps/gdm2setup.png
 /usr/share/icons/Paper/48x48/apps/accessories-camera.png
@@ -15775,6 +15768,7 @@
 /usr/share/icons/Paper/48x48/apps/xfce4-notifyd.png
 /usr/share/icons/Paper/48x48/apps/transmission-qt.png
 /usr/share/icons/Paper/48x48/apps/code.png
+/usr/share/icons/Paper/48x48/apps/org.libreoffice.LibreOffice.impress.png
 /usr/share/icons/Paper/48x48/apps/postgresql.png
 /usr/share/icons/Paper/48x48/apps/codeblocks.png
 /usr/share/icons/Paper/48x48/apps/libreoffice4.2-writer.png
@@ -15856,6 +15850,7 @@
 /usr/share/icons/Paper/48x48/apps/calendar-red-26.png
 /usr/share/icons/Paper/48x48/apps/login.png
 /usr/share/icons/Paper/48x48/apps/vmware-player.png
+/usr/share/icons/Paper/48x48/apps/org.libreoffice.LibreOffice.startcenter.png
 /usr/share/icons/Paper/48x48/apps/libreoffice5.3-draw.png
 /usr/share/icons/Paper/48x48/apps/calendar-blue-07.png
 /usr/share/icons/Paper/48x48/apps/gdmsetup.png
@@ -15932,6 +15927,7 @@
 /usr/share/icons/Paper/48x48/apps/calendar-blue-04.png
 /usr/share/icons/Paper/48x48/apps/libreoffice34-base.png
 /usr/share/icons/Paper/48x48/apps/intellij-idea-ce.png
+/usr/share/icons/Paper/48x48/apps/org.mozilla.Firefox.png
 /usr/share/icons/Paper/48x48/apps/calendar-blue-31.png
 /usr/share/icons/Paper/48x48/apps/accessories-clipboard.png
 /usr/share/icons/Paper/48x48/apps/softwarecenter.png
@@ -16172,7 +16168,6 @@
 /usr/share/icons/Paper/48x48/actions/gtk-paste.png
 /usr/share/icons/Paper/48x48/actions/gtk-zoom-in.png
 /usr/share/icons/Paper/48x48/actions/stock_left.png
-/usr/share/icons/Paper/48x48/actions/mail-reply.png
 /usr/share/icons/Paper/48x48/actions/process-stop.png
 /usr/share/icons/Paper/48x48/actions/mail-send-receive.png
 /usr/share/icons/Paper/48x48/actions/stock_exit.png
@@ -16813,7 +16808,6 @@
 /usr/share/icons/Paper/16x16/mimetypes/audio-x-flac.png
 /usr/share/icons/Paper/16x16/mimetypes/gnome-mime-text-html.png
 /usr/share/icons/Paper/16x16/mimetypes/text-plain.png
-/usr/share/icons/Paper/16x16/mimetypes/image-vnd.adobe.photoshop.png
 /usr/share/icons/Paper/16x16/mimetypes/application-x-object.png
 /usr/share/icons/Paper/16x16/mimetypes/application-x-compressed-tar.png
 /usr/share/icons/Paper/16x16/mimetypes/gnome-mime-application-x-compress.png
@@ -16921,7 +16915,6 @@
 /usr/share/icons/Paper/16x16/mimetypes/gnome-mime-application-postscript.png
 /usr/share/icons/Paper/16x16/mimetypes/ascii.png
 /usr/share/icons/Paper/16x16/mimetypes/gnome-mime-application-xhtml+xml.png
-/usr/share/icons/Paper/16x16/mimetypes/application-illustrator.png
 /usr/share/icons/Paper/16x16/mimetypes/video-x-ogm+ogg.png
 /usr/share/icons/Paper/16x16/mimetypes/gnome-mime-application-x-bzip.png
 /usr/share/icons/Paper/16x16/mimetypes/text-x-script.png
@@ -16989,7 +16982,6 @@
 /usr/share/icons/Paper/16x16/mimetypes/gnome-mime-application-x-gzip.png
 /usr/share/icons/Paper/16x16/mimetypes/office-document.png
 /usr/share/icons/Paper/16x16/mimetypes/application-x-firmware.png
-/usr/share/icons/Paper/16x16/mimetypes/application-vnd.ms-access.png
 /usr/share/icons/Paper/16x16/mimetypes/text-x-ruby.png
 /usr/share/icons/Paper/16x16/mimetypes/gnome-fs-executable.png
 /usr/share/icons/Paper/16x16/mimetypes/text-x-generic.svapplication-x-awk.png
@@ -17273,7 +17265,6 @@
 /usr/share/icons/Paper/16x16/status/messagebox_warning.png
 /usr/share/icons/Paper/16x16/status/semi-starred-rtl.png
 /usr/share/icons/Paper/16x16/status/media-playlist-repeat-song.svg
-/usr/share/icons/Paper/16x16/status/rating-unrated.png
 /usr/share/icons/Paper/16x16/status/network-offline.png
 /usr/share/icons/Paper/16x16/status/mail-signed.png
 /usr/share/icons/Paper/16x16/status/nm-device-wireless.png
@@ -17283,7 +17274,6 @@
 /usr/share/icons/Paper/16x16/status/weather-overcast.png
 /usr/share/icons/Paper/16x16/status/battery-caution-charging.png
 /usr/share/icons/Paper/16x16/status/gnome-netstatus-disconn.png
-/usr/share/icons/Paper/16x16/status/aptdaemon-download.png
 /usr/share/icons/Paper/16x16/status/xfce-battery-critical-charging.png
 /usr/share/icons/Paper/16x16/status/battery-080-charging.png
 /usr/share/icons/Paper/16x16/status/im-user-offline.png
@@ -17405,7 +17395,6 @@
 /usr/share/icons/Paper/16x16/status/starred.png
 /usr/share/icons/Paper/16x16/status/sync-error.png
 /usr/share/icons/Paper/16x16/status/stock_mail-replied.png
-/usr/share/icons/Paper/16x16/status/non-starred-grey.png
 /usr/share/icons/Paper/16x16/status/mail-signed-verified.png
 /usr/share/icons/Paper/16x16/status/gnome-netstatus-error.png
 /usr/share/icons/Paper/16x16/status/stock_mail-open.png
@@ -17413,7 +17402,6 @@
 /usr/share/icons/Paper/16x16/status/mail-replied.png
 /usr/share/icons/Paper/16x16/status/stock_mail-unread.png
 /usr/share/icons/Paper/16x16/status/aptdaemon-upgrade.png
-/usr/share/icons/Paper/16x16/status/pin-up.png
 /usr/share/icons/Paper/16x16/status/stock_dialog-question.png
 /usr/share/icons/Paper/16x16/status/gtk-dialog-authentication.png
 /usr/share/icons/Paper/16x16/status/stock_dialog-error.png
@@ -17438,9 +17426,7 @@
 /usr/share/icons/Paper/16x16/status/media-playlist-repeat.png
 /usr/share/icons/Paper/16x16/status/user-offline.png
 /usr/share/icons/Paper/16x16/status/stock_volume-mute.png
-/usr/share/icons/Paper/16x16/status/aptdaemon-add.png
 /usr/share/icons/Paper/16x16/status/gnome-netstatus-idle.png
-/usr/share/icons/Paper/16x16/status/feed-non-starred.png
 /usr/share/icons/Paper/16x16/status/battery-100-charging.png
 /usr/share/icons/Paper/16x16/status/stock_lock-ok.png
 /usr/share/icons/Paper/16x16/status/xfce-battery-full.png
@@ -17485,7 +17471,6 @@
 /usr/share/icons/Paper/16x16/apps/access.png
 /usr/share/icons/Paper/16x16/apps/ubiquity.png
 /usr/share/icons/Paper/16x16/apps/geeqie.png
-/usr/share/icons/Paper/16x16/apps/QtProject-linguist.png
 /usr/share/icons/Paper/16x16/apps/mintbackup.png
 /usr/share/icons/Paper/16x16/apps/qterminal.png
 /usr/share/icons/Paper/16x16/apps/iceweasel.png
@@ -17633,7 +17618,6 @@
 /usr/share/icons/Paper/16x16/apps/python3.3.png
 /usr/share/icons/Paper/16x16/apps/org.libreoffice.LibreOffice-writer.png
 /usr/share/icons/Paper/16x16/apps/vlc-xmas.png
-/usr/share/icons/Paper/16x16/apps/linphone.png
 /usr/share/icons/Paper/16x16/apps/xchat-mini.png
 /usr/share/icons/Paper/16x16/apps/preferences-desktop-theme.png
 /usr/share/icons/Paper/16x16/apps/stellarium.png
@@ -17650,6 +17634,7 @@
 /usr/share/icons/Paper/16x16/apps/preferences-system-firewall.png
 /usr/share/icons/Paper/16x16/apps/gpa.png
 /usr/share/icons/Paper/16x16/apps/multimedia-photo-manager.png
+/usr/share/icons/Paper/16x16/apps/org.gnome.DejaDup.png
 /usr/share/icons/Paper/16x16/apps/libreoffice.png
 /usr/share/icons/Paper/16x16/apps/clementine.png
 /usr/share/icons/Paper/16x16/apps/com.skype.Client.png
@@ -17663,7 +17648,6 @@
 /usr/share/icons/Paper/16x16/apps/kcmsound.png
 /usr/share/icons/Paper/16x16/apps/nvidia-x-server-settings.png
 /usr/share/icons/Paper/16x16/apps/system-os-installer.png
-/usr/share/icons/Paper/16x16/apps/xsane.png
 /usr/share/icons/Paper/16x16/apps/multimedia-audio-player.png
 /usr/share/icons/Paper/16x16/apps/aptdaemon-download.png
 /usr/share/icons/Paper/16x16/apps/password-manager.png
@@ -17748,6 +17732,7 @@
 /usr/share/icons/Paper/16x16/apps/preferences-desktop-display.png
 /usr/share/icons/Paper/16x16/apps/python2.7.png
 /usr/share/icons/Paper/16x16/apps/calendar-blue-14.png
+/usr/share/icons/Paper/16x16/apps/org.gnome.Geary.png
 /usr/share/icons/Paper/16x16/apps/redhat-filemanager.png
 /usr/share/icons/Paper/16x16/apps/calendar-blue-08.png
 /usr/share/icons/Paper/16x16/apps/google-chrome2.png
@@ -17793,6 +17778,7 @@
 /usr/share/icons/Paper/16x16/apps/wps-spreadsheets.png
 /usr/share/icons/Paper/16x16/apps/calendar-purple-01.png
 /usr/share/icons/Paper/16x16/apps/youtube-dl-gui.png
+/usr/share/icons/Paper/16x16/apps/org.gimp.GIMP.png
 /usr/share/icons/Paper/16x16/apps/org.gnome.Totem.png
 /usr/share/icons/Paper/16x16/apps/unity-display-panel.png
 /usr/share/icons/Paper/16x16/apps/utox.png
@@ -17877,7 +17863,6 @@
 /usr/share/icons/Paper/16x16/apps/mate-preferences-desktop-display.png
 /usr/share/icons/Paper/16x16/apps/calendar-purple-30.png
 /usr/share/icons/Paper/16x16/apps/libreoffice34-impress.png
-/usr/share/icons/Paper/16x16/apps/linguist.png
 /usr/share/icons/Paper/16x16/apps/smuxi-frontend-gnome.png
 /usr/share/icons/Paper/16x16/apps/multimedia-photo-viewer.png
 /usr/share/icons/Paper/16x16/apps/gaupol.png
@@ -17917,6 +17902,7 @@
 /usr/share/icons/Paper/16x16/apps/kodi.png
 /usr/share/icons/Paper/16x16/apps/xscreensaver.png
 /usr/share/icons/Paper/16x16/apps/ximian-evolution-calendar.png
+/usr/share/icons/Paper/16x16/apps/org.libreoffice.LibreOffice.math.png
 /usr/share/icons/Paper/16x16/apps/wine.png
 /usr/share/icons/Paper/16x16/apps/utilities-terminal-alt.png
 /usr/share/icons/Paper/16x16/apps/wps-writer.png
@@ -17935,7 +17921,9 @@
 /usr/share/icons/Paper/16x16/apps/calendar-purple-18.png
 /usr/share/icons/Paper/16x16/apps/accessibility_section.png
 /usr/share/icons/Paper/16x16/apps/showfoto.png
+/usr/share/icons/Paper/16x16/apps/org.gnome.GIMP.png
 /usr/share/icons/Paper/16x16/apps/gcolor2.png
+/usr/share/icons/Paper/16x16/apps/org.libreoffice.LibreOffice.base.png
 /usr/share/icons/Paper/16x16/apps/xfce4-mixer.png
 /usr/share/icons/Paper/16x16/apps/openjdk-8.png
 /usr/share/icons/Paper/16x16/apps/calendar-blue-12.png
@@ -17987,6 +17975,7 @@
 /usr/share/icons/Paper/16x16/apps/firefox-3.0.png
 /usr/share/icons/Paper/16x16/apps/gdm-login-photo.png
 /usr/share/icons/Paper/16x16/apps/background.png
+/usr/share/icons/Paper/16x16/apps/org.gnome.Meld.png
 /usr/share/icons/Paper/16x16/apps/libreoffice-calc.png
 /usr/share/icons/Paper/16x16/apps/cs-workspaces.png
 /usr/share/icons/Paper/16x16/apps/mate-notification-properties.png
@@ -18024,6 +18013,7 @@
 /usr/share/icons/Paper/16x16/apps/color-picker.png
 /usr/share/icons/Paper/16x16/apps/libreoffice3-impress.png
 /usr/share/icons/Paper/16x16/apps/exaile.png
+/usr/share/icons/Paper/16x16/apps/org.libreoffice.LibreOffice.calc.png
 /usr/share/icons/Paper/16x16/apps/cs-color.png
 /usr/share/icons/Paper/16x16/apps/style.png
 /usr/share/icons/Paper/16x16/apps/tomahawk.png
@@ -18096,6 +18086,7 @@
 /usr/share/icons/Paper/16x16/apps/gitkraken.png
 /usr/share/icons/Paper/16x16/apps/gnome-monitor.png
 /usr/share/icons/Paper/16x16/apps/vbam.png
+/usr/share/icons/Paper/16x16/apps/org.libreoffice.LibreOffice.writer.png
 /usr/share/icons/Paper/16x16/apps/redhat-web-browser.png
 /usr/share/icons/Paper/16x16/apps/multimedia.png
 /usr/share/icons/Paper/16x16/apps/palimpsest.png
@@ -18244,7 +18235,6 @@
 /usr/share/icons/Paper/16x16/apps/assistant.png
 /usr/share/icons/Paper/16x16/apps/quassel.png
 /usr/share/icons/Paper/16x16/apps/disks.png
-/usr/share/icons/Paper/16x16/apps/linguist-qt4.png
 /usr/share/icons/Paper/16x16/apps/seahorse.png
 /usr/share/icons/Paper/16x16/apps/kontact.png
 /usr/share/icons/Paper/16x16/apps/calendar-red-30.png
@@ -18308,9 +18298,11 @@
 /usr/share/icons/Paper/16x16/apps/calendar-red-09.png
 /usr/share/icons/Paper/16x16/apps/guake-prefs.png
 /usr/share/icons/Paper/16x16/apps/mate-session-properties.png
+/usr/share/icons/Paper/16x16/apps/org.libreoffice.LibreOffice.draw.png
 /usr/share/icons/Paper/16x16/apps/org.gnome.Books.png
 /usr/share/icons/Paper/16x16/apps/spotify-linux-48x48.png
 /usr/share/icons/Paper/16x16/apps/gnome-abrt.png
+/usr/share/icons/Paper/16x16/apps/org.gnome.meld.png
 /usr/share/icons/Paper/16x16/apps/cs-desktop-effects.png
 /usr/share/icons/Paper/16x16/apps/gdm2setup.png
 /usr/share/icons/Paper/16x16/apps/accessories-camera.png
@@ -18427,6 +18419,7 @@
 /usr/share/icons/Paper/16x16/apps/xfce4-notifyd.png
 /usr/share/icons/Paper/16x16/apps/transmission-qt.png
 /usr/share/icons/Paper/16x16/apps/code.png
+/usr/share/icons/Paper/16x16/apps/org.libreoffice.LibreOffice.impress.png
 /usr/share/icons/Paper/16x16/apps/postgresql.png
 /usr/share/icons/Paper/16x16/apps/codeblocks.png
 /usr/share/icons/Paper/16x16/apps/libreoffice4.2-writer.png
@@ -18508,6 +18501,7 @@
 /usr/share/icons/Paper/16x16/apps/calendar-red-26.png
 /usr/share/icons/Paper/16x16/apps/login.png
 /usr/share/icons/Paper/16x16/apps/vmware-player.png
+/usr/share/icons/Paper/16x16/apps/org.libreoffice.LibreOffice.startcenter.png
 /usr/share/icons/Paper/16x16/apps/libreoffice5.3-draw.png
 /usr/share/icons/Paper/16x16/apps/calendar-blue-07.png
 /usr/share/icons/Paper/16x16/apps/gdmsetup.png
@@ -18584,6 +18578,7 @@
 /usr/share/icons/Paper/16x16/apps/calendar-blue-04.png
 /usr/share/icons/Paper/16x16/apps/libreoffice34-base.png
 /usr/share/icons/Paper/16x16/apps/intellij-idea-ce.png
+/usr/share/icons/Paper/16x16/apps/org.mozilla.Firefox.png
 /usr/share/icons/Paper/16x16/apps/calendar-blue-31.png
 /usr/share/icons/Paper/16x16/apps/accessories-clipboard.png
 /usr/share/icons/Paper/16x16/apps/softwarecenter.png
@@ -19168,7 +19163,6 @@
 /usr/share/icons/Paper/16x16/actions/gtk-go-back-rtl.svg
 /usr/share/icons/Paper/16x16/actions/media-eject.svg
 /usr/share/icons/Paper/16x16/actions/mail_replyall.svg
-/usr/share/icons/Paper/16x16/actions/mail-reply.png
 /usr/share/icons/Paper/16x16/actions/process-stop.png
 /usr/share/icons/Paper/16x16/actions/tab-new.svg
 /usr/share/icons/Paper/16x16/actions/mail-send-receive.png
@@ -19450,7 +19444,6 @@
 /usr/share/icons/Paper/512x512/mimetypes/audio-x-flac.png
 /usr/share/icons/Paper/512x512/mimetypes/gnome-mime-text-html.png
 /usr/share/icons/Paper/512x512/mimetypes/text-plain.png
-/usr/share/icons/Paper/512x512/mimetypes/image-vnd.adobe.photoshop.png
 /usr/share/icons/Paper/512x512/mimetypes/application-x-object.png
 /usr/share/icons/Paper/512x512/mimetypes/application-x-compressed-tar.png
 /usr/share/icons/Paper/512x512/mimetypes/gnome-mime-application-x-compress.png
@@ -19558,7 +19551,6 @@
 /usr/share/icons/Paper/512x512/mimetypes/gnome-mime-application-postscript.png
 /usr/share/icons/Paper/512x512/mimetypes/ascii.png
 /usr/share/icons/Paper/512x512/mimetypes/gnome-mime-application-xhtml+xml.png
-/usr/share/icons/Paper/512x512/mimetypes/application-illustrator.png
 /usr/share/icons/Paper/512x512/mimetypes/video-x-ogm+ogg.png
 /usr/share/icons/Paper/512x512/mimetypes/gnome-mime-application-x-bzip.png
 /usr/share/icons/Paper/512x512/mimetypes/text-x-script.png
@@ -19626,7 +19618,6 @@
 /usr/share/icons/Paper/512x512/mimetypes/gnome-mime-application-x-gzip.png
 /usr/share/icons/Paper/512x512/mimetypes/office-document.png
 /usr/share/icons/Paper/512x512/mimetypes/application-x-firmware.png
-/usr/share/icons/Paper/512x512/mimetypes/application-vnd.ms-access.png
 /usr/share/icons/Paper/512x512/mimetypes/text-x-ruby.png
 /usr/share/icons/Paper/512x512/mimetypes/gnome-fs-executable.png
 /usr/share/icons/Paper/512x512/mimetypes/text-x-generic.svapplication-x-awk.png
@@ -19909,7 +19900,6 @@
 /usr/share/icons/Paper/512x512/status/im-user-away.png
 /usr/share/icons/Paper/512x512/status/messagebox_warning.png
 /usr/share/icons/Paper/512x512/status/semi-starred-rtl.png
-/usr/share/icons/Paper/512x512/status/rating-unrated.png
 /usr/share/icons/Paper/512x512/status/network-offline.png
 /usr/share/icons/Paper/512x512/status/mail-signed.png
 /usr/share/icons/Paper/512x512/status/nm-device-wireless.png
@@ -19919,7 +19909,6 @@
 /usr/share/icons/Paper/512x512/status/weather-overcast.png
 /usr/share/icons/Paper/512x512/status/battery-caution-charging.png
 /usr/share/icons/Paper/512x512/status/gnome-netstatus-disconn.png
-/usr/share/icons/Paper/512x512/status/aptdaemon-download.png
 /usr/share/icons/Paper/512x512/status/xfce-battery-critical-charging.png
 /usr/share/icons/Paper/512x512/status/battery-080-charging.png
 /usr/share/icons/Paper/512x512/status/im-user-offline.png
@@ -20033,7 +20022,6 @@
 /usr/share/icons/Paper/512x512/status/starred.png
 /usr/share/icons/Paper/512x512/status/sync-error.png
 /usr/share/icons/Paper/512x512/status/stock_mail-replied.png
-/usr/share/icons/Paper/512x512/status/non-starred-grey.png
 /usr/share/icons/Paper/512x512/status/mail-signed-verified.png
 /usr/share/icons/Paper/512x512/status/gnome-netstatus-error.png
 /usr/share/icons/Paper/512x512/status/stock_mail-open.png
@@ -20041,7 +20029,6 @@
 /usr/share/icons/Paper/512x512/status/mail-replied.png
 /usr/share/icons/Paper/512x512/status/stock_mail-unread.png
 /usr/share/icons/Paper/512x512/status/aptdaemon-upgrade.png
-/usr/share/icons/Paper/512x512/status/pin-up.png
 /usr/share/icons/Paper/512x512/status/stock_dialog-question.png
 /usr/share/icons/Paper/512x512/status/gtk-dialog-authentication.png
 /usr/share/icons/Paper/512x512/status/stock_dialog-error.png
@@ -20063,9 +20050,7 @@
 /usr/share/icons/Paper/512x512/status/media-playlist-repeat.png
 /usr/share/icons/Paper/512x512/status/user-offline.png
 /usr/share/icons/Paper/512x512/status/stock_volume-mute.png
-/usr/share/icons/Paper/512x512/status/aptdaemon-add.png
 /usr/share/icons/Paper/512x512/status/gnome-netstatus-idle.png
-/usr/share/icons/Paper/512x512/status/feed-non-starred.png
 /usr/share/icons/Paper/512x512/status/battery-100-charging.png
 /usr/share/icons/Paper/512x512/status/stock_lock-ok.png
 /usr/share/icons/Paper/512x512/status/xfce-battery-full.png
@@ -20109,7 +20094,6 @@
 /usr/share/icons/Paper/512x512/apps/access.png
 /usr/share/icons/Paper/512x512/apps/ubiquity.png
 /usr/share/icons/Paper/512x512/apps/geeqie.png
-/usr/share/icons/Paper/512x512/apps/QtProject-linguist.png
 /usr/share/icons/Paper/512x512/apps/mintbackup.png
 /usr/share/icons/Paper/512x512/apps/qterminal.png
 /usr/share/icons/Paper/512x512/apps/iceweasel.png
@@ -20257,7 +20241,6 @@
 /usr/share/icons/Paper/512x512/apps/python3.3.png
 /usr/share/icons/Paper/512x512/apps/org.libreoffice.LibreOffice-writer.png
 /usr/share/icons/Paper/512x512/apps/vlc-xmas.png
-/usr/share/icons/Paper/512x512/apps/linphone.png
 /usr/share/icons/Paper/512x512/apps/xchat-mini.png
 /usr/share/icons/Paper/512x512/apps/preferences-desktop-theme.png
 /usr/share/icons/Paper/512x512/apps/stellarium.png
@@ -20274,6 +20257,7 @@
 /usr/share/icons/Paper/512x512/apps/preferences-system-firewall.png
 /usr/share/icons/Paper/512x512/apps/gpa.png
 /usr/share/icons/Paper/512x512/apps/multimedia-photo-manager.png
+/usr/share/icons/Paper/512x512/apps/org.gnome.DejaDup.png
 /usr/share/icons/Paper/512x512/apps/libreoffice.png
 /usr/share/icons/Paper/512x512/apps/clementine.png
 /usr/share/icons/Paper/512x512/apps/com.skype.Client.png
@@ -20287,7 +20271,6 @@
 /usr/share/icons/Paper/512x512/apps/kcmsound.png
 /usr/share/icons/Paper/512x512/apps/nvidia-x-server-settings.png
 /usr/share/icons/Paper/512x512/apps/system-os-installer.png
-/usr/share/icons/Paper/512x512/apps/xsane.png
 /usr/share/icons/Paper/512x512/apps/multimedia-audio-player.png
 /usr/share/icons/Paper/512x512/apps/aptdaemon-download.png
 /usr/share/icons/Paper/512x512/apps/password-manager.png
@@ -20372,6 +20355,7 @@
 /usr/share/icons/Paper/512x512/apps/preferences-desktop-display.png
 /usr/share/icons/Paper/512x512/apps/python2.7.png
 /usr/share/icons/Paper/512x512/apps/calendar-blue-14.png
+/usr/share/icons/Paper/512x512/apps/org.gnome.Geary.png
 /usr/share/icons/Paper/512x512/apps/redhat-filemanager.png
 /usr/share/icons/Paper/512x512/apps/calendar-blue-08.png
 /usr/share/icons/Paper/512x512/apps/google-chrome2.png
@@ -20417,6 +20401,7 @@
 /usr/share/icons/Paper/512x512/apps/wps-spreadsheets.png
 /usr/share/icons/Paper/512x512/apps/calendar-purple-01.png
 /usr/share/icons/Paper/512x512/apps/youtube-dl-gui.png
+/usr/share/icons/Paper/512x512/apps/org.gimp.GIMP.png
 /usr/share/icons/Paper/512x512/apps/org.gnome.Totem.png
 /usr/share/icons/Paper/512x512/apps/unity-display-panel.png
 /usr/share/icons/Paper/512x512/apps/utox.png
@@ -20501,7 +20486,6 @@
 /usr/share/icons/Paper/512x512/apps/mate-preferences-desktop-display.png
 /usr/share/icons/Paper/512x512/apps/calendar-purple-30.png
 /usr/share/icons/Paper/512x512/apps/libreoffice34-impress.png
-/usr/share/icons/Paper/512x512/apps/linguist.png
 /usr/share/icons/Paper/512x512/apps/smuxi-frontend-gnome.png
 /usr/share/icons/Paper/512x512/apps/multimedia-photo-viewer.png
 /usr/share/icons/Paper/512x512/apps/gaupol.png
@@ -20541,6 +20525,7 @@
 /usr/share/icons/Paper/512x512/apps/kodi.png
 /usr/share/icons/Paper/512x512/apps/xscreensaver.png
 /usr/share/icons/Paper/512x512/apps/ximian-evolution-calendar.png
+/usr/share/icons/Paper/512x512/apps/org.libreoffice.LibreOffice.math.png
 /usr/share/icons/Paper/512x512/apps/wine.png
 /usr/share/icons/Paper/512x512/apps/utilities-terminal-alt.png
 /usr/share/icons/Paper/512x512/apps/wps-writer.png
@@ -20559,7 +20544,9 @@
 /usr/share/icons/Paper/512x512/apps/calendar-purple-18.png
 /usr/share/icons/Paper/512x512/apps/accessibility_section.png
 /usr/share/icons/Paper/512x512/apps/showfoto.png
+/usr/share/icons/Paper/512x512/apps/org.gnome.GIMP.png
 /usr/share/icons/Paper/512x512/apps/gcolor2.png
+/usr/share/icons/Paper/512x512/apps/org.libreoffice.LibreOffice.base.png
 /usr/share/icons/Paper/512x512/apps/xfce4-mixer.png
 /usr/share/icons/Paper/512x512/apps/openjdk-8.png
 /usr/share/icons/Paper/512x512/apps/calendar-blue-12.png
@@ -20611,6 +20598,7 @@
 /usr/share/icons/Paper/512x512/apps/firefox-3.0.png
 /usr/share/icons/Paper/512x512/apps/gdm-login-photo.png
 /usr/share/icons/Paper/512x512/apps/background.png
+/usr/share/icons/Paper/512x512/apps/org.gnome.Meld.png
 /usr/share/icons/Paper/512x512/apps/libreoffice-calc.png
 /usr/share/icons/Paper/512x512/apps/cs-workspaces.png
 /usr/share/icons/Paper/512x512/apps/mate-notification-properties.png
@@ -20648,6 +20636,7 @@
 /usr/share/icons/Paper/512x512/apps/color-picker.png
 /usr/share/icons/Paper/512x512/apps/libreoffice3-impress.png
 /usr/share/icons/Paper/512x512/apps/exaile.png
+/usr/share/icons/Paper/512x512/apps/org.libreoffice.LibreOffice.calc.png
 /usr/share/icons/Paper/512x512/apps/cs-color.png
 /usr/share/icons/Paper/512x512/apps/style.png
 /usr/share/icons/Paper/512x512/apps/tomahawk.png
@@ -20720,6 +20709,7 @@
 /usr/share/icons/Paper/512x512/apps/gitkraken.png
 /usr/share/icons/Paper/512x512/apps/gnome-monitor.png
 /usr/share/icons/Paper/512x512/apps/vbam.png
+/usr/share/icons/Paper/512x512/apps/org.libreoffice.LibreOffice.writer.png
 /usr/share/icons/Paper/512x512/apps/redhat-web-browser.png
 /usr/share/icons/Paper/512x512/apps/multimedia.png
 /usr/share/icons/Paper/512x512/apps/palimpsest.png
@@ -20868,7 +20858,6 @@
 /usr/share/icons/Paper/512x512/apps/assistant.png
 /usr/share/icons/Paper/512x512/apps/quassel.png
 /usr/share/icons/Paper/512x512/apps/disks.png
-/usr/share/icons/Paper/512x512/apps/linguist-qt4.png
 /usr/share/icons/Paper/512x512/apps/seahorse.png
 /usr/share/icons/Paper/512x512/apps/kontact.png
 /usr/share/icons/Paper/512x512/apps/calendar-red-30.png
@@ -20932,9 +20921,11 @@
 /usr/share/icons/Paper/512x512/apps/calendar-red-09.png
 /usr/share/icons/Paper/512x512/apps/guake-prefs.png
 /usr/share/icons/Paper/512x512/apps/mate-session-properties.png
+/usr/share/icons/Paper/512x512/apps/org.libreoffice.LibreOffice.draw.png
 /usr/share/icons/Paper/512x512/apps/org.gnome.Books.png
 /usr/share/icons/Paper/512x512/apps/spotify-linux-48x48.png
 /usr/share/icons/Paper/512x512/apps/gnome-abrt.png
+/usr/share/icons/Paper/512x512/apps/org.gnome.meld.png
 /usr/share/icons/Paper/512x512/apps/cs-desktop-effects.png
 /usr/share/icons/Paper/512x512/apps/gdm2setup.png
 /usr/share/icons/Paper/512x512/apps/accessories-camera.png
@@ -21051,6 +21042,7 @@
 /usr/share/icons/Paper/512x512/apps/xfce4-notifyd.png
 /usr/share/icons/Paper/512x512/apps/transmission-qt.png
 /usr/share/icons/Paper/512x512/apps/code.png
+/usr/share/icons/Paper/512x512/apps/org.libreoffice.LibreOffice.impress.png
 /usr/share/icons/Paper/512x512/apps/postgresql.png
 /usr/share/icons/Paper/512x512/apps/codeblocks.png
 /usr/share/icons/Paper/512x512/apps/libreoffice4.2-writer.png
@@ -21132,6 +21124,7 @@
 /usr/share/icons/Paper/512x512/apps/calendar-red-26.png
 /usr/share/icons/Paper/512x512/apps/login.png
 /usr/share/icons/Paper/512x512/apps/vmware-player.png
+/usr/share/icons/Paper/512x512/apps/org.libreoffice.LibreOffice.startcenter.png
 /usr/share/icons/Paper/512x512/apps/libreoffice5.3-draw.png
 /usr/share/icons/Paper/512x512/apps/calendar-blue-07.png
 /usr/share/icons/Paper/512x512/apps/gdmsetup.png
@@ -21208,6 +21201,7 @@
 /usr/share/icons/Paper/512x512/apps/calendar-blue-04.png
 /usr/share/icons/Paper/512x512/apps/libreoffice34-base.png
 /usr/share/icons/Paper/512x512/apps/intellij-idea-ce.png
+/usr/share/icons/Paper/512x512/apps/org.mozilla.Firefox.png
 /usr/share/icons/Paper/512x512/apps/calendar-blue-31.png
 /usr/share/icons/Paper/512x512/apps/accessories-clipboard.png
 /usr/share/icons/Paper/512x512/apps/softwarecenter.png
@@ -21448,7 +21442,6 @@
 /usr/share/icons/Paper/512x512/actions/gtk-paste.png
 /usr/share/icons/Paper/512x512/actions/gtk-zoom-in.png
 /usr/share/icons/Paper/512x512/actions/stock_left.png
-/usr/share/icons/Paper/512x512/actions/mail-reply.png
 /usr/share/icons/Paper/512x512/actions/process-stop.png
 /usr/share/icons/Paper/512x512/actions/mail-send-receive.png
 /usr/share/icons/Paper/512x512/actions/stock_exit.png
@@ -21658,7 +21651,6 @@
 /usr/share/icons/Paper/512x512@2x/mimetypes/audio-x-flac.png
 /usr/share/icons/Paper/512x512@2x/mimetypes/gnome-mime-text-html.png
 /usr/share/icons/Paper/512x512@2x/mimetypes/text-plain.png
-/usr/share/icons/Paper/512x512@2x/mimetypes/image-vnd.adobe.photoshop.png
 /usr/share/icons/Paper/512x512@2x/mimetypes/application-x-object.png
 /usr/share/icons/Paper/512x512@2x/mimetypes/application-x-compressed-tar.png
 /usr/share/icons/Paper/512x512@2x/mimetypes/gnome-mime-application-x-compress.png
@@ -21766,7 +21758,6 @@
 /usr/share/icons/Paper/512x512@2x/mimetypes/gnome-mime-application-postscript.png
 /usr/share/icons/Paper/512x512@2x/mimetypes/ascii.png
 /usr/share/icons/Paper/512x512@2x/mimetypes/gnome-mime-application-xhtml+xml.png
-/usr/share/icons/Paper/512x512@2x/mimetypes/application-illustrator.png
 /usr/share/icons/Paper/512x512@2x/mimetypes/video-x-ogm+ogg.png
 /usr/share/icons/Paper/512x512@2x/mimetypes/gnome-mime-application-x-bzip.png
 /usr/share/icons/Paper/512x512@2x/mimetypes/text-x-script.png
@@ -21834,7 +21825,6 @@
 /usr/share/icons/Paper/512x512@2x/mimetypes/gnome-mime-application-x-gzip.png
 /usr/share/icons/Paper/512x512@2x/mimetypes/office-document.png
 /usr/share/icons/Paper/512x512@2x/mimetypes/application-x-firmware.png
-/usr/share/icons/Paper/512x512@2x/mimetypes/application-vnd.ms-access.png
 /usr/share/icons/Paper/512x512@2x/mimetypes/text-x-ruby.png
 /usr/share/icons/Paper/512x512@2x/mimetypes/gnome-fs-executable.png
 /usr/share/icons/Paper/512x512@2x/mimetypes/text-x-generic.svapplication-x-awk.png
@@ -22117,7 +22107,6 @@
 /usr/share/icons/Paper/512x512@2x/status/im-user-away.png
 /usr/share/icons/Paper/512x512@2x/status/messagebox_warning.png
 /usr/share/icons/Paper/512x512@2x/status/semi-starred-rtl.png
-/usr/share/icons/Paper/512x512@2x/status/rating-unrated.png
 /usr/share/icons/Paper/512x512@2x/status/network-offline.png
 /usr/share/icons/Paper/512x512@2x/status/mail-signed.png
 /usr/share/icons/Paper/512x512@2x/status/nm-device-wireless.png
@@ -22127,7 +22116,6 @@
 /usr/share/icons/Paper/512x512@2x/status/weather-overcast.png
 /usr/share/icons/Paper/512x512@2x/status/battery-caution-charging.png
 /usr/share/icons/Paper/512x512@2x/status/gnome-netstatus-disconn.png
-/usr/share/icons/Paper/512x512@2x/status/aptdaemon-download.png
 /usr/share/icons/Paper/512x512@2x/status/xfce-battery-critical-charging.png
 /usr/share/icons/Paper/512x512@2x/status/battery-080-charging.png
 /usr/share/icons/Paper/512x512@2x/status/im-user-offline.png
@@ -22241,7 +22229,6 @@
 /usr/share/icons/Paper/512x512@2x/status/starred.png
 /usr/share/icons/Paper/512x512@2x/status/sync-error.png
 /usr/share/icons/Paper/512x512@2x/status/stock_mail-replied.png
-/usr/share/icons/Paper/512x512@2x/status/non-starred-grey.png
 /usr/share/icons/Paper/512x512@2x/status/mail-signed-verified.png
 /usr/share/icons/Paper/512x512@2x/status/gnome-netstatus-error.png
 /usr/share/icons/Paper/512x512@2x/status/stock_mail-open.png
@@ -22249,7 +22236,6 @@
 /usr/share/icons/Paper/512x512@2x/status/mail-replied.png
 /usr/share/icons/Paper/512x512@2x/status/stock_mail-unread.png
 /usr/share/icons/Paper/512x512@2x/status/aptdaemon-upgrade.png
-/usr/share/icons/Paper/512x512@2x/status/pin-up.png
 /usr/share/icons/Paper/512x512@2x/status/stock_dialog-question.png
 /usr/share/icons/Paper/512x512@2x/status/gtk-dialog-authentication.png
 /usr/share/icons/Paper/512x512@2x/status/stock_dialog-error.png
@@ -22271,9 +22257,7 @@
 /usr/share/icons/Paper/512x512@2x/status/media-playlist-repeat.png
 /usr/share/icons/Paper/512x512@2x/status/user-offline.png
 /usr/share/icons/Paper/512x512@2x/status/stock_volume-mute.png
-/usr/share/icons/Paper/512x512@2x/status/aptdaemon-add.png
 /usr/share/icons/Paper/512x512@2x/status/gnome-netstatus-idle.png
-/usr/share/icons/Paper/512x512@2x/status/feed-non-starred.png
 /usr/share/icons/Paper/512x512@2x/status/battery-100-charging.png
 /usr/share/icons/Paper/512x512@2x/status/stock_lock-ok.png
 /usr/share/icons/Paper/512x512@2x/status/xfce-battery-full.png
@@ -22317,7 +22301,6 @@
 /usr/share/icons/Paper/512x512@2x/apps/access.png
 /usr/share/icons/Paper/512x512@2x/apps/ubiquity.png
 /usr/share/icons/Paper/512x512@2x/apps/geeqie.png
-/usr/share/icons/Paper/512x512@2x/apps/QtProject-linguist.png
 /usr/share/icons/Paper/512x512@2x/apps/mintbackup.png
 /usr/share/icons/Paper/512x512@2x/apps/qterminal.png
 /usr/share/icons/Paper/512x512@2x/apps/iceweasel.png
@@ -22465,7 +22448,6 @@
 /usr/share/icons/Paper/512x512@2x/apps/python3.3.png
 /usr/share/icons/Paper/512x512@2x/apps/org.libreoffice.LibreOffice-writer.png
 /usr/share/icons/Paper/512x512@2x/apps/vlc-xmas.png
-/usr/share/icons/Paper/512x512@2x/apps/linphone.png
 /usr/share/icons/Paper/512x512@2x/apps/xchat-mini.png
 /usr/share/icons/Paper/512x512@2x/apps/preferences-desktop-theme.png
 /usr/share/icons/Paper/512x512@2x/apps/stellarium.png
@@ -22482,6 +22464,7 @@
 /usr/share/icons/Paper/512x512@2x/apps/preferences-system-firewall.png
 /usr/share/icons/Paper/512x512@2x/apps/gpa.png
 /usr/share/icons/Paper/512x512@2x/apps/multimedia-photo-manager.png
+/usr/share/icons/Paper/512x512@2x/apps/org.gnome.DejaDup.png
 /usr/share/icons/Paper/512x512@2x/apps/libreoffice.png
 /usr/share/icons/Paper/512x512@2x/apps/clementine.png
 /usr/share/icons/Paper/512x512@2x/apps/com.skype.Client.png
@@ -22495,7 +22478,6 @@
 /usr/share/icons/Paper/512x512@2x/apps/kcmsound.png
 /usr/share/icons/Paper/512x512@2x/apps/nvidia-x-server-settings.png
 /usr/share/icons/Paper/512x512@2x/apps/system-os-installer.png
-/usr/share/icons/Paper/512x512@2x/apps/xsane.png
 /usr/share/icons/Paper/512x512@2x/apps/multimedia-audio-player.png
 /usr/share/icons/Paper/512x512@2x/apps/aptdaemon-download.png
 /usr/share/icons/Paper/512x512@2x/apps/password-manager.png
@@ -22580,6 +22562,7 @@
 /usr/share/icons/Paper/512x512@2x/apps/preferences-desktop-display.png
 /usr/share/icons/Paper/512x512@2x/apps/python2.7.png
 /usr/share/icons/Paper/512x512@2x/apps/calendar-blue-14.png
+/usr/share/icons/Paper/512x512@2x/apps/org.gnome.Geary.png
 /usr/share/icons/Paper/512x512@2x/apps/redhat-filemanager.png
 /usr/share/icons/Paper/512x512@2x/apps/calendar-blue-08.png
 /usr/share/icons/Paper/512x512@2x/apps/google-chrome2.png
@@ -22625,6 +22608,7 @@
 /usr/share/icons/Paper/512x512@2x/apps/wps-spreadsheets.png
 /usr/share/icons/Paper/512x512@2x/apps/calendar-purple-01.png
 /usr/share/icons/Paper/512x512@2x/apps/youtube-dl-gui.png
+/usr/share/icons/Paper/512x512@2x/apps/org.gimp.GIMP.png
 /usr/share/icons/Paper/512x512@2x/apps/org.gnome.Totem.png
 /usr/share/icons/Paper/512x512@2x/apps/unity-display-panel.png
 /usr/share/icons/Paper/512x512@2x/apps/utox.png
@@ -22709,7 +22693,6 @@
 /usr/share/icons/Paper/512x512@2x/apps/mate-preferences-desktop-display.png
 /usr/share/icons/Paper/512x512@2x/apps/calendar-purple-30.png
 /usr/share/icons/Paper/512x512@2x/apps/libreoffice34-impress.png
-/usr/share/icons/Paper/512x512@2x/apps/linguist.png
 /usr/share/icons/Paper/512x512@2x/apps/smuxi-frontend-gnome.png
 /usr/share/icons/Paper/512x512@2x/apps/multimedia-photo-viewer.png
 /usr/share/icons/Paper/512x512@2x/apps/gaupol.png
@@ -22749,6 +22732,7 @@
 /usr/share/icons/Paper/512x512@2x/apps/kodi.png
 /usr/share/icons/Paper/512x512@2x/apps/xscreensaver.png
 /usr/share/icons/Paper/512x512@2x/apps/ximian-evolution-calendar.png
+/usr/share/icons/Paper/512x512@2x/apps/org.libreoffice.LibreOffice.math.png
 /usr/share/icons/Paper/512x512@2x/apps/wine.png
 /usr/share/icons/Paper/512x512@2x/apps/utilities-terminal-alt.png
 /usr/share/icons/Paper/512x512@2x/apps/wps-writer.png
@@ -22767,7 +22751,9 @@
 /usr/share/icons/Paper/512x512@2x/apps/calendar-purple-18.png
 /usr/share/icons/Paper/512x512@2x/apps/accessibility_section.png
 /usr/share/icons/Paper/512x512@2x/apps/showfoto.png
+/usr/share/icons/Paper/512x512@2x/apps/org.gnome.GIMP.png
 /usr/share/icons/Paper/512x512@2x/apps/gcolor2.png
+/usr/share/icons/Paper/512x512@2x/apps/org.libreoffice.LibreOffice.base.png
 /usr/share/icons/Paper/512x512@2x/apps/xfce4-mixer.png
 /usr/share/icons/Paper/512x512@2x/apps/openjdk-8.png
 /usr/share/icons/Paper/512x512@2x/apps/calendar-blue-12.png
@@ -22819,6 +22805,7 @@
 /usr/share/icons/Paper/512x512@2x/apps/firefox-3.0.png
 /usr/share/icons/Paper/512x512@2x/apps/gdm-login-photo.png
 /usr/share/icons/Paper/512x512@2x/apps/background.png
+/usr/share/icons/Paper/512x512@2x/apps/org.gnome.Meld.png
 /usr/share/icons/Paper/512x512@2x/apps/libreoffice-calc.png
 /usr/share/icons/Paper/512x512@2x/apps/cs-workspaces.png
 /usr/share/icons/Paper/512x512@2x/apps/mate-notification-properties.png
@@ -22856,6 +22843,7 @@
 /usr/share/icons/Paper/512x512@2x/apps/color-picker.png
 /usr/share/icons/Paper/512x512@2x/apps/libreoffice3-impress.png
 /usr/share/icons/Paper/512x512@2x/apps/exaile.png
+/usr/share/icons/Paper/512x512@2x/apps/org.libreoffice.LibreOffice.calc.png
 /usr/share/icons/Paper/512x512@2x/apps/cs-color.png
 /usr/share/icons/Paper/512x512@2x/apps/style.png
 /usr/share/icons/Paper/512x512@2x/apps/tomahawk.png
@@ -22928,6 +22916,7 @@
 /usr/share/icons/Paper/512x512@2x/apps/gitkraken.png
 /usr/share/icons/Paper/512x512@2x/apps/gnome-monitor.png
 /usr/share/icons/Paper/512x512@2x/apps/vbam.png
+/usr/share/icons/Paper/512x512@2x/apps/org.libreoffice.LibreOffice.writer.png
 /usr/share/icons/Paper/512x512@2x/apps/redhat-web-browser.png
 /usr/share/icons/Paper/512x512@2x/apps/multimedia.png
 /usr/share/icons/Paper/512x512@2x/apps/palimpsest.png
@@ -23076,7 +23065,6 @@
 /usr/share/icons/Paper/512x512@2x/apps/assistant.png
 /usr/share/icons/Paper/512x512@2x/apps/quassel.png
 /usr/share/icons/Paper/512x512@2x/apps/disks.png
-/usr/share/icons/Paper/512x512@2x/apps/linguist-qt4.png
 /usr/share/icons/Paper/512x512@2x/apps/seahorse.png
 /usr/share/icons/Paper/512x512@2x/apps/kontact.png
 /usr/share/icons/Paper/512x512@2x/apps/calendar-red-30.png
@@ -23140,9 +23128,11 @@
 /usr/share/icons/Paper/512x512@2x/apps/calendar-red-09.png
 /usr/share/icons/Paper/512x512@2x/apps/guake-prefs.png
 /usr/share/icons/Paper/512x512@2x/apps/mate-session-properties.png
+/usr/share/icons/Paper/512x512@2x/apps/org.libreoffice.LibreOffice.draw.png
 /usr/share/icons/Paper/512x512@2x/apps/org.gnome.Books.png
 /usr/share/icons/Paper/512x512@2x/apps/spotify-linux-48x48.png
 /usr/share/icons/Paper/512x512@2x/apps/gnome-abrt.png
+/usr/share/icons/Paper/512x512@2x/apps/org.gnome.meld.png
 /usr/share/icons/Paper/512x512@2x/apps/cs-desktop-effects.png
 /usr/share/icons/Paper/512x512@2x/apps/gdm2setup.png
 /usr/share/icons/Paper/512x512@2x/apps/accessories-camera.png
@@ -23259,6 +23249,7 @@
 /usr/share/icons/Paper/512x512@2x/apps/xfce4-notifyd.png
 /usr/share/icons/Paper/512x512@2x/apps/transmission-qt.png
 /usr/share/icons/Paper/512x512@2x/apps/code.png
+/usr/share/icons/Paper/512x512@2x/apps/org.libreoffice.LibreOffice.impress.png
 /usr/share/icons/Paper/512x512@2x/apps/postgresql.png
 /usr/share/icons/Paper/512x512@2x/apps/codeblocks.png
 /usr/share/icons/Paper/512x512@2x/apps/libreoffice4.2-writer.png
@@ -23340,6 +23331,7 @@
 /usr/share/icons/Paper/512x512@2x/apps/calendar-red-26.png
 /usr/share/icons/Paper/512x512@2x/apps/login.png
 /usr/share/icons/Paper/512x512@2x/apps/vmware-player.png
+/usr/share/icons/Paper/512x512@2x/apps/org.libreoffice.LibreOffice.startcenter.png
 /usr/share/icons/Paper/512x512@2x/apps/libreoffice5.3-draw.png
 /usr/share/icons/Paper/512x512@2x/apps/calendar-blue-07.png
 /usr/share/icons/Paper/512x512@2x/apps/gdmsetup.png
@@ -23416,6 +23408,7 @@
 /usr/share/icons/Paper/512x512@2x/apps/calendar-blue-04.png
 /usr/share/icons/Paper/512x512@2x/apps/libreoffice34-base.png
 /usr/share/icons/Paper/512x512@2x/apps/intellij-idea-ce.png
+/usr/share/icons/Paper/512x512@2x/apps/org.mozilla.Firefox.png
 /usr/share/icons/Paper/512x512@2x/apps/calendar-blue-31.png
 /usr/share/icons/Paper/512x512@2x/apps/accessories-clipboard.png
 /usr/share/icons/Paper/512x512@2x/apps/softwarecenter.png
@@ -23656,7 +23649,6 @@
 /usr/share/icons/Paper/512x512@2x/actions/gtk-paste.png
 /usr/share/icons/Paper/512x512@2x/actions/gtk-zoom-in.png
 /usr/share/icons/Paper/512x512@2x/actions/stock_left.png
-/usr/share/icons/Paper/512x512@2x/actions/mail-reply.png
 /usr/share/icons/Paper/512x512@2x/actions/process-stop.png
 /usr/share/icons/Paper/512x512@2x/actions/mail-send-receive.png
 /usr/share/icons/Paper/512x512@2x/actions/stock_exit.png
@@ -23866,7 +23858,6 @@
 /usr/share/icons/Paper/32x32@2x/mimetypes/audio-x-flac.png
 /usr/share/icons/Paper/32x32@2x/mimetypes/gnome-mime-text-html.png
 /usr/share/icons/Paper/32x32@2x/mimetypes/text-plain.png
-/usr/share/icons/Paper/32x32@2x/mimetypes/image-vnd.adobe.photoshop.png
 /usr/share/icons/Paper/32x32@2x/mimetypes/application-x-object.png
 /usr/share/icons/Paper/32x32@2x/mimetypes/application-x-compressed-tar.png
 /usr/share/icons/Paper/32x32@2x/mimetypes/gnome-mime-application-x-compress.png
@@ -23974,7 +23965,6 @@
 /usr/share/icons/Paper/32x32@2x/mimetypes/gnome-mime-application-postscript.png
 /usr/share/icons/Paper/32x32@2x/mimetypes/ascii.png
 /usr/share/icons/Paper/32x32@2x/mimetypes/gnome-mime-application-xhtml+xml.png
-/usr/share/icons/Paper/32x32@2x/mimetypes/application-illustrator.png
 /usr/share/icons/Paper/32x32@2x/mimetypes/video-x-ogm+ogg.png
 /usr/share/icons/Paper/32x32@2x/mimetypes/gnome-mime-application-x-bzip.png
 /usr/share/icons/Paper/32x32@2x/mimetypes/text-x-script.png
@@ -24042,7 +24032,6 @@
 /usr/share/icons/Paper/32x32@2x/mimetypes/gnome-mime-application-x-gzip.png
 /usr/share/icons/Paper/32x32@2x/mimetypes/office-document.png
 /usr/share/icons/Paper/32x32@2x/mimetypes/application-x-firmware.png
-/usr/share/icons/Paper/32x32@2x/mimetypes/application-vnd.ms-access.png
 /usr/share/icons/Paper/32x32@2x/mimetypes/text-x-ruby.png
 /usr/share/icons/Paper/32x32@2x/mimetypes/gnome-fs-executable.png
 /usr/share/icons/Paper/32x32@2x/mimetypes/text-x-generic.svapplication-x-awk.png
@@ -24325,7 +24314,6 @@
 /usr/share/icons/Paper/32x32@2x/status/im-user-away.png
 /usr/share/icons/Paper/32x32@2x/status/messagebox_warning.png
 /usr/share/icons/Paper/32x32@2x/status/semi-starred-rtl.png
-/usr/share/icons/Paper/32x32@2x/status/rating-unrated.png
 /usr/share/icons/Paper/32x32@2x/status/network-offline.png
 /usr/share/icons/Paper/32x32@2x/status/mail-signed.png
 /usr/share/icons/Paper/32x32@2x/status/nm-device-wireless.png
@@ -24335,7 +24323,6 @@
 /usr/share/icons/Paper/32x32@2x/status/weather-overcast.png
 /usr/share/icons/Paper/32x32@2x/status/battery-caution-charging.png
 /usr/share/icons/Paper/32x32@2x/status/gnome-netstatus-disconn.png
-/usr/share/icons/Paper/32x32@2x/status/aptdaemon-download.png
 /usr/share/icons/Paper/32x32@2x/status/xfce-battery-critical-charging.png
 /usr/share/icons/Paper/32x32@2x/status/battery-080-charging.png
 /usr/share/icons/Paper/32x32@2x/status/im-user-offline.png
@@ -24449,7 +24436,6 @@
 /usr/share/icons/Paper/32x32@2x/status/starred.png
 /usr/share/icons/Paper/32x32@2x/status/sync-error.png
 /usr/share/icons/Paper/32x32@2x/status/stock_mail-replied.png
-/usr/share/icons/Paper/32x32@2x/status/non-starred-grey.png
 /usr/share/icons/Paper/32x32@2x/status/mail-signed-verified.png
 /usr/share/icons/Paper/32x32@2x/status/gnome-netstatus-error.png
 /usr/share/icons/Paper/32x32@2x/status/stock_mail-open.png
@@ -24457,7 +24443,6 @@
 /usr/share/icons/Paper/32x32@2x/status/mail-replied.png
 /usr/share/icons/Paper/32x32@2x/status/stock_mail-unread.png
 /usr/share/icons/Paper/32x32@2x/status/aptdaemon-upgrade.png
-/usr/share/icons/Paper/32x32@2x/status/pin-up.png
 /usr/share/icons/Paper/32x32@2x/status/stock_dialog-question.png
 /usr/share/icons/Paper/32x32@2x/status/gtk-dialog-authentication.png
 /usr/share/icons/Paper/32x32@2x/status/stock_dialog-error.png
@@ -24479,9 +24464,7 @@
 /usr/share/icons/Paper/32x32@2x/status/media-playlist-repeat.png
 /usr/share/icons/Paper/32x32@2x/status/user-offline.png
 /usr/share/icons/Paper/32x32@2x/status/stock_volume-mute.png
-/usr/share/icons/Paper/32x32@2x/status/aptdaemon-add.png
 /usr/share/icons/Paper/32x32@2x/status/gnome-netstatus-idle.png
-/usr/share/icons/Paper/32x32@2x/status/feed-non-starred.png
 /usr/share/icons/Paper/32x32@2x/status/battery-100-charging.png
 /usr/share/icons/Paper/32x32@2x/status/stock_lock-ok.png
 /usr/share/icons/Paper/32x32@2x/status/xfce-battery-full.png
@@ -24525,7 +24508,6 @@
 /usr/share/icons/Paper/32x32@2x/apps/access.png
 /usr/share/icons/Paper/32x32@2x/apps/ubiquity.png
 /usr/share/icons/Paper/32x32@2x/apps/geeqie.png
-/usr/share/icons/Paper/32x32@2x/apps/QtProject-linguist.png
 /usr/share/icons/Paper/32x32@2x/apps/mintbackup.png
 /usr/share/icons/Paper/32x32@2x/apps/qterminal.png
 /usr/share/icons/Paper/32x32@2x/apps/iceweasel.png
@@ -24673,7 +24655,6 @@
 /usr/share/icons/Paper/32x32@2x/apps/python3.3.png
 /usr/share/icons/Paper/32x32@2x/apps/org.libreoffice.LibreOffice-writer.png
 /usr/share/icons/Paper/32x32@2x/apps/vlc-xmas.png
-/usr/share/icons/Paper/32x32@2x/apps/linphone.png
 /usr/share/icons/Paper/32x32@2x/apps/xchat-mini.png
 /usr/share/icons/Paper/32x32@2x/apps/preferences-desktop-theme.png
 /usr/share/icons/Paper/32x32@2x/apps/stellarium.png
@@ -24690,6 +24671,7 @@
 /usr/share/icons/Paper/32x32@2x/apps/preferences-system-firewall.png
 /usr/share/icons/Paper/32x32@2x/apps/gpa.png
 /usr/share/icons/Paper/32x32@2x/apps/multimedia-photo-manager.png
+/usr/share/icons/Paper/32x32@2x/apps/org.gnome.DejaDup.png
 /usr/share/icons/Paper/32x32@2x/apps/libreoffice.png
 /usr/share/icons/Paper/32x32@2x/apps/clementine.png
 /usr/share/icons/Paper/32x32@2x/apps/com.skype.Client.png
@@ -24703,7 +24685,6 @@
 /usr/share/icons/Paper/32x32@2x/apps/kcmsound.png
 /usr/share/icons/Paper/32x32@2x/apps/nvidia-x-server-settings.png
 /usr/share/icons/Paper/32x32@2x/apps/system-os-installer.png
-/usr/share/icons/Paper/32x32@2x/apps/xsane.png
 /usr/share/icons/Paper/32x32@2x/apps/multimedia-audio-player.png
 /usr/share/icons/Paper/32x32@2x/apps/aptdaemon-download.png
 /usr/share/icons/Paper/32x32@2x/apps/password-manager.png
@@ -24788,6 +24769,7 @@
 /usr/share/icons/Paper/32x32@2x/apps/preferences-desktop-display.png
 /usr/share/icons/Paper/32x32@2x/apps/python2.7.png
 /usr/share/icons/Paper/32x32@2x/apps/calendar-blue-14.png
+/usr/share/icons/Paper/32x32@2x/apps/org.gnome.Geary.png
 /usr/share/icons/Paper/32x32@2x/apps/redhat-filemanager.png
 /usr/share/icons/Paper/32x32@2x/apps/calendar-blue-08.png
 /usr/share/icons/Paper/32x32@2x/apps/google-chrome2.png
@@ -24833,6 +24815,7 @@
 /usr/share/icons/Paper/32x32@2x/apps/wps-spreadsheets.png
 /usr/share/icons/Paper/32x32@2x/apps/calendar-purple-01.png
 /usr/share/icons/Paper/32x32@2x/apps/youtube-dl-gui.png
+/usr/share/icons/Paper/32x32@2x/apps/org.gimp.GIMP.png
 /usr/share/icons/Paper/32x32@2x/apps/org.gnome.Totem.png
 /usr/share/icons/Paper/32x32@2x/apps/unity-display-panel.png
 /usr/share/icons/Paper/32x32@2x/apps/utox.png
@@ -24917,7 +24900,6 @@
 /usr/share/icons/Paper/32x32@2x/apps/mate-preferences-desktop-display.png
 /usr/share/icons/Paper/32x32@2x/apps/calendar-purple-30.png
 /usr/share/icons/Paper/32x32@2x/apps/libreoffice34-impress.png
-/usr/share/icons/Paper/32x32@2x/apps/linguist.png
 /usr/share/icons/Paper/32x32@2x/apps/smuxi-frontend-gnome.png
 /usr/share/icons/Paper/32x32@2x/apps/multimedia-photo-viewer.png
 /usr/share/icons/Paper/32x32@2x/apps/gaupol.png
@@ -24957,6 +24939,7 @@
 /usr/share/icons/Paper/32x32@2x/apps/kodi.png
 /usr/share/icons/Paper/32x32@2x/apps/xscreensaver.png
 /usr/share/icons/Paper/32x32@2x/apps/ximian-evolution-calendar.png
+/usr/share/icons/Paper/32x32@2x/apps/org.libreoffice.LibreOffice.math.png
 /usr/share/icons/Paper/32x32@2x/apps/wine.png
 /usr/share/icons/Paper/32x32@2x/apps/utilities-terminal-alt.png
 /usr/share/icons/Paper/32x32@2x/apps/wps-writer.png
@@ -24975,7 +24958,9 @@
 /usr/share/icons/Paper/32x32@2x/apps/calendar-purple-18.png
 /usr/share/icons/Paper/32x32@2x/apps/accessibility_section.png
 /usr/share/icons/Paper/32x32@2x/apps/showfoto.png
+/usr/share/icons/Paper/32x32@2x/apps/org.gnome.GIMP.png
 /usr/share/icons/Paper/32x32@2x/apps/gcolor2.png
+/usr/share/icons/Paper/32x32@2x/apps/org.libreoffice.LibreOffice.base.png
 /usr/share/icons/Paper/32x32@2x/apps/xfce4-mixer.png
 /usr/share/icons/Paper/32x32@2x/apps/openjdk-8.png
 /usr/share/icons/Paper/32x32@2x/apps/calendar-blue-12.png
@@ -25027,6 +25012,7 @@
 /usr/share/icons/Paper/32x32@2x/apps/firefox-3.0.png
 /usr/share/icons/Paper/32x32@2x/apps/gdm-login-photo.png
 /usr/share/icons/Paper/32x32@2x/apps/background.png
+/usr/share/icons/Paper/32x32@2x/apps/org.gnome.Meld.png
 /usr/share/icons/Paper/32x32@2x/apps/libreoffice-calc.png
 /usr/share/icons/Paper/32x32@2x/apps/cs-workspaces.png
 /usr/share/icons/Paper/32x32@2x/apps/mate-notification-properties.png
@@ -25064,6 +25050,7 @@
 /usr/share/icons/Paper/32x32@2x/apps/color-picker.png
 /usr/share/icons/Paper/32x32@2x/apps/libreoffice3-impress.png
 /usr/share/icons/Paper/32x32@2x/apps/exaile.png
+/usr/share/icons/Paper/32x32@2x/apps/org.libreoffice.LibreOffice.calc.png
 /usr/share/icons/Paper/32x32@2x/apps/cs-color.png
 /usr/share/icons/Paper/32x32@2x/apps/style.png
 /usr/share/icons/Paper/32x32@2x/apps/tomahawk.png
@@ -25136,6 +25123,7 @@
 /usr/share/icons/Paper/32x32@2x/apps/gitkraken.png
 /usr/share/icons/Paper/32x32@2x/apps/gnome-monitor.png
 /usr/share/icons/Paper/32x32@2x/apps/vbam.png
+/usr/share/icons/Paper/32x32@2x/apps/org.libreoffice.LibreOffice.writer.png
 /usr/share/icons/Paper/32x32@2x/apps/redhat-web-browser.png
 /usr/share/icons/Paper/32x32@2x/apps/multimedia.png
 /usr/share/icons/Paper/32x32@2x/apps/palimpsest.png
@@ -25284,7 +25272,6 @@
 /usr/share/icons/Paper/32x32@2x/apps/assistant.png
 /usr/share/icons/Paper/32x32@2x/apps/quassel.png
 /usr/share/icons/Paper/32x32@2x/apps/disks.png
-/usr/share/icons/Paper/32x32@2x/apps/linguist-qt4.png
 /usr/share/icons/Paper/32x32@2x/apps/seahorse.png
 /usr/share/icons/Paper/32x32@2x/apps/kontact.png
 /usr/share/icons/Paper/32x32@2x/apps/calendar-red-30.png
@@ -25348,9 +25335,11 @@
 /usr/share/icons/Paper/32x32@2x/apps/calendar-red-09.png
 /usr/share/icons/Paper/32x32@2x/apps/guake-prefs.png
 /usr/share/icons/Paper/32x32@2x/apps/mate-session-properties.png
+/usr/share/icons/Paper/32x32@2x/apps/org.libreoffice.LibreOffice.draw.png
 /usr/share/icons/Paper/32x32@2x/apps/org.gnome.Books.png
 /usr/share/icons/Paper/32x32@2x/apps/spotify-linux-48x48.png
 /usr/share/icons/Paper/32x32@2x/apps/gnome-abrt.png
+/usr/share/icons/Paper/32x32@2x/apps/org.gnome.meld.png
 /usr/share/icons/Paper/32x32@2x/apps/cs-desktop-effects.png
 /usr/share/icons/Paper/32x32@2x/apps/gdm2setup.png
 /usr/share/icons/Paper/32x32@2x/apps/accessories-camera.png
@@ -25467,6 +25456,7 @@
 /usr/share/icons/Paper/32x32@2x/apps/xfce4-notifyd.png
 /usr/share/icons/Paper/32x32@2x/apps/transmission-qt.png
 /usr/share/icons/Paper/32x32@2x/apps/code.png
+/usr/share/icons/Paper/32x32@2x/apps/org.libreoffice.LibreOffice.impress.png
 /usr/share/icons/Paper/32x32@2x/apps/postgresql.png
 /usr/share/icons/Paper/32x32@2x/apps/codeblocks.png
 /usr/share/icons/Paper/32x32@2x/apps/libreoffice4.2-writer.png
@@ -25548,6 +25538,7 @@
 /usr/share/icons/Paper/32x32@2x/apps/calendar-red-26.png
 /usr/share/icons/Paper/32x32@2x/apps/login.png
 /usr/share/icons/Paper/32x32@2x/apps/vmware-player.png
+/usr/share/icons/Paper/32x32@2x/apps/org.libreoffice.LibreOffice.startcenter.png
 /usr/share/icons/Paper/32x32@2x/apps/libreoffice5.3-draw.png
 /usr/share/icons/Paper/32x32@2x/apps/calendar-blue-07.png
 /usr/share/icons/Paper/32x32@2x/apps/gdmsetup.png
@@ -25624,6 +25615,7 @@
 /usr/share/icons/Paper/32x32@2x/apps/calendar-blue-04.png
 /usr/share/icons/Paper/32x32@2x/apps/libreoffice34-base.png
 /usr/share/icons/Paper/32x32@2x/apps/intellij-idea-ce.png
+/usr/share/icons/Paper/32x32@2x/apps/org.mozilla.Firefox.png
 /usr/share/icons/Paper/32x32@2x/apps/calendar-blue-31.png
 /usr/share/icons/Paper/32x32@2x/apps/accessories-clipboard.png
 /usr/share/icons/Paper/32x32@2x/apps/softwarecenter.png
@@ -25864,7 +25856,6 @@
 /usr/share/icons/Paper/32x32@2x/actions/gtk-paste.png
 /usr/share/icons/Paper/32x32@2x/actions/gtk-zoom-in.png
 /usr/share/icons/Paper/32x32@2x/actions/stock_left.png
-/usr/share/icons/Paper/32x32@2x/actions/mail-reply.png
 /usr/share/icons/Paper/32x32@2x/actions/process-stop.png
 /usr/share/icons/Paper/32x32@2x/actions/mail-send-receive.png
 /usr/share/icons/Paper/32x32@2x/actions/stock_exit.png
@@ -28255,143 +28246,3 @@
 /usr/share/icons/Paper-Mono-Dark/22x22/animations/nm-stage02-connecting02.svg
 /usr/share/icons/Paper-Mono-Dark/22x22/animations/nm-vpn-connecting02.svg
 /usr/share/icons/Paper-Mono-Dark/22x22/animations/nm-stage02-connecting05.svg
-/usr/share/icons/Paper-Mono-Dark/22x22/animations
-/usr/share/icons/Paper-Mono-Dark/22x22/panel
-/usr/share/icons/Paper-Mono-Dark/24x24/animations
-/usr/share/icons/Paper-Mono-Dark/24x24/panel
-/usr/share/icons/Paper-Mono-Dark/22x22
-/usr/share/icons/Paper-Mono-Dark/24x24
-/usr/share/icons/Paper-Mono-Dark
-/usr/share/icons/Paper/32x32@2x/emblems
-/usr/share/icons/Paper/32x32@2x/categories
-/usr/share/icons/Paper/32x32@2x/actions
-/usr/share/icons/Paper/32x32@2x/places
-/usr/share/icons/Paper/32x32@2x/emotes
-/usr/share/icons/Paper/32x32@2x/apps
-/usr/share/icons/Paper/32x32@2x/status
-/usr/share/icons/Paper/32x32@2x/devices
-/usr/share/icons/Paper/32x32@2x/web
-/usr/share/icons/Paper/32x32@2x/mimetypes
-/usr/share/icons/Paper/512x512@2x/emblems
-/usr/share/icons/Paper/512x512@2x/categories
-/usr/share/icons/Paper/512x512@2x/actions
-/usr/share/icons/Paper/512x512@2x/places
-/usr/share/icons/Paper/512x512@2x/emotes
-/usr/share/icons/Paper/512x512@2x/apps
-/usr/share/icons/Paper/512x512@2x/status
-/usr/share/icons/Paper/512x512@2x/devices
-/usr/share/icons/Paper/512x512@2x/web
-/usr/share/icons/Paper/512x512@2x/mimetypes
-/usr/share/icons/Paper/512x512/emblems
-/usr/share/icons/Paper/512x512/categories
-/usr/share/icons/Paper/512x512/actions
-/usr/share/icons/Paper/512x512/places
-/usr/share/icons/Paper/512x512/emotes
-/usr/share/icons/Paper/512x512/apps
-/usr/share/icons/Paper/512x512/status
-/usr/share/icons/Paper/512x512/devices
-/usr/share/icons/Paper/512x512/web
-/usr/share/icons/Paper/512x512/mimetypes
-/usr/share/icons/Paper/16x16/emblems
-/usr/share/icons/Paper/16x16/categories
-/usr/share/icons/Paper/16x16/actions
-/usr/share/icons/Paper/16x16/places
-/usr/share/icons/Paper/16x16/emotes
-/usr/share/icons/Paper/16x16/apps
-/usr/share/icons/Paper/16x16/status
-/usr/share/icons/Paper/16x16/devices
-/usr/share/icons/Paper/16x16/web
-/usr/share/icons/Paper/16x16/mimetypes
-/usr/share/icons/Paper/16x16/panel
-/usr/share/icons/Paper/48x48/emblems
-/usr/share/icons/Paper/48x48/categories
-/usr/share/icons/Paper/48x48/actions
-/usr/share/icons/Paper/48x48/places
-/usr/share/icons/Paper/48x48/emotes
-/usr/share/icons/Paper/48x48/apps
-/usr/share/icons/Paper/48x48/notifications
-/usr/share/icons/Paper/48x48/status
-/usr/share/icons/Paper/48x48/devices
-/usr/share/icons/Paper/48x48/web
-/usr/share/icons/Paper/48x48/mimetypes
-/usr/share/icons/Paper/22x22/animations
-/usr/share/icons/Paper/22x22/panel
-/usr/share/icons/Paper/16x16@2x/emblems
-/usr/share/icons/Paper/16x16@2x/categories
-/usr/share/icons/Paper/16x16@2x/actions
-/usr/share/icons/Paper/16x16@2x/places
-/usr/share/icons/Paper/16x16@2x/emotes
-/usr/share/icons/Paper/16x16@2x/apps
-/usr/share/icons/Paper/16x16@2x/status
-/usr/share/icons/Paper/16x16@2x/devices
-/usr/share/icons/Paper/16x16@2x/web
-/usr/share/icons/Paper/16x16@2x/mimetypes
-/usr/share/icons/Paper/48x48@2x/emblems
-/usr/share/icons/Paper/48x48@2x/categories
-/usr/share/icons/Paper/48x48@2x/actions
-/usr/share/icons/Paper/48x48@2x/places
-/usr/share/icons/Paper/48x48@2x/emotes
-/usr/share/icons/Paper/48x48@2x/apps
-/usr/share/icons/Paper/48x48@2x/status
-/usr/share/icons/Paper/48x48@2x/devices
-/usr/share/icons/Paper/48x48@2x/web
-/usr/share/icons/Paper/48x48@2x/mimetypes
-/usr/share/icons/Paper/24x24/emblems
-/usr/share/icons/Paper/24x24/categories
-/usr/share/icons/Paper/24x24/actions
-/usr/share/icons/Paper/24x24/places
-/usr/share/icons/Paper/24x24/emotes
-/usr/share/icons/Paper/24x24/animations
-/usr/share/icons/Paper/24x24/apps
-/usr/share/icons/Paper/24x24/status
-/usr/share/icons/Paper/24x24/devices
-/usr/share/icons/Paper/24x24/web
-/usr/share/icons/Paper/24x24/mimetypes
-/usr/share/icons/Paper/24x24/panel
-/usr/share/icons/Paper/24x24@2x/emblems
-/usr/share/icons/Paper/24x24@2x/categories
-/usr/share/icons/Paper/24x24@2x/actions
-/usr/share/icons/Paper/24x24@2x/places
-/usr/share/icons/Paper/24x24@2x/emotes
-/usr/share/icons/Paper/24x24@2x/apps
-/usr/share/icons/Paper/24x24@2x/status
-/usr/share/icons/Paper/24x24@2x/devices
-/usr/share/icons/Paper/24x24@2x/web
-/usr/share/icons/Paper/24x24@2x/mimetypes
-/usr/share/icons/Paper/8x8/emblems
-/usr/share/icons/Paper/32x32/emblems
-/usr/share/icons/Paper/32x32/categories
-/usr/share/icons/Paper/32x32/actions
-/usr/share/icons/Paper/32x32/places
-/usr/share/icons/Paper/32x32/emotes
-/usr/share/icons/Paper/32x32/apps
-/usr/share/icons/Paper/32x32/status
-/usr/share/icons/Paper/32x32/devices
-/usr/share/icons/Paper/32x32/web
-/usr/share/icons/Paper/32x32/mimetypes
-/usr/share/icons/Paper/scalable/emblems
-/usr/share/icons/Paper/scalable/categories
-/usr/share/icons/Paper/scalable/actions
-/usr/share/icons/Paper/scalable/places
-/usr/share/icons/Paper/scalable/emotes
-/usr/share/icons/Paper/scalable/apps
-/usr/share/icons/Paper/scalable/status
-/usr/share/icons/Paper/scalable/devices
-/usr/share/icons/Paper/scalable/mimetypes
-/usr/share/icons/Paper/8x8@2x/emblems
-/usr/share/icons/Paper/32x32@2x
-/usr/share/icons/Paper/512x512@2x
-/usr/share/icons/Paper/512x512
-/usr/share/icons/Paper/16x16
-/usr/share/icons/Paper/48x48
-/usr/share/icons/Paper/22x22
-/usr/share/icons/Paper/16x16@2x
-/usr/share/icons/Paper/48x48@2x
-/usr/share/icons/Paper/24x24
-/usr/share/icons/Paper/cursors
-/usr/share/icons/Paper/24x24@2x
-/usr/share/icons/Paper/8x8
-/usr/share/icons/Paper/32x32
-/usr/share/icons/Paper/scalable
-/usr/share/icons/Paper/8x8@2x
-/usr/share/icons/Paper
