@@ -15,7 +15,7 @@ Software that is included is free software; you can redistribute it and/or modif
 
 ## Downloading Paper
 
-Download instructions are available on the [official site](https://snwh.org/paper/download).
+Download instructions for all sorts of systems are available [here](https://snwh.org/paper/download).
 
 ## Installing & Using
 
