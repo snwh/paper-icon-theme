@@ -10,6 +10,6 @@
  - You can render a single icon by passing the icon name to this script: `./render-bitmaps.rb <icon-name>`
 
 **[Template.svg](./Template.svg) - a blank icon template**
- - a blank template file for the fullcolor Suru icons (every icon follows this template.)
+ - a blank template file for the fullcolor Paper icons (every icon follows this template.)
  - the template has as _Baseplate_ layer which will contain the necessary metadata for rendering an icon. (hidden by default)
  - You **must** change the `context` and `icon-name` labels on the _Baseplate_ for an icon to render properly (also hide the layer)

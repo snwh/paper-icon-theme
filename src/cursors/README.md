@@ -1,6 +1,6 @@
 ## Cursor Theme Source
 
-- Do not edit cursor assets directly (i.e. those in the "Suru" folder)! 
+- Do not edit cursor assets directly (i.e. those in the "Paper" folder)! 
 - To modify the cursors, edit source SVG file found in this directory and render them with the appropriate script.
 - To edit the cursors you will need `inkscape` installed and to build and the render the cursor set you'll need `python-pil` and `x11-apps` installed.
 

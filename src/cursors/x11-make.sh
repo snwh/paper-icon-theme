@@ -1,7 +1,7 @@
 #!/bin/sh
 
 
-THEME=Suru
+THEME=Paper
 DIR="../../.."
 
 # enter bitmaps folder

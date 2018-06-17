@@ -1,6 +1,6 @@
 #!/bin/sh
 
-THEME=Suru
+THEME=Paper
 DIR="../../.."
 
 # $@ is for the caller to be able to supply arguments to anicursorgen (-s, in particular)
