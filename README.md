@@ -7,11 +7,15 @@ While it does take some inspiration from the icons in Google's Material Design, 
 
 ## Copying or Reusing
 
-Paper is licenced under the terms of the [Creative Commons Attribution-ShareAlike](https://creativecommons.org/licenses/by-sa/4.0/). When reusing this work be sure to include a proper attribution:
+This project has mixed licencing. You are free to copy, redistribute and/or modify aspects of this work under the terms of each licence accordingly (unless otherwise specified).
+
+The Moka icon assets (any and all source `.svg` files or rendered `.png` files) are licenced under the terms of the [Creative Commons Attribution-ShareAlike 4.0 License](https://creativecommons.org/licenses/by-sa/4.0/).
+
+Included scripts are free software licenced under the terms of the [GNU General Public License, version 3](https://www.gnu.org/licenses/gpl-3.0.txt).
+
+When reusing this work please include a proper attribution:
 
 > "[Paper Icons](http://snwh.org/paper/icons)" by [Sam Hewitt](http://samuelhewitt.com/) is licensed under [CC-SA-4.0](http://creativecommons.org/licenses/by-sa/4.0/)
-
-Software that is included is free software; you can redistribute it and/or modify it under the terms of the [GNU Lesser General Public License](https://www.gnu.org/licenses/lgpl-3.0.txt)
 
 ## Downloading Paper
 
@@ -68,4 +72,4 @@ Note: some software ships hardcoded icons, meaning when you install icons are no
 
 ## Donate & Support
 
-If you would like to support development by making a donation you can do so [here](https://snwh.org/donate) or by becoming a Patron on [Patreon](http://patreon.com/snwh/). &#x1F60A;
+If you would like to support development by making a donation you can do so [here](https://snwh.org/donate) or by becoming a supporter on [Patreon](http://patreon.com/snwh/) or [Liberapay](http://liberapay.com/snwh/). &#x1F60A;
