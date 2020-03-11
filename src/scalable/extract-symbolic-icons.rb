@@ -27,7 +27,8 @@ INKSCAPE = '/usr/bin/inkscape'
 SRC = "./source-symbolic.svg"
 PREFIX = "../../Paper/scalable"
 
-# install with `sudo npm install -g svgo`
+# SVGO is a Node.js SVG optimization tool install with 'sudo npm install -g svgo'
+# script will skip if SVGO is not present
 SVGO = '/usr/local/bin/svgo'
 
 def chopSVG(icon)
@@ -35,17 +36,12 @@ def chopSVG(icon)
 	unless (File.exists?(icon[:file]) && !icon[:forcerender])
 		FileUtils.cp(SRC,icon[:file]) 
 		puts " >> #{icon[:name]}"
-		cmd = "#{INKSCAPE} -f #{icon[:file]} --select #{icon[:id]} --verb=FitCanvasToSelection  --verb=EditInvertInAllLayers "
-		cmd += "--verb=EditDelete --verb=EditSelectAll --verb=SelectionUnGroup --verb=SelectionUnGroup --verb=SelectionUnGroup --verb=StrokeToPath --verb=FileVacuum "
-		cmd += "--verb=FileSave --verb=FileQuit > /dev/null 2>&1"
+		# extract the icon
+		cmd = "#{INKSCAPE} -f #{icon[:file]} "
+		cmd += "--select #{icon[:id]} --verb=FitCanvasToSelection --verb=EditInvertInAllLayers --verb=EditDelete " # delete everything but the icon
+		cmd += "--verb=FileVacuum --verb=FileSave --verb=FileQuit > /dev/null 2>&1"
 		system(cmd)
-		#saving as plain SVG gets rid of the classes :/
-		cmd = "#{INKSCAPE} --vacuum-defs -z #{icon[:file]} --export-plain-svg=#{icon[:file]} > /dev/null 2>&1"
-		system(cmd)
-		#completely vaccuum with svgo
-		cmd = "#{SVGO} --pretty --disable=convertShapeToPath -i  #{icon[:file]} -o  #{icon[:file]} > /dev/null 2>&1"
-		system(cmd)
-		# crop
+		# remove bounding rectangle
 		svgcrop = Document.new(File.new(icon[:file], 'r'))
 		svgcrop.root.each_element("//rect") do |rect| 
 			w = ((rect.attributes["width"].to_f * 10).round / 10.0).to_i #get rid of 16 vs 15.99999 
@@ -57,6 +53,16 @@ def chopSVG(icon)
 		icon_f = File.new(icon[:file],'w+')
 		icon_f.puts svgcrop
 		icon_f.close
+		# convert any strokes and objects to paths
+		cmd = "#{INKSCAPE} -f #{icon[:file]} --verb=EditSelectAll --verb=SelectionUnGroup --verb=SelectionUnGroup --verb=SelectionUnGroup --verb=ObjectToPath --verb=StrokeToPath "
+		cmd += "--verb=FileSave --verb=FileQuit > /dev/null 2>&1"
+		system(cmd)
+		# save as plain SVG
+		cmd = "#{INKSCAPE} -f #{icon[:file]} -z --vacuum-defs --export-plain-svg=#{icon[:file]} > /dev/null 2>&1"
+		system(cmd)
+		# remove as many extraneous elements as possible with SVGO
+		cmd = "#{SVGO} --pretty --disable=convertShapeToPath --enable=removeStyleElement -i #{icon[:file]} -o  #{icon[:file]} > /dev/null 2>&1"
+		system(cmd)
 	else
 		puts " -- #{icon[:name]} already exists"
 	end
@@ -85,8 +91,11 @@ if (ARGV[0].nil?) #render all SVGs
 			#puts "DEBUG #{icon.attributes.get_attribute('id')}"
 			dir = "#{PREFIX}/#{context_name}"
 			icon_name = icon.attributes.get_attribute("inkscape:label").value
-			if icon_name.end_with?("-alt")
-				puts " >> skipping icon '" + icon_name + "'"
+			# prevent rendering of icons ending in :
+			if icon_name.end_with?("-alt", "-old", "-template", "-source", "-ltr", "-working")
+				puts " ++ skipping icon '" + icon_name + "'"
+			elsif icon_name =~ /\d$/
+				puts " ++ skipping icon '" + icon_name + "'"
 			else
 				chopSVG({ :name => icon_name,
 						:id => icon.attributes.get_attribute("id"),
@@ -100,14 +109,16 @@ else #only render the icons passed
 	icons = ARGV
 	ARGV.each do |icon_name|
 		icon = svg.root.elements["//g[@inkscape:label='#{icon_name}']"]
-		dir = "#{PREFIX}/#{icon.parent.attributes['inkscape:label']}"
-		chopSVG({ :name => icon_name,
-				:id => icon.attributes["id"],
-				:dir => dir,
-				:file => get_output_filename(dir, icon_name),
-				:forcerender => true})
+		if icon_name == "process-working"
+			dir = "#{PREFIX32}/#{icon.parent.attributes['inkscape:label']}"
+		else
+			dir = "#{PREFIX}/#{icon.parent.attributes['inkscape:label']}"
+		end
+		chopSVG({	:name => icon_name,
+					:id => icon.attributes["id"],
+					:dir => dir,
+					:file => get_output_filename(dir, icon_name),
+					:forcerender => true})
 	end
 	puts "\nrendered #{ARGV.length} icons"
 end
-
-#EOF
