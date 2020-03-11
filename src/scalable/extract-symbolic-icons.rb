@@ -22,14 +22,15 @@ require "rexml/document"
 require "fileutils"
 include REXML
 
-# INKSCAPE = 'flatpak run org.inkscape.Inkscape'
-INKSCAPE = '/usr/bin/inkscape'
+INKSCAPE = 'flatpak run org.inkscape.Inkscape'
+# INKSCAPE = '/usr/bin/inkscape'
 SRC = "./source-symbolic.svg"
 PREFIX = "../../Paper/scalable"
 
 # SVGO is a Node.js SVG optimization tool install with 'sudo npm install -g svgo'
 # script will skip if SVGO is not present
-SVGO = '/usr/local/bin/svgo'
+# SVGO = '/usr/local/bin/svgo'
+SVGO = '/usr/bin/svgo'
 
 def chopSVG(icon)
 	FileUtils.mkdir_p(icon[:dir]) unless File.exists?(icon[:dir])
