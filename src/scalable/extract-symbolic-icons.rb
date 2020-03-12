@@ -22,15 +22,15 @@ require "rexml/document"
 require "fileutils"
 include REXML
 
-INKSCAPE = 'flatpak run org.inkscape.Inkscape'
-# INKSCAPE = '/usr/bin/inkscape'
+# INKSCAPE = 'flatpak run org.inkscape.Inkscape'
+INKSCAPE = '/usr/bin/inkscape'
 SRC = "./source-symbolic.svg"
 PREFIX = "../../Paper/scalable"
 
 # SVGO is a Node.js SVG optimization tool install with 'sudo npm install -g svgo'
 # script will skip if SVGO is not present
-# SVGO = '/usr/local/bin/svgo'
-SVGO = '/usr/bin/svgo'
+SVGO = '/usr/local/bin/svgo'
+# SVGO = '/usr/bin/svgo'
 
 def chopSVG(icon)
 	FileUtils.mkdir_p(icon[:dir]) unless File.exists?(icon[:dir])
@@ -62,7 +62,7 @@ def chopSVG(icon)
 		cmd = "#{INKSCAPE} -f #{icon[:file]} -z --vacuum-defs --export-plain-svg=#{icon[:file]} > /dev/null 2>&1"
 		system(cmd)
 		# remove as many extraneous elements as possible with SVGO
-		cmd = "#{SVGO} --pretty --disable=convertShapeToPath --enable=removeStyleElement -i #{icon[:file]} -o  #{icon[:file]} > /dev/null 2>&1"
+		cmd = "#{SVGO} --pretty --disable=convertShapeToPath --disable=convertPathData --enable=removeStyleElement -i #{icon[:file]} -o  #{icon[:file]} > /dev/null 2>&1"
 		system(cmd)
 	else
 		puts " -- #{icon[:name]} already exists"
