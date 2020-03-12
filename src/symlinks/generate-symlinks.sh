@@ -85,6 +85,35 @@ do
 done
 echo "Done."
 
+# Icon sizes and contexts
+CONTEXTS=("actions" "apps" "devices" "categories" "mimetypes" "places" "status")
+SIZES=("scalable")
+
+# Fullcolor icons
+echo "Generating links for bitmap icons..."
+# contexts for loop
+for CONTEXT in "${CONTEXTS[@]}"
+do
+  echo " -- "${CONTEXT}
+  # Sizes Loop
+  for SIZE in "${SIZES[@]}"
+  do
+    LIST="$DIR/scalable/$CONTEXT.list"
+    # Check if directory exists
+    if [ -d "$DIR/../../$THEME/$SIZE/$CONTEXT" ]; then
+      cd $DIR/../../$THEME/$SIZE/$CONTEXT
+      while read line;
+      do
+        ln -sf $line
+      done < $LIST
+      cd $DIR/../../$THEME
+    else
+      echo "  -- skipping "$SIZE"/"$CONTEXT
+    fi
+  done
+done
+echo "Done."
+
 
 # echo $DIR
 # Clear symlink errors
